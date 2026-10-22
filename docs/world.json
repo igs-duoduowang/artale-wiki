@@ -128,9 +128,27 @@
     },
     "subi_star": {
       "name": "海星鏢",
-      "slot": "consumable",
+      "slot": "ammo",
+      "category": "special",
       "ammo": true,
-      "price": 2
+      "weaponType": "claw",
+      "price": 400
+    },
+    "basic_arrow": {
+      "name": "普通箭矢",
+      "slot": "ammo",
+      "category": "special",
+      "ammo": true,
+      "weaponType": "bow",
+      "price": 100
+    },
+    "basic_bullet": {
+      "name": "練習子彈",
+      "slot": "ammo",
+      "category": "special",
+      "ammo": true,
+      "weaponType": "gun",
+      "price": 200
     },
     "knuckle": {
       "name": "拳套",
