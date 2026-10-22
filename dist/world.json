@@ -36,7 +36,8 @@
     "thief": {
       "name": "盜賊",
       "weapon": [
-        "dagger"
+        "dagger",
+        "claw"
       ],
       "attack": 8
     },
@@ -161,6 +162,20 @@
       "name": "彩虹蝸牛殼",
       "slot": "material",
       "price": 100
+    },
+    "novice_claw": {
+      "name": "初學者拳套",
+      "slot": "weapon",
+      "type": "claw",
+      "attack": 9,
+      "level": 10,
+      "price": 650
+    },
+    "subi_star": {
+      "name": "海星鏢",
+      "slot": "consumable",
+      "ammo": true,
+      "price": 2
     }
   },
   "maps": {
@@ -623,6 +638,53 @@
       "firstMp": 8,
       "maxPercent": 140,
       "maxMp": 14
+    },
+    {
+      "id": "nimble_body",
+      "name": "幻化術",
+      "job": "thief",
+      "kind": "passive",
+      "maxLevel": 20,
+      "description": "被動迴避，Lv.20 迴避率 +20%"
+    },
+    {
+      "id": "keen_eyes",
+      "name": "鷹之眼",
+      "job": "thief",
+      "kind": "passive",
+      "maxLevel": 8,
+      "description": "需幻化術 Lv.3；拳套狩獵時反擊傷害最多 -20%"
+    },
+    {
+      "id": "disorder",
+      "name": "詛咒術",
+      "job": "thief",
+      "kind": "support",
+      "maxLevel": 20,
+      "description": "每次遭遇消耗 MP，降低怪物傷害並提高自己造成的傷害"
+    },
+    {
+      "id": "dark_sight",
+      "name": "隱身術",
+      "job": "thief",
+      "kind": "support",
+      "maxLevel": 20,
+      "description": "需詛咒術 Lv.3；每次遭遇消耗 MP 降低反擊傷害"
+    },
+    {
+      "id": "lucky_seven",
+      "name": "雙飛斬",
+      "job": "thief",
+      "weapons": [
+        "claw"
+      ],
+      "maxLevel": 20,
+      "hits": 2,
+      "firstPercent": 72,
+      "firstMp": 8,
+      "maxPercent": 110,
+      "maxMp": 15,
+      "description": "每次攻擊消耗 2 枚飛鏢"
     },
     {
       "id": "corkscrew_blow",

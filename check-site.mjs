@@ -14,7 +14,7 @@ assert.equal(catalog.equipment.length, 1840);
 assert.equal(catalog.scrolls.length, 274);
 assert.equal(catalog.shops.length, 47);
 assert.equal(Object.keys(world.maps).length, 25);
-assert.equal(world.skills.length, 8);
+assert.equal(world.skills.length, 13);
 const ids = new Set([...catalog.equipment, ...catalog.scrolls].map(item => item.id));
 assert.equal(ids.size, 2114);
 for (const shop of catalog.shops) for (const offer of shop.offers) assert.ok(ids.has(offer.itemId));
