@@ -14,7 +14,11 @@ assert.equal(catalog.equipment.length, 1840);
 assert.equal(catalog.scrolls.length, 274);
 assert.equal(catalog.shops.length, 47);
 assert.equal(Object.keys(world.maps).length, 25);
-assert.equal(world.skills.length, 13);
+assert.equal(world.skills.length, 23);
+assert.equal(world.jobs.assassin.parent, 'thief');
+assert.equal(world.jobs.bandit.parent, 'thief');
+for (const name of ['精準暗器', '強力投擲', '吸血術', '精準之刀', '妙手術', '迴旋斬', '恢復術', '速度激發'])
+  assert.ok(world.skills.some(skill => skill.name === name), `missing ${name}`);
 const ids = new Set([...catalog.equipment, ...catalog.scrolls].map(item => item.id));
 assert.equal(ids.size, 2114);
 for (const shop of catalog.shops) for (const offer of shop.offers) assert.ok(ids.has(offer.itemId));
