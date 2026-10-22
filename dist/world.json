@@ -1,0 +1,542 @@
+{
+  "jobs": {
+    "beginner": {
+      "name": "初心者",
+      "weapon": [
+        "sword",
+        "wand",
+        "bow",
+        "dagger",
+        "knuckle",
+        "gun"
+      ],
+      "attack": 0
+    },
+    "warrior": {
+      "name": "劍士",
+      "weapon": [
+        "sword"
+      ],
+      "attack": 7
+    },
+    "magician": {
+      "name": "法師",
+      "weapon": [
+        "wand"
+      ],
+      "attack": 9
+    },
+    "bowman": {
+      "name": "弓箭手",
+      "weapon": [
+        "bow"
+      ],
+      "attack": 7
+    },
+    "thief": {
+      "name": "盜賊",
+      "weapon": [
+        "dagger"
+      ],
+      "attack": 8
+    },
+    "pirate": {
+      "name": "海盜",
+      "weapon": [
+        "knuckle",
+        "gun"
+      ],
+      "attack": 7
+    }
+  },
+  "items": {
+    "training_sword": {
+      "name": "木劍",
+      "slot": "weapon",
+      "type": "sword",
+      "attack": 2,
+      "level": 1,
+      "price": 0
+    },
+    "iron_sword": {
+      "name": "鐵劍",
+      "slot": "weapon",
+      "type": "sword",
+      "attack": 10,
+      "level": 10,
+      "price": 650
+    },
+    "wooden_wand": {
+      "name": "木杖",
+      "slot": "weapon",
+      "type": "wand",
+      "attack": 9,
+      "level": 8,
+      "price": 650
+    },
+    "short_bow": {
+      "name": "短弓",
+      "slot": "weapon",
+      "type": "bow",
+      "attack": 9,
+      "level": 10,
+      "price": 650
+    },
+    "short_dagger": {
+      "name": "短刀",
+      "slot": "weapon",
+      "type": "dagger",
+      "attack": 9,
+      "level": 10,
+      "price": 650
+    },
+    "knuckle": {
+      "name": "拳套",
+      "slot": "weapon",
+      "type": "knuckle",
+      "attack": 9,
+      "level": 10,
+      "price": 650
+    },
+    "pistol": {
+      "name": "練習手槍",
+      "slot": "weapon",
+      "type": "gun",
+      "attack": 9,
+      "level": 10,
+      "price": 650
+    },
+    "red_potion": {
+      "name": "紅色藥水",
+      "slot": "consumable",
+      "heal": 35,
+      "price": 50
+    },
+    "snail_shell": {
+      "name": "嫩寶的外殼",
+      "slot": "material",
+      "price": 8
+    },
+    "blue_snail_shell": {
+      "name": "藍寶殼",
+      "slot": "material",
+      "price": 8
+    },
+    "shroom_spore": {
+      "name": "菇菇芽孢",
+      "slot": "material",
+      "price": 8
+    },
+    "red_snail_shell": {
+      "name": "紅寶殼",
+      "slot": "material",
+      "price": 12
+    },
+    "branch": {
+      "name": "樹枝",
+      "slot": "material",
+      "price": 12
+    },
+    "slime_drop": {
+      "name": "綠液球",
+      "slot": "material",
+      "price": 12
+    },
+    "animal_skin": {
+      "name": "動物皮",
+      "slot": "material",
+      "price": 18
+    },
+    "mushroom_cap": {
+      "name": "菇菇寶貝傘",
+      "slot": "material",
+      "price": 18
+    },
+    "stone_piece": {
+      "name": "小石球的石塊",
+      "slot": "material",
+      "price": 25
+    },
+    "rainbow_shell": {
+      "name": "彩虹蝸牛殼",
+      "slot": "material",
+      "price": 100
+    }
+  },
+  "maps": {
+    "mushroom_west": {
+      "name": "楓之島・菇菇村西入口",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "tiny_shroom": {
+      "name": "楓之島・小菇菇",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "mushroom_town": {
+      "name": "楓之島・菇菇村2",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "mushroom_east": {
+      "name": "楓之島・菇菇村東入口",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "tutorial_stone_ball"
+      ]
+    },
+    "maple_island": {
+      "name": "楓之島・嫩寶狩獵場1",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "snail"
+      ]
+    },
+    "snail_field_2": {
+      "name": "楓之島・嫩寶狩獵場Ⅱ",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail"
+      ]
+    },
+    "snail_field_3": {
+      "name": "楓之島・嫩寶狩獵場Ⅲ",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail"
+      ]
+    },
+    "fork": {
+      "name": "楓之島・岔道",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "shroom"
+      ]
+    },
+    "amherst_west": {
+      "name": "楓之島・楓葉村西郊平原",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "shroom",
+        "stump"
+      ]
+    },
+    "mushroom_hill": {
+      "name": "楓之島・菇菇山丘・隱藏",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "shroom"
+      ]
+    },
+    "tiny_snail_garden": {
+      "name": "楓之島・小嫩寶・隱藏",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "red_snail"
+      ]
+    },
+    "amherst_east": {
+      "name": "楓之島・楓葉村東郊平原",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "red_snail",
+        "stump",
+        "slime",
+        "pig"
+      ]
+    },
+    "tomato_field": {
+      "name": "楓之島・番茄園",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "red_snail"
+      ]
+    },
+    "grassland_1": {
+      "name": "楓之島・草叢狩獵場Ⅰ",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "red_snail",
+        "slime"
+      ]
+    },
+    "grassland_2": {
+      "name": "楓之島・草叢狩獵場Ⅱ",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "pig"
+      ]
+    },
+    "amherst": {
+      "name": "楓之島・楓葉村",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "snail_garden": {
+      "name": "楓之島・嫩寶花園・隱藏",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "red_snail",
+        "stump",
+        "slime"
+      ]
+    },
+    "port_west": {
+      "name": "楓之島・楓之港西郊平原",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "red_snail",
+        "stump",
+        "orange_mushroom"
+      ]
+    },
+    "small_forest": {
+      "name": "楓之島・小樹林",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "stump",
+        "orange_mushroom"
+      ]
+    },
+    "big_mushroom": {
+      "name": "楓之島・大菇菇",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "red_snail",
+        "stump",
+        "orange_mushroom"
+      ]
+    },
+    "maple_port": {
+      "name": "楓之島・楓之港",
+      "region": "island",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "ellinia_path": {
+      "name": "魔法森林・樹間小徑",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "blue_snail",
+        "slime"
+      ]
+    },
+    "henesys_hill": {
+      "name": "弓箭手村・東邊山丘",
+      "region": "victoria",
+      "minLevel": 9,
+      "monsters": [
+        "slime",
+        "orange_mushroom"
+      ]
+    },
+    "sleepywood_gate": {
+      "name": "奇幻村・深林入口",
+      "region": "victoria",
+      "minLevel": 14,
+      "monsters": [
+        "orange_mushroom",
+        "horny_mushroom"
+      ]
+    },
+    "coast_grass_3": {
+      "name": "維多利亞島・海岸草叢Ⅲ",
+      "region": "victoria",
+      "minLevel": 20,
+      "monsters": [
+        "red_snail"
+      ],
+      "fieldBoss": "mano"
+    }
+  },
+  "monsters": {
+    "snail": {
+      "name": "嫩寶",
+      "level": 1,
+      "hp": 8,
+      "attack": 2,
+      "exp": 3,
+      "mesos": [
+        4,
+        6
+      ],
+      "drop": "snail_shell",
+      "dropRate": 0.24
+    },
+    "blue_snail": {
+      "name": "藍寶",
+      "level": 2,
+      "hp": 15,
+      "attack": 4,
+      "exp": 4,
+      "mesos": [
+        8,
+        12
+      ],
+      "drop": "blue_snail_shell",
+      "dropRate": 0.3
+    },
+    "shroom": {
+      "name": "菇菇仔",
+      "level": 2,
+      "hp": 20,
+      "attack": 4,
+      "exp": 5,
+      "mesos": [
+        8,
+        12
+      ],
+      "drop": "shroom_spore",
+      "dropRate": 0.28
+    },
+    "red_snail": {
+      "name": "紅寶",
+      "level": 4,
+      "hp": 40,
+      "attack": 7,
+      "exp": 8,
+      "mesos": [
+        12,
+        18
+      ],
+      "drop": "red_snail_shell",
+      "dropRate": 0.25
+    },
+    "stump": {
+      "name": "木妖",
+      "level": 4,
+      "hp": 40,
+      "attack": 7,
+      "exp": 8,
+      "mesos": [
+        12,
+        18
+      ],
+      "drop": "branch",
+      "dropRate": 0.28
+    },
+    "slime": {
+      "name": "綠水靈",
+      "level": 6,
+      "hp": 50,
+      "attack": 9,
+      "exp": 10,
+      "mesos": [
+        12,
+        18
+      ],
+      "drop": "slime_drop",
+      "dropRate": 0.28
+    },
+    "pig": {
+      "name": "肥肥",
+      "level": 7,
+      "hp": 75,
+      "attack": 12,
+      "exp": 15,
+      "mesos": [
+        14,
+        21
+      ],
+      "drop": "animal_skin",
+      "dropRate": 0.27
+    },
+    "orange_mushroom": {
+      "name": "菇菇寶貝",
+      "level": 8,
+      "hp": 80,
+      "attack": 13,
+      "exp": 15,
+      "mesos": [
+        16,
+        24
+      ],
+      "drop": "mushroom_cap",
+      "dropRate": 0.25
+    },
+    "tutorial_stone_ball": {
+      "name": "教學小石球",
+      "level": 1,
+      "hp": 8,
+      "attack": 2,
+      "exp": 1,
+      "mesos": [
+        1,
+        3
+      ],
+      "drop": "stone_piece",
+      "dropRate": 0.2
+    },
+    "horny_mushroom": {
+      "name": "刺菇菇",
+      "level": 16,
+      "hp": 150,
+      "attack": 17,
+      "exp": 46,
+      "mesos": [
+        25,
+        46
+      ],
+      "drop": "mushroom_cap",
+      "dropRate": 0.28
+    }
+  },
+  "fieldBosses": {
+    "mano": {
+      "name": "紅寶王",
+      "level": 20,
+      "hp": 10000,
+      "exp": 120,
+      "attack": 20,
+      "map": "coast_grass_3",
+      "respawnMinMs": 1380000,
+      "respawnMaxMs": 1800000,
+      "drop": "rainbow_shell",
+      "dropRate": 0.3
+    }
+  }
+}
