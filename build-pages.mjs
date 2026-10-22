@@ -8,7 +8,7 @@ const pages = [
   ['shops', 'NPC 商店', '查詢 NPC 販售裝備與卷軸的資料'],
   ['maps', '地圖', '目前文字版遊戲的地圖與怪物'],
   ['monsters', '怪物', '目前文字版遊戲的怪物資料'],
-  ['jobs', '職業', '目前開放的一轉職業'],
+  ['jobs', '職業', '一轉職業與盜賊二轉分支'],
   ['changelog', '更新紀錄', '資料來源與網站更新歷程']
 ];
 const nav = pages.map(([id, name]) => `<a href="${id}.html" data-nav="${id}">${name}</a>`).join('');
@@ -37,6 +37,6 @@ for (const [id, name, description] of pages) {
   <footer class="site-footer"><div class="container"><span>文字版阿泰爾資料站 · 玩家製作的文字遊戲資料</span><span>圖鑑快照不代表台服目前全部可取得 · <a href="changelog.html">資料與更新紀錄</a></span></div></footer>
 </body>
 </html>\n`;
-  writeFileSync(new URL(`./dist/${id}.html`, import.meta.url), html);
+  writeFileSync(new URL(`./docs/${id}.html`, import.meta.url), html);
 }
 console.log(`已產生 ${pages.length} 個頁面`);
