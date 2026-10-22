@@ -538,5 +538,119 @@
       "drop": "rainbow_shell",
       "dropRate": 0.3
     }
-  }
+  },
+  "skills": [
+    {
+      "id": "power_strike",
+      "name": "魔天一擊",
+      "job": "warrior",
+      "weapons": [
+        "sword"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 137,
+      "firstMp": 5,
+      "maxPercent": 260,
+      "maxMp": 12
+    },
+    {
+      "id": "energy_bolt",
+      "name": "魔靈彈",
+      "job": "magician",
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 105,
+      "firstMp": 6,
+      "maxPercent": 200,
+      "maxMp": 14
+    },
+    {
+      "id": "magic_claw",
+      "name": "魔力爪",
+      "job": "magician",
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 20,
+      "hits": 2,
+      "firstPercent": 58,
+      "firstMp": 9,
+      "maxPercent": 105,
+      "maxMp": 18
+    },
+    {
+      "id": "arrow_blow",
+      "name": "斷魂箭",
+      "job": "bowman",
+      "weapons": [
+        "bow"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 194,
+      "firstMp": 7,
+      "maxPercent": 260,
+      "maxMp": 14
+    },
+    {
+      "id": "double_shot",
+      "name": "二連箭",
+      "job": "bowman",
+      "weapons": [
+        "bow"
+      ],
+      "maxLevel": 20,
+      "hits": 2,
+      "firstPercent": 92,
+      "firstMp": 10,
+      "maxPercent": 130,
+      "maxMp": 16
+    },
+    {
+      "id": "double_stab",
+      "name": "劈空斬",
+      "job": "thief",
+      "weapons": [
+        "dagger"
+      ],
+      "maxLevel": 20,
+      "hits": 2,
+      "firstPercent": 97,
+      "firstMp": 8,
+      "maxPercent": 140,
+      "maxMp": 14
+    },
+    {
+      "id": "corkscrew_blow",
+      "name": "衝擊拳",
+      "job": "pirate",
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 151,
+      "firstMp": 6,
+      "maxPercent": 270,
+      "maxMp": 14
+    },
+    {
+      "id": "double_shot_gun",
+      "name": "雙子星攻擊",
+      "job": "pirate",
+      "weapons": [
+        "gun"
+      ],
+      "maxLevel": 20,
+      "hits": 2,
+      "firstPercent": 58,
+      "firstMp": 6,
+      "maxPercent": 110,
+      "maxMp": 10
+    }
+  ]
 }
