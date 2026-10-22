@@ -9,6 +9,7 @@ const pages = [
   ['maps', '地圖', '目前文字版遊戲的地圖與怪物'],
   ['monsters', '怪物', '目前文字版遊戲的怪物資料'],
   ['jobs', '職業', '一轉職業與盜賊二轉分支'],
+  ['roadmap', '開發路線', '從第一代完整體驗到四轉的版本計畫'],
   ['changelog', '更新紀錄', '資料來源與網站更新歷程']
 ];
 const nav = pages.map(([id, name]) => `<a href="${id}.html" data-nav="${id}">${name}</a>`).join('');
