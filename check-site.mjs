@@ -14,6 +14,9 @@ assert.equal(catalog.equipment.length, 1840);
 assert.equal(catalog.scrolls.length, 274);
 assert.equal(catalog.shops.length, 47);
 assert.equal(Object.keys(world.maps).length, 25);
+assert.equal(Object.keys(world.monsters).length, 10);
+assert.ok(Object.values(world.monsters).every(monster => monster.drops?.length >= 1));
+assert.ok(world.monsters.snail.drops.some(drop => drop.id === 'eq_b14c71893bc3'));
 assert.equal(world.skills.length, 23);
 assert.equal(world.jobs.assassin.parent, 'thief');
 assert.equal(world.jobs.bandit.parent, 'thief');
@@ -24,7 +27,7 @@ assert.equal(ids.size, 2114);
 for (const shop of catalog.shops) for (const offer of shop.offers) assert.ok(ids.has(offer.itemId));
 for (const asset of ['app.js', 'styles.css', 'avatar.png', 'city-cover.png']) assert.ok(existsSync(new URL(`./docs/${asset}`, import.meta.url)));
 const roadmap = JSON.parse(readFileSync(new URL('./docs/roadmap.json', import.meta.url)));
-assert.deepEqual(roadmap.phases.map(x => x.id), ['0.1', '0.2', '0.3', '0.4', '1.0', '1.1', '2.0', '3.0', '4.0']);
+assert.deepEqual(roadmap.phases.map(x => x.id), ['0.0', '0.1', '0.2', '0.3', '0.4', '1.0', '1.1', '2.0', '3.0', '4.0']);
 for (const phase of roadmap.phases) {
   assert.ok(phase.features.length >= 3, `${phase.id} missing features`);
   assert.ok(phase.acceptance.length >= 1, `${phase.id} missing acceptance`);

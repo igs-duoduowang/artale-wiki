@@ -71,6 +71,13 @@
     }
   },
   "items": {
+    "initial_stat_ticket": {
+      "name": "初始能力重設券",
+      "category": "special",
+      "slot": "special",
+      "price": 0,
+      "description": "可重新骰一次角色的初始四能力；不影響升級取得的 AP。"
+    },
     "training_sword": {
       "name": "木劍",
       "slot": "weapon",
@@ -111,6 +118,20 @@
       "level": 10,
       "price": 650
     },
+    "novice_claw": {
+      "name": "初學者拳套",
+      "slot": "weapon",
+      "type": "claw",
+      "attack": 9,
+      "level": 10,
+      "price": 650
+    },
+    "subi_star": {
+      "name": "海星鏢",
+      "slot": "consumable",
+      "ammo": true,
+      "price": 2
+    },
     "knuckle": {
       "name": "拳套",
       "slot": "weapon",
@@ -132,6 +153,12 @@
       "slot": "consumable",
       "heal": 35,
       "price": 50
+    },
+    "blue_potion": {
+      "name": "藍色藥水",
+      "slot": "consumable",
+      "healMp": 100,
+      "price": 200
     },
     "snail_shell": {
       "name": "嫩寶的外殼",
@@ -183,19 +210,472 @@
       "slot": "material",
       "price": 100
     },
-    "novice_claw": {
-      "name": "初學者拳套",
+    "eq_a6969d789c42": {
+      "name": "灰修煉褲",
+      "category": "equip",
+      "slot": "bottom",
+      "type": "BOTTOM",
+      "catalogType": "BOTTOM",
+      "level": 8,
+      "jobs": [
+        "MAGICIAN"
+      ],
+      "attack": 0,
+      "defense": 5,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "eq_b14c71893bc3": {
+      "name": "綠髮帶",
+      "category": "equip",
+      "slot": "hat",
+      "type": "HAT",
+      "catalogType": "HAT",
+      "level": 5,
+      "jobs": [
+        "BEGINNER",
+        "WARRIOR",
+        "MAGICIAN",
+        "BOWMAN",
+        "THIEF",
+        "PIRATE"
+      ],
+      "attack": 0,
+      "defense": 5,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "eq_19a0ee8b26cc": {
+      "name": "青銅鋼盔",
+      "category": "equip",
+      "slot": "hat",
+      "type": "HAT",
+      "catalogType": "HAT",
+      "level": 10,
+      "jobs": [
+        "WARRIOR"
+      ],
+      "attack": 0,
+      "defense": 10,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "eq_e07ce092b096": {
+      "name": "鋼鐵盾牌",
+      "category": "equip",
+      "slot": "shield",
+      "type": "SHIELD",
+      "catalogType": "SHIELD",
+      "level": 15,
+      "jobs": [
+        "WARRIOR"
+      ],
+      "attack": 0,
+      "defense": 15,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "eq_0c49ab969087": {
+      "name": "鋼鐵弓",
+      "category": "equip",
+      "slot": "weapon",
+      "type": "bow",
+      "catalogType": "BOW",
+      "level": 15,
+      "jobs": [
+        "BOWMAN"
+      ],
+      "attack": 30,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "eq_5827049e28fd": {
+      "name": "拳套",
+      "category": "equip",
       "slot": "weapon",
       "type": "claw",
-      "attack": 9,
+      "catalogType": "CLAW",
       "level": 10,
-      "price": 650
+      "jobs": [
+        "THIEF"
+      ],
+      "attack": 10,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
     },
-    "subi_star": {
-      "name": "海星鏢",
-      "slot": "consumable",
-      "ammo": true,
-      "price": 2
+    "eq_3f7a897c1a47": {
+      "name": "野戰短劍",
+      "category": "equip",
+      "slot": "weapon",
+      "type": "dagger",
+      "catalogType": "DAGGER",
+      "level": 15,
+      "jobs": [
+        "THIEF"
+      ],
+      "attack": 30,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "eq_54e8e74e8003": {
+      "name": "鐵指虎",
+      "category": "equip",
+      "slot": "weapon",
+      "type": "knuckle",
+      "catalogType": "KNUCKLE",
+      "level": 10,
+      "jobs": [
+        "PIRATE"
+      ],
+      "attack": 18,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "eq_381c33e98925": {
+      "name": "木劍",
+      "category": "equip",
+      "slot": "weapon",
+      "type": "sword",
+      "catalogType": "TWO-HANDED SWORD",
+      "level": 10,
+      "jobs": [
+        "WARRIOR",
+        "BOWMAN",
+        "THIEF"
+      ],
+      "attack": 30,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "sc_44e9ca045d9c": {
+      "name": "頭盔防禦力卷軸10%",
+      "category": "use",
+      "slot": "scroll",
+      "type": "HAT",
+      "catalogType": "HAT",
+      "level": 0,
+      "jobs": [],
+      "attack": 0,
+      "defense": 5,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 0,
+      "scrollStats": {
+        "def": 5,
+        "mdef": 3,
+        "accuracy": 1
+      },
+      "scrollChance": 0.1,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "sc_ea614a49581b": {
+      "name": "上衣防禦力卷軸10%",
+      "category": "use",
+      "slot": "scroll",
+      "type": "TOP",
+      "catalogType": "TOP",
+      "level": 0,
+      "jobs": [],
+      "attack": 0,
+      "defense": 5,
+      "maxHpBonus": 10,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 0,
+      "scrollStats": {
+        "def": 5,
+        "mdef": 3,
+        "hp": 10
+      },
+      "scrollChance": 0.1,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "sc_b7ad44550a4e": {
+      "name": "鞋子敏捷性卷軸10%",
+      "category": "use",
+      "slot": "scroll",
+      "type": "SHOES",
+      "catalogType": "SHOES",
+      "level": 0,
+      "jobs": [],
+      "attack": 0,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 0,
+      "scrollStats": {
+        "avoidability": 5,
+        "accuracy": 3,
+        "speed": 1
+      },
+      "scrollChance": 0.1,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "sc_4407ca8ed573": {
+      "name": "鞋子跳躍力卷軸10%",
+      "category": "use",
+      "slot": "scroll",
+      "type": "SHOES",
+      "catalogType": "SHOES",
+      "level": 0,
+      "jobs": [],
+      "attack": 0,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 3,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 0,
+      "scrollStats": {
+        "jump": 5,
+        "dex": 3,
+        "speed": 1
+      },
+      "scrollChance": 0.1,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "sc_2addd7b0ad2b": {
+      "name": "雙手斧攻擊力卷軸10%",
+      "category": "use",
+      "slot": "scroll",
+      "type": "TWO-HANDED AXE",
+      "catalogType": "TWO-HANDED AXE",
+      "level": 0,
+      "jobs": [],
+      "attack": 5,
+      "defense": 1,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 3,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 0,
+      "scrollStats": {
+        "atk": 5,
+        "str": 3,
+        "def": 1
+      },
+      "scrollChance": 0.1,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "sc_e03ac6002886": {
+      "name": "披風敏捷性卷軸100%",
+      "category": "use",
+      "slot": "scroll",
+      "type": "CAPE",
+      "catalogType": "CAPE",
+      "level": 0,
+      "jobs": [],
+      "attack": 0,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 1,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 0,
+      "scrollStats": {
+        "dex": 1
+      },
+      "scrollChance": 1,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "sc_8e9dd4490c08": {
+      "name": "披風體力卷軸100%",
+      "category": "use",
+      "slot": "scroll",
+      "type": "CAPE",
+      "catalogType": "CAPE",
+      "level": 0,
+      "jobs": [],
+      "attack": 0,
+      "defense": 0,
+      "maxHpBonus": 5,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 0,
+      "scrollStats": {
+        "hp": 5
+      },
+      "scrollChance": 1,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "sc_db2d7178bfb1": {
+      "name": "披風魔力卷軸100%",
+      "category": "use",
+      "slot": "scroll",
+      "type": "CAPE",
+      "catalogType": "CAPE",
+      "level": 0,
+      "jobs": [],
+      "attack": 0,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 10,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 0,
+      "scrollStats": {
+        "mp": 10
+      },
+      "scrollChance": 1,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
+    },
+    "sc_220db11f9448": {
+      "name": "披風體力卷軸60%",
+      "category": "use",
+      "slot": "scroll",
+      "type": "CAPE",
+      "catalogType": "CAPE",
+      "level": 0,
+      "jobs": [],
+      "attack": 0,
+      "defense": 0,
+      "maxHpBonus": 10,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 0,
+      "scrollStats": {
+        "hp": 10
+      },
+      "scrollChance": 0.6,
+      "source": "玩家圖鑑快照；文字版暫定掉率",
+      "price": 0
     }
   },
   "maps": {
@@ -440,7 +920,21 @@
         6
       ],
       "drop": "snail_shell",
-      "dropRate": 0.24
+      "dropRate": 0.24,
+      "drops": [
+        {
+          "id": "snail_shell",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_b14c71893bc3",
+          "chance": 0.018
+        },
+        {
+          "id": "sc_44e9ca045d9c",
+          "chance": 0.003
+        }
+      ]
     },
     "blue_snail": {
       "name": "藍寶",
@@ -453,7 +947,21 @@
         12
       ],
       "drop": "blue_snail_shell",
-      "dropRate": 0.3
+      "dropRate": 0.3,
+      "drops": [
+        {
+          "id": "blue_snail_shell",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_a6969d789c42",
+          "chance": 0.018
+        },
+        {
+          "id": "sc_8e9dd4490c08",
+          "chance": 0.003
+        }
+      ]
     },
     "shroom": {
       "name": "菇菇仔",
@@ -466,7 +974,21 @@
         12
       ],
       "drop": "shroom_spore",
-      "dropRate": 0.28
+      "dropRate": 0.28,
+      "drops": [
+        {
+          "id": "shroom_spore",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_3f7a897c1a47",
+          "chance": 0.018
+        },
+        {
+          "id": "sc_220db11f9448",
+          "chance": 0.003
+        }
+      ]
     },
     "red_snail": {
       "name": "紅寶",
@@ -479,7 +1001,21 @@
         18
       ],
       "drop": "red_snail_shell",
-      "dropRate": 0.25
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "red_snail_shell",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_381c33e98925",
+          "chance": 0.018
+        },
+        {
+          "id": "sc_db2d7178bfb1",
+          "chance": 0.003
+        }
+      ]
     },
     "stump": {
       "name": "木妖",
@@ -492,7 +1028,21 @@
         18
       ],
       "drop": "branch",
-      "dropRate": 0.28
+      "dropRate": 0.28,
+      "drops": [
+        {
+          "id": "branch",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_0c49ab969087",
+          "chance": 0.018
+        },
+        {
+          "id": "sc_ea614a49581b",
+          "chance": 0.003
+        }
+      ]
     },
     "slime": {
       "name": "綠水靈",
@@ -505,7 +1055,21 @@
         18
       ],
       "drop": "slime_drop",
-      "dropRate": 0.28
+      "dropRate": 0.28,
+      "drops": [
+        {
+          "id": "slime_drop",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_54e8e74e8003",
+          "chance": 0.018
+        },
+        {
+          "id": "sc_e03ac6002886",
+          "chance": 0.003
+        }
+      ]
     },
     "pig": {
       "name": "肥肥",
@@ -518,7 +1082,21 @@
         21
       ],
       "drop": "animal_skin",
-      "dropRate": 0.27
+      "dropRate": 0.27,
+      "drops": [
+        {
+          "id": "animal_skin",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_5827049e28fd",
+          "chance": 0.018
+        },
+        {
+          "id": "sc_b7ad44550a4e",
+          "chance": 0.003
+        }
+      ]
     },
     "orange_mushroom": {
       "name": "菇菇寶貝",
@@ -531,7 +1109,21 @@
         24
       ],
       "drop": "mushroom_cap",
-      "dropRate": 0.25
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mushroom_cap",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_19a0ee8b26cc",
+          "chance": 0.018
+        },
+        {
+          "id": "sc_4407ca8ed573",
+          "chance": 0.003
+        }
+      ]
     },
     "tutorial_stone_ball": {
       "name": "教學小石球",
@@ -544,7 +1136,13 @@
         3
       ],
       "drop": "stone_piece",
-      "dropRate": 0.2
+      "dropRate": 0.2,
+      "drops": [
+        {
+          "id": "stone_piece",
+          "chance": 0.6
+        }
+      ]
     },
     "horny_mushroom": {
       "name": "刺菇菇",
@@ -557,7 +1155,21 @@
         46
       ],
       "drop": "mushroom_cap",
-      "dropRate": 0.28
+      "dropRate": 0.28,
+      "drops": [
+        {
+          "id": "mushroom_cap",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_e07ce092b096",
+          "chance": 0.018
+        },
+        {
+          "id": "sc_2addd7b0ad2b",
+          "chance": 0.003
+        }
+      ]
     }
   },
   "fieldBosses": {
