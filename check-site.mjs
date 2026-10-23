@@ -17,11 +17,13 @@ assert.equal(Object.keys(world.maps).length, 168);
 assert.equal(Object.keys(world.monsters).length, 47);
 assert.ok(Object.values(world.monsters).every(monster => monster.drops?.length >= 1));
 assert.ok(world.monsters.snail.drops.some(drop => drop.id === 'eq_b14c71893bc3'));
-assert.equal(world.skills.length, 23);
+assert.equal(world.skills.length, 28);
 assert.equal(world.jobs.assassin.parent, 'thief');
 assert.equal(world.jobs.bandit.parent, 'thief');
 for (const name of ['精準暗器', '強力投擲', '吸血術', '精準之刀', '妙手術', '迴旋斬', '恢復術', '速度激發'])
   assert.ok(world.skills.some(skill => skill.name === name), `missing ${name}`);
+for (const name of ['生命淨化', '生命擴展', '生命恢復', '自身強化', '魔天一擊', '劍氣縱橫'])
+  assert.ok(world.skills.some(skill => skill.job === 'warrior' && skill.name === name), `missing warrior ${name}`);
 const ids = new Set([...catalog.equipment, ...catalog.scrolls].map(item => item.id));
 assert.equal(ids.size, 2114);
 for (const shop of catalog.shops) for (const offer of shop.offers) assert.ok(ids.has(offer.itemId));

@@ -4363,6 +4363,57 @@
   },
   "skills": [
     {
+      "id": "hp_recovery",
+      "name": "生命淨化",
+      "job": "warrior",
+      "tier": 1,
+      "kind": "passive",
+      "weapons": [],
+      "maxLevel": 16,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "每次掛機遭遇前回復 HP 4"
+    },
+    {
+      "id": "max_hp_increase",
+      "name": "生命擴展",
+      "job": "warrior",
+      "tier": 1,
+      "kind": "passive",
+      "weapons": [],
+      "maxLevel": 10,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "hp_recovery": 5
+      },
+      "description": "此後每次升級額外增加最大 HP 8"
+    },
+    {
+      "id": "warrior_endure",
+      "name": "生命恢復",
+      "job": "warrior",
+      "tier": 1,
+      "kind": "passive",
+      "weapons": [],
+      "maxLevel": 8,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "每次掛機遭遇前額外回復 HP 1"
+    },
+    {
+      "id": "iron_body",
+      "name": "自身強化",
+      "job": "warrior",
+      "tier": 1,
+      "kind": "support",
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 9,
+      "maxMp": 13,
+      "description": "本次遭遇受到的反擊傷害 -11.5%"
+    },
+    {
       "id": "power_strike",
       "name": "魔天一擊",
       "job": "warrior",
@@ -4373,9 +4424,27 @@
       "maxLevel": 20,
       "hits": 1,
       "firstPercent": 137,
-      "firstMp": 5,
       "maxPercent": 260,
+      "firstMp": 5,
       "maxMp": 12
+    },
+    {
+      "id": "slash_blast",
+      "name": "劍氣縱橫",
+      "job": "warrior",
+      "tier": 1,
+      "weapons": [
+        "sword"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 130,
+      "maxPercent": 225,
+      "firstMp": 13,
+      "maxMp": 22,
+      "firstHp": 3,
+      "maxHp": 12,
+      "description": "目前每場只攻擊一隻怪物，群攻尚未開放"
     },
     {
       "id": "energy_bolt",
@@ -4388,8 +4457,8 @@
       "maxLevel": 20,
       "hits": 1,
       "firstPercent": 105,
-      "firstMp": 6,
       "maxPercent": 200,
+      "firstMp": 6,
       "maxMp": 14
     },
     {
@@ -4403,8 +4472,8 @@
       "maxLevel": 20,
       "hits": 2,
       "firstPercent": 58,
-      "firstMp": 9,
       "maxPercent": 105,
+      "firstMp": 9,
       "maxMp": 18
     },
     {
@@ -4418,8 +4487,8 @@
       "maxLevel": 20,
       "hits": 1,
       "firstPercent": 194,
-      "firstMp": 7,
       "maxPercent": 260,
+      "firstMp": 7,
       "maxMp": 14
     },
     {
@@ -4433,8 +4502,8 @@
       "maxLevel": 20,
       "hits": 2,
       "firstPercent": 92,
-      "firstMp": 10,
       "maxPercent": 130,
+      "firstMp": 10,
       "maxMp": 16
     },
     {
@@ -4448,8 +4517,8 @@
       "maxLevel": 20,
       "hits": 2,
       "firstPercent": 97,
-      "firstMp": 8,
       "maxPercent": 140,
+      "firstMp": 8,
       "maxMp": 14
     },
     {
@@ -4458,10 +4527,11 @@
       "job": "thief",
       "tier": 1,
       "kind": "passive",
+      "weapons": [],
       "maxLevel": 20,
-      "description": "迴避率 +20%",
       "firstMp": 0,
-      "maxMp": 0
+      "maxMp": 0,
+      "description": "迴避率 +20%"
     },
     {
       "id": "keen_eyes",
@@ -4469,13 +4539,14 @@
       "job": "thief",
       "tier": 1,
       "kind": "passive",
+      "weapons": [],
       "maxLevel": 8,
-      "description": "拳套狩獵時受到的反擊 -20%",
       "firstMp": 0,
       "maxMp": 0,
       "prerequisite": {
         "nimble_body": 3
-      }
+      },
+      "description": "拳套狩獵時受到的反擊 -20%"
     },
     {
       "id": "disorder",
@@ -4483,10 +4554,11 @@
       "job": "thief",
       "tier": 1,
       "kind": "support",
+      "weapons": [],
       "maxLevel": 20,
-      "description": "該隻怪物傷害 -20%，受到的傷害 +10%",
       "firstMp": 7,
-      "maxMp": 15
+      "maxMp": 15,
+      "description": "該隻怪物傷害 -20%，受到的傷害 +10%"
     },
     {
       "id": "dark_sight",
@@ -4494,13 +4566,14 @@
       "job": "thief",
       "tier": 1,
       "kind": "support",
+      "weapons": [],
       "maxLevel": 20,
-      "description": "每次遭遇的反擊傷害 -50%",
       "firstMp": 9,
       "maxMp": 20,
       "prerequisite": {
         "disorder": 3
-      }
+      },
+      "description": "每次遭遇的反擊傷害 -50%"
     },
     {
       "id": "lucky_seven",
@@ -4513,8 +4586,8 @@
       "maxLevel": 20,
       "hits": 2,
       "firstPercent": 72,
-      "firstMp": 8,
       "maxPercent": 110,
+      "firstMp": 8,
       "maxMp": 15
     },
     {
@@ -4523,10 +4596,11 @@
       "job": "assassin",
       "tier": 2,
       "kind": "passive",
+      "weapons": [],
       "maxLevel": 20,
-      "description": "拳套攻擊 +20%",
       "firstMp": 0,
-      "maxMp": 0
+      "maxMp": 0,
+      "description": "拳套攻擊 +20%"
     },
     {
       "id": "critical_throw",
@@ -4534,13 +4608,14 @@
       "job": "assassin",
       "tier": 2,
       "kind": "passive",
+      "weapons": [],
       "maxLevel": 30,
-      "description": "拳套攻擊 45% 機率造成額外 90% 傷害",
       "firstMp": 0,
       "maxMp": 0,
       "prerequisite": {
         "claw_mastery": 3
-      }
+      },
+      "description": "拳套攻擊 45% 機率造成額外 90% 傷害"
     },
     {
       "id": "claw_booster",
@@ -4548,13 +4623,16 @@
       "job": "assassin",
       "tier": 2,
       "kind": "support",
+      "weapons": [
+        "claw"
+      ],
       "maxLevel": 20,
-      "description": "拳套狩獵傷害 +25%",
       "firstMp": 9,
       "maxMp": 20,
       "prerequisite": {
         "claw_mastery": 5
-      }
+      },
+      "description": "拳套狩獵傷害 +25%"
     },
     {
       "id": "drain",
@@ -4567,13 +4645,13 @@
       "maxLevel": 30,
       "hits": 1,
       "firstPercent": 134,
-      "firstMp": 11,
       "maxPercent": 250,
+      "firstMp": 11,
       "maxMp": 25,
-      "description": "命中時回復傷害的 25% HP",
       "prerequisite": {
         "claw_mastery": 3
-      }
+      },
+      "description": "命中時回復傷害的 25% HP"
     },
     {
       "id": "dagger_mastery",
@@ -4581,10 +4659,11 @@
       "job": "bandit",
       "tier": 2,
       "kind": "passive",
+      "weapons": [],
       "maxLevel": 20,
-      "description": "短刀攻擊 +20%",
       "firstMp": 0,
-      "maxMp": 0
+      "maxMp": 0,
+      "description": "短刀攻擊 +20%"
     },
     {
       "id": "dagger_booster",
@@ -4592,13 +4671,16 @@
       "job": "bandit",
       "tier": 2,
       "kind": "support",
+      "weapons": [
+        "dagger"
+      ],
       "maxLevel": 20,
-      "description": "短刀狩獵傷害 +25%",
       "firstMp": 9,
       "maxMp": 20,
       "prerequisite": {
         "dagger_mastery": 5
-      }
+      },
+      "description": "短刀狩獵傷害 +25%"
     },
     {
       "id": "steal",
@@ -4611,8 +4693,8 @@
       "maxLevel": 30,
       "hits": 1,
       "firstPercent": 93,
-      "firstMp": 9,
       "maxPercent": 180,
+      "firstMp": 9,
       "maxMp": 20,
       "description": "擊倒怪物時額外獲得 70% 楓幣，並有 18% 機率額外取得掉落物"
     },
@@ -4627,8 +4709,8 @@
       "maxLevel": 30,
       "hits": 6,
       "firstPercent": 32,
-      "firstMp": 13,
       "maxPercent": 75,
+      "firstMp": 13,
       "maxMp": 33
     },
     {
@@ -4637,10 +4719,11 @@
       "job": "thief2",
       "tier": 2,
       "kind": "passive",
+      "weapons": [],
       "maxLevel": 20,
-      "description": "每次遭遇怪物回復 HP 20、MP 10",
       "firstMp": 0,
-      "maxMp": 0
+      "maxMp": 0,
+      "description": "每次遭遇怪物回復 HP 20、MP 10"
     },
     {
       "id": "haste",
@@ -4648,10 +4731,11 @@
       "job": "thief2",
       "tier": 2,
       "kind": "support",
+      "weapons": [],
       "maxLevel": 20,
-      "description": "遭遇反擊傷害 -20%",
       "firstMp": 8,
-      "maxMp": 17
+      "maxMp": 17,
+      "description": "遭遇反擊傷害 -20%"
     },
     {
       "id": "corkscrew_blow",
@@ -4664,8 +4748,8 @@
       "maxLevel": 20,
       "hits": 1,
       "firstPercent": 151,
-      "firstMp": 6,
       "maxPercent": 270,
+      "firstMp": 6,
       "maxMp": 14
     },
     {
@@ -4679,8 +4763,8 @@
       "maxLevel": 20,
       "hits": 2,
       "firstPercent": 58,
-      "firstMp": 6,
       "maxPercent": 110,
+      "firstMp": 6,
       "maxMp": 10
     }
   ]
