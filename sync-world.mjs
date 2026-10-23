@@ -50,11 +50,13 @@ const regions = await load('src/regions.js').catch(() => null);
 const jobInfo = await load('src/jobinfo.js').catch(() => null);
 const routes = await load('src/routes.js').catch(() => null);
 const mapIdByName = new Map(Object.entries(source.maps).map(([id, map]) => [map.name, id]));
-const maps = routes ? Object.fromEntries(Object.entries(source.maps).map(([id, map]) => {
+// 遊戲裡標成重複（duplicateOf）的地圖不列在資料站。
+const listedMaps = Object.fromEntries(Object.entries(source.maps).filter(([, map]) => !map.duplicateOf));
+const maps = routes ? Object.fromEntries(Object.entries(listedMaps).map(([id, map]) => {
   const route = routes.routeFromTown(id);
   const shops = routes.shopsAt(id);
   return [id, { ...map, ...(route?.length > 1 ? { route } : {}), ...(shops.length ? { shops } : {}) }];
-})) : source.maps;
+})) : listedMaps;
 const world = {
   ...existing,
   version: changelog.versions[0].version,

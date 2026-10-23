@@ -7309,81 +7309,6 @@
       "monsters": [],
       "district": "kerning"
     },
-    "vi_b0e1120502c7": {
-      "name": "維多利亞島・墮落城市森林I",
-      "sourceName": "Victoria Road: Kerning City Middle Forest I",
-      "region": "victoria",
-      "minLevel": 5,
-      "monsters": [
-        "blue_snail",
-        "shroom",
-        "red_snail",
-        "slime",
-        "pig",
-        "orange_mushroom",
-        "ribbon_pig"
-      ],
-      "district": "kerning",
-      "route": [
-        "kerning",
-        "vi_b6227f1dbdf5",
-        "vi_ffd8158cd159",
-        "vi_f75ae3b9bbfc",
-        "vi_905853580971",
-        "vi_b0e1120502c7"
-      ]
-    },
-    "vi_0277752d3bc6": {
-      "name": "維多利亞島・墮落城市森林II",
-      "sourceName": "Victoria Road: Kerning City Middle Forest II",
-      "region": "victoria",
-      "minLevel": 10,
-      "monsters": [
-        "blue_snail",
-        "shroom",
-        "red_snail",
-        "slime",
-        "pig",
-        "orange_mushroom",
-        "ribbon_pig",
-        "green_mushroom"
-      ],
-      "district": "kerning",
-      "route": [
-        "kerning",
-        "vi_b6227f1dbdf5",
-        "vi_ffd8158cd159",
-        "vi_f75ae3b9bbfc",
-        "vi_905853580971",
-        "vi_b0e1120502c7",
-        "vi_0277752d3bc6"
-      ]
-    },
-    "vi_3cece5f4c719": {
-      "name": "維多利亞島・墮落城市森林III",
-      "sourceName": "Victoria Road: Kerning City Middle Forest III",
-      "region": "victoria",
-      "minLevel": 5,
-      "monsters": [
-        "snail",
-        "blue_snail",
-        "red_snail",
-        "slime",
-        "orange_mushroom",
-        "ribbon_pig"
-      ],
-      "district": "kerning",
-      "route": [
-        "kerning",
-        "vi_b6227f1dbdf5",
-        "vi_ffd8158cd159",
-        "vi_f75ae3b9bbfc",
-        "vi_905853580971",
-        "vi_b0e1120502c7",
-        "vi_0277752d3bc6",
-        "vi_3cece5f4c719"
-      ]
-    },
     "vi_ffd8158cd159": {
       "name": "維多利亞島・歷恩森林Ⅰ",
       "sourceName": "Victoria Road: L Forest I",
@@ -25834,7 +25759,7 @@
       "maxMp": 26
     }
   ],
-  "version": "0.8.1",
+  "version": "0.8.2",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],

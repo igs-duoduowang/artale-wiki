@@ -13,7 +13,7 @@ const world = JSON.parse(readFileSync(new URL('./docs/world.json', import.meta.u
 assert.equal(catalog.equipment.length, 1840);
 assert.equal(catalog.scrolls.length, 274);
 assert.equal(catalog.shops.length, 47);
-assert.ok(Object.keys(world.maps).length >= 365, '0.7 起含天空之城、冰原雪域、玩具城一帶');
+assert.ok(Object.keys(world.maps).length >= 360, '0.7 起含天空之城、冰原雪域、玩具城一帶');
 assert.ok(world.regions?.some(region => region.id === 'ossyria') && world.regions.some(region => region.id === 'ludus'));
 assert.ok(world.featuredRoute?.length > 3, '地圖頁要有楓之島到天空之城的原作路線');
 assert.ok(world.ships?.some(ship => ship.price === 5000));
