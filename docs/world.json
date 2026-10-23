@@ -5330,6 +5330,60 @@
       "maxMp": 18
     },
     {
+      "id": "amazon_blessing",
+      "name": "精準強化",
+      "job": "bowman",
+      "tier": 1,
+      "kind": "passive",
+      "weapons": [],
+      "maxLevel": 16,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "命中 +1"
+    },
+    {
+      "id": "amazon_eye",
+      "name": "百步穿楊",
+      "job": "bowman",
+      "tier": 1,
+      "kind": "passive",
+      "weapons": [],
+      "maxLevel": 8,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "amazon_blessing": 3
+      },
+      "description": "持弓找怪時間 -1%（文字版射程換算）"
+    },
+    {
+      "id": "critical_shot",
+      "name": "霸王箭",
+      "job": "bowman",
+      "tier": 1,
+      "kind": "passive",
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "弓攻擊爆擊機率 +2%、爆擊額外傷害 +53%"
+    },
+    {
+      "id": "focus",
+      "name": "集中術",
+      "job": "bowman",
+      "tier": 1,
+      "kind": "support",
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 9,
+      "maxMp": 15,
+      "prerequisite": {
+        "amazon_blessing": 3
+      },
+      "description": "本次遭遇命中 +1、迴避 +1"
+    },
+    {
       "id": "arrow_blow",
       "name": "斷魂箭",
       "job": "bowman",
@@ -5357,7 +5411,10 @@
       "firstPercent": 92,
       "maxPercent": 130,
       "firstMp": 10,
-      "maxMp": 16
+      "maxMp": 16,
+      "prerequisite": {
+        "arrow_blow": 1
+      }
     },
     {
       "id": "double_stab",
@@ -5621,7 +5678,7 @@
       "maxMp": 10
     }
   ],
-  "version": "0.3.0",
+  "version": "0.3.1",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],

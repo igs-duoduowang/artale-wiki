@@ -17,7 +17,9 @@ assert.equal(Object.keys(world.maps).length, 168);
 assert.equal(Object.keys(world.monsters).length, 47);
 assert.ok(Object.values(world.monsters).every(monster => monster.drops?.length >= 1));
 assert.ok(world.monsters.snail.drops.some(drop => drop.id === 'eq_b14c71893bc3'));
-assert.equal(world.skills.length, 28);
+assert.equal(world.skills.length, 32);
+for (const name of ['精準強化', '百步穿楊', '霸王箭', '集中術', '斷魂箭', '二連箭'])
+  assert.ok(world.skills.some(skill => skill.job === 'bowman' && skill.name === name), `missing bowman ${name}`);
 assert.equal(world.jobs.assassin.parent, 'thief');
 assert.equal(world.jobs.bandit.parent, 'thief');
 for (const name of ['精準暗器', '強力投擲', '吸血術', '精準之刀', '妙手術', '迴旋斬', '恢復術', '速度激發'])
