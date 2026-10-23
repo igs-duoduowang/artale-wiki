@@ -29,7 +29,7 @@ assert.equal(ids.size, 2114);
 for (const shop of catalog.shops) for (const offer of shop.offers) assert.ok(ids.has(offer.itemId));
 for (const asset of ['app.js', 'styles.css', 'avatar.png', 'city-cover.png']) assert.ok(existsSync(new URL(`./docs/${asset}`, import.meta.url)));
 const roadmap = JSON.parse(readFileSync(new URL('./docs/roadmap.json', import.meta.url)));
-assert.deepEqual(roadmap.phases.map(x => x.id), ['0.0', '0.1', '0.2', '0.3', '0.4', '1.0', '1.1', '2.0', '3.0', '4.0']);
+assert.deepEqual(roadmap.phases.map(x => x.id), ['0.0', '0.1', '0.2', '0.3', '0.4', '0.5', '0.6', '0.7', '1.0', '1.1', '1.2', '1.3', '1.4', '1.5', '2.0', '3.0', '4.0']);
 for (const phase of roadmap.phases) {
   assert.ok(phase.features.length >= 3, `${phase.id} missing features`);
   assert.ok(phase.acceptance.length >= 1, `${phase.id} missing acceptance`);
