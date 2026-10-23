@@ -238,6 +238,27 @@
       "jobs": [
         "MAGICIAN"
       ],
+      "requirements": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "def": {
+          "range": [
+            5,
+            7
+          ]
+        },
+        "mdef": {
+          "range": [
+            3,
+            6
+          ]
+        },
+        "upgradeSlots": 7
+      },
       "attack": 0,
       "defense": 5,
       "maxHpBonus": 0,
@@ -249,8 +270,10 @@
         "luk": 0
       },
       "upgradeSlots": 7,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 2000,
+      "priceSource": "圖鑑 NPC 售價"
     },
     "eq_b14c71893bc3": {
       "name": "綠髮帶",
@@ -267,6 +290,22 @@
         "THIEF",
         "PIRATE"
       ],
+      "requirements": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "def": {
+          "middle": 5,
+          "range": [
+            4,
+            6
+          ]
+        },
+        "upgradeSlots": 7
+      },
       "attack": 0,
       "defense": 5,
       "maxHpBonus": 0,
@@ -278,8 +317,10 @@
         "luk": 0
       },
       "upgradeSlots": 7,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 450,
+      "priceSource": "圖鑑 NPC 售價"
     },
     "eq_19a0ee8b26cc": {
       "name": "青銅鋼盔",
@@ -291,6 +332,22 @@
       "jobs": [
         "WARRIOR"
       ],
+      "requirements": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "def": {
+          "middle": 10,
+          "range": [
+            8,
+            12
+          ]
+        },
+        "upgradeSlots": 7
+      },
       "attack": 0,
       "defense": 10,
       "maxHpBonus": 0,
@@ -302,8 +359,10 @@
         "luk": 0
       },
       "upgradeSlots": 7,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 2400,
+      "priceSource": "圖鑑 NPC 售價"
     },
     "eq_e07ce092b096": {
       "name": "鋼鐵盾牌",
@@ -315,6 +374,22 @@
       "jobs": [
         "WARRIOR"
       ],
+      "requirements": {
+        "str": 40,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "def": {
+          "middle": 15,
+          "range": [
+            13,
+            17
+          ]
+        },
+        "upgradeSlots": 7
+      },
       "attack": 0,
       "defense": 15,
       "maxHpBonus": 0,
@@ -326,8 +401,10 @@
         "luk": 0
       },
       "upgradeSlots": 7,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 6000,
+      "priceSource": "圖鑑 NPC 售價"
     },
     "eq_0c49ab969087": {
       "name": "鋼鐵弓",
@@ -339,6 +416,23 @@
       "jobs": [
         "BOWMAN"
       ],
+      "requirements": {
+        "str": 20,
+        "dex": 40,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "atk": {
+          "middle": 30,
+          "range": [
+            26,
+            34
+          ]
+        },
+        "attackSpeed": 6,
+        "upgradeSlots": 7
+      },
       "attack": 30,
       "defense": 0,
       "maxHpBonus": 0,
@@ -350,8 +444,10 @@
         "luk": 0
       },
       "upgradeSlots": 7,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 6000,
+      "priceSource": "圖鑑 NPC 售價"
     },
     "eq_5827049e28fd": {
       "name": "拳套",
@@ -363,6 +459,23 @@
       "jobs": [
         "THIEF"
       ],
+      "requirements": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "atk": {
+          "middle": 10,
+          "range": [
+            8,
+            12
+          ]
+        },
+        "attackSpeed": 6,
+        "upgradeSlots": 7
+      },
       "attack": 10,
       "defense": 0,
       "maxHpBonus": 0,
@@ -374,8 +487,10 @@
         "luk": 0
       },
       "upgradeSlots": 7,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "圖鑑 NPC 售價"
     },
     "eq_3f7a897c1a47": {
       "name": "野戰短劍",
@@ -387,6 +502,23 @@
       "jobs": [
         "THIEF"
       ],
+      "requirements": {
+        "str": 0,
+        "dex": 30,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "atk": {
+          "middle": 30,
+          "range": [
+            26,
+            34
+          ]
+        },
+        "attackSpeed": 3,
+        "upgradeSlots": 7
+      },
       "attack": 30,
       "defense": 0,
       "maxHpBonus": 0,
@@ -398,8 +530,10 @@
         "luk": 0
       },
       "upgradeSlots": 7,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 7000,
+      "priceSource": "圖鑑 NPC 售價"
     },
     "eq_54e8e74e8003": {
       "name": "鐵指虎",
@@ -411,6 +545,23 @@
       "jobs": [
         "PIRATE"
       ],
+      "requirements": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "atk": {
+          "middle": 18,
+          "range": [
+            16,
+            20
+          ]
+        },
+        "attackSpeed": 5,
+        "upgradeSlots": 7
+      },
       "attack": 18,
       "defense": 0,
       "maxHpBonus": 0,
@@ -422,8 +573,10 @@
         "luk": 0
       },
       "upgradeSlots": 7,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "圖鑑 NPC 售價"
     },
     "eq_381c33e98925": {
       "name": "木劍",
@@ -437,6 +590,23 @@
         "BOWMAN",
         "THIEF"
       ],
+      "requirements": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "atk": {
+          "middle": 30,
+          "range": [
+            26,
+            34
+          ]
+        },
+        "attackSpeed": 6,
+        "upgradeSlots": 7
+      },
       "attack": 30,
       "defense": 0,
       "maxHpBonus": 0,
@@ -448,8 +618,10 @@
         "luk": 0
       },
       "upgradeSlots": 7,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "圖鑑 NPC 售價"
     },
     "sc_44e9ca045d9c": {
       "name": "頭盔防禦力卷軸10%",
@@ -459,6 +631,12 @@
       "catalogType": "HAT",
       "level": 0,
       "jobs": [],
+      "requirements": {},
+      "stats": {
+        "def": 5,
+        "mdef": 3,
+        "accuracy": 1
+      },
       "attack": 0,
       "defense": 5,
       "maxHpBonus": 0,
@@ -476,8 +654,10 @@
         "accuracy": 1
       },
       "scrollChance": 0.1,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "文字版暫定售價"
     },
     "sc_ea614a49581b": {
       "name": "上衣防禦力卷軸10%",
@@ -487,6 +667,12 @@
       "catalogType": "TOP",
       "level": 0,
       "jobs": [],
+      "requirements": {},
+      "stats": {
+        "def": 5,
+        "mdef": 3,
+        "hp": 10
+      },
       "attack": 0,
       "defense": 5,
       "maxHpBonus": 10,
@@ -504,8 +690,10 @@
         "hp": 10
       },
       "scrollChance": 0.1,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "文字版暫定售價"
     },
     "sc_b7ad44550a4e": {
       "name": "鞋子敏捷性卷軸10%",
@@ -515,6 +703,12 @@
       "catalogType": "SHOES",
       "level": 0,
       "jobs": [],
+      "requirements": {},
+      "stats": {
+        "avoidability": 5,
+        "accuracy": 3,
+        "speed": 1
+      },
       "attack": 0,
       "defense": 0,
       "maxHpBonus": 0,
@@ -532,8 +726,10 @@
         "speed": 1
       },
       "scrollChance": 0.1,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "文字版暫定售價"
     },
     "sc_4407ca8ed573": {
       "name": "鞋子跳躍力卷軸10%",
@@ -543,6 +739,12 @@
       "catalogType": "SHOES",
       "level": 0,
       "jobs": [],
+      "requirements": {},
+      "stats": {
+        "jump": 5,
+        "dex": 3,
+        "speed": 1
+      },
       "attack": 0,
       "defense": 0,
       "maxHpBonus": 0,
@@ -560,17 +762,25 @@
         "speed": 1
       },
       "scrollChance": 0.1,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "文字版暫定售價"
     },
     "sc_2addd7b0ad2b": {
       "name": "雙手斧攻擊力卷軸10%",
       "category": "use",
       "slot": "scroll",
-      "type": "TWO-HANDED AXE",
+      "type": "sword",
       "catalogType": "TWO-HANDED AXE",
       "level": 0,
       "jobs": [],
+      "requirements": {},
+      "stats": {
+        "atk": 5,
+        "str": 3,
+        "def": 1
+      },
       "attack": 5,
       "defense": 1,
       "maxHpBonus": 0,
@@ -588,8 +798,10 @@
         "def": 1
       },
       "scrollChance": 0.1,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "文字版暫定售價"
     },
     "sc_e03ac6002886": {
       "name": "披風敏捷性卷軸100%",
@@ -599,6 +811,10 @@
       "catalogType": "CAPE",
       "level": 0,
       "jobs": [],
+      "requirements": {},
+      "stats": {
+        "dex": 1
+      },
       "attack": 0,
       "defense": 0,
       "maxHpBonus": 0,
@@ -614,8 +830,10 @@
         "dex": 1
       },
       "scrollChance": 1,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "文字版暫定售價"
     },
     "sc_8e9dd4490c08": {
       "name": "披風體力卷軸100%",
@@ -625,6 +843,10 @@
       "catalogType": "CAPE",
       "level": 0,
       "jobs": [],
+      "requirements": {},
+      "stats": {
+        "hp": 5
+      },
       "attack": 0,
       "defense": 0,
       "maxHpBonus": 5,
@@ -640,8 +862,10 @@
         "hp": 5
       },
       "scrollChance": 1,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "文字版暫定售價"
     },
     "sc_db2d7178bfb1": {
       "name": "披風魔力卷軸100%",
@@ -651,6 +875,10 @@
       "catalogType": "CAPE",
       "level": 0,
       "jobs": [],
+      "requirements": {},
+      "stats": {
+        "mp": 10
+      },
       "attack": 0,
       "defense": 0,
       "maxHpBonus": 0,
@@ -666,8 +894,10 @@
         "mp": 10
       },
       "scrollChance": 1,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "文字版暫定售價"
     },
     "sc_220db11f9448": {
       "name": "披風體力卷軸60%",
@@ -677,6 +907,10 @@
       "catalogType": "CAPE",
       "level": 0,
       "jobs": [],
+      "requirements": {},
+      "stats": {
+        "hp": 10
+      },
       "attack": 0,
       "defense": 0,
       "maxHpBonus": 10,
@@ -692,8 +926,228 @@
         "hp": 10
       },
       "scrollChance": 0.6,
-      "source": "玩家圖鑑快照；文字版暫定掉率",
-      "price": 0
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "文字版暫定售價"
+    },
+    "eq_964111fcd5c5": {
+      "name": "紫水晶耳環",
+      "category": "equip",
+      "slot": "earrings",
+      "type": "EARRINGS",
+      "catalogType": "EARRINGS",
+      "level": 15,
+      "jobs": [
+        "BEGINNER",
+        "WARRIOR",
+        "MAGICIAN",
+        "BOWMAN",
+        "THIEF",
+        "PIRATE"
+      ],
+      "requirements": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "upgradeSlots": 5
+      },
+      "attack": 0,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 5,
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 7000,
+      "priceSource": "圖鑑 NPC 售價"
+    },
+    "eq_b28a185194bd": {
+      "name": "單邊銀色耳環",
+      "category": "equip",
+      "slot": "earrings",
+      "type": "EARRINGS",
+      "catalogType": "EARRINGS",
+      "level": 15,
+      "jobs": [
+        "BEGINNER",
+        "WARRIOR",
+        "MAGICIAN",
+        "BOWMAN",
+        "THIEF",
+        "PIRATE"
+      ],
+      "requirements": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "upgradeSlots": 5
+      },
+      "attack": 0,
+      "defense": 0,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 5,
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 7000,
+      "priceSource": "圖鑑 NPC 售價"
+    },
+    "eq_0f89c93e942a": {
+      "name": "黃色旅行裙",
+      "category": "equip",
+      "slot": "bottom",
+      "type": "BOTTOM",
+      "catalogType": "BOTTOM",
+      "level": 10,
+      "jobs": [
+        "BOWMAN"
+      ],
+      "requirements": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "def": {
+          "middle": 9,
+          "range": [
+            9,
+            9
+          ]
+        },
+        "upgradeSlots": 7
+      },
+      "attack": 0,
+      "defense": 9,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 3000,
+      "priceSource": "圖鑑 NPC 售價"
+    },
+    "eq_fe92ccaf2325": {
+      "name": "綠色旅行皮裙",
+      "category": "equip",
+      "slot": "bottom",
+      "type": "BOTTOM",
+      "catalogType": "BOTTOM",
+      "level": 15,
+      "jobs": [
+        "BOWMAN"
+      ],
+      "requirements": {
+        "str": 0,
+        "dex": 40,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "mp": {
+          "range": [
+            0,
+            25
+          ]
+        },
+        "def": {
+          "middle": 12,
+          "range": [
+            10,
+            14
+          ]
+        },
+        "upgradeSlots": 7
+      },
+      "attack": 0,
+      "defense": 12,
+      "maxHpBonus": 0,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 5000,
+      "priceSource": "圖鑑 NPC 售價"
+    },
+    "eq_262f364277e7": {
+      "name": "鋼鐵軍官裙",
+      "category": "equip",
+      "slot": "bottom",
+      "type": "BOTTOM",
+      "catalogType": "BOTTOM",
+      "level": 20,
+      "jobs": [
+        "WARRIOR"
+      ],
+      "requirements": {
+        "str": 65,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "stats": {
+        "hp": {
+          "range": [
+            5,
+            5
+          ]
+        },
+        "def": {
+          "middle": 20,
+          "range": [
+            20,
+            20
+          ]
+        },
+        "upgradeSlots": 7
+      },
+      "attack": 0,
+      "defense": 20,
+      "maxHpBonus": 5,
+      "maxMpBonus": 0,
+      "statBonuses": {
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "luk": 0
+      },
+      "upgradeSlots": 7,
+      "ammo": false,
+      "source": "玩家圖鑑快照",
+      "price": 9000,
+      "priceSource": "圖鑑 NPC 售價"
     }
   },
   "maps": {
@@ -889,6 +1343,262 @@
       "minLevel": 1,
       "monsters": []
     },
+    "lith_harbor": {
+      "name": "維多利亞島・維多利亞港",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "lith_outskirts": {
+      "name": "維多利亞島・維多利亞港外圍",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail"
+      ]
+    },
+    "coast_grass_1": {
+      "name": "維多利亞島・海岸草叢Ⅰ",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "red_snail"
+      ]
+    },
+    "coast_grass_2": {
+      "name": "維多利亞島・海岸草叢Ⅱ",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "red_snail"
+      ]
+    },
+    "crossroads": {
+      "name": "維多利亞島・三叉路",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "red_snail",
+        "pig",
+        "orange_mushroom"
+      ]
+    },
+    "pig_beach": {
+      "name": "維多利亞島・肥肥海岸・隱藏",
+      "region": "victoria",
+      "minLevel": 7,
+      "monsters": [
+        "pig",
+        "ribbon_pig"
+      ]
+    },
+    "henesys": {
+      "name": "維多利亞島・弓箭手村",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "henesys_west_forest": {
+      "name": "維多利亞島・弓箭手村西部森林",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "slime",
+        "pig",
+        "orange_mushroom"
+      ]
+    },
+    "henesys_west_hill": {
+      "name": "維多利亞島・弓箭手村西部小山",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "red_snail",
+        "slime",
+        "pig"
+      ]
+    },
+    "henesys_training_1": {
+      "name": "維多利亞島・弓箭手訓練場Ⅰ",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "stump",
+        "slime",
+        "orange_mushroom",
+        "green_mushroom"
+      ]
+    },
+    "henesys_training_2": {
+      "name": "維多利亞島・弓箭手訓練場Ⅱ",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "red_snail",
+        "stump",
+        "slime",
+        "orange_mushroom",
+        "green_mushroom"
+      ]
+    },
+    "henesys_training_3": {
+      "name": "維多利亞島・弓箭手訓練場Ⅲ",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "blue_snail",
+        "red_snail",
+        "stump",
+        "slime",
+        "orange_mushroom",
+        "green_mushroom"
+      ]
+    },
+    "henesys_east_grass": {
+      "name": "維多利亞島・弓箭手村東部草叢",
+      "region": "victoria",
+      "minLevel": 7,
+      "monsters": [
+        "pig",
+        "ribbon_pig"
+      ]
+    },
+    "henesys_east_forest": {
+      "name": "維多利亞島・弓箭手村東部森林",
+      "region": "victoria",
+      "minLevel": 8,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "slime",
+        "pig",
+        "orange_mushroom",
+        "ribbon_pig",
+        "blue_mushroom"
+      ]
+    },
+    "ellinia": {
+      "name": "維多利亞島・魔法森林",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "ellinia_south": {
+      "name": "維多利亞島・魔法森林南部",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "snail",
+        "stump",
+        "slime",
+        "green_mushroom"
+      ]
+    },
+    "ellinia_wisdom": {
+      "name": "維多利亞島・智慧森林",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "snail",
+        "slime",
+        "green_mushroom"
+      ]
+    },
+    "ellinia_south_field": {
+      "name": "維多利亞島・魔法森林南郊",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "stump",
+        "slime",
+        "green_mushroom"
+      ]
+    },
+    "ellinia_north_field": {
+      "name": "維多利亞島・魔法森林北郊",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "stump",
+        "slime",
+        "dark_stump"
+      ]
+    },
+    "perion": {
+      "name": "維多利亞島・勇士之村",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "perion_west_rock_1": {
+      "name": "維多利亞島・西部岩山Ⅰ",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "red_snail",
+        "stump",
+        "axe_stump"
+      ]
+    },
+    "kerning": {
+      "name": "維多利亞島・墮落城市",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "kerning_forest_1": {
+      "name": "維多利亞島・墮落城市森林Ⅰ",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "slime",
+        "pig",
+        "orange_mushroom",
+        "ribbon_pig"
+      ]
+    },
+    "kerning_forest_2": {
+      "name": "維多利亞島・墮落城市森林Ⅱ",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "slime",
+        "pig",
+        "orange_mushroom",
+        "ribbon_pig",
+        "green_mushroom"
+      ]
+    },
+    "kerning_forest_3": {
+      "name": "維多利亞島・墮落城市森林Ⅲ",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "red_snail",
+        "slime",
+        "orange_mushroom",
+        "ribbon_pig"
+      ]
+    },
     "ellinia_path": {
       "name": "魔法森林・樹間小徑",
       "region": "victoria",
@@ -919,8 +1629,9 @@
     "coast_grass_3": {
       "name": "維多利亞島・海岸草叢Ⅲ",
       "region": "victoria",
-      "minLevel": 20,
+      "minLevel": 1,
       "monsters": [
+        "blue_snail",
         "red_snail"
       ],
       "fieldBoss": "mano"
@@ -1186,6 +1897,121 @@
         {
           "id": "sc_2addd7b0ad2b",
           "chance": 0.003
+        }
+      ]
+    },
+    "ribbon_pig": {
+      "name": "緞帶肥肥",
+      "level": 10,
+      "hp": 120,
+      "attack": 14,
+      "exp": 20,
+      "mesos": [
+        20,
+        30
+      ],
+      "drop": "animal_skin",
+      "dropRate": 0.27,
+      "drops": [
+        {
+          "id": "animal_skin",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_964111fcd5c5",
+          "chance": 0.018
+        }
+      ]
+    },
+    "green_mushroom": {
+      "name": "綠菇菇",
+      "level": 15,
+      "hp": 250,
+      "attack": 17,
+      "exp": 26,
+      "mesos": [
+        28,
+        42
+      ],
+      "drop": "mushroom_cap",
+      "dropRate": 0.26,
+      "drops": [
+        {
+          "id": "mushroom_cap",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_b28a185194bd",
+          "chance": 0.018
+        }
+      ]
+    },
+    "dark_stump": {
+      "name": "黑木妖",
+      "level": 10,
+      "hp": 250,
+      "attack": 15,
+      "exp": 18,
+      "mesos": [
+        20,
+        30
+      ],
+      "drop": "branch",
+      "dropRate": 0.28,
+      "drops": [
+        {
+          "id": "branch",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_0f89c93e942a",
+          "chance": 0.018
+        }
+      ]
+    },
+    "axe_stump": {
+      "name": "斧木妖",
+      "level": 17,
+      "hp": 300,
+      "attack": 21,
+      "exp": 30,
+      "mesos": [
+        32,
+        48
+      ],
+      "drop": "branch",
+      "dropRate": 0.28,
+      "drops": [
+        {
+          "id": "branch",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_fe92ccaf2325",
+          "chance": 0.018
+        }
+      ]
+    },
+    "blue_mushroom": {
+      "name": "藍菇菇",
+      "level": 20,
+      "hp": 350,
+      "attack": 23,
+      "exp": 32,
+      "mesos": [
+        36,
+        54
+      ],
+      "drop": "mushroom_cap",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mushroom_cap",
+          "chance": 0.6
+        },
+        {
+          "id": "eq_262f364277e7",
+          "chance": 0.018
         }
       ]
     }
