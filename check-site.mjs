@@ -17,7 +17,9 @@ assert.equal(Object.keys(world.maps).length, 168);
 assert.equal(Object.keys(world.monsters).length, 47);
 assert.ok(Object.values(world.monsters).every(monster => monster.drops?.length >= 1));
 assert.ok(world.monsters.snail.drops.some(drop => drop.id === 'eq_b14c71893bc3'));
-assert.equal(world.skills.length, 32);
+assert.equal(world.skills.length, 36);
+for (const name of ['魔力恢復', '魔力擴展', '魔心防禦', '魔力之盾', '魔靈彈', '魔力爪'])
+  assert.ok(world.skills.some(skill => skill.job === 'magician' && skill.name === name), `missing magician ${name}`);
 for (const name of ['精準強化', '百步穿楊', '霸王箭', '集中術', '斷魂箭', '二連箭'])
   assert.ok(world.skills.some(skill => skill.job === 'bowman' && skill.name === name), `missing bowman ${name}`);
 assert.equal(world.jobs.assassin.parent, 'thief');
