@@ -5300,6 +5300,60 @@
       "description": "目前每場只攻擊一隻怪物，群攻尚未開放"
     },
     {
+      "id": "mp_recovery",
+      "name": "魔力恢復",
+      "job": "magician",
+      "tier": 1,
+      "kind": "passive",
+      "weapons": [],
+      "maxLevel": 16,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "每次掛機遭遇前回復 MP 3（文字版換算）"
+    },
+    {
+      "id": "max_mp_increase",
+      "name": "魔力擴展",
+      "job": "magician",
+      "tier": 1,
+      "kind": "passive",
+      "weapons": [],
+      "maxLevel": 10,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "mp_recovery": 5
+      },
+      "description": "此後每次升級額外增加最大 MP 2（文字版換算）"
+    },
+    {
+      "id": "magic_guard",
+      "name": "魔心防禦",
+      "job": "magician",
+      "tier": 1,
+      "kind": "support",
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 7,
+      "maxMp": 13,
+      "description": "本次遭遇把受到傷害的 4% 轉由 MP 抵擋（MP 不足由 HP 承擔）"
+    },
+    {
+      "id": "magic_armor",
+      "name": "魔力之盾",
+      "job": "magician",
+      "tier": 1,
+      "kind": "support",
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 7,
+      "maxMp": 13,
+      "prerequisite": {
+        "magic_guard": 3
+      },
+      "description": "本次遭遇物理防禦 +2"
+    },
+    {
       "id": "energy_bolt",
       "name": "魔靈彈",
       "job": "magician",
@@ -5327,7 +5381,10 @@
       "firstPercent": 58,
       "maxPercent": 105,
       "firstMp": 9,
-      "maxMp": 18
+      "maxMp": 18,
+      "prerequisite": {
+        "energy_bolt": 1
+      }
     },
     {
       "id": "amazon_blessing",
@@ -5678,7 +5735,7 @@
       "maxMp": 10
     }
   ],
-  "version": "0.3.1",
+  "version": "0.3.2",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
