@@ -42,12 +42,23 @@ const skillCatalog = Object.entries(skills).map(([id, skill]) => {
     ...(previousSkills.get(id)?.description || skill.effect ? { description: previousSkills.get(id)?.description || skill.effect(1) } : {})
   };
 });
+// 0.7 起遊戲有大區、船班與原作路線；舊版遊戲沒有這些檔案時照舊輸出地圖。
+const regions = await load('src/regions.js').catch(() => null);
+const routes = await load('src/routes.js').catch(() => null);
+const mapIdByName = new Map(Object.entries(source.maps).map(([id, map]) => [map.name, id]));
+const maps = routes ? Object.fromEntries(Object.entries(source.maps).map(([id, map]) => {
+  const route = routes.routeFromTown(id);
+  const shops = routes.shopsAt(id);
+  return [id, { ...map, ...(route?.length > 1 ? { route } : {}), ...(shops.length ? { shops } : {}) }];
+})) : source.maps;
 const world = {
   ...existing,
   version: changelog.versions[0].version,
   jobs: source.jobs, items, gearPrices, skills: skillCatalog,
-  maps: source.maps, monsters,
-  fieldBosses: source.fieldBosses
+  maps, monsters,
+  fieldBosses: source.fieldBosses,
+  ...(regions ? { regions: regions.worldRegions, ships: regions.shipRoutes } : {}),
+  ...(routes ? { featuredRoute: routes.originalRoute(mapIdByName.get('楓之島・楓之港'), mapIdByName.get('天空之城')) } : {})
 };
 writeFileSync(output, JSON.stringify(world, null, 2).replace(/\[\n\s+(\d+),\n\s+(\d+),\n\s+([01])\n\s+\]/g, '[$1, $2, $3]') + '\n');
 writeFileSync(new URL('./docs/game-changelog.json', import.meta.url), JSON.stringify(changelog.versions, null, 2) + '\n');
