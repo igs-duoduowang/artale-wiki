@@ -1322,7 +1322,7 @@
       "name": "維多利亞島・肥肥海岸",
       "sourceName": "Hidden Street: The Pig Beach",
       "region": "victoria",
-      "minLevel": 2,
+      "minLevel": 37,
       "monsters": [
         "pig",
         "ribbon_pig",
@@ -1334,7 +1334,7 @@
       "name": "維多利亞島・海岸狩獵場",
       "sourceName": "Hidden Street: Beach Hunting Ground",
       "region": "victoria",
-      "minLevel": 2,
+      "minLevel": 5,
       "monsters": [
         "pig",
         "ribbon_pig"
@@ -1385,7 +1385,7 @@
       "name": "維多利亞島・別人家（鋼之肥肥公園3）",
       "sourceName": "Victoria Road: Someone Else's House (Pig Park III)",
       "region": "victoria",
-      "minLevel": 25,
+      "minLevel": 37,
       "monsters": [
         "mob_05474df28288",
         "mob_b0986a845d19"
@@ -1410,7 +1410,7 @@
       "name": "維多利亞島・菇菇山丘",
       "sourceName": "Hidden Street: Mushroom Garden",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "shroom",
         "orange_mushroom",
@@ -1422,7 +1422,7 @@
       "name": "維多利亞島・弓箭手村東部小山",
       "sourceName": "Victoria Road: The Hill East of Henesys",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 5,
       "monsters": [
         "blue_snail",
         "shroom",
@@ -1436,7 +1436,7 @@
       "name": "維多利亞島・藍菇菇樹林",
       "sourceName": "Victoria Road: Blue Mushroom Forest",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 17,
       "monsters": [
         "blue_mushroom",
         "horny_mushroom",
@@ -1450,7 +1450,7 @@
       "name": "維多利亞島・迷宮通道",
       "sourceName": "Warning Street: The Road to the Dungeon",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 17,
       "monsters": [
         "blue_mushroom",
         "horny_mushroom",
@@ -1467,7 +1467,7 @@
       "name": "維多利亞島・弓箭手村迷宮入口",
       "sourceName": "Warning Street: Henesys Dungeon Entrance",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 50,
       "monsters": [
         "blue_mushroom",
         "horny_mushroom",
@@ -1481,7 +1481,7 @@
       "name": "維多利亞島・石人寺院門外",
       "sourceName": "Hidden Street: The Breathing Rock",
       "region": "victoria",
-      "minLevel": 15,
+      "minLevel": 50,
       "monsters": [
         "blue_mushroom",
         "mob_05474df28288",
@@ -1493,7 +1493,7 @@
       "name": "維多利亞島・石人寺院入口",
       "sourceName": "Victoria Road: The Entrance of Golem's Temple",
       "region": "victoria",
-      "minLevel": 25,
+      "minLevel": 50,
       "monsters": [
         "mob_05474df28288",
         "mob_4ed1cc58bc62"
@@ -1504,7 +1504,7 @@
       "name": "維多利亞島・石人寺院Ⅰ",
       "sourceName": "Victoria Road: Golem's Temple I",
       "region": "victoria",
-      "minLevel": 15,
+      "minLevel": 50,
       "monsters": [
         "blue_mushroom",
         "mob_8f69f598c271",
@@ -1516,7 +1516,7 @@
       "name": "維多利亞島・石人寺院Ⅱ",
       "sourceName": "Victoria Road: Golem's Temple II",
       "region": "victoria",
-      "minLevel": 15,
+      "minLevel": 50,
       "monsters": [
         "blue_mushroom",
         "mob_05474df28288",
@@ -1529,7 +1529,7 @@
       "name": "維多利亞島・石人寺院Ⅲ",
       "sourceName": "Victoria Road: Golem's Temple III",
       "region": "victoria",
-      "minLevel": 15,
+      "minLevel": 53,
       "monsters": [
         "blue_mushroom",
         "mob_05474df28288",
@@ -1541,7 +1541,7 @@
       "name": "維多利亞島・石人寺院Ⅳ",
       "sourceName": "Victoria Road: Golem's Temple IV",
       "region": "victoria",
-      "minLevel": 15,
+      "minLevel": 54,
       "monsters": [
         "blue_mushroom",
         "mob_05474df28288",
@@ -1560,7 +1560,7 @@
       "name": "維多利亞島・樹林底層",
       "sourceName": "Hidden Street: Downstairs at the Forest",
       "region": "victoria",
-      "minLevel": 17,
+      "minLevel": 32,
       "monsters": [
         "horny_mushroom",
         "mob_8f69f598c271"
@@ -1571,7 +1571,7 @@
       "name": "維多利亞島・猴子森林I",
       "sourceName": "Hidden Street: Monkey Forest I",
       "region": "victoria",
-      "minLevel": 32,
+      "minLevel": 35,
       "monsters": [
         "mob_8f69f598c271",
         "mob_4be77034def9"
@@ -1592,7 +1592,7 @@
       "name": "維多利亞島・猴子迷宮I",
       "sourceName": "Victoria Road: Tree Dungeon, Monkey Forest I",
       "region": "victoria",
-      "minLevel": 30,
+      "minLevel": 35,
       "monsters": [
         "mob_59ecb8f0c343",
         "mob_4be77034def9"
@@ -1603,7 +1603,7 @@
       "name": "維多利亞島・猴子迷宮Ⅱ",
       "sourceName": "Hidden Street: Tree Dungeon, Monkey Forest II",
       "region": "victoria",
-      "minLevel": 30,
+      "minLevel": 35,
       "monsters": [
         "mob_59ecb8f0c343",
         "mob_4be77034def9"
@@ -1614,7 +1614,7 @@
       "name": "維多利亞島・巫婆森林1",
       "sourceName": "Victoria Road: Forest of Evil I",
       "region": "victoria",
-      "minLevel": 35,
+      "minLevel": 50,
       "monsters": [
         "mob_4be77034def9",
         "mob_64909f542fe5"
@@ -1625,7 +1625,7 @@
       "name": "維多利亞島・巫婆森林2",
       "sourceName": "Victoria Road: Forest of Evil II",
       "region": "victoria",
-      "minLevel": 35,
+      "minLevel": 50,
       "monsters": [
         "mob_4be77034def9",
         "mob_64909f542fe5"
@@ -1644,7 +1644,7 @@
       "name": "維多利亞島・大木林Ⅰ",
       "sourceName": "Victoria Road: The Tree That Grew I",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 5,
       "monsters": [
         "snail",
         "slime",
@@ -1666,7 +1666,7 @@
       "name": "維多利亞島・大木林Ⅲ",
       "sourceName": "Victoria Road: The Tree That Grew III",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "stump",
         "slime",
@@ -1684,7 +1684,7 @@
       "name": "維多利亞島・魔法森林北部",
       "sourceName": "Victoria Road: The Forest North of Ellinia",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 12,
       "monsters": [
         "stump",
         "slime",
@@ -1704,7 +1704,7 @@
       "name": "維多利亞島・北部森林訓練場1",
       "sourceName": "Victoria Road: Forest Up North I",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 17,
       "monsters": [
         "slime",
         "horny_mushroom"
@@ -1715,7 +1715,7 @@
       "name": "維多利亞島・北部森林訓練場2",
       "sourceName": "Victoria Road: Forest Up North II",
       "region": "victoria",
-      "minLevel": 10,
+      "minLevel": 17,
       "monsters": [
         "green_mushroom",
         "horny_mushroom"
@@ -1726,7 +1726,7 @@
       "name": "維多利亞島・北部森林訓練場3",
       "sourceName": "Victoria Road: Forest Up North III",
       "region": "victoria",
-      "minLevel": 25,
+      "minLevel": 30,
       "monsters": [
         "mob_59ecb8f0c343",
         "mob_05474df28288"
@@ -1737,7 +1737,7 @@
       "name": "維多利亞島・北部森林訓練場4",
       "sourceName": "Victoria Road: Forest Up North IV",
       "region": "victoria",
-      "minLevel": 25,
+      "minLevel": 35,
       "monsters": [
         "mob_05474df28288",
         "mob_59ecb8f0c343",
@@ -1749,7 +1749,7 @@
       "name": "維多利亞島・北部森林訓練場5",
       "sourceName": "Victoria Road: Forest Up North V",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "slime",
         "green_mushroom"
@@ -1770,7 +1770,7 @@
       "name": "維多利亞島・北部森林訓練場7",
       "sourceName": "Victoria Road: Forest Up North VII",
       "region": "victoria",
-      "minLevel": 10,
+      "minLevel": 17,
       "monsters": [
         "horny_mushroom",
         "green_mushroom"
@@ -1801,7 +1801,7 @@
       "name": "維多利亞島・勇士村西入口",
       "sourceName": "Victoria Road: West Street Corner of Perion",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "stump",
         "dark_stump",
@@ -1812,7 +1812,7 @@
       "name": "維多利亞島・西部岩山Ⅱ",
       "sourceName": "Victoria Road: West Rocky Mountain II",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 12,
       "monsters": [
         "axe_stump",
         "red_snail",
@@ -1824,7 +1824,7 @@
       "name": "維多利亞島・西部岩山Ⅲ",
       "sourceName": "Victoria Road: West Rocky Mountain III",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 17,
       "monsters": [
         "axe_stump",
         "mob_cafa92abdfd6",
@@ -1837,7 +1837,7 @@
       "name": "維多利亞島・西部岩山Ⅳ",
       "sourceName": "Victoria Road: West Rocky Mountain IV",
       "region": "victoria",
-      "minLevel": 17,
+      "minLevel": 32,
       "monsters": [
         "mob_cafa92abdfd6",
         "mob_f0a1982dc663",
@@ -1848,7 +1848,7 @@
       "name": "維多利亞島・勇士之村西部",
       "sourceName": "Victoria Road: West Domain of Perion",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "dark_stump",
         "snail",
@@ -1862,7 +1862,7 @@
       "name": "維多利亞島・勇士之村東入口",
       "sourceName": "Victoria Road: East Street Corner of Perion",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 5,
       "monsters": [
         "blue_snail",
         "red_snail",
@@ -1875,7 +1875,7 @@
       "name": "維多利亞島・黑肥肥領土",
       "sourceName": "Victoria Road: Land of Wild Boar I",
       "region": "victoria",
-      "minLevel": 17,
+      "minLevel": 20,
       "monsters": [
         "mob_cafa92abdfd6",
         "mob_f0a1982dc663"
@@ -1886,7 +1886,7 @@
       "name": "維多利亞島・東方岩石山Ⅰ",
       "sourceName": "Victoria Road: East Rocky Mountain I",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 5,
       "monsters": [
         "stump",
         "dark_stump"
@@ -1896,7 +1896,7 @@
       "name": "維多利亞島・東方岩石山Ⅱ",
       "sourceName": "Victoria Road: East Rocky Mountain II",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 5,
       "monsters": [
         "stump",
         "dark_stump"
@@ -1906,7 +1906,7 @@
       "name": "維多利亞島・東方岩石山Ⅲ",
       "sourceName": "Victoria Road: East Rocky Mountain III",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 17,
       "monsters": [
         "dark_stump",
         "axe_stump",
@@ -1918,7 +1918,7 @@
       "name": "維多利亞島・東方岩石山Ⅳ",
       "sourceName": "Victoria Road: East Rocky Mountain IV",
       "region": "victoria",
-      "minLevel": 12,
+      "minLevel": 17,
       "monsters": [
         "axe_stump",
         "mob_cafa92abdfd6"
@@ -1928,7 +1928,7 @@
       "name": "維多利亞島・東方岩石山Ⅴ",
       "sourceName": "Victoria Road: East Rocky Mountain V",
       "region": "victoria",
-      "minLevel": 12,
+      "minLevel": 17,
       "monsters": [
         "axe_stump",
         "mob_cafa92abdfd6"
@@ -1938,7 +1938,7 @@
       "name": "維多利亞島・東方岩石山Ⅵ",
       "sourceName": "Victoria Road: East Rocky Mountain VI",
       "region": "victoria",
-      "minLevel": 17,
+      "minLevel": 27,
       "monsters": [
         "mob_cafa92abdfd6",
         "mob_3242043b26ff"
@@ -1948,7 +1948,7 @@
       "name": "維多利亞島・東方岩石山Ⅶ",
       "sourceName": "Victoria Road: East Rocky Mountain VII",
       "region": "victoria",
-      "minLevel": 17,
+      "minLevel": 40,
       "monsters": [
         "mob_cafa92abdfd6",
         "mob_3242043b26ff",
@@ -1959,7 +1959,7 @@
       "name": "維多利亞島・岩石路Ⅰ",
       "sourceName": "Victoria Road: Rocky Road I",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "stump",
         "dark_stump",
@@ -1972,7 +1972,7 @@
       "name": "維多利亞島・岩石路Ⅱ",
       "sourceName": "Victoria Road: Rocky Road II",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 5,
       "monsters": [
         "stump",
         "dark_stump",
@@ -1994,7 +1994,7 @@
       "name": "維多利亞島・勇士之村東部",
       "sourceName": "Victoria Road: East Domain of Perion",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "stump",
         "dark_stump",
@@ -2008,7 +2008,7 @@
       "name": "維多利亞島・黑肥肥領土2",
       "sourceName": "Victoria Road: Land of Wild Boar II",
       "region": "victoria",
-      "minLevel": 17,
+      "minLevel": 20,
       "monsters": [
         "mob_cafa92abdfd6",
         "mob_f0a1982dc663"
@@ -2019,7 +2019,7 @@
       "name": "維多利亞島・遺跡發掘地Ⅰ",
       "sourceName": "Victoria Road: Excavation Site I",
       "region": "victoria",
-      "minLevel": 14,
+      "minLevel": 18,
       "monsters": [
         "mob_82954bf71a63",
         "mob_9d35c086f378"
@@ -2029,7 +2029,7 @@
       "name": "維多利亞島・遺跡發掘地Ⅱ",
       "sourceName": "Victoria Road: Excavation Site II",
       "region": "victoria",
-      "minLevel": 14,
+      "minLevel": 19,
       "monsters": [
         "mob_82954bf71a63",
         "mob_9d35c086f378",
@@ -2040,7 +2040,7 @@
       "name": "維多利亞島・遺跡發掘地Ⅲ",
       "sourceName": "Victoria Road: Excavation Site III",
       "region": "victoria",
-      "minLevel": 18,
+      "minLevel": 19,
       "monsters": [
         "mob_9d35c086f378",
         "mob_a8a5272f9faf"
@@ -2057,7 +2057,7 @@
       "name": "維多利亞島・Victoria Road: Remains <Tomb> I",
       "sourceName": "Victoria Road: Remains <Tomb> I",
       "region": "victoria",
-      "minLevel": 39,
+      "minLevel": 42,
       "monsters": [
         "mob_6083be8452db",
         "mob_87e6e62c52e7"
@@ -2067,7 +2067,7 @@
       "name": "維多利亞島・Victoria Road: Remains <Tomb> II",
       "sourceName": "Victoria Road: Remains <Tomb> II",
       "region": "victoria",
-      "minLevel": 39,
+      "minLevel": 52,
       "monsters": [
         "mob_6083be8452db",
         "mob_87e6e62c52e7",
@@ -2078,7 +2078,7 @@
       "name": "維多利亞島・Victoria Road: Remains <Tomb> III",
       "sourceName": "Victoria Road: Remains <Tomb> III",
       "region": "victoria",
-      "minLevel": 39,
+      "minLevel": 52,
       "monsters": [
         "mob_6083be8452db",
         "mob_87e6e62c52e7",
@@ -2089,7 +2089,7 @@
       "name": "維多利亞島・Victoria Road: Remains <Tomb> IV",
       "sourceName": "Victoria Road: Remains <Tomb> IV",
       "region": "victoria",
-      "minLevel": 58,
+      "minLevel": 68,
       "monsters": [
         "mob_6772f71a90ec",
         "mob_27b9b0678ca1"
@@ -2106,7 +2106,7 @@
       "name": "維多利亞島・幽深的峽谷Ⅰ",
       "sourceName": "Warning Street: Deep Valley I",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 27,
       "monsters": [
         "red_snail",
         "dark_stump",
@@ -2119,7 +2119,7 @@
       "name": "維多利亞島・危險的峽谷1",
       "sourceName": "Victoria Road: Dangerous Valley I",
       "region": "victoria",
-      "minLevel": 20,
+      "minLevel": 27,
       "monsters": [
         "mob_f0a1982dc663",
         "mob_3242043b26ff"
@@ -2130,7 +2130,7 @@
       "name": "維多利亞島・危險的峽谷Ⅱ",
       "sourceName": "Hidden Street: Dangerous Valley II",
       "region": "victoria",
-      "minLevel": 27,
+      "minLevel": 55,
       "monsters": [
         "mob_3242043b26ff",
         "mob_7952237eac9a",
@@ -2142,7 +2142,7 @@
       "name": "維多利亞島・幽深的峽谷Ⅱ",
       "sourceName": "Warning Street: Deep Valley II",
       "region": "victoria",
-      "minLevel": 12,
+      "minLevel": 27,
       "monsters": [
         "axe_stump",
         "mob_cafa92abdfd6",
@@ -2154,7 +2154,7 @@
       "name": "維多利亞島・幽深峽谷Ⅲ",
       "sourceName": "Warning Street: Deep Valley III",
       "region": "victoria",
-      "minLevel": 12,
+      "minLevel": 27,
       "monsters": [
         "axe_stump",
         "mob_cafa92abdfd6",
@@ -2176,7 +2176,7 @@
       "name": "維多利亞島・火焰之地Ⅰ",
       "sourceName": "Warning Street: The Burnt Land I",
       "region": "victoria",
-      "minLevel": 20,
+      "minLevel": 27,
       "monsters": [
         "mob_f0a1982dc663",
         "mob_3242043b26ff"
@@ -2222,7 +2222,7 @@
       "name": "維多利亞島・牆的另一端",
       "sourceName": "Hidden Street: Over the Wall",
       "region": "victoria",
-      "minLevel": 5,
+      "minLevel": 17,
       "monsters": [
         "dark_stump",
         "axe_stump",
@@ -2251,7 +2251,7 @@
       "name": "維多利亞島・墮落城市森林I",
       "sourceName": "Victoria Road: Kerning City Middle Forest I",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 5,
       "monsters": [
         "blue_snail",
         "shroom",
@@ -2266,7 +2266,7 @@
       "name": "維多利亞島・墮落城市森林II",
       "sourceName": "Victoria Road: Kerning City Middle Forest II",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "blue_snail",
         "shroom",
@@ -2282,7 +2282,7 @@
       "name": "維多利亞島・墮落城市森林III",
       "sourceName": "Victoria Road: Kerning City Middle Forest III",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 5,
       "monsters": [
         "snail",
         "blue_snail",
@@ -2296,7 +2296,7 @@
       "name": "維多利亞島・歷恩森林Ⅰ",
       "sourceName": "Victoria Road: L Forest I",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 37,
       "monsters": [
         "blue_snail",
         "shroom",
@@ -2313,7 +2313,7 @@
       "name": "維多利亞島・歷恩森林Ⅱ",
       "sourceName": "Victoria Road: L Forest II",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 15,
       "monsters": [
         "snail",
         "blue_snail",
@@ -2332,7 +2332,7 @@
       "name": "維多利亞島・歷恩森林Ⅲ",
       "sourceName": "Victoria Road: L Forest III",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 15,
       "monsters": [
         "snail",
         "blue_snail",
@@ -2350,7 +2350,7 @@
       "name": "維多利亞島・墮落城市工地",
       "sourceName": "Victoria Road: Kerning City Construction Site",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "blue_snail",
         "stump",
@@ -2363,7 +2363,7 @@
       "name": "維多利亞島・日落天空",
       "sourceName": "Victoria Road: Sunset Sky",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 10,
       "monsters": [
         "red_snail",
         "orange_mushroom",
@@ -2377,7 +2377,7 @@
       "name": "維多利亞島・墮落城市北方工地",
       "sourceName": "Victoria Road: Construction Site North of Kerning City",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 15,
       "monsters": [
         "stump",
         "red_snail",
@@ -2390,7 +2390,7 @@
       "name": "維多利亞島・沼澤地Ⅰ",
       "sourceName": "Warning Street: The Swamp of Despair I",
       "region": "victoria",
-      "minLevel": 16,
+      "minLevel": 27,
       "monsters": [
         "mob_0ad762506814",
         "mob_2702d3a1426e"
@@ -2400,7 +2400,7 @@
       "name": "維多利亞島・沼澤地Ⅱ",
       "sourceName": "Warning Street: The Swamp of Despair II",
       "region": "victoria",
-      "minLevel": 16,
+      "minLevel": 27,
       "monsters": [
         "mob_0ad762506814",
         "mob_2702d3a1426e"
@@ -2410,7 +2410,7 @@
       "name": "維多利亞島・沼澤地Ⅲ",
       "sourceName": "Warning Street: The Swamp of Despair III",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 27,
       "monsters": [
         "slime",
         "mob_0ad762506814",
@@ -2422,7 +2422,7 @@
       "name": "維多利亞島・危險的黑鱷魚1",
       "sourceName": "Warning Street: Dangerous Croko I",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 47,
       "monsters": [
         "slime",
         "mob_0ad762506814",
@@ -2442,7 +2442,7 @@
       "name": "維多利亞島・危險的黑鱷魚2",
       "sourceName": "Warning Street: Dangerous Croko II",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 47,
       "monsters": [
         "slime",
         "mob_0ad762506814",
@@ -2454,7 +2454,7 @@
       "name": "維多利亞島・猴子沼澤地Ⅰ",
       "sourceName": "Hidden Street: Monkey Swamp I",
       "region": "victoria",
-      "minLevel": 16,
+      "minLevel": 32,
       "monsters": [
         "mob_0ad762506814",
         "mob_8f69f598c271"
@@ -2465,7 +2465,7 @@
       "name": "維多利亞島・猴子沼澤地Ⅱ",
       "sourceName": "Hidden Street: Monkey Swamp II",
       "region": "victoria",
-      "minLevel": 16,
+      "minLevel": 35,
       "monsters": [
         "mob_0ad762506814",
         "mob_8f69f598c271",
@@ -2477,7 +2477,7 @@
       "name": "維多利亞島・猴子沼澤地Ⅲ",
       "sourceName": "Hidden Street: Monkey Swamp III",
       "region": "victoria",
-      "minLevel": 16,
+      "minLevel": 35,
       "monsters": [
         "mob_0ad762506814",
         "mob_4be77034def9"
@@ -2488,7 +2488,7 @@
       "name": "維多利亞島・小心墜落",
       "sourceName": "Hidden Street: Caution Falling Down",
       "region": "victoria",
-      "minLevel": 7,
+      "minLevel": 15,
       "monsters": [
         "mob_c10a60e4dac3",
         "blue_mushroom"
@@ -2499,7 +2499,7 @@
       "name": "維多利亞島・北方工地頂端",
       "sourceName": "Hidden Street: Northern Top of Construction Site",
       "region": "victoria",
-      "minLevel": 7,
+      "minLevel": 15,
       "monsters": [
         "mob_c10a60e4dac3",
         "blue_mushroom"
@@ -2510,7 +2510,7 @@
       "name": "維多利亞島・青蛇濕地",
       "sourceName": "Victoria Road: Swamp of Junior Necki",
       "region": "victoria",
-      "minLevel": 1,
+      "minLevel": 16,
       "monsters": [
         "slime",
         "mob_0ad762506814"
@@ -2566,7 +2566,7 @@
       "name": "維多利亞島・黃金海岸 青螃蟹海灘I",
       "sourceName": "Florina Road: Lorang and Clang",
       "region": "victoria",
-      "minLevel": 32,
+      "minLevel": 43,
       "monsters": [
         "mob_c6d392383603",
         "mob_2bd2e540e39c"
@@ -2576,7 +2576,7 @@
       "name": "維多利亞島・青螃蟹海灘2",
       "sourceName": "Victoria Road: Lorang and Clang 2",
       "region": "victoria",
-      "minLevel": 32,
+      "minLevel": 43,
       "monsters": [
         "mob_c6d392383603",
         "mob_bcb11987c359",
@@ -2588,7 +2588,7 @@
       "name": "維多利亞島・黃金海岸 海龜沙灘",
       "sourceName": "Florina Road: Hot Sand",
       "region": "victoria",
-      "minLevel": 41,
+      "minLevel": 43,
       "monsters": [
         "mob_bcb11987c359",
         "mob_2bd2e540e39c"
