@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 
-const pages = ['index', 'guide', 'equipment', 'scrolls', 'shops', 'maps', 'monsters', 'jobs', 'roadmap', 'changelog'];
+const pages = ['index', 'guide', 'equipment', 'scrolls', 'materials', 'shops', 'maps', 'monsters', 'jobs', 'roadmap', 'changelog'];
 for (const page of pages) {
   const html = readFileSync(new URL(`./docs/${page}.html`, import.meta.url), 'utf8');
   assert.ok(html.includes(`data-page="${page}"`));
@@ -36,4 +36,13 @@ for (const phase of roadmap.phases) {
 }
 for (const phrase of ['自動配點', '掉落', '野王', '二轉', '三轉', '四轉'])
   assert.ok(JSON.stringify(roadmap).includes(phrase), `roadmap missing ${phrase}`);
-console.log('10 頁、2,114 件道具、47 間 NPC 商店、168 張地圖及完整路線圖檢查通過。');
+// 遊戲同步資料：版本、雜物收購價、裝備價格與遊戲更新紀錄。
+assert.match(world.version, /^\d+\.\d+\.\d+$/);
+const materials = Object.values(world.items).filter(item => item.slot === 'material');
+assert.ok(materials.length >= 100, 'missing materials');
+assert.ok(materials.every(item => Number.isFinite(item.sellPrice) && item.priceSource), 'material without price');
+assert.equal(world.items.snail_shell.sellPrice, 2);
+assert.ok(Object.values(world.gearPrices).every(([price, sell]) => sell === Math.floor(price / 2)), 'gear sell price is not half');
+const gameChangelog = JSON.parse(readFileSync(new URL('./docs/game-changelog.json', import.meta.url)));
+assert.equal(gameChangelog[0].version, world.version);
+console.log(`${pages.length} 頁、2,114 件道具、${materials.length} 種雜物、47 間 NPC 商店、168 張地圖、遊戲 v${world.version} 及完整路線圖檢查通過。`);

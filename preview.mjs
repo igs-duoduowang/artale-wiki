@@ -1,8 +1,10 @@
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { resolve, extname, sep } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const root = resolve(new URL('./docs/', import.meta.url).pathname.replace(/^\/(?:[A-Za-z]:)/, match => match.slice(1)));
+// fileURLToPath 會正確解碼中文資料夾名稱（例如 D:\文字版阿泰爾\wiki）。
+const root = resolve(fileURLToPath(new URL('./docs/', import.meta.url)));
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.png': 'image/png' };
 const server = createServer(async (request, response) => {
   try {
