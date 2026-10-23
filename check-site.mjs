@@ -21,7 +21,11 @@ assert.ok(Object.keys(world.monsters).length >= 113);
 // 圖鑑沒有列掉落的任務怪（例如變身小鬼怪）只掉楓幣，其餘怪物都要有掉落。
 assert.ok(Object.values(world.monsters).filter(monster => !monster.drops?.length).length <= 2);
 assert.ok(world.monsters.snail.drops.some(drop => drop.id === 'eq_b14c71893bc3'));
-assert.equal(world.skills.length, 39);
+assert.ok(world.skills.length >= 90, '一轉加十二條二轉技能');
+for (const id of ['fighter', 'page', 'spearman', 'fire_poison', 'ice_lightning', 'cleric', 'hunter', 'crossbowman', 'assassin', 'bandit', 'brawler', 'gunslinger'])
+  assert.ok(world.jobs[id]?.tier === 2 && world.skills.some(skill => skill.jobs?.includes(id)), `missing second job ${id}`);
+for (const name of ['激勵', '神聖之火', '火焰箭', '雷閃電鳴', '神聖之箭', '炸彈箭', '穿透之箭', '狂暴衝擊', '散射'])
+  assert.ok(world.skills.some(skill => skill.name === name), `missing ${name}`);
 for (const name of ['極限迴避', '衝擊拳', '旋風斬', '雙子星攻擊', '衝鋒'])
   assert.ok(world.skills.some(skill => skill.job === 'pirate' && skill.name === name), `missing pirate ${name}`);
 for (const name of ['魔力恢復', '魔力擴展', '魔心防禦', '魔力之盾', '魔靈彈', '魔力爪'])

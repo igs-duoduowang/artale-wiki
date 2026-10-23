@@ -34,16 +34,20 @@ const skillCatalog = Object.entries(skills).map(([id, skill]) => {
   return {
     id, name: skill.name, job: skill.job, tier: skill.tier || 1,
     ...(skill.kind ? { kind: skill.kind } : {}),
+    ...(skill.jobs ? { jobs: skill.jobs } : {}),
     weapons: skill.weapon || [], maxLevel: skill.maxLevel,
-    ...(!skill.kind ? { hits: first.hits, firstPercent: first.damagePercent, maxPercent: max.damagePercent } : {}),
+    ...(!skill.kind ? { hits: first.hits, firstPercent: first.damagePercent, maxPercent: max.damagePercent, ...(max.targets > 1 ? { targets: max.targets } : {}) } : {}),
+    ...(max.duration ? { duration: max.duration } : {}),
     firstMp: first.mpCost, maxMp: max.mpCost,
     ...(first.hpCost ? { firstHp: first.hpCost, maxHp: max.hpCost } : {}),
     ...(skill.prerequisite ? { prerequisite: skill.prerequisite } : {}),
-    ...(previousSkills.get(id)?.description || skill.effect ? { description: previousSkills.get(id)?.description || skill.effect(1) } : {})
+    // 說明一律用滿級的最新文字；遊戲沒有說明文字的才沿用資料站舊的。
+    ...(skill.effect || previousSkills.get(id)?.description ? { description: skill.effect ? skill.effect(skill.maxLevel) : previousSkills.get(id).description } : {})
   };
 });
 // 0.7 起遊戲有大區、船班與原作路線；舊版遊戲沒有這些檔案時照舊輸出地圖。
 const regions = await load('src/regions.js').catch(() => null);
+const jobInfo = await load('src/jobinfo.js').catch(() => null);
 const routes = await load('src/routes.js').catch(() => null);
 const mapIdByName = new Map(Object.entries(source.maps).map(([id, map]) => [map.name, id]));
 const maps = routes ? Object.fromEntries(Object.entries(source.maps).map(([id, map]) => {
@@ -58,6 +62,7 @@ const world = {
   maps, monsters,
   fieldBosses: source.fieldBosses,
   ...(regions ? { regions: regions.worldRegions, ships: regions.shipRoutes } : {}),
+  ...(jobInfo ? { jobIntros: Object.fromEntries(Object.entries(jobInfo.jobIntros).map(([id, intro]) => [id, { role: intro.role, summary: intro.summary }])) } : {}),
   ...(routes ? { featuredRoute: routes.originalRoute(mapIdByName.get('楓之島・楓之港'), mapIdByName.get('天空之城')) } : {})
 };
 writeFileSync(output, JSON.stringify(world, null, 2).replace(/\[\n\s+(\d+),\n\s+(\d+),\n\s+([01])\n\s+\]/g, '[$1, $2, $3]') + '\n');

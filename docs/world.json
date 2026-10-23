@@ -68,6 +68,98 @@
         "gun"
       ],
       "attack": 7
+    },
+    "fighter": {
+      "name": "狂戰士",
+      "parent": "warrior",
+      "tier": 2,
+      "weapon": [
+        "sword"
+      ],
+      "attack": 10
+    },
+    "page": {
+      "name": "見習騎士",
+      "parent": "warrior",
+      "tier": 2,
+      "weapon": [
+        "sword"
+      ],
+      "attack": 10
+    },
+    "spearman": {
+      "name": "槍騎兵",
+      "parent": "warrior",
+      "tier": 2,
+      "weapon": [
+        "sword"
+      ],
+      "attack": 10
+    },
+    "fire_poison": {
+      "name": "巫師（火毒）",
+      "parent": "magician",
+      "tier": 2,
+      "weapon": [
+        "wand"
+      ],
+      "attack": 12
+    },
+    "ice_lightning": {
+      "name": "巫師（冰雷）",
+      "parent": "magician",
+      "tier": 2,
+      "weapon": [
+        "wand"
+      ],
+      "attack": 12
+    },
+    "cleric": {
+      "name": "僧侶",
+      "parent": "magician",
+      "tier": 2,
+      "weapon": [
+        "wand"
+      ],
+      "attack": 12
+    },
+    "hunter": {
+      "name": "獵人",
+      "parent": "bowman",
+      "tier": 2,
+      "weapon": [
+        "bow"
+      ],
+      "attack": 10
+    },
+    "crossbowman": {
+      "name": "弩弓手",
+      "parent": "bowman",
+      "tier": 2,
+      "weapon": [
+        "bow"
+      ],
+      "attack": 10
+    },
+    "brawler": {
+      "name": "打手",
+      "parent": "pirate",
+      "tier": 2,
+      "weapon": [
+        "knuckle",
+        "gun"
+      ],
+      "attack": 10
+    },
+    "gunslinger": {
+      "name": "槍手",
+      "parent": "pirate",
+      "tier": 2,
+      "weapon": [
+        "knuckle",
+        "gun"
+      ],
+      "attack": 10
     }
   },
   "items": {
@@ -12291,6 +12383,7 @@
       "def": 0,
       "mdef": 0,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -12335,6 +12428,7 @@
       "def": 0,
       "mdef": 0,
       "undead": false,
+      "mp": 15,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -12392,6 +12486,7 @@
       "def": 0,
       "mdef": 0,
       "undead": false,
+      "mp": 15,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -12448,6 +12543,7 @@
       "def": 3,
       "mdef": 10,
       "undead": false,
+      "mp": 30,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -12520,6 +12616,8 @@
       "def": 0,
       "mdef": 10,
       "undead": false,
+      "mp": 30,
+      "elements": "F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -12585,6 +12683,8 @@
       "def": 5,
       "mdef": 10,
       "undead": false,
+      "mp": 35,
+      "elements": "L3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -12658,6 +12758,7 @@
       "def": 5,
       "mdef": 20,
       "undead": false,
+      "mp": 40,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -12731,6 +12832,7 @@
       "def": 0,
       "mdef": 10,
       "undead": false,
+      "mp": 45,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -12803,6 +12905,7 @@
       "def": 0,
       "mdef": 0,
       "undead": false,
+      "mp": 0,
       "combatSource": "依相近等級怪物估算",
       "drops": [
         {
@@ -12829,6 +12932,7 @@
       "def": 30,
       "mdef": 0,
       "undead": false,
+      "mp": 35,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -12941,6 +13045,7 @@
       "def": 10,
       "mdef": 30,
       "undead": false,
+      "mp": 45,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -13018,6 +13123,8 @@
       "def": 12,
       "mdef": 40,
       "undead": false,
+      "mp": 25,
+      "elements": "S1",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -13143,6 +13250,8 @@
       "def": 20,
       "mdef": 10,
       "undead": false,
+      "mp": 10,
+      "elements": "F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -13239,6 +13348,7 @@
       "def": 30,
       "mdef": 10,
       "undead": false,
+      "mp": 30,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -13351,6 +13461,7 @@
       "def": 10,
       "mdef": 60,
       "undead": false,
+      "mp": 30,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -13475,6 +13586,7 @@
       "def": 400,
       "mdef": 400,
       "undead": false,
+      "mp": 60,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -13567,6 +13679,7 @@
       "def": 275,
       "mdef": 85,
       "undead": false,
+      "mp": 0,
       "combatSource": "依相近等級怪物估算",
       "drops": [
         {
@@ -13603,6 +13716,7 @@
       "def": 130,
       "mdef": 100,
       "undead": false,
+      "mp": 120,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -13731,6 +13845,7 @@
       "def": 35,
       "mdef": 40,
       "undead": false,
+      "mp": 100,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -13855,6 +13970,8 @@
       "def": 150,
       "mdef": 200,
       "undead": false,
+      "mp": 150,
+      "elements": "H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -13993,6 +14110,7 @@
       "def": 160,
       "mdef": 220,
       "undead": false,
+      "mp": 150,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -14111,6 +14229,8 @@
       "def": 70,
       "mdef": 70,
       "undead": true,
+      "mp": 100,
+      "elements": "H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -14229,6 +14349,8 @@
       "def": 45,
       "mdef": 70,
       "undead": false,
+      "mp": 65,
+      "elements": "S2",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -14334,6 +14456,8 @@
       "def": 100,
       "mdef": 200,
       "undead": false,
+      "mp": 90,
+      "elements": "H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -14437,6 +14561,8 @@
       "def": 80,
       "mdef": 80,
       "undead": false,
+      "mp": 50,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -14558,6 +14684,8 @@
       "def": 50,
       "mdef": 20,
       "undead": false,
+      "mp": 40,
+      "elements": "F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -14663,6 +14791,7 @@
       "def": 20,
       "mdef": 30,
       "undead": false,
+      "mp": 55,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -14788,6 +14917,8 @@
       "def": 40,
       "mdef": 40,
       "undead": false,
+      "mp": 60,
+      "elements": "F2I3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -14898,6 +15029,7 @@
       "def": 100,
       "mdef": 100,
       "undead": false,
+      "mp": 150,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -15009,6 +15141,7 @@
       "def": 40,
       "mdef": 15,
       "undead": false,
+      "mp": 35,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -15111,6 +15244,7 @@
       "def": 30,
       "mdef": 40,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -15218,6 +15352,7 @@
       "def": 35,
       "mdef": 40,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -15303,6 +15438,8 @@
       "def": 170,
       "mdef": 190,
       "undead": true,
+      "mp": 0,
+      "elements": "H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -15408,6 +15545,8 @@
       "def": 175,
       "mdef": 195,
       "undead": true,
+      "mp": 0,
+      "elements": "H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -15517,6 +15656,8 @@
       "def": 160,
       "mdef": 160,
       "undead": true,
+      "mp": 100,
+      "elements": "H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -15637,6 +15778,8 @@
       "def": 190,
       "mdef": 230,
       "undead": true,
+      "mp": 100,
+      "elements": "H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -15775,6 +15918,8 @@
       "def": 330,
       "mdef": 300,
       "undead": true,
+      "mp": 200,
+      "elements": "H3I2S1",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -15887,6 +16032,8 @@
       "def": 190,
       "mdef": 220,
       "undead": false,
+      "mp": 120,
+      "elements": "F2I3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16032,6 +16179,7 @@
       "def": 350,
       "mdef": 350,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16113,6 +16261,8 @@
       "def": 10,
       "mdef": 40,
       "undead": false,
+      "mp": 50,
+      "elements": "L3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16187,6 +16337,7 @@
       "def": 30,
       "mdef": 30,
       "undead": false,
+      "mp": 20,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16263,6 +16414,8 @@
       "def": 45,
       "mdef": 40,
       "undead": false,
+      "mp": 40,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16355,6 +16508,7 @@
       "def": 120,
       "mdef": 80,
       "undead": false,
+      "mp": 75,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16466,6 +16620,7 @@
       "def": 20,
       "mdef": 20,
       "undead": false,
+      "mp": 10,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16563,6 +16718,8 @@
       "def": 100,
       "mdef": 200,
       "undead": false,
+      "mp": 10,
+      "elements": "L3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16690,6 +16847,8 @@
       "def": 120,
       "mdef": 150,
       "undead": false,
+      "mp": 50,
+      "elements": "L3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16800,6 +16959,7 @@
       "def": 300,
       "mdef": 300,
       "undead": false,
+      "mp": 100,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -16910,6 +17070,8 @@
       "def": 100,
       "mdef": 100,
       "undead": false,
+      "mp": 100,
+      "elements": "H2",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -17030,6 +17192,7 @@
       "def": 145,
       "mdef": 160,
       "undead": false,
+      "mp": 115,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -17148,6 +17311,8 @@
       "def": 120,
       "mdef": 120,
       "undead": false,
+      "mp": 120,
+      "elements": "F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -17248,6 +17413,8 @@
       "def": 170,
       "mdef": 220,
       "undead": false,
+      "mp": 135,
+      "elements": "H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -17354,6 +17521,8 @@
       "def": 125,
       "mdef": 265,
       "undead": false,
+      "mp": 200,
+      "elements": "I2F2L2H2",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -17482,6 +17651,8 @@
       "def": 60,
       "mdef": 80,
       "undead": false,
+      "mp": 70,
+      "elements": "F2I3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -17587,6 +17758,8 @@
       "def": 60,
       "mdef": 80,
       "undead": false,
+      "mp": 70,
+      "elements": "L2I3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -17675,6 +17848,8 @@
       "def": 60,
       "mdef": 80,
       "undead": false,
+      "mp": 70,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -17789,6 +17964,8 @@
       "def": 170,
       "mdef": 210,
       "undead": false,
+      "mp": 160,
+      "elements": "F2I3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -17905,6 +18082,8 @@
       "def": 170,
       "mdef": 210,
       "undead": false,
+      "mp": 160,
+      "elements": "L2I3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18017,6 +18196,8 @@
       "def": 170,
       "mdef": 210,
       "undead": false,
+      "mp": 160,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18145,6 +18326,8 @@
       "def": 300,
       "mdef": 320,
       "undead": false,
+      "mp": 240,
+      "elements": "S1H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18287,6 +18470,7 @@
       "def": 30,
       "mdef": 40,
       "undead": false,
+      "mp": 10,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18367,6 +18551,8 @@
       "def": 275,
       "mdef": 85,
       "undead": false,
+      "mp": 50,
+      "elements": "H2L2I3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18469,6 +18655,8 @@
       "def": 275,
       "mdef": 85,
       "undead": false,
+      "mp": 50,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18541,6 +18729,8 @@
       "def": 275,
       "mdef": 85,
       "undead": false,
+      "mp": 50,
+      "elements": "F2I3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18627,6 +18817,8 @@
       "def": 45,
       "mdef": 70,
       "undead": false,
+      "mp": 40,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18722,6 +18914,8 @@
       "def": 60,
       "mdef": 80,
       "undead": false,
+      "mp": 60,
+      "elements": "H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18812,6 +19006,8 @@
       "def": 110,
       "mdef": 100,
       "undead": false,
+      "mp": 70,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -18919,6 +19115,8 @@
       "def": 90,
       "mdef": 155,
       "undead": false,
+      "mp": 0,
+      "elements": "I2F2",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -19017,6 +19215,8 @@
       "def": 170,
       "mdef": 180,
       "undead": false,
+      "mp": 20,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -19138,6 +19338,7 @@
       "def": 120,
       "mdef": 120,
       "undead": false,
+      "mp": 50,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -19255,6 +19456,8 @@
       "def": 200,
       "mdef": 220,
       "undead": false,
+      "mp": 100,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -19381,6 +19584,8 @@
       "def": 210,
       "mdef": 225,
       "undead": false,
+      "mp": 100,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -19497,6 +19702,8 @@
       "def": 170,
       "mdef": 245,
       "undead": false,
+      "mp": 80,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -19604,6 +19811,8 @@
       "def": 600,
       "mdef": 450,
       "undead": false,
+      "mp": 100,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -19865,6 +20074,7 @@
       "def": 38,
       "mdef": 40,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -19942,6 +20152,7 @@
       "def": 50,
       "mdef": 70,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -20042,6 +20253,7 @@
       "def": 70,
       "mdef": 85,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -20140,6 +20352,7 @@
       "def": 120,
       "mdef": 130,
       "undead": false,
+      "mp": 0,
       "combatSource": "依相近等級怪物估算",
       "drops": [
         {
@@ -20256,6 +20469,7 @@
       "def": 95,
       "mdef": 95,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -20361,6 +20575,8 @@
       "def": 190,
       "mdef": 175,
       "undead": false,
+      "mp": 0,
+      "elements": "I2F2",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -20468,6 +20684,7 @@
       "def": 210,
       "mdef": 195,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -20587,6 +20804,7 @@
       "def": 95,
       "mdef": 90,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -20694,6 +20912,7 @@
       "def": 160,
       "mdef": 170,
       "undead": false,
+      "mp": 50,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -20799,6 +21018,7 @@
       "def": 90,
       "mdef": 120,
       "undead": true,
+      "mp": 30,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -20906,6 +21126,7 @@
       "def": 130,
       "mdef": 160,
       "undead": true,
+      "mp": 50,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21007,6 +21228,7 @@
       "def": 170,
       "mdef": 200,
       "undead": true,
+      "mp": 70,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21127,6 +21349,7 @@
       "def": 65,
       "mdef": 75,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21215,6 +21438,7 @@
       "def": 75,
       "mdef": 75,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21311,6 +21535,8 @@
       "def": 52,
       "mdef": 65,
       "undead": false,
+      "mp": 0,
+      "elements": "H2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21411,6 +21637,7 @@
       "def": 60,
       "mdef": 50,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21516,6 +21743,7 @@
       "def": 85,
       "mdef": 105,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21634,6 +21862,7 @@
       "def": 38,
       "mdef": 40,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21739,6 +21968,8 @@
       "def": 75,
       "mdef": 75,
       "undead": false,
+      "mp": 0,
+      "elements": "S1",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21830,6 +22061,7 @@
       "def": 95,
       "mdef": 115,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -21963,6 +22195,7 @@
       "def": 105,
       "mdef": 125,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -22082,6 +22315,7 @@
       "def": 100,
       "mdef": 130,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -22170,6 +22404,7 @@
       "def": 120,
       "mdef": 140,
       "undead": false,
+      "mp": 110,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -22272,6 +22507,7 @@
       "def": 120,
       "mdef": 130,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -22383,6 +22619,8 @@
       "def": 110,
       "mdef": 90,
       "undead": false,
+      "mp": 0,
+      "elements": "L2I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -22489,6 +22727,7 @@
       "def": 130,
       "mdef": 110,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -22604,6 +22843,7 @@
       "def": 120,
       "mdef": 120,
       "undead": false,
+      "mp": 150,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -22711,6 +22951,7 @@
       "def": 140,
       "mdef": 160,
       "undead": false,
+      "mp": 130,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -22811,6 +23052,7 @@
       "def": 160,
       "mdef": 180,
       "undead": false,
+      "mp": 55,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -22914,6 +23156,8 @@
       "def": 140,
       "mdef": 250,
       "undead": false,
+      "mp": 220,
+      "elements": "I2L2F2H2",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -23028,6 +23272,8 @@
       "def": 180,
       "mdef": 200,
       "undead": false,
+      "mp": 170,
+      "elements": "L2",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -23147,6 +23393,7 @@
       "def": 140,
       "mdef": 190,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -23259,6 +23506,7 @@
       "def": 160,
       "mdef": 210,
       "undead": false,
+      "mp": 170,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -23363,6 +23611,7 @@
       "def": 90,
       "mdef": 85,
       "undead": false,
+      "mp": 0,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -23465,6 +23714,8 @@
       "def": 100,
       "mdef": 180,
       "undead": false,
+      "mp": 170,
+      "elements": "I2F3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -23560,6 +23811,7 @@
       "def": 150,
       "mdef": 180,
       "undead": false,
+      "mp": 40,
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -23651,6 +23903,8 @@
       "def": 185,
       "mdef": 215,
       "undead": false,
+      "mp": 160,
+      "elements": "F2I3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -23745,6 +23999,8 @@
       "def": 150,
       "mdef": 190,
       "undead": false,
+      "mp": 120,
+      "elements": "F3H3",
       "combatSource": "經典楓之谷 v83",
       "drops": [
         {
@@ -23837,6 +24093,7 @@
       "def": 190,
       "mdef": 220,
       "undead": false,
+      "mp": 0,
       "combatSource": "依相近等級怪物估算",
       "drops": []
     },
@@ -23858,6 +24115,7 @@
       "def": 190,
       "mdef": 220,
       "undead": false,
+      "mp": 0,
       "combatSource": "依相近等級怪物估算",
       "drops": [
         {
@@ -23991,7 +24249,7 @@
       "maxLevel": 16,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "每次掛機遭遇前回復 HP 4"
+      "description": "每次掛機遭遇前回復 HP 34"
     },
     {
       "id": "max_hp_increase",
@@ -24006,7 +24264,7 @@
       "prerequisite": {
         "hp_recovery": 5
       },
-      "description": "此後每次升級額外增加最大 HP 8"
+      "description": "此後每次升級額外增加最大 HP 44"
     },
     {
       "id": "warrior_endure",
@@ -24018,7 +24276,7 @@
       "maxLevel": 8,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "每次掛機遭遇前額外回復 HP 1"
+      "description": "每次掛機遭遇前額外回復 HP 8"
     },
     {
       "id": "iron_body",
@@ -24028,9 +24286,10 @@
       "kind": "support",
       "weapons": [],
       "maxLevel": 20,
+      "duration": 300,
       "firstMp": 9,
       "maxMp": 13,
-      "description": "本次遭遇受到的反擊傷害 -11.5%"
+      "description": "受到的反擊傷害 -40%，持續 300 秒"
     },
     {
       "id": "power_strike",
@@ -24059,11 +24318,12 @@
       "hits": 1,
       "firstPercent": 130,
       "maxPercent": 225,
+      "targets": 6,
       "firstMp": 13,
       "maxMp": 22,
       "firstHp": 3,
       "maxHp": 12,
-      "description": "目前每場只攻擊一隻怪物，群攻尚未開放"
+      "description": "一次打 6 隻"
     },
     {
       "id": "mp_recovery",
@@ -24075,7 +24335,7 @@
       "maxLevel": 16,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "每次掛機遭遇前回復 MP 3（文字版換算）"
+      "description": "每次掛機遭遇前回復 MP 33（文字版換算）"
     },
     {
       "id": "max_mp_increase",
@@ -24090,7 +24350,7 @@
       "prerequisite": {
         "mp_recovery": 5
       },
-      "description": "此後每次升級額外增加最大 MP 2（文字版換算）"
+      "description": "此後每次升級額外增加最大 MP 20（文字版換算）"
     },
     {
       "id": "magic_guard",
@@ -24100,9 +24360,10 @@
       "kind": "support",
       "weapons": [],
       "maxLevel": 20,
+      "duration": 600,
       "firstMp": 7,
       "maxMp": 13,
-      "description": "本次遭遇把受到傷害的 4% 轉由 MP 抵擋（MP 不足由 HP 承擔）"
+      "description": "受到傷害的 80% 改由 MP 抵擋（MP 不足由 HP 承擔），持續 600 秒"
     },
     {
       "id": "magic_armor",
@@ -24112,12 +24373,13 @@
       "kind": "support",
       "weapons": [],
       "maxLevel": 20,
+      "duration": 300,
       "firstMp": 7,
       "maxMp": 13,
       "prerequisite": {
         "magic_guard": 3
       },
-      "description": "本次遭遇物理防禦 +2"
+      "description": "物理防禦 +40，持續 300 秒"
     },
     {
       "id": "energy_bolt",
@@ -24162,7 +24424,7 @@
       "maxLevel": 16,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "命中 +1"
+      "description": "命中 +16"
     },
     {
       "id": "amazon_eye",
@@ -24177,7 +24439,7 @@
       "prerequisite": {
         "amazon_blessing": 3
       },
-      "description": "持弓找怪時間 -1%（文字版射程換算）"
+      "description": "持弓找怪時間 -8%（文字版射程換算）"
     },
     {
       "id": "critical_shot",
@@ -24189,7 +24451,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "弓攻擊爆擊機率 +2%、爆擊額外傷害 +53%"
+      "description": "弓攻擊爆擊機率 +40%、爆擊額外傷害 +100%"
     },
     {
       "id": "focus",
@@ -24199,12 +24461,13 @@
       "kind": "support",
       "weapons": [],
       "maxLevel": 20,
+      "duration": 300,
       "firstMp": 9,
       "maxMp": 15,
       "prerequisite": {
         "amazon_blessing": 3
       },
-      "description": "本次遭遇命中 +1、迴避 +1"
+      "description": "命中 +20、迴避 +20，持續 300 秒"
     },
     {
       "id": "arrow_blow",
@@ -24286,12 +24549,12 @@
       "name": "詛咒術",
       "job": "thief",
       "tier": 1,
-      "kind": "support",
+      "kind": "debuff",
       "weapons": [],
       "maxLevel": 20,
       "firstMp": 7,
       "maxMp": 15,
-      "description": "該隻怪物傷害 -20%，受到的傷害 +10%"
+      "description": "這批怪物的物理防禦 -10%（阿泰爾改動：改為降物防，對野王也有效）"
     },
     {
       "id": "dark_sight",
@@ -24301,12 +24564,13 @@
       "kind": "support",
       "weapons": [],
       "maxLevel": 20,
+      "duration": 300,
       "firstMp": 9,
       "maxMp": 20,
       "prerequisite": {
         "disorder": 3
       },
-      "description": "每次遭遇的反擊傷害 -50%"
+      "description": "受到的反擊傷害 -50%，持續 300 秒"
     },
     {
       "id": "lucky_seven",
@@ -24324,153 +24588,6 @@
       "maxMp": 15
     },
     {
-      "id": "claw_mastery",
-      "name": "精準暗器",
-      "job": "assassin",
-      "tier": 2,
-      "kind": "passive",
-      "weapons": [],
-      "maxLevel": 20,
-      "firstMp": 0,
-      "maxMp": 0,
-      "description": "拳套攻擊 +20%"
-    },
-    {
-      "id": "critical_throw",
-      "name": "強力投擲",
-      "job": "assassin",
-      "tier": 2,
-      "kind": "passive",
-      "weapons": [],
-      "maxLevel": 30,
-      "firstMp": 0,
-      "maxMp": 0,
-      "prerequisite": {
-        "claw_mastery": 3
-      },
-      "description": "拳套攻擊 45% 機率造成額外 90% 傷害"
-    },
-    {
-      "id": "claw_booster",
-      "name": "極速暗器",
-      "job": "assassin",
-      "tier": 2,
-      "kind": "support",
-      "weapons": [
-        "claw"
-      ],
-      "maxLevel": 20,
-      "firstMp": 9,
-      "maxMp": 20,
-      "prerequisite": {
-        "claw_mastery": 5
-      },
-      "description": "拳套狩獵傷害 +25%"
-    },
-    {
-      "id": "drain",
-      "name": "吸血術",
-      "job": "assassin",
-      "tier": 2,
-      "weapons": [
-        "claw"
-      ],
-      "maxLevel": 30,
-      "hits": 1,
-      "firstPercent": 134,
-      "maxPercent": 250,
-      "firstMp": 11,
-      "maxMp": 25,
-      "prerequisite": {
-        "claw_mastery": 3
-      },
-      "description": "命中時回復傷害的 25% HP"
-    },
-    {
-      "id": "dagger_mastery",
-      "name": "精準之刀",
-      "job": "bandit",
-      "tier": 2,
-      "kind": "passive",
-      "weapons": [],
-      "maxLevel": 20,
-      "firstMp": 0,
-      "maxMp": 0,
-      "description": "短刀攻擊 +20%"
-    },
-    {
-      "id": "dagger_booster",
-      "name": "快速之刀",
-      "job": "bandit",
-      "tier": 2,
-      "kind": "support",
-      "weapons": [
-        "dagger"
-      ],
-      "maxLevel": 20,
-      "firstMp": 9,
-      "maxMp": 20,
-      "prerequisite": {
-        "dagger_mastery": 5
-      },
-      "description": "短刀狩獵傷害 +25%"
-    },
-    {
-      "id": "steal",
-      "name": "妙手術",
-      "job": "bandit",
-      "tier": 2,
-      "weapons": [
-        "dagger"
-      ],
-      "maxLevel": 30,
-      "hits": 1,
-      "firstPercent": 93,
-      "maxPercent": 180,
-      "firstMp": 9,
-      "maxMp": 20,
-      "description": "擊倒怪物時額外獲得 70% 楓幣，並有 18% 機率額外取得掉落物"
-    },
-    {
-      "id": "savage_blow",
-      "name": "迴旋斬",
-      "job": "bandit",
-      "tier": 2,
-      "weapons": [
-        "dagger"
-      ],
-      "maxLevel": 30,
-      "hits": 6,
-      "firstPercent": 32,
-      "maxPercent": 75,
-      "firstMp": 13,
-      "maxMp": 33
-    },
-    {
-      "id": "endure",
-      "name": "恢復術",
-      "job": "thief2",
-      "tier": 2,
-      "kind": "passive",
-      "weapons": [],
-      "maxLevel": 20,
-      "firstMp": 0,
-      "maxMp": 0,
-      "description": "每次遭遇怪物回復 HP 20、MP 10"
-    },
-    {
-      "id": "haste",
-      "name": "速度激發",
-      "job": "thief2",
-      "tier": 2,
-      "kind": "support",
-      "weapons": [],
-      "maxLevel": 20,
-      "firstMp": 8,
-      "maxMp": 17,
-      "description": "遭遇反擊傷害 -20%"
-    },
-    {
       "id": "quick_motion",
       "name": "極限迴避",
       "job": "pirate",
@@ -24480,7 +24597,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "命中與迴避各 +1"
+      "description": "命中與迴避各 +20"
     },
     {
       "id": "corkscrew_blow",
@@ -24509,9 +24626,10 @@
       "hits": 1,
       "firstPercent": 119,
       "maxPercent": 195,
+      "targets": 6,
       "firstMp": 7,
       "maxMp": 14,
-      "description": "原作群攻；文字版每場只攻擊一隻怪物"
+      "description": "一次打 6 隻"
     },
     {
       "id": "double_shot_gun",
@@ -24536,12 +24654,1187 @@
       "kind": "support",
       "weapons": [],
       "maxLevel": 10,
+      "duration": 150,
       "firstMp": 5,
       "maxMp": 9,
-      "description": "本次遭遇找怪時間縮短 2%（文字版移動換算）"
+      "description": "移動速度 +15、跳躍力 +5（找怪更快），持續 150 秒"
+    },
+    {
+      "id": "sword_mastery",
+      "name": "精準之劍",
+      "job": "fighter",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "fighter",
+        "page"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "劍熟練度 60%、命中 +20"
+    },
+    {
+      "id": "axe_mastery",
+      "name": "精準之斧",
+      "job": "fighter",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "fighter"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "斧熟練度 60%、命中 +20"
+    },
+    {
+      "id": "blunt_mastery",
+      "name": "精準之棍",
+      "job": "page",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "page"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "鈍器熟練度 60%、命中 +20"
+    },
+    {
+      "id": "spear_mastery",
+      "name": "精準之槍",
+      "job": "spearman",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "spearman"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "槍熟練度 60%、命中 +20"
+    },
+    {
+      "id": "polearm_mastery",
+      "name": "精準之矛",
+      "job": "spearman",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "spearman"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "矛熟練度 60%、命中 +20"
+    },
+    {
+      "id": "sword_booster",
+      "name": "快速之劍",
+      "job": "fighter",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "fighter",
+        "page"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "sword_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 300 秒"
+    },
+    {
+      "id": "axe_booster",
+      "name": "快速之斧",
+      "job": "fighter",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "fighter"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "axe_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 300 秒"
+    },
+    {
+      "id": "blunt_booster",
+      "name": "快速之棍",
+      "job": "page",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "page"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "blunt_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 300 秒"
+    },
+    {
+      "id": "spear_booster",
+      "name": "快速之槍",
+      "job": "spearman",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "spearman"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "spear_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 300 秒"
+    },
+    {
+      "id": "polearm_booster",
+      "name": "快速之矛",
+      "job": "spearman",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "spearman"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "polearm_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 300 秒"
+    },
+    {
+      "id": "sword_final",
+      "name": "終極之劍",
+      "job": "fighter",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "fighter",
+        "page"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "sword_mastery": 3
+      },
+      "description": "攻擊後 60% 機率追加一擊 250%（同一批目標）"
+    },
+    {
+      "id": "axe_final",
+      "name": "終極之斧",
+      "job": "fighter",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "fighter"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "axe_mastery": 3
+      },
+      "description": "攻擊後 60% 機率追加一擊 250%（同一批目標）"
+    },
+    {
+      "id": "blunt_final",
+      "name": "終極之棍",
+      "job": "page",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "page"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "blunt_mastery": 3
+      },
+      "description": "攻擊後 60% 機率追加一擊 250%（同一批目標）"
+    },
+    {
+      "id": "spear_final",
+      "name": "終極之槍",
+      "job": "spearman",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "spearman"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "spear_mastery": 3
+      },
+      "description": "攻擊後 60% 機率追加一擊 250%（同一批目標）"
+    },
+    {
+      "id": "polearm_final",
+      "name": "終極之矛",
+      "job": "spearman",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "spearman"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "polearm_mastery": 3
+      },
+      "description": "攻擊後 60% 機率追加一擊 250%（同一批目標）"
+    },
+    {
+      "id": "rage",
+      "name": "激勵",
+      "job": "fighter",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "fighter"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 11,
+      "maxMp": 20,
+      "description": "物理攻擊 +10、物理防禦 -10，持續 300 秒"
+    },
+    {
+      "id": "power_guard",
+      "name": "反射之盾",
+      "job": "fighter",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "fighter",
+        "page"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 21,
+      "maxMp": 50,
+      "description": "受到的傷害 40% 反彈給怪物（上限怪物 HP 10%），持續 300 秒"
+    },
+    {
+      "id": "threaten",
+      "name": "降魔咒",
+      "job": "page",
+      "tier": 2,
+      "kind": "debuff",
+      "jobs": [
+        "page"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 5,
+      "maxMp": 5,
+      "description": "這批怪物攻擊 -20、物理防禦 -20%（野王也有效）"
+    },
+    {
+      "id": "iron_will",
+      "name": "禦魔陣",
+      "job": "spearman",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "spearman"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 24,
+      "maxMp": 24,
+      "description": "物理防禦、魔法防禦 +20，持續 300 秒"
+    },
+    {
+      "id": "hyper_body",
+      "name": "神聖之火",
+      "job": "spearman",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "spearman"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 21,
+      "maxMp": 50,
+      "prerequisite": {
+        "iron_will": 3
+      },
+      "description": "最大 HP、MP +60%（文字版：每場多一層 60% 最大 HP 的血量），持續 300 秒"
+    },
+    {
+      "id": "mp_eater",
+      "name": "魔力吸收",
+      "job": "fire_poison",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "fire_poison",
+        "ice_lightning",
+        "cleric"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "魔法攻擊時 30% 機率吸收怪物 40% 的 MP"
+    },
+    {
+      "id": "teleport",
+      "name": "瞬間移動",
+      "job": "fire_poison",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "fire_poison",
+        "ice_lightning",
+        "cleric"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "找怪時間 -20%（文字版移動換算）"
+    },
+    {
+      "id": "meditation",
+      "name": "精神強化",
+      "job": "fire_poison",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "fire_poison",
+        "ice_lightning"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 200,
+      "firstMp": 11,
+      "maxMp": 20,
+      "description": "魔法攻擊 +20，持續 200 秒"
+    },
+    {
+      "id": "slow",
+      "name": "緩速術",
+      "job": "fire_poison",
+      "tier": 2,
+      "kind": "debuff",
+      "jobs": [
+        "fire_poison",
+        "ice_lightning"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 7,
+      "maxMp": 16,
+      "description": "這批怪物變慢，反擊傷害 -20%（文字版換算）"
+    },
+    {
+      "id": "fire_arrow",
+      "name": "火焰箭",
+      "job": "fire_poison",
+      "tier": 2,
+      "jobs": [
+        "fire_poison"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 188,
+      "maxPercent": 375,
+      "targets": 3,
+      "firstMp": 11,
+      "maxMp": 28,
+      "description": "火屬性，一次打 3 隻"
+    },
+    {
+      "id": "poison_breath",
+      "name": "毒霧",
+      "job": "fire_poison",
+      "tier": 2,
+      "jobs": [
+        "fire_poison"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 170,
+      "maxPercent": 340,
+      "firstMp": 3,
+      "maxMp": 20,
+      "description": "毒屬性，100% 中毒（每回合扣這下傷害的 25%，不會毒死）"
+    },
+    {
+      "id": "cold_beam",
+      "name": "冰錐術",
+      "job": "ice_lightning",
+      "tier": 2,
+      "jobs": [
+        "ice_lightning"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 250,
+      "maxPercent": 500,
+      "firstMp": 7,
+      "maxMp": 24,
+      "description": "冰屬性，命中後冰凍 2 秒（凍住的怪不反擊）"
+    },
+    {
+      "id": "thunder_bolt",
+      "name": "雷閃電鳴",
+      "job": "ice_lightning",
+      "tier": 2,
+      "jobs": [
+        "ice_lightning"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 150,
+      "maxPercent": 300,
+      "targets": 6,
+      "firstMp": 11,
+      "maxMp": 40,
+      "description": "雷屬性，一次打 6 隻"
+    },
+    {
+      "id": "heal",
+      "name": "群體治癒",
+      "job": "cleric",
+      "tier": 2,
+      "jobs": [
+        "cleric"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 150,
+      "maxPercent": 300,
+      "targets": 6,
+      "firstMp": 1,
+      "maxMp": 24,
+      "description": "只傷害不死系（聖屬性，最多 6 隻）；HP 不到六成時戰鬥前自動補血"
+    },
+    {
+      "id": "invincible",
+      "name": "神聖之光",
+      "job": "cleric",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "cleric"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 11,
+      "maxMp": 30,
+      "description": "受到的物理傷害 -30%，持續 300 秒"
+    },
+    {
+      "id": "bless",
+      "name": "天使祝福",
+      "job": "cleric",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "cleric"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 15,
+      "maxMp": 24,
+      "description": "命中、迴避、物防、魔防各 +20，持續 300 秒"
+    },
+    {
+      "id": "holy_arrow",
+      "name": "神聖之箭",
+      "job": "cleric",
+      "tier": 2,
+      "jobs": [
+        "cleric"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 200,
+      "maxPercent": 400,
+      "firstMp": 7,
+      "maxMp": 24,
+      "prerequisite": {
+        "heal": 1
+      },
+      "description": "聖屬性，不死系特別痛"
+    },
+    {
+      "id": "bow_mastery",
+      "name": "精準之弓",
+      "job": "hunter",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "hunter"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "弓熟練度 60%、命中 +20、爆擊率 +5%"
+    },
+    {
+      "id": "crossbow_mastery",
+      "name": "精準之弩",
+      "job": "crossbowman",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "crossbowman"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "弩熟練度 60%、命中 +20、爆擊率 +5%"
+    },
+    {
+      "id": "bow_final",
+      "name": "終極之弓",
+      "job": "hunter",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "hunter"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "bow_mastery": 3
+      },
+      "description": "攻擊後 60% 機率追加一擊 250%（同一批目標）"
+    },
+    {
+      "id": "crossbow_final",
+      "name": "終極之弩",
+      "job": "crossbowman",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "crossbowman"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "crossbow_mastery": 3
+      },
+      "description": "攻擊後 60% 機率追加一擊 250%（同一批目標）"
+    },
+    {
+      "id": "bow_booster",
+      "name": "快速之弓",
+      "job": "hunter",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "hunter"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 200,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "bow_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 200 秒"
+    },
+    {
+      "id": "crossbow_booster",
+      "name": "快速之弩",
+      "job": "crossbowman",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "crossbowman"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 200,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "crossbow_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 200 秒"
+    },
+    {
+      "id": "power_knockback",
+      "name": "強弓",
+      "job": "hunter",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "hunter",
+        "crossbowman"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "怪物反擊有 30% 機率被擊退而落空（文字版換算）"
+    },
+    {
+      "id": "soul_arrow",
+      "name": "無形之箭",
+      "job": "hunter",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "hunter",
+        "crossbowman"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 600,
+      "firstMp": 11,
+      "maxMp": 20,
+      "description": "攻擊無視怪物物防 4%（阿泰爾改動），持續 600 秒"
+    },
+    {
+      "id": "arrow_bomb",
+      "name": "炸彈箭",
+      "job": "hunter",
+      "tier": 2,
+      "jobs": [
+        "hunter"
+      ],
+      "weapons": [
+        "bow"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 72,
+      "maxPercent": 130,
+      "targets": 6,
+      "firstMp": 11,
+      "maxMp": 28,
+      "description": "一次打 6 隻，60% 機率昏迷 2 秒（昏迷的怪不反擊）"
+    },
+    {
+      "id": "iron_arrow",
+      "name": "穿透之箭",
+      "job": "crossbowman",
+      "tier": 2,
+      "jobs": [
+        "crossbowman"
+      ],
+      "weapons": [
+        "bow"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 122,
+      "maxPercent": 180,
+      "targets": 6,
+      "firstMp": 11,
+      "maxMp": 28,
+      "description": "穿透 6 隻，第 2 隻起 90% 傷害"
+    },
+    {
+      "id": "claw_mastery",
+      "name": "精準暗器",
+      "job": "assassin",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "assassin"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "拳套熟練度 60%、命中 +20"
+    },
+    {
+      "id": "critical_throw",
+      "name": "強力投擲",
+      "job": "assassin",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "assassin"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "claw_mastery": 3
+      },
+      "description": "拳套攻擊 50% 機率爆擊，額外 100% 傷害"
+    },
+    {
+      "id": "claw_booster",
+      "name": "極速暗器",
+      "job": "assassin",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "assassin"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 200,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "claw_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 200 秒"
+    },
+    {
+      "id": "drain",
+      "name": "吸血術",
+      "job": "assassin",
+      "tier": 2,
+      "jobs": [
+        "assassin"
+      ],
+      "weapons": [
+        "claw"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 73,
+      "maxPercent": 160,
+      "firstMp": 10,
+      "maxMp": 24,
+      "prerequisite": {
+        "claw_mastery": 3
+      },
+      "description": "命中時把傷害的 45% 回成 HP"
+    },
+    {
+      "id": "dagger_mastery",
+      "name": "精準之刀",
+      "job": "bandit",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "bandit"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "短刀熟練度 60%、命中 +20"
+    },
+    {
+      "id": "dagger_booster",
+      "name": "快速之刀",
+      "job": "bandit",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "bandit"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 200,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "dagger_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 200 秒"
+    },
+    {
+      "id": "steal",
+      "name": "妙手術",
+      "job": "bandit",
+      "tier": 2,
+      "jobs": [
+        "bandit"
+      ],
+      "weapons": [
+        "dagger"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 82,
+      "maxPercent": 140,
+      "firstMp": 9,
+      "maxMp": 20,
+      "description": "擊倒時額外 70% 楓幣、18% 機率多掉一件；40% 機率回復傷害 10% 的 HP"
+    },
+    {
+      "id": "savage_blow",
+      "name": "迴旋斬",
+      "job": "bandit",
+      "tier": 2,
+      "jobs": [
+        "bandit"
+      ],
+      "weapons": [
+        "dagger"
+      ],
+      "maxLevel": 30,
+      "hits": 6,
+      "firstPercent": 52,
+      "maxPercent": 110,
+      "firstMp": 13,
+      "maxMp": 33
+    },
+    {
+      "id": "endure",
+      "name": "恢復術",
+      "job": "assassin",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "assassin",
+        "bandit"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "每 10 秒回復 HP 60、MP 20（戰鬥中也有效）"
+    },
+    {
+      "id": "haste",
+      "name": "速度激發",
+      "job": "assassin",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "assassin",
+        "bandit"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 200,
+      "firstMp": 11,
+      "maxMp": 30,
+      "description": "移動速度 +40、跳躍力 +20（找怪更快），持續 200 秒"
+    },
+    {
+      "id": "improve_maxhp",
+      "name": "體魄強健",
+      "job": "brawler",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "brawler"
+      ],
+      "weapons": [],
+      "maxLevel": 10,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "此後每次升級額外增加最大 HP 30"
+    },
+    {
+      "id": "knuckle_mastery",
+      "name": "精通指虎",
+      "job": "brawler",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "brawler"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "指虎熟練度 60%、命中 +20、對野王傷害 +10%"
+    },
+    {
+      "id": "backspin_blow",
+      "name": "迴旋肘擊",
+      "job": "brawler",
+      "tier": 2,
+      "jobs": [
+        "brawler"
+      ],
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 145,
+      "maxPercent": 240,
+      "targets": 3,
+      "firstMp": 11,
+      "maxMp": 30,
+      "description": "一次打 3 隻"
+    },
+    {
+      "id": "double_uppercut",
+      "name": "昇龍拳",
+      "job": "brawler",
+      "tier": 2,
+      "jobs": [
+        "brawler"
+      ],
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 20,
+      "hits": 2,
+      "firstPercent": 195,
+      "maxPercent": 290,
+      "firstMp": 11,
+      "maxMp": 30
+    },
+    {
+      "id": "screw_punch",
+      "name": "狂暴衝擊",
+      "job": "brawler",
+      "tier": 2,
+      "jobs": [
+        "brawler"
+      ],
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 230,
+      "maxPercent": 420,
+      "targets": 3,
+      "firstMp": 17,
+      "maxMp": 36,
+      "prerequisite": {
+        "backspin_blow": 5
+      },
+      "description": "一次打 3 隻"
+    },
+    {
+      "id": "mp_regen",
+      "name": "魔力再生",
+      "job": "brawler",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "brawler"
+      ],
+      "weapons": [],
+      "maxLevel": 10,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "MP 不夠時扣 10% 最大 HP，換回等量 100% 的 MP（每場一次）"
+    },
+    {
+      "id": "knuckle_booster",
+      "name": "致命快打",
+      "job": "brawler",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "brawler"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 200,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "knuckle_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 200 秒"
+    },
+    {
+      "id": "gun_mastery",
+      "name": "精準槍法",
+      "job": "gunslinger",
+      "tier": 2,
+      "kind": "passive",
+      "jobs": [
+        "gunslinger"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "火槍熟練度 60%、命中 +20"
+    },
+    {
+      "id": "invisible_shot",
+      "name": "偽裝射擊",
+      "job": "gunslinger",
+      "tier": 2,
+      "jobs": [
+        "gunslinger"
+      ],
+      "weapons": [
+        "gun"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 75,
+      "maxPercent": 170,
+      "targets": 3,
+      "firstMp": 6,
+      "maxMp": 25,
+      "description": "一次打 3 隻"
+    },
+    {
+      "id": "grenade",
+      "name": "炸彈投擲",
+      "job": "gunslinger",
+      "tier": 2,
+      "kind": "debuff",
+      "jobs": [
+        "gunslinger"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 8,
+      "maxMp": 27,
+      "description": "這批怪物物理防禦 -10%（阿泰爾改動：沒有傷害）"
+    },
+    {
+      "id": "gun_booster",
+      "name": "加速槍法",
+      "job": "gunslinger",
+      "tier": 2,
+      "kind": "support",
+      "jobs": [
+        "gunslinger"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 200,
+      "firstMp": 10,
+      "maxMp": 10,
+      "firstHp": 10,
+      "maxHp": 10,
+      "prerequisite": {
+        "gun_mastery": 5
+      },
+      "description": "攻擊速度 +2 段（每下更快），持續 200 秒"
+    },
+    {
+      "id": "blank_shot",
+      "name": "散射",
+      "job": "gunslinger",
+      "tier": 2,
+      "jobs": [
+        "gunslinger"
+      ],
+      "weapons": [
+        "gun"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 25,
+      "maxPercent": 120,
+      "targets": 3,
+      "firstMp": 6,
+      "maxMp": 25,
+      "description": "一次打 3 隻，100% 機率昏迷 7 秒"
+    },
+    {
+      "id": "recoil_shot",
+      "name": "脫離戰場",
+      "job": "gunslinger",
+      "tier": 2,
+      "jobs": [
+        "gunslinger"
+      ],
+      "weapons": [
+        "gun"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 165,
+      "maxPercent": 260,
+      "firstMp": 7,
+      "maxMp": 26
     }
   ],
-  "version": "0.7.1",
+  "version": "0.8.0",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
@@ -26550,5 +27843,75 @@
     "vi_d3479430ee3a",
     "or_45fba23c20d6",
     "or_2badb1129c9d"
-  ]
+  ],
+  "jobIntros": {
+    "warrior": {
+      "role": "近戰・最耐打",
+      "summary": "HP 成長最高，每場自動回血，最不容易倒；「劍氣縱橫」一次打 6 隻。Lv.30 可二轉狂戰士、見習騎士、槍騎兵。"
+    },
+    "magician": {
+      "role": "魔法・最早轉職",
+      "summary": "Lv.8 就能轉職，魔法傷害穩定；沒有減傷技能，比較脆。Lv.30 可二轉火毒、冰雷、僧侶。"
+    },
+    "bowman": {
+      "role": "遠程・弓",
+      "summary": "弓箭遠程攻擊，單發倍率高；需要背包有箭矢（持有 1 件就能一直用）。Lv.30 可二轉獵人（弓）或弩弓手（弩）。"
+    },
+    "thief": {
+      "role": "敏捷・迴避",
+      "summary": "迴避高、可隱身減傷；Lv.30 可二轉刺客（拳套）或俠盜（短刀）。"
+    },
+    "pirate": {
+      "role": "近戰或遠程・二選一",
+      "summary": "指虎近戰或火槍遠程；「衝擊拳」單發 270% 是一轉最高倍率。"
+    },
+    "assassin": {
+      "role": "盜賊二轉・拳套遠程",
+      "summary": "暴擊加吸血、續航最好，HP 藥水喝得少；用拳套＋飛鏢，遠程受到的反擊較少。"
+    },
+    "bandit": {
+      "role": "盜賊二轉・短刀近戰",
+      "summary": "「迴旋斬」6 下各 110%（阿泰爾改動）是單體總倍率最高；「妙手術」多賺楓幣與掉落。"
+    },
+    "fighter": {
+      "role": "劍士二轉・劍／斧",
+      "summary": "「激勵」加攻擊、「終極」追加攻擊，單純輸出最高的劍士。"
+    },
+    "page": {
+      "role": "劍士二轉・劍／鈍器",
+      "summary": "「降魔咒」讓整批怪攻擊、防禦一起降，打野王也有效；比狂戰士耐打。"
+    },
+    "spearman": {
+      "role": "劍士二轉・槍／矛",
+      "summary": "「神聖之火」最大 HP、MP +60%，是最不容易倒的二轉。"
+    },
+    "fire_poison": {
+      "role": "法師二轉・火、毒",
+      "summary": "「火焰箭」一次打 3 隻（阿泰爾改動），「毒霧」中毒持續扣血；怕火的怪打起來特別快。"
+    },
+    "ice_lightning": {
+      "role": "法師二轉・冰、雷",
+      "summary": "「雷閃電鳴」一次打 6 隻，「冰錐術」冰凍的怪不反擊。"
+    },
+    "cleric": {
+      "role": "法師二轉・聖、治癒",
+      "summary": "「神聖之箭」聖屬性、不死系特別痛；「群體治癒」會替自己補血，打不死系時一次打 6 隻。"
+    },
+    "hunter": {
+      "role": "弓箭手二轉・弓",
+      "summary": "「炸彈箭」一次打 6 隻還會讓怪昏迷；弓攻速比弩快。"
+    },
+    "crossbowman": {
+      "role": "弓箭手二轉・弩",
+      "summary": "「穿透之箭」180% 穿透 6 隻；弩單發比弓重。"
+    },
+    "brawler": {
+      "role": "海盜二轉・指虎近戰",
+      "summary": "「狂暴衝擊」420% 一次打 3 隻；「魔力再生」用 HP 換 MP，少喝藍水。"
+    },
+    "gunslinger": {
+      "role": "海盜二轉・火槍遠程",
+      "summary": "「散射」讓 3 隻怪昏迷 7 秒（阿泰爾改動），「炸彈投擲」降物防；遠程比較少被打。"
+    }
+  }
 }
