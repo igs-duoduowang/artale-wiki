@@ -3317,6 +3317,13 @@
       ],
       "drop": "snail_shell",
       "dropRate": 0.24,
+      "id": "snail",
+      "avoid": 0,
+      "accuracy": 20,
+      "def": 0,
+      "mdef": 0,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "snail_shell",
@@ -3344,6 +3351,13 @@
       ],
       "drop": "blue_snail_shell",
       "dropRate": 0.3,
+      "id": "blue_snail",
+      "avoid": 0,
+      "accuracy": 20,
+      "def": 0,
+      "mdef": 0,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "blue_snail_shell",
@@ -3371,6 +3385,13 @@
       ],
       "drop": "shroom_spore",
       "dropRate": 0.28,
+      "id": "shroom",
+      "avoid": 0,
+      "accuracy": 30,
+      "def": 0,
+      "mdef": 0,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "shroom_spore",
@@ -3398,6 +3419,13 @@
       ],
       "drop": "red_snail_shell",
       "dropRate": 0.25,
+      "id": "red_snail",
+      "avoid": 0,
+      "accuracy": 35,
+      "def": 3,
+      "mdef": 10,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "red_snail_shell",
@@ -3425,6 +3453,13 @@
       ],
       "drop": "branch",
       "dropRate": 0.28,
+      "id": "stump",
+      "avoid": 0,
+      "accuracy": 30,
+      "def": 0,
+      "mdef": 10,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "branch",
@@ -3452,6 +3487,13 @@
       ],
       "drop": "slime_drop",
       "dropRate": 0.28,
+      "id": "slime",
+      "avoid": 1,
+      "accuracy": 35,
+      "def": 5,
+      "mdef": 10,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "slime_drop",
@@ -3479,6 +3521,13 @@
       ],
       "drop": "animal_skin",
       "dropRate": 0.27,
+      "id": "pig",
+      "avoid": 0,
+      "accuracy": 40,
+      "def": 5,
+      "mdef": 20,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "animal_skin",
@@ -3506,6 +3555,13 @@
       ],
       "drop": "mushroom_cap",
       "dropRate": 0.25,
+      "id": "orange_mushroom",
+      "avoid": 1,
+      "accuracy": 42,
+      "def": 0,
+      "mdef": 10,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mushroom_cap",
@@ -3533,6 +3589,13 @@
       ],
       "drop": "stone_piece",
       "dropRate": 0.2,
+      "id": "tutorial_stone_ball",
+      "avoid": 0,
+      "accuracy": 20,
+      "def": 0,
+      "mdef": 0,
+      "undead": false,
+      "combatSource": "依相近等級怪物估算",
       "drops": [
         {
           "id": "stone_piece",
@@ -3552,6 +3615,13 @@
       ],
       "drop": "mushroom_cap",
       "dropRate": 0.28,
+      "id": "horny_mushroom",
+      "avoid": 7,
+      "accuracy": 55,
+      "def": 30,
+      "mdef": 0,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mushroom_cap",
@@ -3579,6 +3649,13 @@
       ],
       "drop": "animal_skin",
       "dropRate": 0.27,
+      "id": "ribbon_pig",
+      "avoid": 2,
+      "accuracy": 40,
+      "def": 10,
+      "mdef": 30,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "animal_skin",
@@ -3602,6 +3679,13 @@
       ],
       "drop": "mushroom_cap",
       "dropRate": 0.26,
+      "id": "green_mushroom",
+      "avoid": 5,
+      "accuracy": 45,
+      "def": 12,
+      "mdef": 40,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mushroom_cap",
@@ -3625,6 +3709,13 @@
       ],
       "drop": "branch",
       "dropRate": 0.28,
+      "id": "dark_stump",
+      "avoid": 0,
+      "accuracy": 42,
+      "def": 20,
+      "mdef": 10,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "branch",
@@ -3648,6 +3739,13 @@
       ],
       "drop": "branch",
       "dropRate": 0.28,
+      "id": "axe_stump",
+      "avoid": 5,
+      "accuracy": 50,
+      "def": 30,
+      "mdef": 10,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "branch",
@@ -3671,6 +3769,13 @@
       ],
       "drop": "mushroom_cap",
       "dropRate": 0.25,
+      "id": "blue_mushroom",
+      "avoid": 7,
+      "accuracy": 55,
+      "def": 10,
+      "mdef": 60,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mushroom_cap",
@@ -3694,6 +3799,13 @@
       "attack": 57,
       "drop": "mat_7f9c052f2550",
       "dropRate": 0.25,
+      "id": "mob_b0986a845d19",
+      "avoid": 18,
+      "accuracy": 100,
+      "def": 400,
+      "mdef": 400,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_7f9c052f2550",
@@ -3725,6 +3837,13 @@
       "attack": 41,
       "drop": "mat_23f91d194146",
       "dropRate": 0.25,
+      "id": "mob_05474df28288",
+      "avoid": 10,
+      "accuracy": 60,
+      "def": 40,
+      "mdef": 40,
+      "undead": false,
+      "combatSource": "依相近等級怪物估算",
       "drops": [
         {
           "id": "mat_23f91d194146",
@@ -3744,6 +3863,13 @@
       "attack": 74,
       "drop": "mat_791be4fe2143",
       "dropRate": 0.25,
+      "id": "mob_4ed1cc58bc62",
+      "avoid": 15,
+      "accuracy": 80,
+      "def": 130,
+      "mdef": 100,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_791be4fe2143",
@@ -3783,6 +3909,13 @@
       "attack": 50,
       "drop": "animal_skin",
       "dropRate": 0.25,
+      "id": "mob_8f69f598c271",
+      "avoid": 20,
+      "accuracy": 100,
+      "def": 35,
+      "mdef": 40,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "animal_skin",
@@ -3822,6 +3955,13 @@
       "attack": 77,
       "drop": "mat_80d1134a7451",
       "dropRate": 0.25,
+      "id": "mob_88946de074d8",
+      "avoid": 18,
+      "accuracy": 70,
+      "def": 150,
+      "mdef": 200,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_80d1134a7451",
@@ -3861,6 +4001,13 @@
       "attack": 79,
       "drop": "mat_7bf30f3c8bb2",
       "dropRate": 0.25,
+      "id": "mob_f2e14f2bcdfd",
+      "avoid": 20,
+      "accuracy": 100,
+      "def": 160,
+      "mdef": 220,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_7bf30f3c8bb2",
@@ -3900,6 +4047,13 @@
       "attack": 54,
       "drop": "mat_e36ef03a550f",
       "dropRate": 0.25,
+      "id": "mob_4be77034def9",
+      "avoid": 25,
+      "accuracy": 110,
+      "def": 70,
+      "mdef": 70,
+      "undead": true,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_e36ef03a550f",
@@ -3935,6 +4089,13 @@
       "attack": 48,
       "drop": "mat_08b227c4089e",
       "dropRate": 0.25,
+      "id": "mob_59ecb8f0c343",
+      "avoid": 10,
+      "accuracy": 60,
+      "def": 45,
+      "mdef": 70,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_08b227c4089e",
@@ -3974,6 +4135,13 @@
       "attack": 74,
       "drop": "mat_68a92bd54093",
       "dropRate": 0.25,
+      "id": "mob_64909f542fe5",
+      "avoid": 20,
+      "accuracy": 150,
+      "def": 100,
+      "mdef": 200,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_68a92bd54093",
@@ -4005,6 +4173,13 @@
       "attack": 54,
       "drop": "mat_c2ca6926843b",
       "dropRate": 0.25,
+      "id": "mob_317cd61d9a3a",
+      "avoid": 15,
+      "accuracy": 65,
+      "def": 80,
+      "mdef": 80,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_c2ca6926843b",
@@ -4044,6 +4219,13 @@
       "attack": 31,
       "drop": "mat_1761fed03d87",
       "dropRate": 0.25,
+      "id": "mob_cafa92abdfd6",
+      "avoid": 7,
+      "accuracy": 45,
+      "def": 50,
+      "mdef": 20,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_1761fed03d87",
@@ -4083,6 +4265,13 @@
       "attack": 35,
       "drop": "mat_3ff1c6d84ff1",
       "dropRate": 0.25,
+      "id": "mob_f0a1982dc663",
+      "avoid": 8,
+      "accuracy": 50,
+      "def": 20,
+      "mdef": 30,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_3ff1c6d84ff1",
@@ -4114,6 +4303,13 @@
       "attack": 44,
       "drop": "animal_skin",
       "dropRate": 0.25,
+      "id": "mob_3242043b26ff",
+      "avoid": 10,
+      "accuracy": 60,
+      "def": 40,
+      "mdef": 40,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "animal_skin",
@@ -4145,6 +4341,13 @@
       "attack": 61,
       "drop": "mat_1556d3d127db",
       "dropRate": 0.25,
+      "id": "mob_7952237eac9a",
+      "avoid": 18,
+      "accuracy": 70,
+      "def": 100,
+      "mdef": 100,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_1556d3d127db",
@@ -4184,6 +4387,13 @@
       "attack": 27,
       "drop": "mat_2934a640b3fd",
       "dropRate": 0.25,
+      "id": "mob_82954bf71a63",
+      "avoid": 10,
+      "accuracy": 55,
+      "def": 40,
+      "mdef": 15,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_2934a640b3fd",
@@ -4223,6 +4433,13 @@
       "attack": 32,
       "drop": "mat_8c864ef89ed3",
       "dropRate": 0.25,
+      "id": "mob_9d35c086f378",
+      "avoid": 10,
+      "accuracy": 55,
+      "def": 30,
+      "mdef": 40,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_8c864ef89ed3",
@@ -4262,6 +4479,13 @@
       "attack": 33,
       "drop": "mat_26d7b218c9b5",
       "dropRate": 0.25,
+      "id": "mob_a8a5272f9faf",
+      "avoid": 10,
+      "accuracy": 55,
+      "def": 35,
+      "mdef": 40,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_26d7b218c9b5",
@@ -4301,6 +4525,13 @@
       "attack": 59,
       "drop": "mat_2b454d86ad7d",
       "dropRate": 0.25,
+      "id": "mob_6083be8452db",
+      "avoid": 18,
+      "accuracy": 120,
+      "def": 170,
+      "mdef": 190,
+      "undead": true,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_2b454d86ad7d",
@@ -4340,6 +4571,13 @@
       "attack": 63,
       "drop": "mat_144d1494a155",
       "dropRate": 0.25,
+      "id": "mob_87e6e62c52e7",
+      "avoid": 18,
+      "accuracy": 130,
+      "def": 175,
+      "mdef": 195,
+      "undead": true,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_144d1494a155",
@@ -4379,6 +4617,13 @@
       "attack": 76,
       "drop": "mat_9865c1d3778d",
       "dropRate": 0.25,
+      "id": "mob_2466580211ee",
+      "avoid": 25,
+      "accuracy": 135,
+      "def": 160,
+      "mdef": 160,
+      "undead": true,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_9865c1d3778d",
@@ -4418,6 +4663,13 @@
       "attack": 84,
       "drop": "mat_f42fe8d69574",
       "dropRate": 0.25,
+      "id": "mob_6772f71a90ec",
+      "avoid": 25,
+      "accuracy": 150,
+      "def": 190,
+      "mdef": 230,
+      "undead": true,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_f42fe8d69574",
@@ -4457,6 +4709,13 @@
       "attack": 97,
       "drop": "mat_d38089588515",
       "dropRate": 0.25,
+      "id": "mob_27b9b0678ca1",
+      "avoid": 32,
+      "accuracy": 190,
+      "def": 330,
+      "mdef": 300,
+      "undead": true,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_d38089588515",
@@ -4496,6 +4755,13 @@
       "attack": 80,
       "drop": "mat_1556d3d127db",
       "dropRate": 0.25,
+      "id": "mob_15c4cef281d6",
+      "avoid": 22,
+      "accuracy": 150,
+      "def": 190,
+      "mdef": 220,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_1556d3d127db",
@@ -4531,6 +4797,13 @@
       "attack": 61,
       "drop": "mat_b7cd3fec22c4",
       "dropRate": 0.25,
+      "id": "mob_3d43ab9577e0",
+      "avoid": 20,
+      "accuracy": 195,
+      "def": 350,
+      "mdef": 350,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_b7cd3fec22c4",
@@ -4570,6 +4843,13 @@
       "attack": 18,
       "drop": "mat_c2931d0e39bc",
       "dropRate": 0.25,
+      "id": "mob_c10a60e4dac3",
+      "avoid": 4,
+      "accuracy": 40,
+      "def": 10,
+      "mdef": 40,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_c2931d0e39bc",
@@ -4605,6 +4885,13 @@
       "attack": 29,
       "drop": "mat_069609075a98",
       "dropRate": 0.25,
+      "id": "mob_0ad762506814",
+      "avoid": 25,
+      "accuracy": 120,
+      "def": 30,
+      "mdef": 30,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_069609075a98",
@@ -4644,6 +4931,13 @@
       "attack": 44,
       "drop": "mat_1ad1bb2e3d11",
       "dropRate": 0.25,
+      "id": "mob_2702d3a1426e",
+      "avoid": 12,
+      "accuracy": 70,
+      "def": 45,
+      "mdef": 40,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_1ad1bb2e3d11",
@@ -4683,6 +4977,13 @@
       "attack": 70,
       "drop": "mat_7493951156a4",
       "dropRate": 0.25,
+      "id": "mob_7ea4dbf67a9f",
+      "avoid": 20,
+      "accuracy": 80,
+      "def": 120,
+      "mdef": 80,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_7493951156a4",
@@ -4722,6 +5023,13 @@
       "attack": 28,
       "drop": "mat_e36ef03a550f",
       "dropRate": 0.25,
+      "id": "mob_f52d243a1c8a",
+      "avoid": 10,
+      "accuracy": 80,
+      "def": 20,
+      "mdef": 20,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_e36ef03a550f",
@@ -4761,6 +5069,13 @@
       "attack": 50,
       "drop": "mat_3a0f02a0558a",
       "dropRate": 0.25,
+      "id": "mob_c6d392383603",
+      "avoid": 18,
+      "accuracy": 85,
+      "def": 100,
+      "mdef": 200,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_3a0f02a0558a",
@@ -4800,6 +5115,13 @@
       "attack": 64,
       "drop": "mat_4c48fd3259d5",
       "dropRate": 0.25,
+      "id": "mob_2bd2e540e39c",
+      "avoid": 20,
+      "accuracy": 150,
+      "def": 120,
+      "mdef": 150,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_4c48fd3259d5",
@@ -4839,6 +5161,13 @@
       "attack": 62,
       "drop": "mat_6a2cf03994fd",
       "dropRate": 0.25,
+      "id": "mob_bcb11987c359",
+      "avoid": 15,
+      "accuracy": 130,
+      "def": 300,
+      "mdef": 300,
+      "undead": false,
+      "combatSource": "經典楓之谷 v83",
       "drops": [
         {
           "id": "mat_6a2cf03994fd",
@@ -4874,6 +5203,10 @@
       "hp": 10000,
       "exp": 120,
       "attack": 20,
+      "avoid": 8,
+      "accuracy": 60,
+      "def": 20,
+      "mdef": 30,
       "map": "coast_grass_3",
       "respawnMinMs": 1380000,
       "respawnMaxMs": 1800000,
@@ -5288,7 +5621,7 @@
       "maxMp": 10
     }
   ],
-  "version": "0.2.2",
+  "version": "0.3.0",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
