@@ -5465,8 +5465,8 @@
       ],
       "maxLevel": 20,
       "hits": 2,
-      "firstPercent": 92,
-      "maxPercent": 130,
+      "firstPercent": 94,
+      "maxPercent": 160,
       "firstMp": 10,
       "maxMp": 16,
       "prerequisite": {
@@ -5775,7 +5775,7 @@
       "description": "本次遭遇找怪時間縮短 2%（文字版移動換算）"
     }
   ],
-  "version": "0.3.4",
+  "version": "0.3.5",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
