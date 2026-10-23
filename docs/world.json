@@ -837,19 +837,22 @@
       "name": "楓之島・菇菇村西入口",
       "region": "island",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "island"
     },
     "tiny_shroom": {
       "name": "楓之島・小菇菇",
       "region": "island",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "island"
     },
     "mushroom_town": {
       "name": "楓之島・菇菇村2",
       "region": "island",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "island"
     },
     "mushroom_east": {
       "name": "楓之島・菇菇村東入口",
@@ -857,7 +860,8 @@
       "minLevel": 1,
       "monsters": [
         "tutorial_stone_ball"
-      ]
+      ],
+      "district": "island"
     },
     "maple_island": {
       "name": "楓之島・嫩寶狩獵場1",
@@ -865,7 +869,8 @@
       "minLevel": 1,
       "monsters": [
         "snail"
-      ]
+      ],
+      "district": "island"
     },
     "snail_field_2": {
       "name": "楓之島・嫩寶狩獵場Ⅱ",
@@ -874,7 +879,8 @@
       "monsters": [
         "snail",
         "blue_snail"
-      ]
+      ],
+      "district": "island"
     },
     "snail_field_3": {
       "name": "楓之島・嫩寶狩獵場Ⅲ",
@@ -883,7 +889,8 @@
       "monsters": [
         "snail",
         "blue_snail"
-      ]
+      ],
+      "district": "island"
     },
     "fork": {
       "name": "楓之島・岔道",
@@ -893,7 +900,8 @@
         "snail",
         "blue_snail",
         "shroom"
-      ]
+      ],
+      "district": "island"
     },
     "amherst_west": {
       "name": "楓之島・楓葉村西郊平原",
@@ -904,7 +912,8 @@
         "blue_snail",
         "shroom",
         "stump"
-      ]
+      ],
+      "district": "island"
     },
     "mushroom_hill": {
       "name": "楓之島・菇菇山丘・隱藏",
@@ -913,7 +922,8 @@
       "monsters": [
         "snail",
         "shroom"
-      ]
+      ],
+      "district": "island"
     },
     "tiny_snail_garden": {
       "name": "楓之島・小嫩寶・隱藏",
@@ -923,7 +933,8 @@
         "snail",
         "blue_snail",
         "red_snail"
-      ]
+      ],
+      "district": "island"
     },
     "amherst_east": {
       "name": "楓之島・楓葉村東郊平原",
@@ -934,7 +945,8 @@
         "stump",
         "slime",
         "pig"
-      ]
+      ],
+      "district": "island"
     },
     "tomato_field": {
       "name": "楓之島・番茄園",
@@ -944,7 +956,8 @@
         "snail",
         "blue_snail",
         "red_snail"
-      ]
+      ],
+      "district": "island"
     },
     "grassland_1": {
       "name": "楓之島・草叢狩獵場Ⅰ",
@@ -954,7 +967,8 @@
         "blue_snail",
         "red_snail",
         "slime"
-      ]
+      ],
+      "district": "island"
     },
     "grassland_2": {
       "name": "楓之島・草叢狩獵場Ⅱ",
@@ -965,13 +979,15 @@
         "shroom",
         "red_snail",
         "pig"
-      ]
+      ],
+      "district": "island"
     },
     "amherst": {
       "name": "楓之島・楓葉村",
       "region": "island",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "island"
     },
     "snail_garden": {
       "name": "楓之島・嫩寶花園・隱藏",
@@ -983,7 +999,8 @@
         "red_snail",
         "stump",
         "slime"
-      ]
+      ],
+      "district": "island"
     },
     "port_west": {
       "name": "楓之島・楓之港西郊平原",
@@ -994,7 +1011,8 @@
         "red_snail",
         "stump",
         "orange_mushroom"
-      ]
+      ],
+      "district": "island"
     },
     "small_forest": {
       "name": "楓之島・小樹林",
@@ -1006,7 +1024,8 @@
         "red_snail",
         "stump",
         "orange_mushroom"
-      ]
+      ],
+      "district": "island"
     },
     "big_mushroom": {
       "name": "楓之島・大菇菇",
@@ -1017,19 +1036,22 @@
         "red_snail",
         "stump",
         "orange_mushroom"
-      ]
+      ],
+      "district": "island"
     },
     "maple_port": {
       "name": "楓之島・楓之港",
       "region": "island",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "island"
     },
     "lith_harbor": {
       "name": "維多利亞島・維多利亞港",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "lith"
     },
     "lith_outskirts": {
       "name": "維多利亞島・維多利亞港外圍",
@@ -1038,7 +1060,8 @@
       "monsters": [
         "snail",
         "blue_snail"
-      ]
+      ],
+      "district": "lith"
     },
     "coast_grass_1": {
       "name": "維多利亞島・海岸草叢Ⅰ",
@@ -1048,7 +1071,8 @@
         "snail",
         "blue_snail",
         "red_snail"
-      ]
+      ],
+      "district": "lith"
     },
     "coast_grass_2": {
       "name": "維多利亞島・海岸草叢Ⅱ",
@@ -1057,7 +1081,8 @@
       "monsters": [
         "blue_snail",
         "red_snail"
-      ]
+      ],
+      "district": "lith"
     },
     "crossroads": {
       "name": "維多利亞島・三叉路",
@@ -1067,7 +1092,8 @@
         "red_snail",
         "pig",
         "orange_mushroom"
-      ]
+      ],
+      "district": "lith"
     },
     "pig_beach": {
       "name": "維多利亞島・肥肥海岸・隱藏",
@@ -1076,13 +1102,15 @@
       "monsters": [
         "pig",
         "ribbon_pig"
-      ]
+      ],
+      "district": "lith"
     },
     "henesys": {
       "name": "維多利亞島・弓箭手村",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "henesys"
     },
     "henesys_west_forest": {
       "name": "維多利亞島・弓箭手村西部森林",
@@ -1092,7 +1120,8 @@
         "slime",
         "pig",
         "orange_mushroom"
-      ]
+      ],
+      "district": "henesys"
     },
     "henesys_west_hill": {
       "name": "維多利亞島・弓箭手村西部小山",
@@ -1102,7 +1131,8 @@
         "red_snail",
         "slime",
         "pig"
-      ]
+      ],
+      "district": "henesys"
     },
     "henesys_training_1": {
       "name": "維多利亞島・弓箭手訓練場Ⅰ",
@@ -1116,7 +1146,8 @@
         "slime",
         "orange_mushroom",
         "green_mushroom"
-      ]
+      ],
+      "district": "henesys"
     },
     "henesys_training_2": {
       "name": "維多利亞島・弓箭手訓練場Ⅱ",
@@ -1130,7 +1161,8 @@
         "slime",
         "orange_mushroom",
         "green_mushroom"
-      ]
+      ],
+      "district": "henesys"
     },
     "henesys_training_3": {
       "name": "維多利亞島・弓箭手訓練場Ⅲ",
@@ -1143,7 +1175,8 @@
         "slime",
         "orange_mushroom",
         "green_mushroom"
-      ]
+      ],
+      "district": "henesys"
     },
     "henesys_east_grass": {
       "name": "維多利亞島・弓箭手村東部草叢",
@@ -1152,7 +1185,8 @@
       "monsters": [
         "pig",
         "ribbon_pig"
-      ]
+      ],
+      "district": "henesys"
     },
     "henesys_east_forest": {
       "name": "維多利亞島・弓箭手村東部森林",
@@ -1168,13 +1202,15 @@
         "orange_mushroom",
         "ribbon_pig",
         "blue_mushroom"
-      ]
+      ],
+      "district": "henesys"
     },
     "ellinia": {
       "name": "維多利亞島・魔法森林",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "ellinia"
     },
     "ellinia_south": {
       "name": "維多利亞島・魔法森林南部",
@@ -1185,7 +1221,8 @@
         "stump",
         "slime",
         "green_mushroom"
-      ]
+      ],
+      "district": "ellinia"
     },
     "ellinia_wisdom": {
       "name": "維多利亞島・智慧森林",
@@ -1195,7 +1232,8 @@
         "snail",
         "slime",
         "green_mushroom"
-      ]
+      ],
+      "district": "ellinia"
     },
     "ellinia_south_field": {
       "name": "維多利亞島・魔法森林南郊",
@@ -1205,7 +1243,8 @@
         "stump",
         "slime",
         "green_mushroom"
-      ]
+      ],
+      "district": "ellinia"
     },
     "ellinia_north_field": {
       "name": "維多利亞島・魔法森林北郊",
@@ -1215,13 +1254,15 @@
         "stump",
         "slime",
         "dark_stump"
-      ]
+      ],
+      "district": "ellinia"
     },
     "perion": {
       "name": "維多利亞島・勇士之村",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "perion"
     },
     "perion_west_rock_1": {
       "name": "維多利亞島・西部岩山Ⅰ",
@@ -1231,13 +1272,15 @@
         "red_snail",
         "stump",
         "axe_stump"
-      ]
+      ],
+      "district": "perion"
     },
     "kerning": {
       "name": "維多利亞島・墮落城市",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "kerning"
     },
     "kerning_forest_1": {
       "name": "維多利亞島・墮落城市森林Ⅰ",
@@ -1251,7 +1294,8 @@
         "pig",
         "orange_mushroom",
         "ribbon_pig"
-      ]
+      ],
+      "district": "kerning"
     },
     "kerning_forest_2": {
       "name": "維多利亞島・墮落城市森林Ⅱ",
@@ -1266,7 +1310,8 @@
         "orange_mushroom",
         "ribbon_pig",
         "green_mushroom"
-      ]
+      ],
+      "district": "kerning"
     },
     "kerning_forest_3": {
       "name": "維多利亞島・墮落城市森林Ⅲ",
@@ -1279,7 +1324,8 @@
         "slime",
         "orange_mushroom",
         "ribbon_pig"
-      ]
+      ],
+      "district": "kerning"
     },
     "ellinia_path": {
       "name": "魔法森林・樹間小徑",
@@ -1288,7 +1334,8 @@
       "monsters": [
         "blue_snail",
         "slime"
-      ]
+      ],
+      "district": "ellinia"
     },
     "henesys_hill": {
       "name": "弓箭手村・東邊山丘",
@@ -1297,7 +1344,8 @@
       "monsters": [
         "slime",
         "orange_mushroom"
-      ]
+      ],
+      "district": "henesys"
     },
     "sleepywood_gate": {
       "name": "奇幻村・深林入口",
@@ -1306,7 +1354,8 @@
       "monsters": [
         "orange_mushroom",
         "horny_mushroom"
-      ]
+      ],
+      "district": "sleepywood"
     },
     "coast_grass_3": {
       "name": "維多利亞島・海岸草叢Ⅲ",
@@ -1316,7 +1365,8 @@
         "blue_snail",
         "red_snail"
       ],
-      "fieldBoss": "mano"
+      "fieldBoss": "mano",
+      "district": "lith"
     },
     "vi_ecef19bd47f6": {
       "name": "維多利亞島・肥肥海岸",
@@ -1328,7 +1378,8 @@
         "ribbon_pig",
         "mob_b0986a845d19"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "lith"
     },
     "vi_20a3a8115f92": {
       "name": "維多利亞島・海岸狩獵場",
@@ -1339,7 +1390,8 @@
         "pig",
         "ribbon_pig"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "lith"
     },
     "vi_056d2c526f88": {
       "name": "維多利亞島・空屋",
@@ -1349,7 +1401,8 @@
       "monsters": [
         "orange_mushroom"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_c8d9abb520f5": {
       "name": "維多利亞島・鋼之肥肥公園1",
@@ -1359,7 +1412,8 @@
       "monsters": [
         "mob_b0986a845d19"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_9806a4b808ae": {
       "name": "維多利亞島・鋼之肥肥公園休息地",
@@ -1369,7 +1423,8 @@
       "monsters": [
         "mob_b0986a845d19"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_f02df1fe7f89": {
       "name": "維多利亞島・菇菇公園2",
@@ -1379,7 +1434,8 @@
       "monsters": [
         "mob_b0986a845d19"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_b93d2acdf620": {
       "name": "維多利亞島・別人家（鋼之肥肥公園3）",
@@ -1390,21 +1446,24 @@
         "mob_05474df28288",
         "mob_b0986a845d19"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_27f69e3f908b": {
       "name": "維多利亞島・弓箭手村市集",
       "sourceName": "Victoria Road: Henesys Market",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "henesys"
     },
     "vi_45396e3c62d4": {
       "name": "維多利亞島・弓箭手村公園",
       "sourceName": "Victoria Road: Mushroom Park",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "henesys"
     },
     "vi_ba6d42f01ccd": {
       "name": "維多利亞島・菇菇山丘",
@@ -1416,7 +1475,8 @@
         "orange_mushroom",
         "green_mushroom"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_18e281d29e1a": {
       "name": "維多利亞島・弓箭手村東部小山",
@@ -1430,7 +1490,8 @@
         "slime",
         "orange_mushroom",
         "ribbon_pig"
-      ]
+      ],
+      "district": "henesys"
     },
     "vi_b4c7d28946c1": {
       "name": "維多利亞島・藍菇菇樹林",
@@ -1444,7 +1505,8 @@
         "red_snail",
         "slime"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_d7a7b31dafb4": {
       "name": "維多利亞島・迷宮通道",
@@ -1461,7 +1523,8 @@
         "pig",
         "orange_mushroom",
         "ribbon_pig"
-      ]
+      ],
+      "district": "henesys"
     },
     "vi_9b0e7e07e454": {
       "name": "維多利亞島・弓箭手村迷宮入口",
@@ -1475,7 +1538,8 @@
         "mob_4ed1cc58bc62",
         "slime",
         "green_mushroom"
-      ]
+      ],
+      "district": "henesys"
     },
     "vi_a54945ad725b": {
       "name": "維多利亞島・石人寺院門外",
@@ -1487,7 +1551,8 @@
         "mob_05474df28288",
         "mob_4ed1cc58bc62"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_a9d78ac6cd45": {
       "name": "維多利亞島・石人寺院入口",
@@ -1498,7 +1563,8 @@
         "mob_05474df28288",
         "mob_4ed1cc58bc62"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_f986847cd3d7": {
       "name": "維多利亞島・石人寺院Ⅰ",
@@ -1510,7 +1576,8 @@
         "mob_8f69f598c271",
         "mob_4ed1cc58bc62"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_631f53414b1e": {
       "name": "維多利亞島・石人寺院Ⅱ",
@@ -1523,7 +1590,8 @@
         "mob_8f69f598c271",
         "mob_4ed1cc58bc62"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_6ab75848573b": {
       "name": "維多利亞島・石人寺院Ⅲ",
@@ -1535,7 +1603,8 @@
         "mob_05474df28288",
         "mob_88946de074d8"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_2ee8944d9af6": {
       "name": "維多利亞島・石人寺院Ⅳ",
@@ -1547,14 +1616,16 @@
         "mob_05474df28288",
         "mob_f2e14f2bcdfd"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "henesys"
     },
     "vi_d3479430ee3a": {
       "name": "維多利亞島・魔法森林碼頭",
       "sourceName": "Victoria Road: Ellinia Station",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "ellinia"
     },
     "vi_7da99083ccc3": {
       "name": "維多利亞島・樹林底層",
@@ -1565,7 +1636,8 @@
         "horny_mushroom",
         "mob_8f69f598c271"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_cd9e2c4cdf14": {
       "name": "維多利亞島・猴子森林I",
@@ -1576,7 +1648,8 @@
         "mob_8f69f598c271",
         "mob_4be77034def9"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_93dcfe282df0": {
       "name": "維多利亞島・猴子森林Ⅱ",
@@ -1586,7 +1659,8 @@
       "monsters": [
         "mob_4be77034def9"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_0941fc97b364": {
       "name": "維多利亞島・猴子迷宮I",
@@ -1597,7 +1671,8 @@
         "mob_59ecb8f0c343",
         "mob_4be77034def9"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_bf1cf75cc314": {
       "name": "維多利亞島・猴子迷宮Ⅱ",
@@ -1608,7 +1683,8 @@
         "mob_59ecb8f0c343",
         "mob_4be77034def9"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_703ffbdee93a": {
       "name": "維多利亞島・巫婆森林1",
@@ -1619,7 +1695,8 @@
         "mob_4be77034def9",
         "mob_64909f542fe5"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_4eb76abc4ebc": {
       "name": "維多利亞島・巫婆森林2",
@@ -1630,7 +1707,8 @@
         "mob_4be77034def9",
         "mob_64909f542fe5"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_da99f9a0235b": {
       "name": "維多利亞島・詛咒森林",
@@ -1638,7 +1716,8 @@
       "region": "victoria",
       "minLevel": 1,
       "monsters": [],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_1e4cf46cc753": {
       "name": "維多利亞島・大木林Ⅰ",
@@ -1649,7 +1728,8 @@
         "snail",
         "slime",
         "dark_stump"
-      ]
+      ],
+      "district": "ellinia"
     },
     "vi_251acff94904": {
       "name": "維多利亞島・大木林Ⅱ",
@@ -1660,7 +1740,8 @@
         "snail",
         "stump",
         "slime"
-      ]
+      ],
+      "district": "ellinia"
     },
     "vi_1f2efcc9d895": {
       "name": "維多利亞島・大木林Ⅲ",
@@ -1671,14 +1752,16 @@
         "stump",
         "slime",
         "green_mushroom"
-      ]
+      ],
+      "district": "ellinia"
     },
     "vi_6bfcb249b37e": {
       "name": "維多利亞島・大木林之巔",
       "sourceName": "Victoria Road: Top of the Tree That Grew",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "ellinia"
     },
     "vi_8459c0350d0b": {
       "name": "維多利亞島・魔法森林北部",
@@ -1690,7 +1773,8 @@
         "slime",
         "axe_stump",
         "snail"
-      ]
+      ],
+      "district": "ellinia"
     },
     "vi_0a5b9bce6923": {
       "name": "維多利亞島・北部森林通道",
@@ -1698,7 +1782,8 @@
       "region": "victoria",
       "minLevel": 1,
       "monsters": [],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_43eb4d38f01c": {
       "name": "維多利亞島・北部森林訓練場1",
@@ -1709,7 +1794,8 @@
         "slime",
         "horny_mushroom"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_b05d448dc5c5": {
       "name": "維多利亞島・北部森林訓練場2",
@@ -1720,7 +1806,8 @@
         "green_mushroom",
         "horny_mushroom"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_c05f9c16cfc0": {
       "name": "維多利亞島・北部森林訓練場3",
@@ -1731,7 +1818,8 @@
         "mob_59ecb8f0c343",
         "mob_05474df28288"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_51fc0c6c75ba": {
       "name": "維多利亞島・北部森林訓練場4",
@@ -1743,7 +1831,8 @@
         "mob_59ecb8f0c343",
         "mob_317cd61d9a3a"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_a159966804b7": {
       "name": "維多利亞島・北部森林訓練場5",
@@ -1754,7 +1843,8 @@
         "slime",
         "green_mushroom"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_b9950d8df989": {
       "name": "維多利亞島・北部森林訓練場6",
@@ -1764,7 +1854,8 @@
       "monsters": [
         "green_mushroom"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_1666ad9c9716": {
       "name": "維多利亞島・北部森林訓練場7",
@@ -1775,7 +1866,8 @@
         "horny_mushroom",
         "green_mushroom"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_083c63b46923": {
       "name": "維多利亞島・北部森林訓練場8",
@@ -1785,7 +1877,8 @@
       "monsters": [
         "mob_59ecb8f0c343"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_ef6196a514cb": {
       "name": "維多利亞島・北部森林訓練場9",
@@ -1795,7 +1888,8 @@
       "monsters": [
         "mob_59ecb8f0c343"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "ellinia"
     },
     "vi_612400f29ebb": {
       "name": "維多利亞島・勇士村西入口",
@@ -1806,7 +1900,8 @@
         "stump",
         "dark_stump",
         "green_mushroom"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_e2faf21802ad": {
       "name": "維多利亞島・西部岩山Ⅱ",
@@ -1818,7 +1913,8 @@
         "red_snail",
         "stump",
         "dark_stump"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_38d411535c3f": {
       "name": "維多利亞島・西部岩山Ⅲ",
@@ -1831,7 +1927,8 @@
         "red_snail",
         "dark_stump",
         "green_mushroom"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_f4019df0815b": {
       "name": "維多利亞島・西部岩山Ⅳ",
@@ -1842,7 +1939,8 @@
         "mob_cafa92abdfd6",
         "mob_f0a1982dc663",
         "mob_8f69f598c271"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_a4f5d6febe6a": {
       "name": "維多利亞島・勇士之村西部",
@@ -1856,7 +1954,8 @@
         "red_snail",
         "stump",
         "green_mushroom"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_59cc9851e2f2": {
       "name": "維多利亞島・勇士之村東入口",
@@ -1869,7 +1968,8 @@
         "stump",
         "snail",
         "dark_stump"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_75fd9f3af2aa": {
       "name": "維多利亞島・黑肥肥領土",
@@ -1880,7 +1980,8 @@
         "mob_cafa92abdfd6",
         "mob_f0a1982dc663"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "perion"
     },
     "vi_030f250ed804": {
       "name": "維多利亞島・東方岩石山Ⅰ",
@@ -1890,7 +1991,8 @@
       "monsters": [
         "stump",
         "dark_stump"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_31110cd47add": {
       "name": "維多利亞島・東方岩石山Ⅱ",
@@ -1900,7 +2002,8 @@
       "monsters": [
         "stump",
         "dark_stump"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_001bb8050a0b": {
       "name": "維多利亞島・東方岩石山Ⅲ",
@@ -1912,7 +2015,8 @@
         "axe_stump",
         "mob_cafa92abdfd6",
         "stump"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_30db0043d236": {
       "name": "維多利亞島・東方岩石山Ⅳ",
@@ -1922,7 +2026,8 @@
       "monsters": [
         "axe_stump",
         "mob_cafa92abdfd6"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_f7f79554dd1b": {
       "name": "維多利亞島・東方岩石山Ⅴ",
@@ -1932,7 +2037,8 @@
       "monsters": [
         "axe_stump",
         "mob_cafa92abdfd6"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_121a630de42f": {
       "name": "維多利亞島・東方岩石山Ⅵ",
@@ -1942,7 +2048,8 @@
       "monsters": [
         "mob_cafa92abdfd6",
         "mob_3242043b26ff"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_1e19435bab27": {
       "name": "維多利亞島・東方岩石山Ⅶ",
@@ -1953,7 +2060,8 @@
         "mob_cafa92abdfd6",
         "mob_3242043b26ff",
         "mob_7952237eac9a"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_0687550298d0": {
       "name": "維多利亞島・岩石路Ⅰ",
@@ -1966,7 +2074,8 @@
         "snail",
         "red_snail",
         "green_mushroom"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_cb866db890de": {
       "name": "維多利亞島・岩石路Ⅱ",
@@ -1978,7 +2087,8 @@
         "dark_stump",
         "snail",
         "red_snail"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_ea7823bc7c1e": {
       "name": "維多利亞島・岩石路Ⅲ",
@@ -1988,7 +2098,8 @@
       "monsters": [
         "red_snail",
         "stump"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_470f8e292724": {
       "name": "維多利亞島・勇士之村東部",
@@ -2002,7 +2113,8 @@
         "blue_snail",
         "red_snail",
         "green_mushroom"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_7bab3ff5598c": {
       "name": "維多利亞島・黑肥肥領土2",
@@ -2013,7 +2125,8 @@
         "mob_cafa92abdfd6",
         "mob_f0a1982dc663"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "perion"
     },
     "vi_215a497a8f59": {
       "name": "維多利亞島・遺跡發掘地Ⅰ",
@@ -2023,7 +2136,8 @@
       "monsters": [
         "mob_82954bf71a63",
         "mob_9d35c086f378"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_099e1ba909d7": {
       "name": "維多利亞島・遺跡發掘地Ⅱ",
@@ -2034,7 +2148,8 @@
         "mob_82954bf71a63",
         "mob_9d35c086f378",
         "mob_a8a5272f9faf"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_6113b0c1ed00": {
       "name": "維多利亞島・遺跡發掘地Ⅲ",
@@ -2044,14 +2159,16 @@
       "monsters": [
         "mob_9d35c086f378",
         "mob_a8a5272f9faf"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_b7231c10842f": {
       "name": "維多利亞島・Victoria Road: Excavation Site <Camp>",
       "sourceName": "Victoria Road: Excavation Site <Camp>",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "perion"
     },
     "vi_5eff47a644b2": {
       "name": "維多利亞島・Victoria Road: Remains <Tomb> I",
@@ -2061,7 +2178,8 @@
       "monsters": [
         "mob_6083be8452db",
         "mob_87e6e62c52e7"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_ed7b502805a8": {
       "name": "維多利亞島・Victoria Road: Remains <Tomb> II",
@@ -2072,7 +2190,8 @@
         "mob_6083be8452db",
         "mob_87e6e62c52e7",
         "mob_2466580211ee"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_8f06e5af4d04": {
       "name": "維多利亞島・Victoria Road: Remains <Tomb> III",
@@ -2083,7 +2202,8 @@
         "mob_6083be8452db",
         "mob_87e6e62c52e7",
         "mob_2466580211ee"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_a460e0ad05b2": {
       "name": "維多利亞島・Victoria Road: Remains <Tomb> IV",
@@ -2093,14 +2213,16 @@
       "monsters": [
         "mob_6772f71a90ec",
         "mob_27b9b0678ca1"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_ee95807dd5a6": {
       "name": "維多利亞島・Victoria Road: Remains <Cliff>",
       "sourceName": "Victoria Road: Remains <Cliff>",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "perion"
     },
     "vi_e2c53ccf9f77": {
       "name": "維多利亞島・幽深的峽谷Ⅰ",
@@ -2113,7 +2235,8 @@
         "axe_stump",
         "mob_cafa92abdfd6",
         "mob_3242043b26ff"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_80677c86b08e": {
       "name": "維多利亞島・危險的峽谷1",
@@ -2124,7 +2247,8 @@
         "mob_f0a1982dc663",
         "mob_3242043b26ff"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "perion"
     },
     "vi_e3883dd69481": {
       "name": "維多利亞島・危險的峽谷Ⅱ",
@@ -2136,7 +2260,8 @@
         "mob_7952237eac9a",
         "mob_15c4cef281d6"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "perion"
     },
     "vi_e8484f97bafb": {
       "name": "維多利亞島・幽深的峽谷Ⅱ",
@@ -2148,7 +2273,8 @@
         "mob_cafa92abdfd6",
         "mob_f0a1982dc663",
         "mob_3242043b26ff"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_deaa6fab2f80": {
       "name": "維多利亞島・幽深峽谷Ⅲ",
@@ -2160,7 +2286,8 @@
         "mob_cafa92abdfd6",
         "mob_f0a1982dc663",
         "mob_3242043b26ff"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_27ac84de18fa": {
       "name": "維多利亞島・勇士之村迷宮入口",
@@ -2170,7 +2297,8 @@
       "monsters": [
         "horny_mushroom",
         "mob_cafa92abdfd6"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_376f2b289151": {
       "name": "維多利亞島・火焰之地Ⅰ",
@@ -2180,7 +2308,8 @@
       "monsters": [
         "mob_f0a1982dc663",
         "mob_3242043b26ff"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_7310a07514a2": {
       "name": "維多利亞島・火焰之地Ⅱ",
@@ -2189,7 +2318,8 @@
       "minLevel": 27,
       "monsters": [
         "mob_3242043b26ff"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_6cf466ecb5df": {
       "name": "維多利亞島・火焰之地Ⅲ",
@@ -2198,7 +2328,8 @@
       "minLevel": 40,
       "monsters": [
         "mob_3d43ab9577e0"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_26bfd81c048b": {
       "name": "維多利亞島・火焰之地Ⅳ",
@@ -2207,7 +2338,8 @@
       "minLevel": 40,
       "monsters": [
         "mob_3d43ab9577e0"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_1e95a8d8a86d": {
       "name": "維多利亞島・火焰之地Ⅴ",
@@ -2216,7 +2348,8 @@
       "minLevel": 40,
       "monsters": [
         "mob_3d43ab9577e0"
-      ]
+      ],
+      "district": "perion"
     },
     "vi_053636b458f0": {
       "name": "維多利亞島・牆的另一端",
@@ -2228,7 +2361,8 @@
         "axe_stump",
         "mob_cafa92abdfd6"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "perion"
     },
     "vi_08c5bb376500": {
       "name": "維多利亞島・鋼之黑肥肥之地",
@@ -2238,14 +2372,16 @@
       "monsters": [
         "mob_3d43ab9577e0"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "perion"
     },
     "vi_916031e5a4db": {
       "name": "維多利亞島・維多利亞島 墮落城市機場",
       "sourceName": "Victoria Island: Kerning Airport",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "kerning"
     },
     "vi_b0e1120502c7": {
       "name": "維多利亞島・墮落城市森林I",
@@ -2260,7 +2396,8 @@
         "pig",
         "orange_mushroom",
         "ribbon_pig"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_0277752d3bc6": {
       "name": "維多利亞島・墮落城市森林II",
@@ -2276,7 +2413,8 @@
         "orange_mushroom",
         "ribbon_pig",
         "green_mushroom"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_3cece5f4c719": {
       "name": "維多利亞島・墮落城市森林III",
@@ -2290,7 +2428,8 @@
         "slime",
         "orange_mushroom",
         "ribbon_pig"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_ffd8158cd159": {
       "name": "維多利亞島・歷恩森林Ⅰ",
@@ -2307,7 +2446,8 @@
         "mob_b0986a845d19",
         "slime",
         "pig"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_f75ae3b9bbfc": {
       "name": "維多利亞島・歷恩森林Ⅱ",
@@ -2326,7 +2466,8 @@
         "green_mushroom",
         "blue_mushroom",
         "ribbon_pig"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_905853580971": {
       "name": "維多利亞島・歷恩森林Ⅲ",
@@ -2344,7 +2485,8 @@
         "ribbon_pig",
         "green_mushroom",
         "blue_mushroom"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_b6227f1dbdf5": {
       "name": "維多利亞島・墮落城市工地",
@@ -2357,7 +2499,8 @@
         "orange_mushroom",
         "mob_c10a60e4dac3",
         "green_mushroom"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_a63a868475c0": {
       "name": "維多利亞島・日落天空",
@@ -2371,7 +2514,8 @@
         "stump",
         "mob_c10a60e4dac3",
         "green_mushroom"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_95f5dac6f11a": {
       "name": "維多利亞島・墮落城市北方工地",
@@ -2384,7 +2528,8 @@
         "orange_mushroom",
         "mob_c10a60e4dac3",
         "blue_mushroom"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_13a5d368bbd6": {
       "name": "維多利亞島・沼澤地Ⅰ",
@@ -2394,7 +2539,8 @@
       "monsters": [
         "mob_0ad762506814",
         "mob_2702d3a1426e"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_28d38deef9ba": {
       "name": "維多利亞島・沼澤地Ⅱ",
@@ -2404,7 +2550,8 @@
       "monsters": [
         "mob_0ad762506814",
         "mob_2702d3a1426e"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_971f9d0f3a39": {
       "name": "維多利亞島・沼澤地Ⅲ",
@@ -2416,7 +2563,8 @@
         "mob_0ad762506814",
         "horny_mushroom",
         "mob_2702d3a1426e"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_5bffbb0c3452": {
       "name": "維多利亞島・危險的黑鱷魚1",
@@ -2428,7 +2576,8 @@
         "mob_0ad762506814",
         "mob_2702d3a1426e",
         "mob_7ea4dbf67a9f"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_568088e8de44": {
       "name": "維多利亞島・沼地小屋",
@@ -2436,7 +2585,8 @@
       "region": "victoria",
       "minLevel": 1,
       "monsters": [],
-      "hidden": true
+      "hidden": true,
+      "district": "kerning"
     },
     "vi_8f31ff014554": {
       "name": "維多利亞島・危險的黑鱷魚2",
@@ -2448,7 +2598,8 @@
         "mob_0ad762506814",
         "mob_4be77034def9",
         "mob_7ea4dbf67a9f"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_0f76a69ea784": {
       "name": "維多利亞島・猴子沼澤地Ⅰ",
@@ -2459,7 +2610,8 @@
         "mob_0ad762506814",
         "mob_8f69f598c271"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "kerning"
     },
     "vi_4fc686ea019d": {
       "name": "維多利亞島・猴子沼澤地Ⅱ",
@@ -2471,7 +2623,8 @@
         "mob_8f69f598c271",
         "mob_4be77034def9"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "kerning"
     },
     "vi_dfc9907a89e3": {
       "name": "維多利亞島・猴子沼澤地Ⅲ",
@@ -2482,7 +2635,8 @@
         "mob_0ad762506814",
         "mob_4be77034def9"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "kerning"
     },
     "vi_f6d10b8d3aff": {
       "name": "維多利亞島・小心墜落",
@@ -2493,7 +2647,8 @@
         "mob_c10a60e4dac3",
         "blue_mushroom"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "kerning"
     },
     "vi_ae1185c1e309": {
       "name": "維多利亞島・北方工地頂端",
@@ -2504,7 +2659,8 @@
         "mob_c10a60e4dac3",
         "blue_mushroom"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "kerning"
     },
     "vi_0466ad3cda4c": {
       "name": "維多利亞島・青蛇濕地",
@@ -2515,7 +2671,8 @@
         "slime",
         "mob_0ad762506814"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "kerning"
     },
     "vi_225997369de2": {
       "name": "維多利亞島・墮落城市地鐵 轉乘區",
@@ -2524,14 +2681,16 @@
       "minLevel": 15,
       "monsters": [
         "mob_f52d243a1c8a"
-      ]
+      ],
+      "district": "kerning"
     },
     "vi_129536be00dc": {
       "name": "維多利亞島・黃金海岸 黃金海灘",
       "sourceName": "Florina Road: Florina Beach",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "florina"
     },
     "vi_23bd7471c6a1": {
       "name": "維多利亞島・黃金海岸 熱帶沙灘",
@@ -2540,7 +2699,8 @@
       "minLevel": 32,
       "monsters": [
         "mob_8f69f598c271"
-      ]
+      ],
+      "district": "florina"
     },
     "vi_b297f07e8c86": {
       "name": "維多利亞島・黃金海岸 紅螃蟹海灘Ⅰ",
@@ -2550,7 +2710,8 @@
       "monsters": [
         "mob_c6d392383603",
         "mob_8f69f598c271"
-      ]
+      ],
+      "district": "florina"
     },
     "vi_0418b758d4c8": {
       "name": "維多利亞島・紅螃蟹海灘2",
@@ -2560,7 +2721,8 @@
       "monsters": [
         "mob_c6d392383603"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "florina"
     },
     "vi_02e4a673d720": {
       "name": "維多利亞島・黃金海岸 青螃蟹海灘I",
@@ -2570,7 +2732,8 @@
       "monsters": [
         "mob_c6d392383603",
         "mob_2bd2e540e39c"
-      ]
+      ],
+      "district": "florina"
     },
     "vi_e62becfe5590": {
       "name": "維多利亞島・青螃蟹海灘2",
@@ -2582,7 +2745,8 @@
         "mob_bcb11987c359",
         "mob_2bd2e540e39c"
       ],
-      "hidden": true
+      "hidden": true,
+      "district": "florina"
     },
     "vi_98da1a6a2d60": {
       "name": "維多利亞島・黃金海岸 海龜沙灘",
@@ -2592,28 +2756,32 @@
       "monsters": [
         "mob_bcb11987c359",
         "mob_2bd2e540e39c"
-      ]
+      ],
+      "district": "florina"
     },
     "vi_48d2e294ae00": {
       "name": "維多利亞島・迷霧森林 奇幻村",
       "sourceName": "Dungeon: Sleepywood",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "sleepywood"
     },
     "vi_071aa2e62169": {
       "name": "維多利亞島・前往碼頭的路",
       "sourceName": "Victoria Road: On the Way to the Harbor",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "lith"
     },
     "vi_b780ce98b5af": {
       "name": "維多利亞島・鯨魚號 鯨魚號碼頭",
       "sourceName": "The Nautilus: Nautilus Beach",
       "region": "victoria",
       "minLevel": 1,
-      "monsters": []
+      "monsters": [],
+      "district": "nautilus"
     }
   },
   "monsters": {
