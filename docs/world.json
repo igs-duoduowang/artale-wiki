@@ -5705,6 +5705,18 @@
       "description": "遭遇反擊傷害 -20%"
     },
     {
+      "id": "quick_motion",
+      "name": "極限迴避",
+      "job": "pirate",
+      "tier": 1,
+      "kind": "passive",
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "description": "命中與迴避各 +1"
+    },
+    {
       "id": "corkscrew_blow",
       "name": "衝擊拳",
       "job": "pirate",
@@ -5720,6 +5732,22 @@
       "maxMp": 14
     },
     {
+      "id": "somersault_kick",
+      "name": "旋風斬",
+      "job": "pirate",
+      "tier": 1,
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 20,
+      "hits": 1,
+      "firstPercent": 119,
+      "maxPercent": 195,
+      "firstMp": 7,
+      "maxMp": 14,
+      "description": "原作群攻；文字版每場只攻擊一隻怪物"
+    },
+    {
       "id": "double_shot_gun",
       "name": "雙子星攻擊",
       "job": "pirate",
@@ -5733,9 +5761,21 @@
       "maxPercent": 110,
       "firstMp": 6,
       "maxMp": 10
+    },
+    {
+      "id": "dash",
+      "name": "衝鋒",
+      "job": "pirate",
+      "tier": 1,
+      "kind": "support",
+      "weapons": [],
+      "maxLevel": 10,
+      "firstMp": 5,
+      "maxMp": 9,
+      "description": "本次遭遇找怪時間縮短 2%（文字版移動換算）"
     }
   ],
-  "version": "0.3.3",
+  "version": "0.3.4",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
