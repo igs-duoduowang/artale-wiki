@@ -71,1083 +71,765 @@
     }
   },
   "items": {
-    "initial_stat_ticket": {
-      "name": "初始能力重設券",
-      "category": "special",
-      "slot": "special",
-      "price": 0,
-      "description": "可重新骰一次角色的初始四能力；不影響升級取得的 AP。"
-    },
-    "training_sword": {
-      "name": "木劍",
-      "slot": "weapon",
-      "type": "sword",
-      "attack": 2,
-      "level": 1,
-      "price": 0
-    },
-    "iron_sword": {
-      "name": "鐵劍",
-      "slot": "weapon",
-      "type": "sword",
-      "attack": 10,
-      "level": 10,
-      "price": 650
-    },
-    "wooden_wand": {
-      "name": "木杖",
-      "slot": "weapon",
-      "type": "wand",
-      "attack": 9,
-      "level": 8,
-      "price": 650
-    },
-    "short_bow": {
-      "name": "短弓",
-      "slot": "weapon",
-      "type": "bow",
-      "attack": 9,
-      "level": 10,
-      "price": 650
-    },
-    "short_dagger": {
-      "name": "短刀",
-      "slot": "weapon",
-      "type": "dagger",
-      "attack": 9,
-      "level": 10,
-      "price": 650
-    },
-    "novice_claw": {
-      "name": "初學者拳套",
-      "slot": "weapon",
-      "type": "claw",
-      "attack": 9,
-      "level": 10,
-      "price": 650
-    },
-    "subi_star": {
-      "name": "海星鏢",
-      "slot": "ammo",
-      "category": "special",
-      "ammo": true,
-      "weaponType": "claw",
-      "price": 400
-    },
-    "basic_arrow": {
-      "name": "普通箭矢",
-      "slot": "ammo",
-      "category": "special",
-      "ammo": true,
-      "weaponType": "bow",
-      "price": 100
-    },
-    "basic_bullet": {
-      "name": "練習子彈",
-      "slot": "ammo",
-      "category": "special",
-      "ammo": true,
-      "weaponType": "gun",
-      "price": 200
-    },
-    "knuckle": {
-      "name": "拳套",
-      "slot": "weapon",
-      "type": "knuckle",
-      "attack": 9,
-      "level": 10,
-      "price": 650
-    },
-    "pistol": {
-      "name": "練習手槍",
-      "slot": "weapon",
-      "type": "gun",
-      "attack": 9,
-      "level": 10,
-      "price": 650
-    },
-    "red_potion": {
-      "name": "紅色藥水",
-      "slot": "consumable",
-      "heal": 35,
-      "price": 50
-    },
-    "blue_potion": {
-      "name": "藍色藥水",
-      "slot": "consumable",
-      "healMp": 100,
-      "price": 200
-    },
     "snail_shell": {
       "name": "嫩寶的外殼",
-      "slot": "material",
-      "price": 8
-    },
-    "blue_snail_shell": {
-      "name": "藍寶殼",
-      "slot": "material",
-      "price": 8
-    },
-    "shroom_spore": {
-      "name": "菇菇芽孢",
-      "slot": "material",
-      "price": 8
-    },
-    "red_snail_shell": {
-      "name": "紅寶殼",
-      "slot": "material",
-      "price": 12
-    },
-    "branch": {
-      "name": "樹枝",
-      "slot": "material",
-      "price": 12
-    },
-    "slime_drop": {
-      "name": "綠液球",
-      "slot": "material",
-      "price": 12
-    },
-    "animal_skin": {
-      "name": "動物皮",
-      "slot": "material",
-      "price": 18
-    },
-    "mushroom_cap": {
-      "name": "菇菇寶貝傘",
-      "slot": "material",
-      "price": 18
-    },
-    "stone_piece": {
-      "name": "小石球的石塊",
-      "slot": "material",
-      "price": 25
-    },
-    "rainbow_shell": {
-      "name": "彩虹蝸牛殼",
-      "slot": "material",
-      "price": 100
-    },
-    "eq_a6969d789c42": {
-      "name": "灰修煉褲",
-      "category": "equip",
-      "slot": "bottom",
-      "type": "BOTTOM",
-      "catalogType": "BOTTOM",
-      "level": 8,
-      "jobs": [
-        "MAGICIAN"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "def": {
-          "range": [
-            5,
-            7
-          ]
-        },
-        "mdef": {
-          "range": [
-            3,
-            6
-          ]
-        },
-        "upgradeSlots": 7
-      },
-      "attack": 0,
-      "defense": 5,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 2000,
-      "priceSource": "圖鑑 NPC 售價"
+      "slot": "material"
     },
     "eq_b14c71893bc3": {
       "name": "綠髮帶",
-      "category": "equip",
-      "slot": "hat",
-      "type": "HAT",
-      "catalogType": "HAT",
-      "level": 5,
-      "jobs": [
-        "BEGINNER",
-        "WARRIOR",
-        "MAGICIAN",
-        "BOWMAN",
-        "THIEF",
-        "PIRATE"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "def": {
-          "middle": 5,
-          "range": [
-            4,
-            6
-          ]
-        },
-        "upgradeSlots": 7
-      },
-      "attack": 0,
-      "defense": 5,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 450,
-      "priceSource": "圖鑑 NPC 售價"
-    },
-    "eq_19a0ee8b26cc": {
-      "name": "青銅鋼盔",
-      "category": "equip",
-      "slot": "hat",
-      "type": "HAT",
-      "catalogType": "HAT",
-      "level": 10,
-      "jobs": [
-        "WARRIOR"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "def": {
-          "middle": 10,
-          "range": [
-            8,
-            12
-          ]
-        },
-        "upgradeSlots": 7
-      },
-      "attack": 0,
-      "defense": 10,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 2400,
-      "priceSource": "圖鑑 NPC 售價"
-    },
-    "eq_e07ce092b096": {
-      "name": "鋼鐵盾牌",
-      "category": "equip",
-      "slot": "shield",
-      "type": "SHIELD",
-      "catalogType": "SHIELD",
-      "level": 15,
-      "jobs": [
-        "WARRIOR"
-      ],
-      "requirements": {
-        "str": 40,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "def": {
-          "middle": 15,
-          "range": [
-            13,
-            17
-          ]
-        },
-        "upgradeSlots": 7
-      },
-      "attack": 0,
-      "defense": 15,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 6000,
-      "priceSource": "圖鑑 NPC 售價"
-    },
-    "eq_0c49ab969087": {
-      "name": "鋼鐵弓",
-      "category": "equip",
-      "slot": "weapon",
-      "type": "bow",
-      "catalogType": "BOW",
-      "level": 15,
-      "jobs": [
-        "BOWMAN"
-      ],
-      "requirements": {
-        "str": 20,
-        "dex": 40,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "atk": {
-          "middle": 30,
-          "range": [
-            26,
-            34
-          ]
-        },
-        "attackSpeed": 6,
-        "upgradeSlots": 7
-      },
-      "attack": 30,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 6000,
-      "priceSource": "圖鑑 NPC 售價"
-    },
-    "eq_5827049e28fd": {
-      "name": "拳套",
-      "category": "equip",
-      "slot": "weapon",
-      "type": "claw",
-      "catalogType": "CLAW",
-      "level": 10,
-      "jobs": [
-        "THIEF"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "atk": {
-          "middle": 10,
-          "range": [
-            8,
-            12
-          ]
-        },
-        "attackSpeed": 6,
-        "upgradeSlots": 7
-      },
-      "attack": 10,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "圖鑑 NPC 售價"
-    },
-    "eq_3f7a897c1a47": {
-      "name": "野戰短劍",
-      "category": "equip",
-      "slot": "weapon",
-      "type": "dagger",
-      "catalogType": "DAGGER",
-      "level": 15,
-      "jobs": [
-        "THIEF"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 30,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "atk": {
-          "middle": 30,
-          "range": [
-            26,
-            34
-          ]
-        },
-        "attackSpeed": 3,
-        "upgradeSlots": 7
-      },
-      "attack": 30,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 7000,
-      "priceSource": "圖鑑 NPC 售價"
-    },
-    "eq_54e8e74e8003": {
-      "name": "鐵指虎",
-      "category": "equip",
-      "slot": "weapon",
-      "type": "knuckle",
-      "catalogType": "KNUCKLE",
-      "level": 10,
-      "jobs": [
-        "PIRATE"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "atk": {
-          "middle": 18,
-          "range": [
-            16,
-            20
-          ]
-        },
-        "attackSpeed": 5,
-        "upgradeSlots": 7
-      },
-      "attack": 18,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "圖鑑 NPC 售價"
-    },
-    "eq_381c33e98925": {
-      "name": "木劍",
-      "category": "equip",
-      "slot": "weapon",
-      "type": "sword",
-      "catalogType": "TWO-HANDED SWORD",
-      "level": 10,
-      "jobs": [
-        "WARRIOR",
-        "BOWMAN",
-        "THIEF"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "atk": {
-          "middle": 30,
-          "range": [
-            26,
-            34
-          ]
-        },
-        "attackSpeed": 6,
-        "upgradeSlots": 7
-      },
-      "attack": 30,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "圖鑑 NPC 售價"
+      "slot": "hat"
     },
     "sc_44e9ca045d9c": {
       "name": "頭盔防禦力卷軸10%",
-      "category": "use",
-      "slot": "scroll",
-      "type": "HAT",
-      "catalogType": "HAT",
-      "level": 0,
-      "jobs": [],
-      "requirements": {},
-      "stats": {
-        "def": 5,
-        "mdef": 3,
-        "accuracy": 1
-      },
-      "attack": 0,
-      "defense": 5,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 0,
-      "scrollStats": {
-        "def": 5,
-        "mdef": 3,
-        "accuracy": 1
-      },
-      "scrollChance": 0.1,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "文字版暫定售價"
+      "slot": "scroll"
     },
-    "sc_ea614a49581b": {
-      "name": "上衣防禦力卷軸10%",
-      "category": "use",
-      "slot": "scroll",
-      "type": "TOP",
-      "catalogType": "TOP",
-      "level": 0,
-      "jobs": [],
-      "requirements": {},
-      "stats": {
-        "def": 5,
-        "mdef": 3,
-        "hp": 10
-      },
-      "attack": 0,
-      "defense": 5,
-      "maxHpBonus": 10,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 0,
-      "scrollStats": {
-        "def": 5,
-        "mdef": 3,
-        "hp": 10
-      },
-      "scrollChance": 0.1,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "文字版暫定售價"
+    "blue_snail_shell": {
+      "name": "藍寶殼",
+      "slot": "material"
     },
-    "sc_b7ad44550a4e": {
-      "name": "鞋子敏捷性卷軸10%",
-      "category": "use",
-      "slot": "scroll",
-      "type": "SHOES",
-      "catalogType": "SHOES",
-      "level": 0,
-      "jobs": [],
-      "requirements": {},
-      "stats": {
-        "avoidability": 5,
-        "accuracy": 3,
-        "speed": 1
-      },
-      "attack": 0,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 0,
-      "scrollStats": {
-        "avoidability": 5,
-        "accuracy": 3,
-        "speed": 1
-      },
-      "scrollChance": 0.1,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "文字版暫定售價"
-    },
-    "sc_4407ca8ed573": {
-      "name": "鞋子跳躍力卷軸10%",
-      "category": "use",
-      "slot": "scroll",
-      "type": "SHOES",
-      "catalogType": "SHOES",
-      "level": 0,
-      "jobs": [],
-      "requirements": {},
-      "stats": {
-        "jump": 5,
-        "dex": 3,
-        "speed": 1
-      },
-      "attack": 0,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 3,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 0,
-      "scrollStats": {
-        "jump": 5,
-        "dex": 3,
-        "speed": 1
-      },
-      "scrollChance": 0.1,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "文字版暫定售價"
-    },
-    "sc_2addd7b0ad2b": {
-      "name": "雙手斧攻擊力卷軸10%",
-      "category": "use",
-      "slot": "scroll",
-      "type": "sword",
-      "catalogType": "TWO-HANDED AXE",
-      "level": 0,
-      "jobs": [],
-      "requirements": {},
-      "stats": {
-        "atk": 5,
-        "str": 3,
-        "def": 1
-      },
-      "attack": 5,
-      "defense": 1,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 3,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 0,
-      "scrollStats": {
-        "atk": 5,
-        "str": 3,
-        "def": 1
-      },
-      "scrollChance": 0.1,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "文字版暫定售價"
-    },
-    "sc_e03ac6002886": {
-      "name": "披風敏捷性卷軸100%",
-      "category": "use",
-      "slot": "scroll",
-      "type": "CAPE",
-      "catalogType": "CAPE",
-      "level": 0,
-      "jobs": [],
-      "requirements": {},
-      "stats": {
-        "dex": 1
-      },
-      "attack": 0,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 1,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 0,
-      "scrollStats": {
-        "dex": 1
-      },
-      "scrollChance": 1,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "文字版暫定售價"
+    "eq_a6969d789c42": {
+      "name": "灰修煉褲",
+      "slot": "bottom"
     },
     "sc_8e9dd4490c08": {
       "name": "披風體力卷軸100%",
-      "category": "use",
-      "slot": "scroll",
-      "type": "CAPE",
-      "catalogType": "CAPE",
-      "level": 0,
-      "jobs": [],
-      "requirements": {},
-      "stats": {
-        "hp": 5
-      },
-      "attack": 0,
-      "defense": 0,
-      "maxHpBonus": 5,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 0,
-      "scrollStats": {
-        "hp": 5
-      },
-      "scrollChance": 1,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "文字版暫定售價"
+      "slot": "scroll"
     },
-    "sc_db2d7178bfb1": {
-      "name": "披風魔力卷軸100%",
-      "category": "use",
-      "slot": "scroll",
-      "type": "CAPE",
-      "catalogType": "CAPE",
-      "level": 0,
-      "jobs": [],
-      "requirements": {},
-      "stats": {
-        "mp": 10
-      },
-      "attack": 0,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 10,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 0,
-      "scrollStats": {
-        "mp": 10
-      },
-      "scrollChance": 1,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "文字版暫定售價"
+    "shroom_spore": {
+      "name": "菇菇芽孢",
+      "slot": "material"
+    },
+    "eq_3f7a897c1a47": {
+      "name": "野戰短劍",
+      "slot": "weapon"
     },
     "sc_220db11f9448": {
       "name": "披風體力卷軸60%",
-      "category": "use",
-      "slot": "scroll",
-      "type": "CAPE",
-      "catalogType": "CAPE",
-      "level": 0,
-      "jobs": [],
-      "requirements": {},
-      "stats": {
-        "hp": 10
-      },
-      "attack": 0,
-      "defense": 0,
-      "maxHpBonus": 10,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 0,
-      "scrollStats": {
-        "hp": 10
-      },
-      "scrollChance": 0.6,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "文字版暫定售價"
+      "slot": "scroll"
+    },
+    "red_snail_shell": {
+      "name": "紅寶殼",
+      "slot": "material"
+    },
+    "eq_381c33e98925": {
+      "name": "木劍",
+      "slot": "weapon"
+    },
+    "sc_db2d7178bfb1": {
+      "name": "披風魔力卷軸100%",
+      "slot": "scroll"
+    },
+    "branch": {
+      "name": "樹枝",
+      "slot": "material"
+    },
+    "eq_0c49ab969087": {
+      "name": "鋼鐵弓",
+      "slot": "weapon"
+    },
+    "sc_ea614a49581b": {
+      "name": "上衣防禦力卷軸10%",
+      "slot": "scroll"
+    },
+    "slime_drop": {
+      "name": "綠液球",
+      "slot": "material"
+    },
+    "eq_54e8e74e8003": {
+      "name": "鐵指虎",
+      "slot": "weapon"
+    },
+    "sc_e03ac6002886": {
+      "name": "披風敏捷性卷軸100%",
+      "slot": "scroll"
+    },
+    "animal_skin": {
+      "name": "動物皮",
+      "slot": "material"
+    },
+    "eq_5827049e28fd": {
+      "name": "拳套",
+      "slot": "weapon"
+    },
+    "sc_b7ad44550a4e": {
+      "name": "鞋子敏捷性卷軸10%",
+      "slot": "scroll"
+    },
+    "mushroom_cap": {
+      "name": "菇菇寶貝傘",
+      "slot": "material"
+    },
+    "eq_19a0ee8b26cc": {
+      "name": "青銅鋼盔",
+      "slot": "hat"
+    },
+    "sc_4407ca8ed573": {
+      "name": "鞋子跳躍力卷軸10%",
+      "slot": "scroll"
+    },
+    "stone_piece": {
+      "name": "小石球的石塊",
+      "slot": "material"
+    },
+    "eq_e07ce092b096": {
+      "name": "鋼鐵盾牌",
+      "slot": "shield"
+    },
+    "sc_2addd7b0ad2b": {
+      "name": "雙手斧攻擊力卷軸10%",
+      "slot": "scroll"
     },
     "eq_964111fcd5c5": {
       "name": "紫水晶耳環",
-      "category": "equip",
-      "slot": "earrings",
-      "type": "EARRINGS",
-      "catalogType": "EARRINGS",
-      "level": 15,
-      "jobs": [
-        "BEGINNER",
-        "WARRIOR",
-        "MAGICIAN",
-        "BOWMAN",
-        "THIEF",
-        "PIRATE"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "upgradeSlots": 5
-      },
-      "attack": 0,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 5,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 7000,
-      "priceSource": "圖鑑 NPC 售價"
+      "slot": "earrings"
     },
     "eq_b28a185194bd": {
       "name": "單邊銀色耳環",
-      "category": "equip",
-      "slot": "earrings",
-      "type": "EARRINGS",
-      "catalogType": "EARRINGS",
-      "level": 15,
-      "jobs": [
-        "BEGINNER",
-        "WARRIOR",
-        "MAGICIAN",
-        "BOWMAN",
-        "THIEF",
-        "PIRATE"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "upgradeSlots": 5
-      },
-      "attack": 0,
-      "defense": 0,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 5,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 7000,
-      "priceSource": "圖鑑 NPC 售價"
+      "slot": "earrings"
     },
     "eq_0f89c93e942a": {
       "name": "黃色旅行裙",
-      "category": "equip",
-      "slot": "bottom",
-      "type": "BOTTOM",
-      "catalogType": "BOTTOM",
-      "level": 10,
-      "jobs": [
-        "BOWMAN"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "def": {
-          "middle": 9,
-          "range": [
-            9,
-            9
-          ]
-        },
-        "upgradeSlots": 7
-      },
-      "attack": 0,
-      "defense": 9,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 3000,
-      "priceSource": "圖鑑 NPC 售價"
+      "slot": "bottom"
     },
     "eq_fe92ccaf2325": {
       "name": "綠色旅行皮裙",
-      "category": "equip",
-      "slot": "bottom",
-      "type": "BOTTOM",
-      "catalogType": "BOTTOM",
-      "level": 15,
-      "jobs": [
-        "BOWMAN"
-      ],
-      "requirements": {
-        "str": 0,
-        "dex": 40,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "mp": {
-          "range": [
-            0,
-            25
-          ]
-        },
-        "def": {
-          "middle": 12,
-          "range": [
-            10,
-            14
-          ]
-        },
-        "upgradeSlots": 7
-      },
-      "attack": 0,
-      "defense": 12,
-      "maxHpBonus": 0,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 5000,
-      "priceSource": "圖鑑 NPC 售價"
+      "slot": "bottom"
     },
     "eq_262f364277e7": {
       "name": "鋼鐵軍官裙",
-      "category": "equip",
-      "slot": "bottom",
-      "type": "BOTTOM",
-      "catalogType": "BOTTOM",
-      "level": 20,
-      "jobs": [
-        "WARRIOR"
-      ],
-      "requirements": {
-        "str": 65,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "stats": {
-        "hp": {
-          "range": [
-            5,
-            5
-          ]
-        },
-        "def": {
-          "middle": 20,
-          "range": [
-            20,
-            20
-          ]
-        },
-        "upgradeSlots": 7
-      },
-      "attack": 0,
-      "defense": 20,
-      "maxHpBonus": 5,
-      "maxMpBonus": 0,
-      "statBonuses": {
-        "str": 0,
-        "dex": 0,
-        "int": 0,
-        "luk": 0
-      },
-      "upgradeSlots": 7,
-      "ammo": false,
-      "source": "玩家圖鑑快照",
-      "price": 9000,
-      "priceSource": "圖鑑 NPC 售價"
+      "slot": "bottom"
+    },
+    "mat_7f9c052f2550": {
+      "name": "肥肥盔甲",
+      "slot": "material"
+    },
+    "eq_04f833110573": {
+      "name": "褐防風帽",
+      "slot": "hat"
+    },
+    "eq_230231487ded": {
+      "name": "褐魔道之帽",
+      "slot": "hat"
+    },
+    "eq_ce0a0300f278": {
+      "name": "橙色妖精禮服",
+      "slot": "overall"
+    },
+    "mat_23f91d194146": {
+      "name": "蝴蝶精的觸角",
+      "slot": "material"
+    },
+    "mat_791be4fe2143": {
+      "name": "石塊",
+      "slot": "material"
+    },
+    "eq_0c8bc73c7d0c": {
+      "name": "青銅十字軍帽",
+      "slot": "hat"
+    },
+    "eq_25eb14f379f9": {
+      "name": "青銅忍者頭巾",
+      "slot": "hat"
+    },
+    "eq_f55c78b3c597": {
+      "name": "深夜之影",
+      "slot": "top"
+    },
+    "sc_5e3df30d95bb": {
+      "name": "弓攻擊力卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_bbf38a7c57c4": {
+      "name": "弩攻擊力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_6b0c0b7d6913": {
+      "name": "動物皮",
+      "slot": "material"
+    },
+    "eq_a2aafb5a3bb5": {
+      "name": "褐色術士帽",
+      "slot": "hat"
+    },
+    "eq_5c18204cdacd": {
+      "name": "藍色假面帽",
+      "slot": "hat"
+    },
+    "eq_181633c6bc00": {
+      "name": "黑羽翼三角帽",
+      "slot": "hat"
+    },
+    "sc_f1c38f420c89": {
+      "name": "矛命中率卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_a934bea003dc": {
+      "name": "披風魔力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_80d1134a7451": {
+      "name": "黑石塊",
+      "slot": "material"
+    },
+    "eq_36763cb40a03": {
+      "name": "黑貴族軟帽",
+      "slot": "hat"
+    },
+    "eq_3cd94728e68d": {
+      "name": "綠黑太陽帽",
+      "slot": "hat"
+    },
+    "eq_ced031f18f74": {
+      "name": "舊諾曼頭盔",
+      "slot": "hat"
+    },
+    "sc_59fdaa96af3a": {
+      "name": "指虎攻擊力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_fc168499d05e": {
+      "name": "上衣幸運卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_7bf30f3c8bb2": {
+      "name": "混種石塊",
+      "slot": "material"
+    },
+    "eq_2f30a5a1b38f": {
+      "name": "將軍的紅頭盔",
+      "slot": "hat"
+    },
+    "eq_0f010731bf79": {
+      "name": "白弓羽",
+      "slot": "hat"
+    },
+    "eq_f64ad4f7a5da": {
+      "name": "白銀忍者頭巾",
+      "slot": "hat"
+    },
+    "sc_6c72c16a3af6": {
+      "name": "盾牌體力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_50da3cd08426": {
+      "name": "手套攻擊力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_e36ef03a550f": {
+      "name": "堅硬的羽毛",
+      "slot": "material"
+    },
+    "eq_904c6ef75311": {
+      "name": "黑海盜頭巾",
+      "slot": "hat"
+    },
+    "eq_560107604d26": {
+      "name": "赤紅皇家頭巾",
+      "slot": "hat"
+    },
+    "sc_bff4d2591ab0": {
+      "name": "槍命中率卷軸10%",
+      "slot": "scroll"
+    },
+    "mat_08b227c4089e": {
+      "name": "酋長的地契",
+      "slot": "material"
+    },
+    "eq_e6ac87f6b14d": {
+      "name": "綠星魔法帽",
+      "slot": "hat"
+    },
+    "eq_8cab0ac1e61b": {
+      "name": "黑防風帽",
+      "slot": "hat"
+    },
+    "eq_8b5298a137df": {
+      "name": "紅色武士頭盔",
+      "slot": "hat"
+    },
+    "sc_2389282b7b19": {
+      "name": "弓攻擊力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_72018bee01b0": {
+      "name": "火槍攻擊力卷軸10%",
+      "slot": "scroll"
+    },
+    "mat_68a92bd54093": {
+      "name": "巫婆的青蛙實驗",
+      "slot": "material"
+    },
+    "eq_fed6840cdba3": {
+      "name": "黃色公爵頭盔",
+      "slot": "hat"
+    },
+    "eq_cb2af4a6319a": {
+      "name": "綠羽絲絨帽",
+      "slot": "hat"
+    },
+    "eq_4df7054da320": {
+      "name": "青鎮日鎧甲",
+      "slot": "top"
+    },
+    "mat_c2ca6926843b": {
+      "name": "冰獨眼獸之尾巴",
+      "slot": "material"
+    },
+    "eq_5e73ef433b4e": {
+      "name": "粉紅月尖帽",
+      "slot": "hat"
+    },
+    "eq_dee18f4b4f32": {
+      "name": "紅羽絲絨帽",
+      "slot": "hat"
+    },
+    "eq_008ec9b34885": {
+      "name": "褐羽絲絨帽",
+      "slot": "hat"
+    },
+    "sc_a094cc90104f": {
+      "name": "頭盔防禦力卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_8d1e01246147": {
+      "name": "矛命中率卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_1761fed03d87": {
+      "name": "木妖的眼淚",
+      "slot": "material"
+    },
+    "eq_b98fc3a8e527": {
+      "name": "褐色水手頭巾",
+      "slot": "hat"
+    },
+    "eq_8b1b11a999b7": {
+      "name": "黃星頭巾",
+      "slot": "hat"
+    },
+    "eq_7e40f8bbf39b": {
+      "name": "紫硬皮裝",
+      "slot": "top"
+    },
+    "sc_710bfb5fe997": {
+      "name": "雙手棍攻擊力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_b34175d43c60": {
+      "name": "雙手劍命中率卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_3ff1c6d84ff1": {
+      "name": "鏡子碎片",
+      "slot": "material"
+    },
+    "eq_79b202864071": {
+      "name": "孫悟空青銅頭箍",
+      "slot": "hat"
+    },
+    "eq_091ed398c0a0": {
+      "name": "紅星魔法帽",
+      "slot": "hat"
+    },
+    "eq_ab654c898f67": {
+      "name": "綠防風帽",
+      "slot": "hat"
+    },
+    "eq_9ebcb87b3081": {
+      "name": "地天衣",
+      "slot": "top"
+    },
+    "mat_1556d3d127db": {
+      "name": "堅韌的龍皮",
+      "slot": "material"
+    },
+    "eq_ee6e0095541d": {
+      "name": "藍羽翼三角帽",
+      "slot": "hat"
+    },
+    "eq_8148a043400b": {
+      "name": "藍色骷髏頭盔",
+      "slot": "hat"
+    },
+    "eq_695eb4cf6e3f": {
+      "name": "褐貴族之服",
+      "slot": "top"
+    },
+    "sc_dd406fa4b54c": {
+      "name": "雙手劍命中率卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_ee090728c76a": {
+      "name": "頭盔智力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_2934a640b3fd": {
+      "name": "苗木",
+      "slot": "material"
+    },
+    "eq_b4ad11c0844f": {
+      "name": "藍羽毛帽",
+      "slot": "hat"
+    },
+    "eq_7dec84990b30": {
+      "name": "流氓紅頭巾",
+      "slot": "hat"
+    },
+    "eq_f958237fec1b": {
+      "name": "黃色皮製旅行服",
+      "slot": "top"
+    },
+    "sc_39d48fba6830": {
+      "name": "套服敏捷卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_8c864ef89ed3": {
+      "name": "木板",
+      "slot": "material"
+    },
+    "eq_6fcfc5ee475e": {
+      "name": "鋰礦海盜頭盔",
+      "slot": "hat"
+    },
+    "eq_0c9193861db9": {
+      "name": "褐羽翼帽",
+      "slot": "hat"
+    },
+    "eq_049d1480e0ac": {
+      "name": "綠色自由帽",
+      "slot": "hat"
+    },
+    "sc_a8b6f557228f": {
+      "name": "披風智力卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_5b0fc46453f5": {
+      "name": "盾牌防禦力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_26d7b218c9b5": {
+      "name": "石板",
+      "slot": "material"
+    },
+    "eq_6141b719089c": {
+      "name": "藍色唐衫",
+      "slot": "top"
+    },
+    "eq_79b2fa31062b": {
+      "name": "天藍俠客鎧甲",
+      "slot": "top"
+    },
+    "eq_3d247f9db38e": {
+      "name": "藍色唐衫褲",
+      "slot": "bottom"
+    },
+    "sc_f72e4f98aa96": {
+      "name": "耳環智力卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_fe3983c69274": {
+      "name": "槍攻擊力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_2b454d86ad7d": {
+      "name": "骷髏犬骨頭",
+      "slot": "material"
+    },
+    "eq_1cc61332a291": {
+      "name": "青頭巾",
+      "slot": "hat"
+    },
+    "eq_19a05c61d71b": {
+      "name": "紅色戰鬥頭盔",
+      "slot": "hat"
+    },
+    "eq_3e022cee27a5": {
+      "name": "褐星魔法帽",
+      "slot": "hat"
+    },
+    "sc_5754c5e51b0c": {
+      "name": "手套體力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_144d1494a155": {
+      "name": "繃帶",
+      "slot": "material"
+    },
+    "eq_87037d5c9661": {
+      "name": "褐色皮製遠洋帽",
+      "slot": "hat"
+    },
+    "eq_0d13cf883b80": {
+      "name": "紅鎮月鎧甲",
+      "slot": "top"
+    },
+    "eq_77a8537fb649": {
+      "name": "褐色皮耶羅塔鎧甲",
+      "slot": "top"
+    },
+    "sc_8fd7f2fcbab3": {
+      "name": "上衣力量卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_ae2b318af6d9": {
+      "name": "披風力量卷軸10%",
+      "slot": "scroll"
+    },
+    "mat_9865c1d3778d": {
+      "name": "肋骨",
+      "slot": "material"
+    },
+    "eq_37b1540fe722": {
+      "name": "白銀戰盔",
+      "slot": "hat"
+    },
+    "eq_33869325d283": {
+      "name": "紅神聖之冠",
+      "slot": "hat"
+    },
+    "eq_d524f836dcab": {
+      "name": "褐色司令帽",
+      "slot": "hat"
+    },
+    "sc_397b17863851": {
+      "name": "槍命中率卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_74ee9507937d": {
+      "name": "短杖魔力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_f42fe8d69574": {
+      "name": "骨盆",
+      "slot": "material"
+    },
+    "eq_36fe28414a8a": {
+      "name": "將軍青頭盔",
+      "slot": "hat"
+    },
+    "eq_d5fd2a2659ea": {
+      "name": "黑色和平之帽",
+      "slot": "hat"
+    },
+    "sc_b13231715009": {
+      "name": "耳環體力卷軸10%",
+      "slot": "scroll"
+    },
+    "mat_d38089588515": {
+      "name": "馬頭骨",
+      "slot": "material"
+    },
+    "eq_bfb28a139fde": {
+      "name": "紅鋼玉鎧甲",
+      "slot": "top"
+    },
+    "eq_782cdfc2f867": {
+      "name": "藍鋼玉",
+      "slot": "top"
+    },
+    "eq_e46ba45b20c2": {
+      "name": "血腥飛影之服",
+      "slot": "top"
+    },
+    "sc_d93964c4f098": {
+      "name": "上衣力量卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_241d4c7c77ae": {
+      "name": "套服幸運卷軸60%",
+      "slot": "scroll"
+    },
+    "eq_9ca9bb458271": {
+      "name": "黑貴族之服",
+      "slot": "top"
+    },
+    "sc_6122945ccb57": {
+      "name": "耳環幸運卷軸100%",
+      "slot": "scroll"
+    },
+    "mat_b7cd3fec22c4": {
+      "name": "鋼之黑肥肥的盔甲",
+      "slot": "material"
+    },
+    "eq_effb54178a30": {
+      "name": "褐海盜頭巾",
+      "slot": "hat"
+    },
+    "eq_0f837e5abb69": {
+      "name": "褐色皮耶羅裙",
+      "slot": "bottom"
+    },
+    "sc_3251c260bc96": {
+      "name": "雙手劍攻擊力卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_27effbb5a79f": {
+      "name": "盾牌幸運卷軸100%",
+      "slot": "scroll"
+    },
+    "mat_c2931d0e39bc": {
+      "name": "三眼章魚五目石",
+      "slot": "material"
+    },
+    "eq_15bbc8e95771": {
+      "name": "黃色優雅緊身衣",
+      "slot": "top"
+    },
+    "eq_1336ccd0bbd9": {
+      "name": "青銅胸甲",
+      "slot": "top"
+    },
+    "eq_c68e8c1b33e4": {
+      "name": "黃色優雅緊身裙",
+      "slot": "bottom"
+    },
+    "sc_8379aaf8001b": {
+      "name": "單手劍攻擊力卷軸10%",
+      "slot": "scroll"
+    },
+    "mat_069609075a98": {
+      "name": "蛇皮",
+      "slot": "material"
+    },
+    "eq_0b1c4b7ddb3f": {
+      "name": "鐵製尖頭盔",
+      "slot": "hat"
+    },
+    "eq_9131344fad75": {
+      "name": "紫伽藍",
+      "slot": "top"
+    },
+    "eq_f24b637493aa": {
+      "name": "褐色十字軍甲",
+      "slot": "top"
+    },
+    "sc_800b792323c1": {
+      "name": "盾牌防禦力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_2db7002eba06": {
+      "name": "下衣跳躍力卷軸100%",
+      "slot": "scroll"
+    },
+    "mat_1ad1bb2e3d11": {
+      "name": "鱷魚皮革袋",
+      "slot": "material"
+    },
+    "eq_a43d3857ef5a": {
+      "name": "白色遠洋帽",
+      "slot": "hat"
+    },
+    "eq_c7218dcdf0af": {
+      "name": "紅神聖法衣",
+      "slot": "top"
+    },
+    "eq_283181b0d140": {
+      "name": "紅神聖裙",
+      "slot": "bottom"
+    },
+    "sc_4e07c6023ec4": {
+      "name": "披風魔法防禦力卷軸10%",
+      "slot": "scroll"
+    },
+    "mat_7493951156a4": {
+      "name": "黑鱷魚皮",
+      "slot": "material"
+    },
+    "eq_9d43529a7cd7": {
+      "name": "黑色黃金法冠",
+      "slot": "hat"
+    },
+    "eq_2a5e95d7681e": {
+      "name": "黃黑太陽帽",
+      "slot": "hat"
+    },
+    "eq_93380affc283": {
+      "name": "黃月",
+      "slot": "top"
+    },
+    "sc_1c4ac3e74143": {
+      "name": "單手棍命中率卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_706931182477": {
+      "name": "雙手棍命中率卷軸60%",
+      "slot": "scroll"
+    },
+    "eq_0d8582b14676": {
+      "name": "綠羽翼帽",
+      "slot": "hat"
+    },
+    "eq_51d3e56a0f93": {
+      "name": "鐵胸甲",
+      "slot": "top"
+    },
+    "eq_cff7177fc9ba": {
+      "name": "粉紅旗袍",
+      "slot": "top"
+    },
+    "sc_bdbfb67ff856": {
+      "name": "單手斧命中率卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_3a0f02a0558a": {
+      "name": "可可果實",
+      "slot": "material"
+    },
+    "eq_cd06677a33e1": {
+      "name": "紫色暗影上衣",
+      "slot": "top"
+    },
+    "eq_3a64866ce3a2": {
+      "name": "黑貴族褲",
+      "slot": "bottom"
+    },
+    "sc_dbd564c283d6": {
+      "name": "短劍攻擊力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_4c48fd3259d5": {
+      "name": "青螃蟹鉗",
+      "slot": "material"
+    },
+    "eq_c7d32920c1ae": {
+      "name": "鋰礦十字軍帽",
+      "slot": "hat"
+    },
+    "eq_c3cc8d1393c7": {
+      "name": "橙色黃金法冠",
+      "slot": "hat"
+    },
+    "sc_897698ebf8bb": {
+      "name": "上衣幸運卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_eaf36056d75c": {
+      "name": "單手棍攻擊力卷軸60%",
+      "slot": "scroll"
+    },
+    "mat_6a2cf03994fd": {
+      "name": "烏龜殼",
+      "slot": "material"
+    },
+    "eq_14b8bf1d7d60": {
+      "name": "藍魔道之帽",
+      "slot": "hat"
+    },
+    "eq_72e07c6c6469": {
+      "name": "綠海盜頭巾",
+      "slot": "hat"
+    },
+    "eq_c3b850e13957": {
+      "name": "白色皮耶羅塔鎧甲",
+      "slot": "top"
+    },
+    "sc_8dab92364531": {
+      "name": "手套攻擊力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_25d7cf23d6e8": {
+      "name": "披風力量卷軸60%",
+      "slot": "scroll"
     }
   },
   "maps": {
@@ -1635,6 +1317,1303 @@
         "red_snail"
       ],
       "fieldBoss": "mano"
+    },
+    "vi_ecef19bd47f6": {
+      "name": "維多利亞島・肥肥海岸",
+      "sourceName": "Hidden Street: The Pig Beach",
+      "region": "victoria",
+      "minLevel": 2,
+      "monsters": [
+        "pig",
+        "ribbon_pig",
+        "mob_b0986a845d19"
+      ],
+      "hidden": true
+    },
+    "vi_20a3a8115f92": {
+      "name": "維多利亞島・海岸狩獵場",
+      "sourceName": "Hidden Street: Beach Hunting Ground",
+      "region": "victoria",
+      "minLevel": 2,
+      "monsters": [
+        "pig",
+        "ribbon_pig"
+      ],
+      "hidden": true
+    },
+    "vi_056d2c526f88": {
+      "name": "維多利亞島・空屋",
+      "sourceName": "Hidden Street: An Empty House",
+      "region": "victoria",
+      "minLevel": 3,
+      "monsters": [
+        "orange_mushroom"
+      ],
+      "hidden": true
+    },
+    "vi_c8d9abb520f5": {
+      "name": "維多利亞島・鋼之肥肥公園1",
+      "sourceName": "Victoria Road: Pig Park I",
+      "region": "victoria",
+      "minLevel": 37,
+      "monsters": [
+        "mob_b0986a845d19"
+      ],
+      "hidden": true
+    },
+    "vi_9806a4b808ae": {
+      "name": "維多利亞島・鋼之肥肥公園休息地",
+      "sourceName": "Victoria Road: The Resting Spot",
+      "region": "victoria",
+      "minLevel": 37,
+      "monsters": [
+        "mob_b0986a845d19"
+      ],
+      "hidden": true
+    },
+    "vi_f02df1fe7f89": {
+      "name": "維多利亞島・菇菇公園2",
+      "sourceName": "Hidden Street: Pig Park II",
+      "region": "victoria",
+      "minLevel": 37,
+      "monsters": [
+        "mob_b0986a845d19"
+      ],
+      "hidden": true
+    },
+    "vi_b93d2acdf620": {
+      "name": "維多利亞島・別人家（鋼之肥肥公園3）",
+      "sourceName": "Victoria Road: Someone Else's House (Pig Park III)",
+      "region": "victoria",
+      "minLevel": 25,
+      "monsters": [
+        "mob_05474df28288",
+        "mob_b0986a845d19"
+      ],
+      "hidden": true
+    },
+    "vi_27f69e3f908b": {
+      "name": "維多利亞島・弓箭手村市集",
+      "sourceName": "Victoria Road: Henesys Market",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_45396e3c62d4": {
+      "name": "維多利亞島・弓箭手村公園",
+      "sourceName": "Victoria Road: Mushroom Park",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_ba6d42f01ccd": {
+      "name": "維多利亞島・菇菇山丘",
+      "sourceName": "Hidden Street: Mushroom Garden",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "shroom",
+        "orange_mushroom",
+        "green_mushroom"
+      ],
+      "hidden": true
+    },
+    "vi_18e281d29e1a": {
+      "name": "維多利亞島・弓箭手村東部小山",
+      "sourceName": "Victoria Road: The Hill East of Henesys",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "slime",
+        "orange_mushroom",
+        "ribbon_pig"
+      ]
+    },
+    "vi_b4c7d28946c1": {
+      "name": "維多利亞島・藍菇菇樹林",
+      "sourceName": "Victoria Road: Blue Mushroom Forest",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_mushroom",
+        "horny_mushroom",
+        "blue_snail",
+        "red_snail",
+        "slime"
+      ],
+      "hidden": true
+    },
+    "vi_d7a7b31dafb4": {
+      "name": "維多利亞島・迷宮通道",
+      "sourceName": "Warning Street: The Road to the Dungeon",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_mushroom",
+        "horny_mushroom",
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "slime",
+        "pig",
+        "orange_mushroom",
+        "ribbon_pig"
+      ]
+    },
+    "vi_9b0e7e07e454": {
+      "name": "維多利亞島・弓箭手村迷宮入口",
+      "sourceName": "Warning Street: Henesys Dungeon Entrance",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_mushroom",
+        "horny_mushroom",
+        "mob_b0986a845d19",
+        "mob_4ed1cc58bc62",
+        "slime",
+        "green_mushroom"
+      ]
+    },
+    "vi_a54945ad725b": {
+      "name": "維多利亞島・石人寺院門外",
+      "sourceName": "Hidden Street: The Breathing Rock",
+      "region": "victoria",
+      "minLevel": 15,
+      "monsters": [
+        "blue_mushroom",
+        "mob_05474df28288",
+        "mob_4ed1cc58bc62"
+      ],
+      "hidden": true
+    },
+    "vi_a9d78ac6cd45": {
+      "name": "維多利亞島・石人寺院入口",
+      "sourceName": "Victoria Road: The Entrance of Golem's Temple",
+      "region": "victoria",
+      "minLevel": 25,
+      "monsters": [
+        "mob_05474df28288",
+        "mob_4ed1cc58bc62"
+      ],
+      "hidden": true
+    },
+    "vi_f986847cd3d7": {
+      "name": "維多利亞島・石人寺院Ⅰ",
+      "sourceName": "Victoria Road: Golem's Temple I",
+      "region": "victoria",
+      "minLevel": 15,
+      "monsters": [
+        "blue_mushroom",
+        "mob_8f69f598c271",
+        "mob_4ed1cc58bc62"
+      ],
+      "hidden": true
+    },
+    "vi_631f53414b1e": {
+      "name": "維多利亞島・石人寺院Ⅱ",
+      "sourceName": "Victoria Road: Golem's Temple II",
+      "region": "victoria",
+      "minLevel": 15,
+      "monsters": [
+        "blue_mushroom",
+        "mob_05474df28288",
+        "mob_8f69f598c271",
+        "mob_4ed1cc58bc62"
+      ],
+      "hidden": true
+    },
+    "vi_6ab75848573b": {
+      "name": "維多利亞島・石人寺院Ⅲ",
+      "sourceName": "Victoria Road: Golem's Temple III",
+      "region": "victoria",
+      "minLevel": 15,
+      "monsters": [
+        "blue_mushroom",
+        "mob_05474df28288",
+        "mob_88946de074d8"
+      ],
+      "hidden": true
+    },
+    "vi_2ee8944d9af6": {
+      "name": "維多利亞島・石人寺院Ⅳ",
+      "sourceName": "Victoria Road: Golem's Temple IV",
+      "region": "victoria",
+      "minLevel": 15,
+      "monsters": [
+        "blue_mushroom",
+        "mob_05474df28288",
+        "mob_f2e14f2bcdfd"
+      ],
+      "hidden": true
+    },
+    "vi_d3479430ee3a": {
+      "name": "維多利亞島・魔法森林碼頭",
+      "sourceName": "Victoria Road: Ellinia Station",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_7da99083ccc3": {
+      "name": "維多利亞島・樹林底層",
+      "sourceName": "Hidden Street: Downstairs at the Forest",
+      "region": "victoria",
+      "minLevel": 17,
+      "monsters": [
+        "horny_mushroom",
+        "mob_8f69f598c271"
+      ],
+      "hidden": true
+    },
+    "vi_cd9e2c4cdf14": {
+      "name": "維多利亞島・猴子森林I",
+      "sourceName": "Hidden Street: Monkey Forest I",
+      "region": "victoria",
+      "minLevel": 32,
+      "monsters": [
+        "mob_8f69f598c271",
+        "mob_4be77034def9"
+      ],
+      "hidden": true
+    },
+    "vi_93dcfe282df0": {
+      "name": "維多利亞島・猴子森林Ⅱ",
+      "sourceName": "Victoria Road: Monkey Forest II",
+      "region": "victoria",
+      "minLevel": 35,
+      "monsters": [
+        "mob_4be77034def9"
+      ],
+      "hidden": true
+    },
+    "vi_0941fc97b364": {
+      "name": "維多利亞島・猴子迷宮I",
+      "sourceName": "Victoria Road: Tree Dungeon, Monkey Forest I",
+      "region": "victoria",
+      "minLevel": 30,
+      "monsters": [
+        "mob_59ecb8f0c343",
+        "mob_4be77034def9"
+      ],
+      "hidden": true
+    },
+    "vi_bf1cf75cc314": {
+      "name": "維多利亞島・猴子迷宮Ⅱ",
+      "sourceName": "Hidden Street: Tree Dungeon, Monkey Forest II",
+      "region": "victoria",
+      "minLevel": 30,
+      "monsters": [
+        "mob_59ecb8f0c343",
+        "mob_4be77034def9"
+      ],
+      "hidden": true
+    },
+    "vi_703ffbdee93a": {
+      "name": "維多利亞島・巫婆森林1",
+      "sourceName": "Victoria Road: Forest of Evil I",
+      "region": "victoria",
+      "minLevel": 35,
+      "monsters": [
+        "mob_4be77034def9",
+        "mob_64909f542fe5"
+      ],
+      "hidden": true
+    },
+    "vi_4eb76abc4ebc": {
+      "name": "維多利亞島・巫婆森林2",
+      "sourceName": "Victoria Road: Forest of Evil II",
+      "region": "victoria",
+      "minLevel": 35,
+      "monsters": [
+        "mob_4be77034def9",
+        "mob_64909f542fe5"
+      ],
+      "hidden": true
+    },
+    "vi_da99f9a0235b": {
+      "name": "維多利亞島・詛咒森林",
+      "sourceName": "Victoria Road: Cursed Forest",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [],
+      "hidden": true
+    },
+    "vi_1e4cf46cc753": {
+      "name": "維多利亞島・大木林Ⅰ",
+      "sourceName": "Victoria Road: The Tree That Grew I",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "slime",
+        "dark_stump"
+      ]
+    },
+    "vi_251acff94904": {
+      "name": "維多利亞島・大木林Ⅱ",
+      "sourceName": "Victoria Road: The Tree That Grew II",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "stump",
+        "slime"
+      ]
+    },
+    "vi_1f2efcc9d895": {
+      "name": "維多利亞島・大木林Ⅲ",
+      "sourceName": "Victoria Road: The Tree That Grew III",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "stump",
+        "slime",
+        "green_mushroom"
+      ]
+    },
+    "vi_6bfcb249b37e": {
+      "name": "維多利亞島・大木林之巔",
+      "sourceName": "Victoria Road: Top of the Tree That Grew",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_8459c0350d0b": {
+      "name": "維多利亞島・魔法森林北部",
+      "sourceName": "Victoria Road: The Forest North of Ellinia",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "stump",
+        "slime",
+        "axe_stump",
+        "snail"
+      ]
+    },
+    "vi_0a5b9bce6923": {
+      "name": "維多利亞島・北部森林通道",
+      "sourceName": "Victoria Road: The Tree Tunnel At the Forest Up North",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [],
+      "hidden": true
+    },
+    "vi_43eb4d38f01c": {
+      "name": "維多利亞島・北部森林訓練場1",
+      "sourceName": "Victoria Road: Forest Up North I",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "slime",
+        "horny_mushroom"
+      ],
+      "hidden": true
+    },
+    "vi_b05d448dc5c5": {
+      "name": "維多利亞島・北部森林訓練場2",
+      "sourceName": "Victoria Road: Forest Up North II",
+      "region": "victoria",
+      "minLevel": 10,
+      "monsters": [
+        "green_mushroom",
+        "horny_mushroom"
+      ],
+      "hidden": true
+    },
+    "vi_c05f9c16cfc0": {
+      "name": "維多利亞島・北部森林訓練場3",
+      "sourceName": "Victoria Road: Forest Up North III",
+      "region": "victoria",
+      "minLevel": 25,
+      "monsters": [
+        "mob_59ecb8f0c343",
+        "mob_05474df28288"
+      ],
+      "hidden": true
+    },
+    "vi_51fc0c6c75ba": {
+      "name": "維多利亞島・北部森林訓練場4",
+      "sourceName": "Victoria Road: Forest Up North IV",
+      "region": "victoria",
+      "minLevel": 25,
+      "monsters": [
+        "mob_05474df28288",
+        "mob_59ecb8f0c343",
+        "mob_317cd61d9a3a"
+      ],
+      "hidden": true
+    },
+    "vi_a159966804b7": {
+      "name": "維多利亞島・北部森林訓練場5",
+      "sourceName": "Victoria Road: Forest Up North V",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "slime",
+        "green_mushroom"
+      ],
+      "hidden": true
+    },
+    "vi_b9950d8df989": {
+      "name": "維多利亞島・北部森林訓練場6",
+      "sourceName": "Victoria Road: Forest Up North VI",
+      "region": "victoria",
+      "minLevel": 10,
+      "monsters": [
+        "green_mushroom"
+      ],
+      "hidden": true
+    },
+    "vi_1666ad9c9716": {
+      "name": "維多利亞島・北部森林訓練場7",
+      "sourceName": "Victoria Road: Forest Up North VII",
+      "region": "victoria",
+      "minLevel": 10,
+      "monsters": [
+        "horny_mushroom",
+        "green_mushroom"
+      ],
+      "hidden": true
+    },
+    "vi_083c63b46923": {
+      "name": "維多利亞島・北部森林訓練場8",
+      "sourceName": "Victoria Road: Forest Up North VIII",
+      "region": "victoria",
+      "minLevel": 30,
+      "monsters": [
+        "mob_59ecb8f0c343"
+      ],
+      "hidden": true
+    },
+    "vi_ef6196a514cb": {
+      "name": "維多利亞島・北部森林訓練場9",
+      "sourceName": "Victoria Road: Forest Up North IX",
+      "region": "victoria",
+      "minLevel": 30,
+      "monsters": [
+        "mob_59ecb8f0c343"
+      ],
+      "hidden": true
+    },
+    "vi_612400f29ebb": {
+      "name": "維多利亞島・勇士村西入口",
+      "sourceName": "Victoria Road: West Street Corner of Perion",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "stump",
+        "dark_stump",
+        "green_mushroom"
+      ]
+    },
+    "vi_e2faf21802ad": {
+      "name": "維多利亞島・西部岩山Ⅱ",
+      "sourceName": "Victoria Road: West Rocky Mountain II",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "axe_stump",
+        "red_snail",
+        "stump",
+        "dark_stump"
+      ]
+    },
+    "vi_38d411535c3f": {
+      "name": "維多利亞島・西部岩山Ⅲ",
+      "sourceName": "Victoria Road: West Rocky Mountain III",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "axe_stump",
+        "mob_cafa92abdfd6",
+        "red_snail",
+        "dark_stump",
+        "green_mushroom"
+      ]
+    },
+    "vi_f4019df0815b": {
+      "name": "維多利亞島・西部岩山Ⅳ",
+      "sourceName": "Victoria Road: West Rocky Mountain IV",
+      "region": "victoria",
+      "minLevel": 17,
+      "monsters": [
+        "mob_cafa92abdfd6",
+        "mob_f0a1982dc663",
+        "mob_8f69f598c271"
+      ]
+    },
+    "vi_a4f5d6febe6a": {
+      "name": "維多利亞島・勇士之村西部",
+      "sourceName": "Victoria Road: West Domain of Perion",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "dark_stump",
+        "snail",
+        "blue_snail",
+        "red_snail",
+        "stump",
+        "green_mushroom"
+      ]
+    },
+    "vi_59cc9851e2f2": {
+      "name": "維多利亞島・勇士之村東入口",
+      "sourceName": "Victoria Road: East Street Corner of Perion",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "red_snail",
+        "stump",
+        "snail",
+        "dark_stump"
+      ]
+    },
+    "vi_75fd9f3af2aa": {
+      "name": "維多利亞島・黑肥肥領土",
+      "sourceName": "Victoria Road: Land of Wild Boar I",
+      "region": "victoria",
+      "minLevel": 17,
+      "monsters": [
+        "mob_cafa92abdfd6",
+        "mob_f0a1982dc663"
+      ],
+      "hidden": true
+    },
+    "vi_030f250ed804": {
+      "name": "維多利亞島・東方岩石山Ⅰ",
+      "sourceName": "Victoria Road: East Rocky Mountain I",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "stump",
+        "dark_stump"
+      ]
+    },
+    "vi_31110cd47add": {
+      "name": "維多利亞島・東方岩石山Ⅱ",
+      "sourceName": "Victoria Road: East Rocky Mountain II",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "stump",
+        "dark_stump"
+      ]
+    },
+    "vi_001bb8050a0b": {
+      "name": "維多利亞島・東方岩石山Ⅲ",
+      "sourceName": "Victoria Road: East Rocky Mountain III",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "dark_stump",
+        "axe_stump",
+        "mob_cafa92abdfd6",
+        "stump"
+      ]
+    },
+    "vi_30db0043d236": {
+      "name": "維多利亞島・東方岩石山Ⅳ",
+      "sourceName": "Victoria Road: East Rocky Mountain IV",
+      "region": "victoria",
+      "minLevel": 12,
+      "monsters": [
+        "axe_stump",
+        "mob_cafa92abdfd6"
+      ]
+    },
+    "vi_f7f79554dd1b": {
+      "name": "維多利亞島・東方岩石山Ⅴ",
+      "sourceName": "Victoria Road: East Rocky Mountain V",
+      "region": "victoria",
+      "minLevel": 12,
+      "monsters": [
+        "axe_stump",
+        "mob_cafa92abdfd6"
+      ]
+    },
+    "vi_121a630de42f": {
+      "name": "維多利亞島・東方岩石山Ⅵ",
+      "sourceName": "Victoria Road: East Rocky Mountain VI",
+      "region": "victoria",
+      "minLevel": 17,
+      "monsters": [
+        "mob_cafa92abdfd6",
+        "mob_3242043b26ff"
+      ]
+    },
+    "vi_1e19435bab27": {
+      "name": "維多利亞島・東方岩石山Ⅶ",
+      "sourceName": "Victoria Road: East Rocky Mountain VII",
+      "region": "victoria",
+      "minLevel": 17,
+      "monsters": [
+        "mob_cafa92abdfd6",
+        "mob_3242043b26ff",
+        "mob_7952237eac9a"
+      ]
+    },
+    "vi_0687550298d0": {
+      "name": "維多利亞島・岩石路Ⅰ",
+      "sourceName": "Victoria Road: Rocky Road I",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "stump",
+        "dark_stump",
+        "snail",
+        "red_snail",
+        "green_mushroom"
+      ]
+    },
+    "vi_cb866db890de": {
+      "name": "維多利亞島・岩石路Ⅱ",
+      "sourceName": "Victoria Road: Rocky Road II",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "stump",
+        "dark_stump",
+        "snail",
+        "red_snail"
+      ]
+    },
+    "vi_ea7823bc7c1e": {
+      "name": "維多利亞島・岩石路Ⅲ",
+      "sourceName": "Victoria Road: Rocky Road III",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "red_snail",
+        "stump"
+      ]
+    },
+    "vi_470f8e292724": {
+      "name": "維多利亞島・勇士之村東部",
+      "sourceName": "Victoria Road: East Domain of Perion",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "stump",
+        "dark_stump",
+        "snail",
+        "blue_snail",
+        "red_snail",
+        "green_mushroom"
+      ]
+    },
+    "vi_7bab3ff5598c": {
+      "name": "維多利亞島・黑肥肥領土2",
+      "sourceName": "Victoria Road: Land of Wild Boar II",
+      "region": "victoria",
+      "minLevel": 17,
+      "monsters": [
+        "mob_cafa92abdfd6",
+        "mob_f0a1982dc663"
+      ],
+      "hidden": true
+    },
+    "vi_215a497a8f59": {
+      "name": "維多利亞島・遺跡發掘地Ⅰ",
+      "sourceName": "Victoria Road: Excavation Site I",
+      "region": "victoria",
+      "minLevel": 14,
+      "monsters": [
+        "mob_82954bf71a63",
+        "mob_9d35c086f378"
+      ]
+    },
+    "vi_099e1ba909d7": {
+      "name": "維多利亞島・遺跡發掘地Ⅱ",
+      "sourceName": "Victoria Road: Excavation Site II",
+      "region": "victoria",
+      "minLevel": 14,
+      "monsters": [
+        "mob_82954bf71a63",
+        "mob_9d35c086f378",
+        "mob_a8a5272f9faf"
+      ]
+    },
+    "vi_6113b0c1ed00": {
+      "name": "維多利亞島・遺跡發掘地Ⅲ",
+      "sourceName": "Victoria Road: Excavation Site III",
+      "region": "victoria",
+      "minLevel": 18,
+      "monsters": [
+        "mob_9d35c086f378",
+        "mob_a8a5272f9faf"
+      ]
+    },
+    "vi_b7231c10842f": {
+      "name": "維多利亞島・Victoria Road: Excavation Site <Camp>",
+      "sourceName": "Victoria Road: Excavation Site <Camp>",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_5eff47a644b2": {
+      "name": "維多利亞島・Victoria Road: Remains <Tomb> I",
+      "sourceName": "Victoria Road: Remains <Tomb> I",
+      "region": "victoria",
+      "minLevel": 39,
+      "monsters": [
+        "mob_6083be8452db",
+        "mob_87e6e62c52e7"
+      ]
+    },
+    "vi_ed7b502805a8": {
+      "name": "維多利亞島・Victoria Road: Remains <Tomb> II",
+      "sourceName": "Victoria Road: Remains <Tomb> II",
+      "region": "victoria",
+      "minLevel": 39,
+      "monsters": [
+        "mob_6083be8452db",
+        "mob_87e6e62c52e7",
+        "mob_2466580211ee"
+      ]
+    },
+    "vi_8f06e5af4d04": {
+      "name": "維多利亞島・Victoria Road: Remains <Tomb> III",
+      "sourceName": "Victoria Road: Remains <Tomb> III",
+      "region": "victoria",
+      "minLevel": 39,
+      "monsters": [
+        "mob_6083be8452db",
+        "mob_87e6e62c52e7",
+        "mob_2466580211ee"
+      ]
+    },
+    "vi_a460e0ad05b2": {
+      "name": "維多利亞島・Victoria Road: Remains <Tomb> IV",
+      "sourceName": "Victoria Road: Remains <Tomb> IV",
+      "region": "victoria",
+      "minLevel": 58,
+      "monsters": [
+        "mob_6772f71a90ec",
+        "mob_27b9b0678ca1"
+      ]
+    },
+    "vi_ee95807dd5a6": {
+      "name": "維多利亞島・Victoria Road: Remains <Cliff>",
+      "sourceName": "Victoria Road: Remains <Cliff>",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_e2c53ccf9f77": {
+      "name": "維多利亞島・幽深的峽谷Ⅰ",
+      "sourceName": "Warning Street: Deep Valley I",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "red_snail",
+        "dark_stump",
+        "axe_stump",
+        "mob_cafa92abdfd6",
+        "mob_3242043b26ff"
+      ]
+    },
+    "vi_80677c86b08e": {
+      "name": "維多利亞島・危險的峽谷1",
+      "sourceName": "Victoria Road: Dangerous Valley I",
+      "region": "victoria",
+      "minLevel": 20,
+      "monsters": [
+        "mob_f0a1982dc663",
+        "mob_3242043b26ff"
+      ],
+      "hidden": true
+    },
+    "vi_e3883dd69481": {
+      "name": "維多利亞島・危險的峽谷Ⅱ",
+      "sourceName": "Hidden Street: Dangerous Valley II",
+      "region": "victoria",
+      "minLevel": 27,
+      "monsters": [
+        "mob_3242043b26ff",
+        "mob_7952237eac9a",
+        "mob_15c4cef281d6"
+      ],
+      "hidden": true
+    },
+    "vi_e8484f97bafb": {
+      "name": "維多利亞島・幽深的峽谷Ⅱ",
+      "sourceName": "Warning Street: Deep Valley II",
+      "region": "victoria",
+      "minLevel": 12,
+      "monsters": [
+        "axe_stump",
+        "mob_cafa92abdfd6",
+        "mob_f0a1982dc663",
+        "mob_3242043b26ff"
+      ]
+    },
+    "vi_deaa6fab2f80": {
+      "name": "維多利亞島・幽深峽谷Ⅲ",
+      "sourceName": "Warning Street: Deep Valley III",
+      "region": "victoria",
+      "minLevel": 12,
+      "monsters": [
+        "axe_stump",
+        "mob_cafa92abdfd6",
+        "mob_f0a1982dc663",
+        "mob_3242043b26ff"
+      ]
+    },
+    "vi_27ac84de18fa": {
+      "name": "維多利亞島・勇士之村迷宮入口",
+      "sourceName": "Warning Street: Perion Dungeon Entrance",
+      "region": "victoria",
+      "minLevel": 17,
+      "monsters": [
+        "horny_mushroom",
+        "mob_cafa92abdfd6"
+      ]
+    },
+    "vi_376f2b289151": {
+      "name": "維多利亞島・火焰之地Ⅰ",
+      "sourceName": "Warning Street: The Burnt Land I",
+      "region": "victoria",
+      "minLevel": 20,
+      "monsters": [
+        "mob_f0a1982dc663",
+        "mob_3242043b26ff"
+      ]
+    },
+    "vi_7310a07514a2": {
+      "name": "維多利亞島・火焰之地Ⅱ",
+      "sourceName": "Warning Street: The Burnt Land II",
+      "region": "victoria",
+      "minLevel": 27,
+      "monsters": [
+        "mob_3242043b26ff"
+      ]
+    },
+    "vi_6cf466ecb5df": {
+      "name": "維多利亞島・火焰之地Ⅲ",
+      "sourceName": "Warning Street: The Burnt Land III",
+      "region": "victoria",
+      "minLevel": 40,
+      "monsters": [
+        "mob_3d43ab9577e0"
+      ]
+    },
+    "vi_26bfd81c048b": {
+      "name": "維多利亞島・火焰之地Ⅳ",
+      "sourceName": "Warning Street: The Burnt Land IV",
+      "region": "victoria",
+      "minLevel": 40,
+      "monsters": [
+        "mob_3d43ab9577e0"
+      ]
+    },
+    "vi_1e95a8d8a86d": {
+      "name": "維多利亞島・火焰之地Ⅴ",
+      "sourceName": "Warning Street: The Burnt Land V",
+      "region": "victoria",
+      "minLevel": 40,
+      "monsters": [
+        "mob_3d43ab9577e0"
+      ]
+    },
+    "vi_053636b458f0": {
+      "name": "維多利亞島・牆的另一端",
+      "sourceName": "Hidden Street: Over the Wall",
+      "region": "victoria",
+      "minLevel": 5,
+      "monsters": [
+        "dark_stump",
+        "axe_stump",
+        "mob_cafa92abdfd6"
+      ],
+      "hidden": true
+    },
+    "vi_08c5bb376500": {
+      "name": "維多利亞島・鋼之黑肥肥之地",
+      "sourceName": "Hidden Street: Iron Boar Land",
+      "region": "victoria",
+      "minLevel": 40,
+      "monsters": [
+        "mob_3d43ab9577e0"
+      ],
+      "hidden": true
+    },
+    "vi_916031e5a4db": {
+      "name": "維多利亞島・維多利亞島 墮落城市機場",
+      "sourceName": "Victoria Island: Kerning Airport",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_b0e1120502c7": {
+      "name": "維多利亞島・墮落城市森林I",
+      "sourceName": "Victoria Road: Kerning City Middle Forest I",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "slime",
+        "pig",
+        "orange_mushroom",
+        "ribbon_pig"
+      ]
+    },
+    "vi_0277752d3bc6": {
+      "name": "維多利亞島・墮落城市森林II",
+      "sourceName": "Victoria Road: Kerning City Middle Forest II",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "slime",
+        "pig",
+        "orange_mushroom",
+        "ribbon_pig",
+        "green_mushroom"
+      ]
+    },
+    "vi_3cece5f4c719": {
+      "name": "維多利亞島・墮落城市森林III",
+      "sourceName": "Victoria Road: Kerning City Middle Forest III",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "red_snail",
+        "slime",
+        "orange_mushroom",
+        "ribbon_pig"
+      ]
+    },
+    "vi_ffd8158cd159": {
+      "name": "維多利亞島・歷恩森林Ⅰ",
+      "sourceName": "Victoria Road: L Forest I",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "orange_mushroom",
+        "ribbon_pig",
+        "blue_mushroom",
+        "mob_b0986a845d19",
+        "slime",
+        "pig"
+      ]
+    },
+    "vi_f75ae3b9bbfc": {
+      "name": "維多利亞島・歷恩森林Ⅱ",
+      "sourceName": "Victoria Road: L Forest II",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "stump",
+        "slime",
+        "pig",
+        "orange_mushroom",
+        "green_mushroom",
+        "blue_mushroom",
+        "ribbon_pig"
+      ]
+    },
+    "vi_905853580971": {
+      "name": "維多利亞島・歷恩森林Ⅲ",
+      "sourceName": "Victoria Road: L Forest III",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "snail",
+        "blue_snail",
+        "shroom",
+        "red_snail",
+        "stump",
+        "slime",
+        "pig",
+        "ribbon_pig",
+        "green_mushroom",
+        "blue_mushroom"
+      ]
+    },
+    "vi_b6227f1dbdf5": {
+      "name": "維多利亞島・墮落城市工地",
+      "sourceName": "Victoria Road: Kerning City Construction Site",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "blue_snail",
+        "stump",
+        "orange_mushroom",
+        "mob_c10a60e4dac3",
+        "green_mushroom"
+      ]
+    },
+    "vi_a63a868475c0": {
+      "name": "維多利亞島・日落天空",
+      "sourceName": "Victoria Road: Sunset Sky",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "red_snail",
+        "orange_mushroom",
+        "blue_snail",
+        "stump",
+        "mob_c10a60e4dac3",
+        "green_mushroom"
+      ]
+    },
+    "vi_95f5dac6f11a": {
+      "name": "維多利亞島・墮落城市北方工地",
+      "sourceName": "Victoria Road: Construction Site North of Kerning City",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "stump",
+        "red_snail",
+        "orange_mushroom",
+        "mob_c10a60e4dac3",
+        "blue_mushroom"
+      ]
+    },
+    "vi_13a5d368bbd6": {
+      "name": "維多利亞島・沼澤地Ⅰ",
+      "sourceName": "Warning Street: The Swamp of Despair I",
+      "region": "victoria",
+      "minLevel": 16,
+      "monsters": [
+        "mob_0ad762506814",
+        "mob_2702d3a1426e"
+      ]
+    },
+    "vi_28d38deef9ba": {
+      "name": "維多利亞島・沼澤地Ⅱ",
+      "sourceName": "Warning Street: The Swamp of Despair II",
+      "region": "victoria",
+      "minLevel": 16,
+      "monsters": [
+        "mob_0ad762506814",
+        "mob_2702d3a1426e"
+      ]
+    },
+    "vi_971f9d0f3a39": {
+      "name": "維多利亞島・沼澤地Ⅲ",
+      "sourceName": "Warning Street: The Swamp of Despair III",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "slime",
+        "mob_0ad762506814",
+        "horny_mushroom",
+        "mob_2702d3a1426e"
+      ]
+    },
+    "vi_5bffbb0c3452": {
+      "name": "維多利亞島・危險的黑鱷魚1",
+      "sourceName": "Warning Street: Dangerous Croko I",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "slime",
+        "mob_0ad762506814",
+        "mob_2702d3a1426e",
+        "mob_7ea4dbf67a9f"
+      ]
+    },
+    "vi_568088e8de44": {
+      "name": "維多利亞島・沼地小屋",
+      "sourceName": "Hidden Street: Hut in the Swamp",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [],
+      "hidden": true
+    },
+    "vi_8f31ff014554": {
+      "name": "維多利亞島・危險的黑鱷魚2",
+      "sourceName": "Warning Street: Dangerous Croko II",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "slime",
+        "mob_0ad762506814",
+        "mob_4be77034def9",
+        "mob_7ea4dbf67a9f"
+      ]
+    },
+    "vi_0f76a69ea784": {
+      "name": "維多利亞島・猴子沼澤地Ⅰ",
+      "sourceName": "Hidden Street: Monkey Swamp I",
+      "region": "victoria",
+      "minLevel": 16,
+      "monsters": [
+        "mob_0ad762506814",
+        "mob_8f69f598c271"
+      ],
+      "hidden": true
+    },
+    "vi_4fc686ea019d": {
+      "name": "維多利亞島・猴子沼澤地Ⅱ",
+      "sourceName": "Hidden Street: Monkey Swamp II",
+      "region": "victoria",
+      "minLevel": 16,
+      "monsters": [
+        "mob_0ad762506814",
+        "mob_8f69f598c271",
+        "mob_4be77034def9"
+      ],
+      "hidden": true
+    },
+    "vi_dfc9907a89e3": {
+      "name": "維多利亞島・猴子沼澤地Ⅲ",
+      "sourceName": "Hidden Street: Monkey Swamp III",
+      "region": "victoria",
+      "minLevel": 16,
+      "monsters": [
+        "mob_0ad762506814",
+        "mob_4be77034def9"
+      ],
+      "hidden": true
+    },
+    "vi_f6d10b8d3aff": {
+      "name": "維多利亞島・小心墜落",
+      "sourceName": "Hidden Street: Caution Falling Down",
+      "region": "victoria",
+      "minLevel": 7,
+      "monsters": [
+        "mob_c10a60e4dac3",
+        "blue_mushroom"
+      ],
+      "hidden": true
+    },
+    "vi_ae1185c1e309": {
+      "name": "維多利亞島・北方工地頂端",
+      "sourceName": "Hidden Street: Northern Top of Construction Site",
+      "region": "victoria",
+      "minLevel": 7,
+      "monsters": [
+        "mob_c10a60e4dac3",
+        "blue_mushroom"
+      ],
+      "hidden": true
+    },
+    "vi_0466ad3cda4c": {
+      "name": "維多利亞島・青蛇濕地",
+      "sourceName": "Victoria Road: Swamp of Junior Necki",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": [
+        "slime",
+        "mob_0ad762506814"
+      ],
+      "hidden": true
+    },
+    "vi_225997369de2": {
+      "name": "維多利亞島・墮落城市地鐵 轉乘區",
+      "sourceName": "Kerning City Subway: Transfer Area",
+      "region": "victoria",
+      "minLevel": 15,
+      "monsters": [
+        "mob_f52d243a1c8a"
+      ]
+    },
+    "vi_129536be00dc": {
+      "name": "維多利亞島・黃金海岸 黃金海灘",
+      "sourceName": "Florina Road: Florina Beach",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_23bd7471c6a1": {
+      "name": "維多利亞島・黃金海岸 熱帶沙灘",
+      "sourceName": "Florina Road: A Look-Out Shed Around the Beach",
+      "region": "victoria",
+      "minLevel": 32,
+      "monsters": [
+        "mob_8f69f598c271"
+      ]
+    },
+    "vi_b297f07e8c86": {
+      "name": "維多利亞島・黃金海岸 紅螃蟹海灘Ⅰ",
+      "sourceName": "Florina Road: Lorang Lorang",
+      "region": "victoria",
+      "minLevel": 32,
+      "monsters": [
+        "mob_c6d392383603",
+        "mob_8f69f598c271"
+      ]
+    },
+    "vi_0418b758d4c8": {
+      "name": "維多利亞島・紅螃蟹海灘2",
+      "sourceName": "Victoria Road: Lorang Lorang 2",
+      "region": "victoria",
+      "minLevel": 32,
+      "monsters": [
+        "mob_c6d392383603"
+      ],
+      "hidden": true
+    },
+    "vi_02e4a673d720": {
+      "name": "維多利亞島・黃金海岸 青螃蟹海灘I",
+      "sourceName": "Florina Road: Lorang and Clang",
+      "region": "victoria",
+      "minLevel": 32,
+      "monsters": [
+        "mob_c6d392383603",
+        "mob_2bd2e540e39c"
+      ]
+    },
+    "vi_e62becfe5590": {
+      "name": "維多利亞島・青螃蟹海灘2",
+      "sourceName": "Victoria Road: Lorang and Clang 2",
+      "region": "victoria",
+      "minLevel": 32,
+      "monsters": [
+        "mob_c6d392383603",
+        "mob_bcb11987c359",
+        "mob_2bd2e540e39c"
+      ],
+      "hidden": true
+    },
+    "vi_98da1a6a2d60": {
+      "name": "維多利亞島・黃金海岸 海龜沙灘",
+      "sourceName": "Florina Road: Hot Sand",
+      "region": "victoria",
+      "minLevel": 41,
+      "monsters": [
+        "mob_bcb11987c359",
+        "mob_2bd2e540e39c"
+      ]
+    },
+    "vi_48d2e294ae00": {
+      "name": "維多利亞島・迷霧森林 奇幻村",
+      "sourceName": "Dungeon: Sleepywood",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_071aa2e62169": {
+      "name": "維多利亞島・前往碼頭的路",
+      "sourceName": "Victoria Road: On the Way to the Harbor",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "vi_b780ce98b5af": {
+      "name": "維多利亞島・鯨魚號 鯨魚號碼頭",
+      "sourceName": "The Nautilus: Nautilus Beach",
+      "region": "victoria",
+      "minLevel": 1,
+      "monsters": []
     }
   },
   "monsters": {
@@ -2012,6 +2991,1190 @@
         {
           "id": "eq_262f364277e7",
           "chance": 0.018
+        }
+      ]
+    },
+    "mob_b0986a845d19": {
+      "name": "鋼之肥肥",
+      "level": 42,
+      "hp": 2200,
+      "exp": 99,
+      "mesos": [
+        120,
+        180
+      ],
+      "attack": 57,
+      "drop": "mat_7f9c052f2550",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_7f9c052f2550",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_04f833110573",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_230231487ded",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_ce0a0300f278",
+          "chance": 0.012
+        }
+      ]
+    },
+    "mob_05474df28288": {
+      "name": "蝴蝶精",
+      "level": 30,
+      "hp": 800,
+      "exp": 120,
+      "mesos": [
+        80,
+        120
+      ],
+      "attack": 41,
+      "drop": "mat_23f91d194146",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_23f91d194146",
+          "chance": 0.45
+        }
+      ]
+    },
+    "mob_4ed1cc58bc62": {
+      "name": "石巨人",
+      "level": 55,
+      "hp": 4000,
+      "exp": 170,
+      "mesos": [
+        256,
+        384
+      ],
+      "attack": 74,
+      "drop": "mat_791be4fe2143",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_791be4fe2143",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_0c8bc73c7d0c",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_25eb14f379f9",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_f55c78b3c597",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_5e3df30d95bb",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_bbf38a7c57c4",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_8f69f598c271": {
+      "name": "猴子",
+      "level": 37,
+      "hp": 1500,
+      "exp": 77,
+      "mesos": [
+        88,
+        132
+      ],
+      "attack": 50,
+      "drop": "mat_6b0c0b7d6913",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_6b0c0b7d6913",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_a2aafb5a3bb5",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_5c18204cdacd",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_181633c6bc00",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_f1c38f420c89",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_a934bea003dc",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_88946de074d8": {
+      "name": "黑曜石巨人",
+      "level": 58,
+      "hp": 4800,
+      "exp": 200,
+      "mesos": [
+        280,
+        420
+      ],
+      "attack": 77,
+      "drop": "mat_80d1134a7451",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_80d1134a7451",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_36763cb40a03",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_3cd94728e68d",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_ced031f18f74",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_59fdaa96af3a",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_fc168499d05e",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_f2e14f2bcdfd": {
+      "name": "混種石巨人",
+      "level": 59,
+      "hp": 6000,
+      "exp": 210,
+      "mesos": [
+        296,
+        447
+      ],
+      "attack": 79,
+      "drop": "mat_7bf30f3c8bb2",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_7bf30f3c8bb2",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_2f30a5a1b38f",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_0f010731bf79",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_f64ad4f7a5da",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_6c72c16a3af6",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_50da3cd08426",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_4be77034def9": {
+      "name": "天使猴",
+      "level": 40,
+      "hp": 1800,
+      "exp": 90,
+      "mesos": [
+        104,
+        156
+      ],
+      "attack": 54,
+      "drop": "mat_e36ef03a550f",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_e36ef03a550f",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_230231487ded",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_904c6ef75311",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_560107604d26",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_bff4d2591ab0",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_59ecb8f0c343": {
+      "name": "風獨眼獸",
+      "level": 35,
+      "hp": 1250,
+      "exp": 70,
+      "mesos": [
+        60,
+        90
+      ],
+      "attack": 48,
+      "drop": "mat_08b227c4089e",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_08b227c4089e",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_e6ac87f6b14d",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_8cab0ac1e61b",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_8b5298a137df",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_2389282b7b19",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_72018bee01b0",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_64909f542fe5": {
+      "name": "巫婆",
+      "level": 55,
+      "hp": 4200,
+      "exp": 170,
+      "mesos": [
+        251,
+        359
+      ],
+      "attack": 74,
+      "drop": "mat_68a92bd54093",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_68a92bd54093",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_fed6840cdba3",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_cb2af4a6319a",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_4df7054da320",
+          "chance": 0.012
+        }
+      ]
+    },
+    "mob_317cd61d9a3a": {
+      "name": "冰獨眼獸",
+      "level": 40,
+      "hp": 2000,
+      "exp": 85,
+      "mesos": [
+        96,
+        144
+      ],
+      "attack": 54,
+      "drop": "mat_c2ca6926843b",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_c2ca6926843b",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_5e73ef433b4e",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_dee18f4b4f32",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_008ec9b34885",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_a094cc90104f",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_8d1e01246147",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_cafa92abdfd6": {
+      "name": "黑斧木妖",
+      "level": 22,
+      "hp": 550,
+      "exp": 38,
+      "mesos": [
+        40,
+        60
+      ],
+      "attack": 31,
+      "drop": "mat_1761fed03d87",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_1761fed03d87",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_b98fc3a8e527",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_8b1b11a999b7",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_7e40f8bbf39b",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_710bfb5fe997",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_b34175d43c60",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_f0a1982dc663": {
+      "name": "黑肥肥",
+      "level": 25,
+      "hp": 550,
+      "exp": 42,
+      "mesos": [
+        44,
+        66
+      ],
+      "attack": 35,
+      "drop": "mat_3ff1c6d84ff1",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_3ff1c6d84ff1",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_79b202864071",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_230231487ded",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_dee18f4b4f32",
+          "chance": 0.012
+        }
+      ]
+    },
+    "mob_3242043b26ff": {
+      "name": "火肥肥",
+      "level": 32,
+      "hp": 1000,
+      "exp": 60,
+      "mesos": [
+        76,
+        114
+      ],
+      "attack": 44,
+      "drop": "mat_6b0c0b7d6913",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_6b0c0b7d6913",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_091ed398c0a0",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_ab654c898f67",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_9ebcb87b3081",
+          "chance": 0.012
+        }
+      ]
+    },
+    "mob_7952237eac9a": {
+      "name": "土龍",
+      "level": 45,
+      "hp": 2700,
+      "exp": 105,
+      "mesos": [
+        160,
+        240
+      ],
+      "attack": 61,
+      "drop": "mat_1556d3d127db",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_1556d3d127db",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_ee6e0095541d",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_8148a043400b",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_695eb4cf6e3f",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_dd406fa4b54c",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_ee090728c76a",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_82954bf71a63": {
+      "name": "發芽木妖",
+      "level": 19,
+      "hp": 330,
+      "exp": 33,
+      "mesos": [
+        34,
+        37
+      ],
+      "attack": 27,
+      "drop": "mat_2934a640b3fd",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_2934a640b3fd",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_b4ad11c0844f",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_7dec84990b30",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_f958237fec1b",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_59fdaa96af3a",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_9d35c086f378": {
+      "name": "木面怪人",
+      "level": 23,
+      "hp": 500,
+      "exp": 42,
+      "mesos": [
+        54,
+        83
+      ],
+      "attack": 32,
+      "drop": "mat_8c864ef89ed3",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_8c864ef89ed3",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_6fcfc5ee475e",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_0c9193861db9",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_049d1480e0ac",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_a8b6f557228f",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_5b0fc46453f5",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_a8a5272f9faf": {
+      "name": "石面怪人",
+      "level": 24,
+      "hp": 600,
+      "exp": 45,
+      "mesos": [
+        57,
+        89
+      ],
+      "attack": 33,
+      "drop": "mat_26d7b218c9b5",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_26d7b218c9b5",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_6141b719089c",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_79b2fa31062b",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_3d247f9db38e",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_f72e4f98aa96",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_fe3983c69274",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_6083be8452db": {
+      "name": "骷髏犬",
+      "level": 44,
+      "hp": 2450,
+      "exp": 107,
+      "mesos": [
+        135,
+        208
+      ],
+      "attack": 59,
+      "drop": "mat_2b454d86ad7d",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_2b454d86ad7d",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_1cc61332a291",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_19a05c61d71b",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_3e022cee27a5",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_4407ca8ed573",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_5754c5e51b0c",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_87e6e62c52e7": {
+      "name": "木乃伊犬",
+      "level": 47,
+      "hp": 2750,
+      "exp": 117,
+      "mesos": [
+        172,
+        258
+      ],
+      "attack": 63,
+      "drop": "mat_144d1494a155",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_144d1494a155",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_87037d5c9661",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_0d13cf883b80",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_77a8537fb649",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_8fd7f2fcbab3",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_ae2b318af6d9",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_2466580211ee": {
+      "name": "骷髏士兵",
+      "level": 57,
+      "hp": 4500,
+      "exp": 190,
+      "mesos": [
+        272,
+        408
+      ],
+      "attack": 76,
+      "drop": "mat_9865c1d3778d",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_9865c1d3778d",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_37b1540fe722",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_33869325d283",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_d524f836dcab",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_397b17863851",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_6772f71a90ec": {
+      "name": "骷髏士官",
+      "level": 63,
+      "hp": 7200,
+      "exp": 240,
+      "mesos": [
+        328,
+        492
+      ],
+      "attack": 84,
+      "drop": "mat_f42fe8d69574",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_f42fe8d69574",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_36fe28414a8a",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_d5fd2a2659ea",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_0f010731bf79",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_6c72c16a3af6",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_b13231715009",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_27b9b0678ca1": {
+      "name": "骷髏指揮官",
+      "level": 73,
+      "hp": 15300,
+      "exp": 315,
+      "mesos": [
+        374,
+        575
+      ],
+      "attack": 97,
+      "drop": "mat_d38089588515",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_d38089588515",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_bfb28a139fde",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_782cdfc2f867",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_e46ba45b20c2",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_d93964c4f098",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_241d4c7c77ae",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_15c4cef281d6": {
+      "name": "赤龍",
+      "level": 60,
+      "hp": 6000,
+      "exp": 220,
+      "mesos": [
+        304,
+        456
+      ],
+      "attack": 80,
+      "drop": "mat_1556d3d127db",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_1556d3d127db",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_d5fd2a2659ea",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_f64ad4f7a5da",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_9ca9bb458271",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_6122945ccb57",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_3d43ab9577e0": {
+      "name": "鋼之黑肥肥",
+      "level": 45,
+      "hp": 2750,
+      "exp": 115,
+      "mesos": [
+        145,
+        223
+      ],
+      "attack": 61,
+      "drop": "mat_b7cd3fec22c4",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_b7cd3fec22c4",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_effb54178a30",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_77a8537fb649",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_0f837e5abb69",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_3251c260bc96",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_27effbb5a79f",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_c10a60e4dac3": {
+      "name": "三眼章魚",
+      "level": 12,
+      "hp": 200,
+      "exp": 24,
+      "mesos": [
+        24,
+        36
+      ],
+      "attack": 18,
+      "drop": "mat_c2931d0e39bc",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_c2931d0e39bc",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_15bbc8e95771",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_1336ccd0bbd9",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_c68e8c1b33e4",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_8379aaf8001b",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_0ad762506814": {
+      "name": "青蛇",
+      "level": 21,
+      "hp": 285,
+      "exp": 38,
+      "mesos": [
+        33,
+        49
+      ],
+      "attack": 29,
+      "drop": "mat_069609075a98",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_069609075a98",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_0b1c4b7ddb3f",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_9131344fad75",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_f24b637493aa",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_800b792323c1",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_2db7002eba06",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_2702d3a1426e": {
+      "name": "鱷魚",
+      "level": 32,
+      "hp": 1200,
+      "exp": 60,
+      "mesos": [
+        76,
+        114
+      ],
+      "attack": 44,
+      "drop": "mat_1ad1bb2e3d11",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_1ad1bb2e3d11",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_a43d3857ef5a",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_c7218dcdf0af",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_283181b0d140",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_4e07c6023ec4",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_59fdaa96af3a",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_7ea4dbf67a9f": {
+      "name": "黑鱷魚",
+      "level": 52,
+      "hp": 3800,
+      "exp": 170,
+      "mesos": [
+        224,
+        336
+      ],
+      "attack": 70,
+      "drop": "mat_7493951156a4",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_7493951156a4",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_9d43529a7cd7",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_2a5e95d7681e",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_93380affc283",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_1c4ac3e74143",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_706931182477",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_f52d243a1c8a": {
+      "name": "蝙蝠",
+      "level": 20,
+      "hp": 300,
+      "exp": 33,
+      "mesos": [
+        32,
+        48
+      ],
+      "attack": 28,
+      "drop": "mat_e36ef03a550f",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_e36ef03a550f",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_0d8582b14676",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_51d3e56a0f93",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_cff7177fc9ba",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_4e07c6023ec4",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_bdbfb67ff856",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_c6d392383603": {
+      "name": "紅螃蟹",
+      "level": 37,
+      "hp": 1950,
+      "exp": 80,
+      "mesos": [
+        92,
+        138
+      ],
+      "attack": 50,
+      "drop": "mat_3a0f02a0558a",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_3a0f02a0558a",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_9ca9bb458271",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_cd06677a33e1",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_3a64866ce3a2",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_59fdaa96af3a",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_dbd564c283d6",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_2bd2e540e39c": {
+      "name": "青螃蟹",
+      "level": 48,
+      "hp": 3000,
+      "exp": 128,
+      "mesos": [
+        176,
+        264
+      ],
+      "attack": 64,
+      "drop": "mat_4c48fd3259d5",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_4c48fd3259d5",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_8b5298a137df",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_c7d32920c1ae",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_c3cc8d1393c7",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_897698ebf8bb",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_eaf36056d75c",
+          "chance": 0.002
+        }
+      ]
+    },
+    "mob_bcb11987c359": {
+      "name": "烏龜",
+      "level": 46,
+      "hp": 2550,
+      "exp": 110,
+      "mesos": [
+        168,
+        252
+      ],
+      "attack": 62,
+      "drop": "mat_6a2cf03994fd",
+      "dropRate": 0.25,
+      "drops": [
+        {
+          "id": "mat_6a2cf03994fd",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_14b8bf1d7d60",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_72e07c6c6469",
+          "chance": 0.012
+        },
+        {
+          "id": "eq_c3b850e13957",
+          "chance": 0.012
+        },
+        {
+          "id": "sc_8dab92364531",
+          "chance": 0.002
+        },
+        {
+          "id": "sc_25d7cf23d6e8",
+          "chance": 0.002
         }
       ]
     }
