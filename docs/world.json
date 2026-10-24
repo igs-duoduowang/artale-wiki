@@ -12321,12 +12321,12 @@
         },
         {
           "id": "sc_44e9ca045d9c",
-          "chance": 0.0004288,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_b4c26743dd11",
-          "chance": 0.0006432,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -12384,7 +12384,7 @@
         },
         {
           "id": "sc_8e9dd4490c08",
-          "chance": 0.00024723,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -12437,11 +12437,11 @@
         },
         {
           "id": "eq_3f7a897c1a47",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_220db11f9448",
-          "chance": 0.0006592799999999999,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -12489,32 +12489,32 @@
         },
         {
           "id": "eq_d06916e907c4",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_964111fcd5c5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_381c33e98925",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_331305e27edc",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_ee5f065c498f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_4f546b23b69f",
-          "chance": 0.00046096,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_db2d7178bfb1",
-          "chance": 0.00025929,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -12560,28 +12560,28 @@
         },
         {
           "id": "eq_ab1b7c187868",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0c49ab969087",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_fd81bdd9a219",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f12a71880746",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_ea614a49581b",
-          "chance": 0.00046096,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_9a0f0ab59678",
-          "chance": 0.00046096,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -12626,37 +12626,37 @@
         },
         {
           "id": "eq_99e3db09b5cb",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6671680edee7",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_acd0cedc966c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_331305e27edc",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d657bf426d56",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_54e8e74e8003",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_0c5ab35ea5f1",
-          "chance": 0.0004824,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_e03ac6002886",
-          "chance": 0.00027135,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -12717,20 +12717,20 @@
         },
         {
           "id": "eq_85079939481f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5827049e28fd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_b7ad44550a4e",
-          "chance": 0.00049312,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_f1780745bdb2",
-          "chance": 0.00027738,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -12786,16 +12786,16 @@
         },
         {
           "id": "eq_c8599e32e54a",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_786e2be0cded",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_27e4d8a73435",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c472749bae77",
@@ -12803,7 +12803,7 @@
         },
         {
           "id": "sc_4407ca8ed573",
-          "chance": 0.0005038400000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -12906,7 +12906,7 @@
         },
         {
           "id": "eq_02dee1e1c3c7",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_e07ce092b096",
@@ -12914,19 +12914,19 @@
         },
         {
           "id": "eq_22bb528ed7de",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6ced262867da",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_281e218fb901",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_dda9c62d4496",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c472749bae77",
@@ -12934,12 +12934,12 @@
         },
         {
           "id": "sc_2addd7b0ad2b",
-          "chance": 0.0005896,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_c871f2db4de3",
-          "chance": 0.0005896,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -13008,20 +13008,20 @@
         },
         {
           "id": "eq_964111fcd5c5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5a02286871f9",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_f12a71880746",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_800b792323c1",
-          "chance": 0.00052528,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -13104,42 +13104,42 @@
         },
         {
           "id": "eq_b28a185194bd",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_78360bc04e83",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_acd0cedc966c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_fd0aa95568e4",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_7b34763ab34a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0c49ab969087",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_931bab8992c8",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_830e9bba56dc",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_1999e56d04cb",
-          "chance": 0.00057888,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -13214,29 +13214,29 @@
         },
         {
           "id": "eq_b28a185194bd",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_fb647bd19966",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_e1440588f2e7",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3a09b89a7875",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_54e8e74e8003",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_44a1cbfd234a",
-          "chance": 0.00052528,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -13317,7 +13317,7 @@
         },
         {
           "id": "eq_b58721d4668c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -13326,36 +13326,36 @@
         },
         {
           "id": "eq_964111fcd5c5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_ad16636927a7",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_381c33e98925",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_875d58d7f87e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c16a813e7db6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_7b7d799e447b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_18f92ce38db0",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_a77e0fee5a67",
-          "chance": 0.00060032,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -13447,35 +13447,35 @@
         },
         {
           "id": "eq_acd0cedc966c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_d657bf426d56",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_6ced262867da",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a27c57b1c43c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_3f7a897c1a47",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0374f6cbb3c9",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "sc_b5ca5489ae15",
-          "chance": 0.00063248,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -13545,7 +13545,7 @@
         },
         {
           "id": "eq_cc1e731d2b6e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_48357f42266d",
@@ -13553,24 +13553,24 @@
         },
         {
           "id": "eq_4c58cc6a09d9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9cb933c55d78",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_dcb2000bb09b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0374f6cbb3c9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6075a4730dfc",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "white_potion",
@@ -13695,11 +13695,11 @@
         },
         {
           "id": "eq_3e434959bf08",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cc1e731d2b6e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_fbcfbe87b1a6",
@@ -13707,20 +13707,20 @@
         },
         {
           "id": "eq_f545c5638714",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_d9893e4fd6e2",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_388808483e5d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_99380e01e20c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -13729,12 +13729,12 @@
         },
         {
           "id": "sc_5e3df30d95bb",
-          "chance": 0.0015115200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_bbf38a7c57c4",
-          "chance": 0.0015115200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -13828,7 +13828,7 @@
         },
         {
           "id": "eq_150b7520daa9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b58fb81072ab",
@@ -13836,16 +13836,16 @@
         },
         {
           "id": "eq_7484f167fb64",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_ac505d0225b5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_8c803d4b9932",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f717a4775dfc",
@@ -13858,12 +13858,12 @@
         },
         {
           "id": "sc_f1c38f420c89",
-          "chance": 0.00081472,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_a934bea003dc",
-          "chance": 0.00122208,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -13961,27 +13961,27 @@
         },
         {
           "id": "eq_59f78a04ed90",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_870f6db9c19c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c60a08ade1b4",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_78eb969625fe",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_e5c8ff303b02",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_040c8b60b338",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_51a9c0104cb0",
@@ -13989,22 +13989,22 @@
         },
         {
           "id": "sc_59fdaa96af3a",
-          "chance": 0.00103984,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_fc168499d05e",
-          "chance": 0.0015597599999999999,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_ab49a6d3a0bf",
-          "chance": 0.0015597599999999999,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_6596f6f02b19",
-          "chance": 0.0015597599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -14092,34 +14092,34 @@
         },
         {
           "id": "eq_77906b715d8a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f30652a21be2",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3ef5b010b48a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_6c72c16a3af6",
-          "chance": 0.00105056,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_50da3cd08426",
-          "chance": 0.0015758400000000002,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_5754c5e51b0c",
-          "chance": 0.0015758400000000002,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_5b0fc46453f5",
-          "chance": 0.0015758400000000002,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -14214,36 +14214,36 @@
         },
         {
           "id": "eq_0d0e66f3330d",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_a9a07acd77bb",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a5f8b3757495",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d721bde32c1a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6f8cf8ce8380",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_8ae331971597",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_4f65c3d725ff",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_bff4d2591ab0",
-          "chance": 0.00084688,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -14325,19 +14325,19 @@
         },
         {
           "id": "eq_557f234b621b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1e1e297a5f78",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d3766548872c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a8eadfe63ee8",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3fb99b7b94a8",
@@ -14345,12 +14345,12 @@
         },
         {
           "id": "sc_2389282b7b19",
-          "chance": 0.00079328,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_72018bee01b0",
-          "chance": 0.00079328,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -14427,32 +14427,32 @@
         },
         {
           "id": "eq_b4a5f12bf1ec",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f55448dff761",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d250156faaf4",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_e5a6b2f23666",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_66b26a76ada2",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_7a714ce17e2b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_39918de61c38",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "white_potion",
@@ -14538,28 +14538,28 @@
         },
         {
           "id": "eq_77906b715d8a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cf8ec3e79aff",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_2e4c4a566f32",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_281e218fb901",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_aa67960e0fff",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_8c803d4b9932",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_aaf7f2f28b20",
@@ -14568,12 +14568,12 @@
         },
         {
           "id": "sc_a094cc90104f",
-          "chance": 0.0012703200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_8d1e01246147",
-          "chance": 0.0012703200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -14659,15 +14659,15 @@
         },
         {
           "id": "eq_7ad8a265cbd4",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9569d06d2d08",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c2f863f63a1f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b3e19ae01d7e",
@@ -14675,17 +14675,17 @@
         },
         {
           "id": "sc_710bfb5fe997",
-          "chance": 0.00065392,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_b34175d43c60",
-          "chance": 0.00098088,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_a237331bcd27",
-          "chance": 0.00036783,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -14773,41 +14773,41 @@
         },
         {
           "id": "eq_8c8bca7e6ae9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_75d0127a7692",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f545c5638714",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9903608e89bd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_36c86bc25334",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_1e1e297a5f78",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c698e1e30ec5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_99380e01e20c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_281e218fb901",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -14886,36 +14886,36 @@
         },
         {
           "id": "eq_d84988099bc1",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_279778aa158c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_177a0af9e5ca",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_388808483e5d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_99380e01e20c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3e126e09f14e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_de2c6ed720e3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c2f863f63a1f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1e70aa0ca5cd",
@@ -14999,37 +14999,37 @@
         },
         {
           "id": "eq_19d8533b61a4",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5bcd89e4a99d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9cb933c55d78",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a5f8b3757495",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_877af381bf08",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_dd406fa4b54c",
-          "chance": 0.00090048,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_ee090728c76a",
-          "chance": 0.0013507200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_ad9dc308d7f7",
-          "chance": 0.0013507200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -15115,30 +15115,30 @@
         },
         {
           "id": "eq_ce54a286b438",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0e6f20d60dfd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_acd0cedc966c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "sc_59fdaa96af3a",
-          "chance": 0.00062176,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_39d48fba6830",
-          "chance": 0.00093264,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_0585fb42cc1a",
-          "chance": 0.00093264,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -15211,19 +15211,19 @@
         },
         {
           "id": "eq_a22e1d485bad",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_59d45378c42b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_bfe5d942fec3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6bfce9c20843",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c472749bae77",
@@ -15231,22 +15231,22 @@
         },
         {
           "id": "sc_a8b6f557228f",
-          "chance": 0.00099696,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_5b0fc46453f5",
-          "chance": 0.00099696,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_397b17863851",
-          "chance": 0.00099696,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_ac14042bd228",
-          "chance": 0.00037386,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -15302,37 +15302,37 @@
         },
         {
           "id": "eq_4a0ae8e573e5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3d042132ec1b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a272e3731df3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_566e07d359f5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_99380e01e20c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_f72e4f98aa96",
-          "chance": 0.00101304,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_fe3983c69274",
-          "chance": 0.00101304,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_bf786b627f0a",
-          "chance": 0.00101304,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -15407,15 +15407,15 @@
         },
         {
           "id": "eq_f5f671bb550d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cfaff163d183",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_877af381bf08",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -15424,22 +15424,22 @@
         },
         {
           "id": "sc_4407ca8ed573",
-          "chance": 0.0008897600000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_5754c5e51b0c",
-          "chance": 0.0013346400000000002,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_fe3983c69274",
-          "chance": 0.0013346400000000002,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_696ac32c9587",
-          "chance": 0.00050049,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -15510,43 +15510,43 @@
         },
         {
           "id": "eq_85d260ab41dd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_77906b715d8a",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_68881e219018",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3122d3db916c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d1d27cd66e78",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_8fd7f2fcbab3",
-          "chance": 0.00092192,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_ae2b318af6d9",
-          "chance": 0.00092192,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_fc168499d05e",
-          "chance": 0.00138288,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_6596f6f02b19",
-          "chance": 0.00138288,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -15652,27 +15652,27 @@
         },
         {
           "id": "sc_397b17863851",
-          "chance": 0.00154368,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_74ee9507937d",
-          "chance": 0.00154368,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_bf786b627f0a",
-          "chance": 0.00154368,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_098284f5c975",
-          "chance": 0.00154368,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_84c96a544bde",
-          "chance": 0.00057888,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -15729,36 +15729,36 @@
         },
         {
           "id": "eq_85d260ab41dd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_60e65ed9e3ec",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_060cf004e956",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b9f6911336c3",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_443661bda2ea",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_ec0e3d6a45fe",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_2e4cb8791e5b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_21ca7bbd64b1",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_32e95e8d66e0",
@@ -15766,20 +15766,20 @@
         },
         {
           "id": "eq_1aa9e1610d81",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_67c0ce4fdc9a",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_feffe5f4719f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_4f069a747a39",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_916751b2bccd",
@@ -15787,32 +15787,32 @@
         },
         {
           "id": "sc_6c72c16a3af6",
-          "chance": 0.00109344,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_b13231715009",
-          "chance": 0.00109344,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_16aa8354b566",
-          "chance": 0.00109344,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_50da3cd08426",
-          "chance": 0.0016401599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_1bb203550356",
-          "chance": 0.00061506,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_d7dec03518bf",
-          "chance": 0.00061506,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -15908,7 +15908,7 @@
         },
         {
           "id": "eq_8cfc5e910429",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c784665f2e19",
@@ -15916,17 +15916,17 @@
         },
         {
           "id": "sc_d93964c4f098",
-          "chance": 0.0018009599999999999,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_241d4c7c77ae",
-          "chance": 0.0018009599999999999,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_f72e4f98aa96",
-          "chance": 0.0018009599999999999,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -16040,15 +16040,15 @@
         },
         {
           "id": "eq_51447adfb0c2",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_2e4cb8791e5b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_ef4bdd3bb10e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3bba55ac51c0",
@@ -16056,11 +16056,11 @@
         },
         {
           "id": "eq_3ef5b010b48a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_193a61877120",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_8dd2f16b37d3",
@@ -16073,7 +16073,7 @@
         },
         {
           "id": "sc_6122945ccb57",
-          "chance": 0.00059697,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -16138,20 +16138,20 @@
         },
         {
           "id": "eq_3ca988439ea9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_700e5b173941",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_3251c260bc96",
-          "chance": 0.0013507200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_27effbb5a79f",
-          "chance": 0.00050652,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -16217,21 +16217,21 @@
         },
         {
           "id": "eq_b28a185194bd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_85079939481f",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_830e9bba56dc",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "sc_8379aaf8001b",
-          "chance": 0.00054672,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -16299,20 +16299,20 @@
         },
         {
           "id": "eq_f508e83e9f4e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_432864027c17",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_800b792323c1",
-          "chance": 0.0006432,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_2db7002eba06",
-          "chance": 0.0003618,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -16369,11 +16369,11 @@
         },
         {
           "id": "eq_4a0ae8e573e5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b24f42a69dd5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1690aaeea3a8",
@@ -16381,28 +16381,28 @@
         },
         {
           "id": "eq_ed725c22518d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_22768da5bec2",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_7b34763ab34a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5c25e8d9be53",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_4e07c6023ec4",
-          "chance": 0.00076112,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_59fdaa96af3a",
-          "chance": 0.00076112,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -16479,7 +16479,7 @@
         },
         {
           "id": "eq_d1d27cd66e78",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b2526b880e0c",
@@ -16487,30 +16487,30 @@
         },
         {
           "id": "eq_cfaff163d183",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_54e5b7d03d7f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_1c4ac3e74143",
-          "chance": 0.00146328,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_706931182477",
-          "chance": 0.00146328,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_59c91b85176f",
-          "chance": 0.00146328,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_637a3edef3a6",
-          "chance": 0.00054873,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -16590,30 +16590,30 @@
         },
         {
           "id": "eq_f8b98daed873",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_99380e01e20c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_4e07c6023ec4",
-          "chance": 0.00063248,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_bdbfb67ff856",
-          "chance": 0.0009487200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_59c91b85176f",
-          "chance": 0.0009487200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_874542d20ad3",
-          "chance": 0.00035577000000000004
+          "chance": 0.00030000000000000003
         },
         {
           "id": "orange_potion",
@@ -16690,11 +16690,11 @@
         },
         {
           "id": "eq_84c5180ef831",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d4c5c4fd7d9c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_48357f42266d",
@@ -16702,46 +16702,46 @@
         },
         {
           "id": "eq_0ebc00188d27",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6ced262867da",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c698e1e30ec5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_99380e01e20c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_de2c6ed720e3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_868b65f668d6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_59fdaa96af3a",
-          "chance": 0.00081472,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_dbd564c283d6",
-          "chance": 0.00122208,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_874542d20ad3",
-          "chance": 0.00045828,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_d7dec03518bf",
-          "chance": 0.00045828,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -16827,33 +16827,33 @@
         },
         {
           "id": "eq_53b49546059c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a1246082227e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a5f8b3757495",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c5bcb0954261",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_897698ebf8bb",
-          "chance": 0.00093264,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_eaf36056d75c",
-          "chance": 0.0013989599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_d7dec03518bf",
-          "chance": 0.00052461,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -16941,26 +16941,26 @@
         },
         {
           "id": "eq_79b7de27a46f",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_f1c5cfc784d3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_8dab92364531",
-          "chance": 0.0009112,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_25d7cf23d6e8",
-          "chance": 0.0013668,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_27effbb5a79f",
-          "chance": 0.0005125500000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -17039,11 +17039,11 @@
         },
         {
           "id": "eq_596ec58013b6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3fff60d1a9af",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_fc47214df226",
@@ -17055,38 +17055,38 @@
         },
         {
           "id": "eq_0ebc00188d27",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_da856807c85e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_32d609228542",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1263ce430046",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_78e032987d37",
-          "chance": 0.00079328,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_800b792323c1",
-          "chance": 0.00079328,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_dce044ee2e6f",
-          "chance": 0.0011899200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_55d42e94a107",
-          "chance": 0.00044622000000000005,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -17174,15 +17174,15 @@
         },
         {
           "id": "eq_5aa87ff84ffc",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d57f19f2ab05",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_53b49546059c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_482c261c51de",
@@ -17190,22 +17190,22 @@
         },
         {
           "id": "sc_4407ca8ed573",
-          "chance": 0.00090048,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_475b0de1d667",
-          "chance": 0.00090048,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_0ae2ed47bd8f",
-          "chance": 0.00090048,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_6122945ccb57",
-          "chance": 0.00050652,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -17286,28 +17286,28 @@
         },
         {
           "id": "eq_b4a5f12bf1ec",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cfaff163d183",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_de2c6ed720e3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_4f65c3d725ff",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_37b2ab6a06e2",
-          "chance": 0.00086832,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_b4c26743dd11",
-          "chance": 0.00130248,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -17393,25 +17393,25 @@
         },
         {
           "id": "eq_33b8dc01d007",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3b5618c91c0c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_08313a957d91",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_ae2b318af6d9",
-          "chance": 0.00092192,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_6596f6f02b19",
-          "chance": 0.00138288,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -17496,11 +17496,11 @@
         },
         {
           "id": "eq_82bf28c900f5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5cda415162af",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_28abea92c5a7",
@@ -17509,7 +17509,7 @@
         },
         {
           "id": "eq_f5f671bb550d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_482c261c51de",
@@ -17521,27 +17521,27 @@
         },
         {
           "id": "sc_2a59e8e31d3f",
-          "chance": 0.00097552,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_8c4cdf9534ae",
-          "chance": 0.00146328,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_0df3524a1183",
-          "chance": 0.00146328,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_d7dec03518bf",
-          "chance": 0.00054873,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_c45b477ec3ee",
-          "chance": 0.00054873,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -17623,28 +17623,28 @@
         },
         {
           "id": "eq_1a7eb0170a36",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cf8ec3e79aff",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_fc2ab956a80e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_ed725c22518d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3e126e09f14e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5c25e8d9be53",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1e70aa0ca5cd",
@@ -17652,7 +17652,7 @@
         },
         {
           "id": "sc_098284f5c975",
-          "chance": 0.00115776,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -17717,32 +17717,32 @@
         },
         {
           "id": "eq_806c893309c5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6ced262867da",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_99ab5e2aaf3d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_aa67960e0fff",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1b2c93c3d835",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_19e1ef755a65",
-          "chance": 0.0007718400000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_5e3df30d95bb",
-          "chance": 0.00115776,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -17819,28 +17819,28 @@
         },
         {
           "id": "eq_d57f19f2ab05",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_928f1414ce59",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_0ebc00188d27",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_450114cac10e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0374f6cbb3c9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1b2c93c3d835",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a356444a4965",
@@ -17848,17 +17848,17 @@
         },
         {
           "id": "sc_74ee9507937d",
-          "chance": 0.00115776,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_dce044ee2e6f",
-          "chance": 0.00115776,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_5d9c45feec39",
-          "chance": 0.00043416,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -17940,15 +17940,15 @@
         },
         {
           "id": "eq_d4c5c4fd7d9c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_ccc0b4a9d724",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_500ad8782838",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a85f038f4858",
@@ -17957,22 +17957,22 @@
         },
         {
           "id": "sc_3bbe5ed2ca39",
-          "chance": 0.00098624,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_8379aaf8001b",
-          "chance": 0.00098624,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_706931182477",
-          "chance": 0.0014793599999999999,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_55d42e94a107",
-          "chance": 0.00055476,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -18056,19 +18056,19 @@
         },
         {
           "id": "eq_59f78a04ed90",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_dd1263dfe1c0",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5bcd89e4a99d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_39618237b595",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_916751b2bccd",
@@ -18076,17 +18076,17 @@
         },
         {
           "id": "sc_2a59e8e31d3f",
-          "chance": 0.00098624,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_3251c260bc96",
-          "chance": 0.0014793599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_706931182477",
-          "chance": 0.0014793599999999999,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -18171,24 +18171,24 @@
         },
         {
           "id": "eq_60e65ed9e3ec",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_928f1414ce59",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_e5a6b2f23666",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a18be5d60aa5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_632ca0c72ec4",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_aaf7f2f28b20",
@@ -18206,17 +18206,17 @@
         },
         {
           "id": "sc_8a9c9bbf4aa4",
-          "chance": 0.00098624,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_75e7c520dfad",
-          "chance": 0.00098624,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_e4f381db93bd",
-          "chance": 0.0014793599999999999,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -18345,26 +18345,26 @@
         },
         {
           "id": "eq_99999ada123f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_8fd7f2fcbab3",
-          "chance": 0.00120064,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_897698ebf8bb",
-          "chance": 0.00120064,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_bbf38a7c57c4",
-          "chance": 0.0018009599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_70c4e8e9a828",
-          "chance": 0.0018009599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -18424,15 +18424,15 @@
         },
         {
           "id": "eq_d41212a53c72",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_54c9bc439add",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_432864027c17",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_998667c47fd3",
@@ -18440,12 +18440,12 @@
         },
         {
           "id": "sc_2addd7b0ad2b",
-          "chance": 0.0006646400000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_706931182477",
-          "chance": 0.00099696,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -18512,44 +18512,44 @@
         },
         {
           "id": "eq_0d0e66f3330d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f29c2fd4eba9",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_875d58d7f87e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_58c7c1a36473",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_8e4356a7533e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_78e032987d37",
-          "chance": 0.00073968,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_a8b6f557228f",
-          "chance": 0.0011095200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_389610681d3d",
-          "chance": 0.00041607000000000005,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_4bc8de19140e",
-          "chance": 0.00041607000000000005,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -18615,15 +18615,15 @@
         },
         {
           "id": "eq_ed725c22518d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6704bb44b899",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_a8b6f557228f",
-          "chance": 0.0011095200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -18694,24 +18694,24 @@
         },
         {
           "id": "eq_279778aa158c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_44ad80168b47",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_22285da10841",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_8dab92364531",
-          "chance": 0.00073968,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_8a0fa62a2cbd",
-          "chance": 0.00041607000000000005,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -18784,23 +18784,23 @@
         },
         {
           "id": "eq_c6a8e45ab258",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5c27118c2930",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f545c5638714",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c698e1e30ec5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0fbfb7cf9d0e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1e70aa0ca5cd",
@@ -18808,7 +18808,7 @@
         },
         {
           "id": "sc_4407ca8ed573",
-          "chance": 0.00076112,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -18883,24 +18883,24 @@
         },
         {
           "id": "eq_5aa87ff84ffc",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5715d8b4845c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5c25e8d9be53",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_ea614a49581b",
-          "chance": 0.0007718400000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_fb34b70d726d",
-          "chance": 0.00043416,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -18975,23 +18975,23 @@
         },
         {
           "id": "eq_150b7520daa9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_32563acb4ab8",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_83f9c841e845",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f5f671bb550d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_32d609228542",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_482c261c51de",
@@ -18999,17 +18999,17 @@
         },
         {
           "id": "sc_1adae4d361d9",
-          "chance": 0.00079328,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_bf786b627f0a",
-          "chance": 0.0011899200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_59c91b85176f",
-          "chance": 0.0011899200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -19093,19 +19093,19 @@
         },
         {
           "id": "eq_33b8dc01d007",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3d85f76663ba",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_22bb528ed7de",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5c25e8d9be53",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3fb99b7b94a8",
@@ -19180,54 +19180,54 @@
         },
         {
           "id": "eq_d5071425d694",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f74e2de57b9a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_22285da10841",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_41b2783c765a",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "sc_3bbe5ed2ca39",
-          "chance": 0.00095408,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_4fb850ca34f7",
-          "chance": 0.00095408,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_4588e45315d3",
-          "chance": 0.00095408,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_2975042ea11a",
-          "chance": 0.00095408,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_50da3cd08426",
-          "chance": 0.0014311200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_77f769564d6d",
-          "chance": 0.0014311200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_5d9c45feec39",
-          "chance": 0.00053667,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -19301,33 +19301,33 @@
         },
         {
           "id": "eq_19d8533b61a4",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a34bcbf691d2",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_fb667a05c802",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_429f91b1d5e8",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_41b2783c765a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_67c0ce4fdc9a",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_c5bcb0954261",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a356444a4965",
@@ -19335,22 +19335,22 @@
         },
         {
           "id": "sc_1adae4d361d9",
-          "chance": 0.0010076800000000002,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_2955889401ae",
-          "chance": 0.0015115200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_28659c2c57bf",
-          "chance": 0.0015115200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_b1aeb526ad24",
-          "chance": 0.00056682,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -19436,31 +19436,31 @@
         },
         {
           "id": "eq_473c03ddd1f7",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_77906b715d8a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cc2f0f8c510a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_65d4d1eecc9d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_41898cec3d00",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_83f9c841e845",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_63e13515240f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_51a9c0104cb0",
@@ -19468,17 +19468,17 @@
         },
         {
           "id": "sc_0ae2ed47bd8f",
-          "chance": 0.00103984,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_5b0fc46453f5",
-          "chance": 0.0015597599999999999,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_874542d20ad3",
-          "chance": 0.00058491,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -19575,28 +19575,28 @@
         },
         {
           "id": "eq_7d6d66457d3f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_33ddea8b10f5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c3586d5976a6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6dc9f806a46b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_d93964c4f098",
-          "chance": 0.0015919200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_a819a1936194",
-          "chance": 0.0015919200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -19677,39 +19677,39 @@
         },
         {
           "id": "eq_f24e07ae3f5c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_ef4bdd3bb10e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_e5a6b2f23666",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9d2e46771b08",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_2bf81a3e6b2f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_e5c8ff303b02",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_41b2783c765a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_7b628d7b32cc",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_4075717c6da6",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -19831,72 +19831,72 @@
         },
         {
           "id": "eq_d5071425d694",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_85d260ab41dd",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_dd1263dfe1c0",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_04891a2950b1",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_450c681d6a55",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_928f1414ce59",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_99999ada123f",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_429f91b1d5e8",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_2bf81a3e6b2f",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_6319b758800e",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_d4ae1300feae",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_632ca0c72ec4",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_d9e46a22b89b",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_040c8b60b338",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -19911,62 +19911,62 @@
         },
         {
           "id": "sc_100e17597d10",
-          "chance": 0.00125424,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_8a9c9bbf4aa4",
-          "chance": 0.00125424,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_78e032987d37",
-          "chance": 0.00125424,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_0ae2ed47bd8f",
-          "chance": 0.00125424,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_dde2594477cd",
-          "chance": 0.00125424,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_ee090728c76a",
-          "chance": 0.0018813599999999999,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_2094909f55b7",
-          "chance": 0.0018813599999999999,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_0df3524a1183",
-          "chance": 0.0018813599999999999,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_a17d4c9cc313",
-          "chance": 0.0018813599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_bf786b627f0a",
-          "chance": 0.0018813599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_70c4e8e9a828",
-          "chance": 0.0018813599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_84c96a544bde",
-          "chance": 0.00070551,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -20038,15 +20038,15 @@
         },
         {
           "id": "eq_c5a0c0c14c33",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_613b5a45c536",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_66004faceffb",
-          "chance": 0.0011095200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -20114,15 +20114,15 @@
         },
         {
           "id": "eq_60069c60bcf9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0d54a02b3d89",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_892c5bed5cb9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_28abea92c5a7",
@@ -20130,11 +20130,11 @@
         },
         {
           "id": "eq_281e218fb901",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_63e13515240f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3fb99b7b94a8",
@@ -20142,12 +20142,12 @@
         },
         {
           "id": "sc_2a59e8e31d3f",
-          "chance": 0.00076112,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_b34175d43c60",
-          "chance": 0.00114168,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -20228,25 +20228,25 @@
         },
         {
           "id": "eq_e6ae64e7e0bb",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3ca988439ea9",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_9ccd97b17d59",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_a77e0fee5a67",
-          "chance": 0.00078256,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_2db7002eba06",
-          "chance": 0.00044019,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -20326,27 +20326,27 @@
         },
         {
           "id": "eq_19d8533b61a4",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_a34bcbf691d2",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_f545c5638714",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_f74e2de57b9a",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_a753b6ba099e",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -20356,12 +20356,12 @@
         },
         {
           "id": "sc_b4c26743dd11",
-          "chance": 0.00125424,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_8a0fa62a2cbd",
-          "chance": 0.00047034,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -20441,33 +20441,33 @@
         },
         {
           "id": "eq_3e434959bf08",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_39618237b595",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_54e5b7d03d7f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d3766548872c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_1c4ac3e74143",
-          "chance": 0.001206,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_5e3df30d95bb",
-          "chance": 0.001206,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_27effbb5a79f",
-          "chance": 0.00045225,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -20555,30 +20555,30 @@
         },
         {
           "id": "eq_5bcd89e4a99d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f39856c62175",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_0c5ab35ea5f1",
-          "chance": 0.0008576,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_0fa9576c905e",
-          "chance": 0.0008576,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_8a0fa62a2cbd",
-          "chance": 0.0004824,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_49b1e36a4b1c",
-          "chance": 0.0004824,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -20653,47 +20653,47 @@
         },
         {
           "id": "eq_3e434959bf08",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_53b49546059c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5bcd89e4a99d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_79b7de27a46f",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_a1246082227e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_99380e01e20c",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_39918de61c38",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3f32670a1965",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_4f546b23b69f",
-          "chance": 0.0008897600000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_dfe1033a8485",
-          "chance": 0.0013346400000000002,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -20771,23 +20771,23 @@
         },
         {
           "id": "eq_f464d0743218",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1f8a5a1dddcd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_2b101b8dae68",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_36c86bc25334",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c16a813e7db6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f717a4775dfc",
@@ -20796,17 +20796,17 @@
         },
         {
           "id": "sc_1999e56d04cb",
-          "chance": 0.00078256,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_c871f2db4de3",
-          "chance": 0.00078256,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_e03ac6002886",
-          "chance": 0.00044019,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -20878,41 +20878,41 @@
         },
         {
           "id": "eq_b58721d4668c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3ca988439ea9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_700e5b173941",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9cb933c55d78",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_67aabca7ab89",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cfaff163d183",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_877af381bf08",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_a819a1936194",
-          "chance": 0.0012703200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_098284f5c975",
-          "chance": 0.0012703200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -20993,11 +20993,11 @@
         },
         {
           "id": "eq_b6402d7cc4a6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_85d260ab41dd",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -21006,21 +21006,21 @@
         },
         {
           "id": "eq_a753b6ba099e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_a292a2fb5884",
-          "chance": 0.00081472,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_6596f6f02b19",
-          "chance": 0.00122208,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_70c4e8e9a828",
-          "chance": 0.00122208,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -21097,7 +21097,7 @@
         },
         {
           "id": "eq_d4c5c4fd7d9c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b88772743d64",
@@ -21109,20 +21109,20 @@
         },
         {
           "id": "eq_500ad8782838",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b70b10a496e1",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_24c00b9a900e",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "sc_50da3cd08426",
-          "chance": 0.0012864,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -21195,23 +21195,23 @@
         },
         {
           "id": "eq_b6402d7cc4a6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b9f6911336c3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_185bc044df22",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1cda88fcd5e3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c5bcb0954261",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_51a9c0104cb0",
@@ -21219,32 +21219,32 @@
         },
         {
           "id": "sc_2addd7b0ad2b",
-          "chance": 0.0009112,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_0ae2ed47bd8f",
-          "chance": 0.0009112,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_16aa8354b566",
-          "chance": 0.0009112,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_432d6e80bc3a",
-          "chance": 0.0013668,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_584d14372cfa",
-          "chance": 0.0013668,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_2db7002eba06",
-          "chance": 0.0005125500000000001
+          "chance": 0.00075
         },
         {
           "id": "white_potion",
@@ -21307,32 +21307,32 @@
         },
         {
           "id": "eq_3d042132ec1b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9e3430182167",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_4c58cc6a09d9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9cb933c55d78",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b1abf220bd03",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_134a0617d218",
-          "chance": 0.00114168,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_a237331bcd27",
-          "chance": 0.00042813,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -21416,20 +21416,20 @@
         },
         {
           "id": "eq_150b7520daa9",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_a34bcbf691d2",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cfaff163d183",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_0bdc10340bf3",
-          "chance": 0.00044019,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -21486,28 +21486,28 @@
         },
         {
           "id": "eq_e45b9af60ecb",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_7484f167fb64",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_ac505d0225b5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_88ca1a8b9e53",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_8fc1b64e7766",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_de2c6ed720e3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_998667c47fd3",
@@ -21515,22 +21515,22 @@
         },
         {
           "id": "sc_475b0de1d667",
-          "chance": 0.0006646400000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_59fdaa96af3a",
-          "chance": 0.0006646400000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_275b2c5eba7b",
-          "chance": 0.00037386,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_6122945ccb57",
-          "chance": 0.00037386,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -21606,38 +21606,38 @@
         },
         {
           "id": "eq_fdae0ab55375",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b58721d4668c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_22bb528ed7de",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_58c7c1a36473",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_dc527c2300f5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0fbfb7cf9d0e",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "sc_696ac32c9587",
-          "chance": 0.0004221,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_b1aeb526ad24",
-          "chance": 0.0004221,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -21744,11 +21744,11 @@
         },
         {
           "id": "eq_de2c6ed720e3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a753b6ba099e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a356444a4965",
@@ -21756,7 +21756,7 @@
         },
         {
           "id": "sc_b27036495c05",
-          "chance": 0.001206,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -21829,7 +21829,7 @@
         },
         {
           "id": "eq_e6ae64e7e0bb",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_fc47214df226",
@@ -21837,19 +21837,19 @@
         },
         {
           "id": "eq_08313a957d91",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_e517dcd9cdf4",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_07196472f467",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1b2c93c3d835",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_482c261c51de",
@@ -21857,12 +21857,12 @@
         },
         {
           "id": "sc_f1c38f420c89",
-          "chance": 0.00073968,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_70c4e8e9a828",
-          "chance": 0.0011095200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -21924,20 +21924,20 @@
         },
         {
           "id": "eq_1a7eb0170a36",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_bfe5d942fec3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a27c57b1c43c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6bfce9c20843",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_482c261c51de",
@@ -21945,17 +21945,17 @@
         },
         {
           "id": "sc_115c5cf750a0",
-          "chance": 0.00107736,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_bdbfb67ff856",
-          "chance": 0.00107736,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_696ac32c9587",
-          "chance": 0.00040401,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -22036,11 +22036,11 @@
         },
         {
           "id": "eq_b24f42a69dd5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_644716cf56ba",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -22049,47 +22049,47 @@
         },
         {
           "id": "eq_ac505d0225b5",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_79b7de27a46f",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_58c7c1a36473",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_557f234b621b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_177a0af9e5ca",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6f8cf8ce8380",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f39856c62175",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d3766548872c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_397b17863851",
-          "chance": 0.00122208,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_dbd564c283d6",
-          "chance": 0.00122208,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -22170,46 +22170,46 @@
         },
         {
           "id": "eq_85d260ab41dd",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_60e65ed9e3ec",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_060cf004e956",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_700e5b173941",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1e1e297a5f78",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_8e4356a7533e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3e126e09f14e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c2f863f63a1f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_af88ce5ec894",
-          "chance": 0.0008254400000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_4bc8de19140e",
-          "chance": 0.00046431,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -22286,19 +22286,19 @@
         },
         {
           "id": "eq_f74e2de57b9a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d721bde32c1a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_ae28cfe4cc2d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_8a9c9bbf4aa4",
-          "chance": 0.00079328,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -22375,33 +22375,33 @@
         },
         {
           "id": "eq_892c5bed5cb9",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_928f1414ce59",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_6704bb44b899",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_22285da10841",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_fdb170c6ad38",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_af88ce5ec894",
-          "chance": 0.0008254400000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_0cda383313af",
-          "chance": 0.00123816,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -22468,19 +22468,19 @@
         },
         {
           "id": "eq_e91cefe3ffe7",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_85d260ab41dd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_497ca7fddd78",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b9f6911336c3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1690aaeea3a8",
@@ -22488,32 +22488,32 @@
         },
         {
           "id": "eq_9903608e89bd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_557f234b621b",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_83f9c841e845",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_07196472f467",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d3766548872c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_800b792323c1",
-          "chance": 0.00083616,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_84c96a544bde",
-          "chance": 0.00047034,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -22583,7 +22583,7 @@
         },
         {
           "id": "eq_806c893309c5",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_3bba55ac51c0",
@@ -22591,37 +22591,37 @@
         },
         {
           "id": "eq_700e5b173941",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_5715d8b4845c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_6f8cf8ce8380",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_8c803d4b9932",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_868b65f668d6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_f1c38f420c89",
-          "chance": 0.00086832,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_5b0fc46453f5",
-          "chance": 0.00130248,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_1c4ac3e74143",
-          "chance": 0.00130248,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -22715,29 +22715,29 @@
         },
         {
           "id": "eq_dd1263dfe1c0",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_497ca7fddd78",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_08313a957d91",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_8c4cdf9534ae",
-          "chance": 0.0013507200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_3251c260bc96",
-          "chance": 0.0013507200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_fe3983c69274",
-          "chance": 0.0013507200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -22814,21 +22814,21 @@
         },
         {
           "id": "eq_9e3430182167",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d4aa1d4631ce",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_644716cf56ba",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_51447adfb0c2",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_85e8d0e06a75",
@@ -22840,12 +22840,12 @@
         },
         {
           "id": "sc_50da3cd08426",
-          "chance": 0.0012864,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_b1aeb526ad24",
-          "chance": 0.0004824,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -22916,12 +22916,12 @@
         },
         {
           "id": "eq_32563acb4ab8",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_d4aa1d4631ce",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_28abea92c5a7",
@@ -22929,24 +22929,24 @@
         },
         {
           "id": "eq_53b49546059c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9903608e89bd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_450114cac10e",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_c16a813e7db6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_78e032987d37",
-          "chance": 0.00084688,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -23021,12 +23021,12 @@
         },
         {
           "id": "eq_fdae0ab55375",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_e54da105f061",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_0f7f634f0c31",
@@ -23034,15 +23034,15 @@
         },
         {
           "id": "eq_b70b10a496e1",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_8ae331971597",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a8eadfe63ee8",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_482c261c51de",
@@ -23050,7 +23050,7 @@
         },
         {
           "id": "sc_99400d071f50",
-          "chance": 0.00130248,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -23132,41 +23132,41 @@
         },
         {
           "id": "eq_644716cf56ba",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_e5bdc37dbe19",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9cb933c55d78",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_8ae331971597",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "sc_c7710642f49e",
-          "chance": 0.0009433600000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_475b0de1d667",
-          "chance": 0.0009433600000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_432d6e80bc3a",
-          "chance": 0.0014150400000000002,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_bf786b627f0a",
-          "chance": 0.0014150400000000002,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -23257,19 +23257,19 @@
         },
         {
           "id": "eq_2b101b8dae68",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d838377d3571",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_185bc044df22",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1cda88fcd5e3",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_51a9c0104cb0",
@@ -23277,17 +23277,17 @@
         },
         {
           "id": "sc_0e43be437bda",
-          "chance": 0.00090048,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_44a1cbfd234a",
-          "chance": 0.00090048,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_584d14372cfa",
-          "chance": 0.0013507200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -23373,34 +23373,34 @@
         },
         {
           "id": "eq_3b5618c91c0c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_24c00b9a900e",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_66b26a76ada2",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_c5bcb0954261",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_50da3cd08426",
-          "chance": 0.0013346400000000002,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_dc3a1136350b",
-          "chance": 0.00050049,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_c45b477ec3ee",
-          "chance": 0.00050049,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -23480,32 +23480,32 @@
         },
         {
           "id": "eq_e54da105f061",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_473c03ddd1f7",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f55448dff761",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_a1246082227e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_67aabca7ab89",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_16aa8354b566",
-          "chance": 0.0009112,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_70c4e8e9a828",
-          "chance": 0.0013668,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -23587,28 +23587,28 @@
         },
         {
           "id": "eq_473c03ddd1f7",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cc1e731d2b6e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_d4aa1d4631ce",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_cf8ec3e79aff",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_8e4356a7533e",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_5e3df30d95bb",
-          "chance": 0.001206,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -23661,11 +23661,11 @@
         },
         {
           "id": "eq_473c03ddd1f7",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_1ce3871871ce",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
@@ -23674,20 +23674,20 @@
         },
         {
           "id": "eq_928f1414ce59",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_53b49546059c",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_39618237b595",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_868b65f668d6",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_482c261c51de",
@@ -23695,17 +23695,17 @@
         },
         {
           "id": "sc_4407ca8ed573",
-          "chance": 0.00090048,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_432d6e80bc3a",
-          "chance": 0.0013507200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_1bb203550356",
-          "chance": 0.00050652,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -23761,39 +23761,39 @@
         },
         {
           "id": "eq_f55448dff761",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_b70b10a496e1",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_9cb933c55d78",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_9ccd97b17d59",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_2975042ea11a",
-          "chance": 0.00095408,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_50da3cd08426",
-          "chance": 0.0014311200000000001,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_5b0fc46453f5",
-          "chance": 0.0014311200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_ac14042bd228",
-          "chance": 0.00053667,
+          "chance": 0.00075,
           "estimated": true
         },
         {
@@ -23858,11 +23858,11 @@
         },
         {
           "id": "eq_9903608e89bd",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_f5f671bb550d",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_51a9c0104cb0",
@@ -23870,27 +23870,27 @@
         },
         {
           "id": "sc_8a9c9bbf4aa4",
-          "chance": 0.00098624,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
           "id": "sc_ad9dc308d7f7",
-          "chance": 0.0014793599999999999,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_6596f6f02b19",
-          "chance": 0.0014793599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_70c4e8e9a828",
-          "chance": 0.0014793599999999999,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_4bc8de19140e",
-          "chance": 0.00055476
+          "chance": 0.00030000000000000003
         },
         {
           "id": "white_potion",
@@ -23966,28 +23966,28 @@
         },
         {
           "id": "eq_dd1263dfe1c0",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_77906b715d8a",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_78eb969625fe",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "eq_2bf81a3e6b2f",
-          "chance": 0.0007
+          "chance": 0.00007000000000000001
         },
         {
           "id": "sc_74ee9507937d",
-          "chance": 0.0015276,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
           "id": "sc_bf786b627f0a",
-          "chance": 0.0015276,
+          "chance": 0.00007500000000000001,
           "estimated": true
         },
         {
@@ -24084,52 +24084,52 @@
         },
         {
           "id": "eq_82bf28c900f5",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_d250156faaf4",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_c60a08ade1b4",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_24c00b9a900e",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_f74e2de57b9a",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_66b26a76ada2",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "eq_d721bde32c1a",
-          "chance": 0.000691,
+          "chance": 0.0000691,
           "estimated": true
         },
         {
           "id": "sc_dfe1033a8485",
-          "chance": 0.0015919200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_a819a1936194",
-          "chance": 0.0015919200000000001,
+          "chance": 0.00075,
           "estimated": true
         },
         {
           "id": "sc_39d48fba6830",
-          "chance": 0.0015919200000000001,
+          "chance": 0.00030000000000000003,
           "estimated": true
         },
         {
@@ -25759,7 +25759,7 @@
       "maxMp": 26
     }
   ],
-  "version": "0.8.5",
+  "version": "0.8.6",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
