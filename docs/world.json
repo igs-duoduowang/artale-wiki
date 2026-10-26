@@ -4529,6 +4529,66 @@
       "sellPrice": 1,
       "priceSource": "經典楓之谷 v83 NPC 收購價（任務道具）（阿泰爾未公開，待核對）"
     },
+    "mat_0f0b6ae790f3": {
+      "name": "怪藥",
+      "slot": "material",
+      "sellPrice": 50,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "sc_e8602af81adc": {
+      "name": "頭盔智力卷軸10%",
+      "slot": "scroll"
+    },
+    "mat_4fb4b75c6915": {
+      "name": "黑暗契約書",
+      "slot": "material",
+      "sellPrice": 1,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "eq_983eda829dd0": {
+      "name": "綠色和平之帽",
+      "slot": "hat"
+    },
+    "sc_b03b8532f52e": {
+      "name": "套服幸運卷軸100%",
+      "slot": "scroll"
+    },
+    "mat_1a18fe3d13c8": {
+      "name": "道符",
+      "slot": "material",
+      "sellPrice": 15,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "eq_0f0eb2398dac": {
+      "name": "綠色獵人帽",
+      "slot": "hat"
+    },
+    "eq_b2977ee2903e": {
+      "name": "褐色皮革手腕",
+      "slot": "gloves"
+    },
+    "eq_680398ebce73": {
+      "name": "金耳環",
+      "slot": "earrings"
+    },
+    "eq_8b539e6c6e17": {
+      "name": "打獵弓",
+      "slot": "weapon"
+    },
+    "eq_f97895d88fc0": {
+      "name": "黃金火槍",
+      "slot": "weapon"
+    },
+    "sc_25099d421c73": {
+      "name": "槍攻擊力卷軸10%",
+      "slot": "scroll"
+    },
+    "mat_bc79b8df1e8b": {
+      "name": "幼魔精靈的角",
+      "slot": "material",
+      "sellPrice": 35,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
     "rainbow_shell": {
       "name": "彩虹蝸牛殼",
       "slot": "material",
@@ -5808,6 +5868,7 @@
       ],
       "hidden": true,
       "district": "henesys",
+      "fieldBoss": "mushmom",
       "route": [
         "henesys",
         "vi_056d2c526f88",
@@ -6194,6 +6255,7 @@
       ],
       "hidden": true,
       "district": "ellinia",
+      "fieldBoss": "faust",
       "route": [
         "ellinia",
         "ellinia_south_field",
@@ -6718,6 +6780,7 @@
         "mob_cafa92abdfd6"
       ],
       "district": "perion",
+      "fieldBoss": "stumpy",
       "route": [
         "perion",
         "vi_030f250ed804",
@@ -7508,6 +7571,7 @@
         "mob_7ea4dbf67a9f"
       ],
       "district": "kerning",
+      "fieldBoss": "dyle",
       "route": [
         "kerning",
         "vi_13a5d368bbd6",
@@ -7777,6 +7841,7 @@
         "mob_2bd2e540e39c"
       ],
       "district": "florina",
+      "fieldBoss": "king_clang",
       "route": [
         "vi_129536be00dc",
         "vi_23bd7471c6a1",
@@ -9108,6 +9173,7 @@
         "mob_d91cf8b53a71",
         "mob_c35c62166913"
       ],
+      "fieldBoss": "snow_witch",
       "route": [
         "or_366255371fc2",
         "or_d6ed92a21afc",
@@ -9791,6 +9857,7 @@
       "monsters": [
         "mob_81a1c72dfd67"
       ],
+      "fieldBoss": "timer",
       "route": [
         "lu_c996b6d7c093",
         "lu_82e9ab4323a4",
@@ -11668,6 +11735,7 @@
         "mob_8723e89419bd"
       ],
       "hidden": true,
+      "fieldBoss": "zeno",
       "route": [
         "lu_a599cffbe981",
         "lu_1d13b485b883",
@@ -12179,6 +12247,7 @@
       "monsters": [
         "mob_736fc6b75237"
       ],
+      "fieldBoss": "scholar_ghost",
       "route": [
         "lu_c02debeefd03",
         "lu_9a11f2ea6dfc",
@@ -12197,6 +12266,7 @@
         "mob_736fc6b75237"
       ],
       "hidden": true,
+      "fieldBoss": "nine_tailed_fox",
       "route": [
         "lu_c02debeefd03",
         "lu_9a11f2ea6dfc",
@@ -12287,6 +12357,40 @@
           "type": "雜貨商店"
         }
       ]
+    },
+    "kerning_subway_line2_3": {
+      "name": "維多利亞島・地鐵二號線[地區03]",
+      "sourceName": "Line 2 <Area 3>",
+      "region": "victoria",
+      "district": "kerning",
+      "minLevel": 45,
+      "monsters": [
+        "mob_96433896e4e8"
+      ],
+      "fieldBoss": "shade"
+    },
+    "elnath_dead_trees_4": {
+      "name": "冰原雪域・亡者之林Ⅳ",
+      "sourceName": "El Nath: Forest of Dead Trees IV",
+      "region": "ossyria",
+      "district": "elnath",
+      "minLevel": 55,
+      "monsters": [
+        "mob_597973538253"
+      ],
+      "fieldBoss": "riche"
+    },
+    "sleepywood_mushmom_grave": {
+      "name": "奇幻村・蘑菇王之墓",
+      "sourceName": "The Grave of Mushmom",
+      "region": "victoria",
+      "district": "sleepywood",
+      "minLevel": 30,
+      "monsters": [
+        "mob_b112322dcb88",
+        "mob_a71d1368adf2"
+      ],
+      "fieldBoss": "zombie_mushmom"
     }
   },
   "monsters": {
@@ -24143,6 +24247,360 @@
           "estimated": true
         }
       ]
+    },
+    "mob_96433896e4e8": {
+      "name": "大幽靈",
+      "level": 48,
+      "hp": 2800,
+      "exp": 120,
+      "mesos": [
+        176,
+        264
+      ],
+      "attack": 64,
+      "drop": "mat_0f0b6ae790f3",
+      "dropRate": 0.25,
+      "id": "mob_96433896e4e8",
+      "avoid": 20,
+      "accuracy": 130,
+      "def": 180,
+      "mdef": 180,
+      "undead": true,
+      "mp": 80,
+      "elements": "H3",
+      "combatSource": "經典楓之谷 v83",
+      "drops": [
+        {
+          "id": "mat_0f0b6ae790f3",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_6ffcfddfd36a",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_39bcd2632575",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_1e6a042c9340",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_4a8db206b6ba",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_bdf893ab1fca",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_025143861d81",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_33aa0f4386d6",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_280ad8041d6c",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_96de5bb58f30",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_a6a900ece40a",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_e3570775e63a",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_77906b715d8a",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_cf8ec3e79aff",
+          "chance": 0.0000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_08313a957d91",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_916751b2bccd",
+          "chance": 0.0004
+        },
+        {
+          "id": "sc_e8602af81adc",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_597973538253": {
+      "name": "殭屍",
+      "level": 57,
+      "hp": 4500,
+      "exp": 190,
+      "mesos": [
+        273,
+        408
+      ],
+      "attack": 76,
+      "drop": "mat_4fb4b75c6915",
+      "dropRate": 0.25,
+      "id": "mob_597973538253",
+      "avoid": 25,
+      "accuracy": 135,
+      "def": 165,
+      "mdef": 180,
+      "undead": true,
+      "mp": 110,
+      "elements": "S1H3",
+      "combatSource": "經典楓之谷 v83",
+      "drops": [
+        {
+          "id": "mat_4fb4b75c6915",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_983eda829dd0",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_0f010731bf79",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_25eb14f379f9",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_0764f50ec401",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_782cdfc2f867",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_04dd14974619",
+          "chance": 0.000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_612a40df2b93",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_beccfc262564",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_217732f9f07d",
+          "chance": 0.000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_0d9ca93e6637",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_40b038420e05",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_12ec6ddce2d8",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_32563acb4ab8",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_3ca988439ea9",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_e5bdc37dbe19",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_e5a6b2f23666",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_b70b10a496e1",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_9cb933c55d78",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_193a61877120",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "sc_e8602af81adc",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_b03b8532f52e",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_b112322dcb88": {
+      "name": "殭屍菇菇",
+      "level": 24,
+      "hp": 500,
+      "exp": 42,
+      "mesos": [
+        44,
+        66
+      ],
+      "attack": 33,
+      "drop": "mat_1a18fe3d13c8",
+      "dropRate": 0.25,
+      "id": "mob_b112322dcb88",
+      "avoid": 8,
+      "accuracy": 50,
+      "def": 20,
+      "mdef": 30,
+      "undead": true,
+      "mp": 50,
+      "elements": "H3",
+      "combatSource": "經典楓之谷 v83",
+      "drops": [
+        {
+          "id": "mat_1a18fe3d13c8",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_0f0eb2398dac",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_ce6a34a670f5",
+          "chance": 0.000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_51d3e56a0f93",
+          "chance": 0.000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_bada2909a127",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_c7625a452aa0",
+          "chance": 0.000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_9ebcb87b3081",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_e4321acfdb8a",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_f8a045267f55",
+          "chance": 0.0007
+        },
+        {
+          "id": "eq_93485a510e0b",
+          "chance": 0.000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_8684b93e1b1d",
+          "chance": 0.000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_b2977ee2903e",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_75d0127a7692",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_680398ebce73",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_39618237b595",
+          "chance": 0.0000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_acd0cedc966c",
+          "chance": 0.0000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_1e1e297a5f78",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_177a0af9e5ca",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "eq_8b539e6c6e17",
+          "chance": 0.0000691,
+          "estimated": true
+        },
+        {
+          "id": "eq_f97895d88fc0",
+          "chance": 0.00007000000000000001
+        },
+        {
+          "id": "sc_25099d421c73",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_a71d1368adf2": {
+      "name": "幼魔精靈",
+      "level": 35,
+      "hp": 1700,
+      "exp": 150,
+      "mesos": [
+        96,
+        144
+      ],
+      "attack": 48,
+      "drop": "mat_bc79b8df1e8b",
+      "dropRate": 0.25,
+      "id": "mob_a71d1368adf2",
+      "avoid": 27,
+      "accuracy": 150,
+      "def": 120,
+      "mdef": 155,
+      "undead": false,
+      "mp": 300,
+      "combatSource": "經典楓之谷 v83",
+      "drops": [
+        {
+          "id": "mat_bc79b8df1e8b",
+          "chance": 0.45
+        }
+      ]
     }
   },
   "fieldBosses": {
@@ -24160,7 +24618,2256 @@
       "respawnMinMs": 1380000,
       "respawnMaxMs": 1800000,
       "drop": "rainbow_shell",
-      "dropRate": 0.3
+      "dropRate": 0.3,
+      "mesoBag": [
+        8000,
+        12000
+      ]
+    },
+    "stumpy": {
+      "gmsId": 3220000,
+      "name": "樹妖王",
+      "level": 35,
+      "hp": 70000,
+      "exp": 405,
+      "def": 50,
+      "mdef": 70,
+      "avoid": 12,
+      "attack": 125,
+      "accuracy": 80,
+      "respawnMinMs": 1380000,
+      "respawnMaxMs": 1800000,
+      "englishName": "Stumpy",
+      "map": "vi_f7f79554dd1b",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_b6ab70467aab",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_9038ef3d7437",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_25321022e64e",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_904c6ef75311",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_560107604d26",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_fc9e4c5e12ac",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_33aa0f4386d6",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_ec299129043b",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_9ca9bb458271",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_7c4e02a13dca",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_f8f7aced8bc4",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_28e2256dfbba",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_eaa32398cceb",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_25892787cd3f",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_40b038420e05",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_9a059335a879",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_f6fa771bbc53",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_0fcd7c2d850c",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_3e434959bf08",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_19d8533b61a4",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_e91cefe3ffe7",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_d4c5c4fd7d9c",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_d4aa1d4631ce",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_c133521deba6",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_f93f920cee15",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_b3e19ae01d7e",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "sc_ea614a49581b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0c5ab35ea5f1",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_4f546b23b69f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2a59e8e31d3f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b5ca5489ae15",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_66004faceffb",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0585fb42cc1a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a8b6f557228f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a934bea003dc",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_7bbfd9e78d2a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b4c26743dd11",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5b0fc46453f5",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b27036495c05",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_92fcaa387e9b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0cda383313af",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_eaf36056d75c",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_8d1e01246147",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_55e9553e4454",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b6b868f63233",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        8000,
+        12000
+      ],
+      "mesoBags": [
+        "copper"
+      ]
+    },
+    "shade": {
+      "gmsId": 5090000,
+      "name": "冥界幽靈",
+      "level": 56,
+      "hp": 130000,
+      "exp": 180,
+      "def": 1500,
+      "mdef": 1500,
+      "avoid": 20,
+      "attack": 165,
+      "accuracy": 130,
+      "respawnMinMs": 2700000,
+      "respawnMaxMs": 3600000,
+      "undead": true,
+      "englishName": "Shade",
+      "map": "kerning_subway_line2_3",
+      "drops": [
+        {
+          "id": "eq_9038ef3d7437",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_25321022e64e",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_ec299129043b",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_9ca9bb458271",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_7c4e02a13dca",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_f8f7aced8bc4",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_28e2256dfbba",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_3e434959bf08",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_19d8533b61a4",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_e91cefe3ffe7",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_d4c5c4fd7d9c",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "sc_55e9553e4454",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_77b79bee1cd0",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b6b868f63233",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2875c48fbfca",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        8000,
+        12000
+      ],
+      "mesoBags": [
+        "copper"
+      ]
+    },
+    "king_clang": {
+      "gmsId": 5220000,
+      "name": "巨居蟹",
+      "level": 55,
+      "hp": 500000,
+      "exp": 1210,
+      "def": 700,
+      "mdef": 80,
+      "avoid": 20,
+      "attack": 165,
+      "accuracy": 100,
+      "respawnMinMs": 2700000,
+      "respawnMaxMs": 3600000,
+      "englishName": "King Clang",
+      "map": "vi_98da1a6a2d60",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_2f30a5a1b38f",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_d5fd2a2659ea",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_d28c2a8d671a",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_14e09766b227",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_c3e7d2a050c4",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_bfb28a139fde",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_06c2e14655ae",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_b5689aa90257",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_ee32c0e6ae65",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_ff0e7de90504",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_10c636a33de5",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_1b0ccc917db5",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_3e07c55a9346",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_1d342ea12f66",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_26570e426fb7",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_8759178f23be",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_a1d8f10cb1af",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_46d9d855765f",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_33bcb334a2ce",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_933f70045f9f",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_870f6db9c19c",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_04891a2950b1",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_90500862c52d",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_5cda415162af",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_09d645dabf73",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_12cdcebafd4f",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_5d06b85094b5",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "sc_b7ad44550a4e",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_44a1cbfd234a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_4e07c6023ec4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_800b792323c1",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_8379aaf8001b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dfe1033a8485",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dad67449c9f1",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_99400d071f50",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_510c24c3f19b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_50da3cd08426",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_25d7cf23d6e8",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a271d9b2e7e5",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_bbf38a7c57c4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_098284f5c975",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5f97e99d6c36",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2f97e65996ce",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        24000,
+        36000
+      ],
+      "mesoBags": [
+        "silver"
+      ]
+    },
+    "faust": {
+      "gmsId": 5220002,
+      "name": "殭屍猴王",
+      "level": 55,
+      "hp": 350000,
+      "exp": 410,
+      "def": 350,
+      "mdef": 295,
+      "avoid": 20,
+      "attack": 165,
+      "accuracy": 100,
+      "respawnMinMs": 2280000,
+      "respawnMaxMs": 2700000,
+      "englishName": "Faust",
+      "map": "vi_703ffbdee93a",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_5bcd89e4a99d",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_79b7de27a46f",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_b70b10a496e1",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_a1246082227e",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_9cb933c55d78",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_185bc044df22",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_5f9967ee8366",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_24c00b9a900e",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_a9a07acd77bb",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_67aabca7ab89",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_ab30cd5a3fc1",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_574f79e41b58",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_66b26a76ada2",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_6f8cf8ce8380",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_8ae331971597",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_1cda88fcd5e3",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_c5bcb0954261",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_3f32670a1965",
+          "chance": 0.04
+        },
+        {
+          "id": "sc_5b3b6745d399",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2a59e8e31d3f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_4e07c6023ec4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_6c72c16a3af6",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_25099d421c73",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a292a2fb5884",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_59fdaa96af3a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_8c4cdf9534ae",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_99400d071f50",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0585fb42cc1a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a8b6f557228f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_584d14372cfa",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5b0fc46453f5",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_f72e4f98aa96",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a17d4c9cc313",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_bf786b627f0a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_bbf38a7c57c4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_098284f5c975",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_70c4e8e9a828",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_3b48ad180971",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_ab20a0951b89",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        8000,
+        12000
+      ],
+      "mesoBags": [
+        "copper"
+      ]
+    },
+    "timer": {
+      "gmsId": 5220003,
+      "name": "咕咕鐘",
+      "level": 59,
+      "hp": 415000,
+      "exp": 650,
+      "def": 450,
+      "mdef": 200,
+      "avoid": 20,
+      "attack": 200,
+      "accuracy": 150,
+      "respawnMinMs": 4080000,
+      "respawnMaxMs": 5400000,
+      "englishName": "Timer",
+      "map": "lu_49a32572373f",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_d0329b54dab5",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_e7357e46e835",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_1aa9e1610d81",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_b489fd73fc1a",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_d9893e4fd6e2",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_41898cec3d00",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_a18be5d60aa5",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_429f91b1d5e8",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_2bf81a3e6b2f",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_6319b758800e",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_86f17139b5a7",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_3ef5b010b48a",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_e5c8ff303b02",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_7a714ce17e2b",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_41b2783c765a",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_632ca0c72ec4",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_67c0ce4fdc9a",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_e259823d66be",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_193a61877120",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_040c8b60b338",
+          "chance": 0.04
+        },
+        {
+          "id": "sc_7552a4f2fc1d",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_4f546b23b69f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b474d8c05ae4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_4e07c6023ec4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_3bbe5ed2ca39",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_af88ce5ec894",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_475b0de1d667",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_16aa8354b566",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2389282b7b19",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_72018bee01b0",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a819a1936194",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_241d4c7c77ae",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_510c24c3f19b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_50da3cd08426",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_25d7cf23d6e8",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a8b6f557228f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_eaf36056d75c",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_6596f6f02b19",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_fe3983c69274",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_59c91b85176f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dce044ee2e6f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_c13a29793d76",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5f2dd9e30916",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        32000,
+        48000
+      ],
+      "mesoBags": [
+        "silver",
+        "copper"
+      ]
+    },
+    "mushmom": {
+      "gmsId": 6130101,
+      "name": "蘑菇王",
+      "level": 60,
+      "hp": 558000,
+      "exp": 1200,
+      "def": 450,
+      "mdef": 400,
+      "avoid": 27,
+      "attack": 200,
+      "accuracy": 150,
+      "respawnMinMs": 12600000,
+      "respawnMaxMs": 14400000,
+      "englishName": "Mushmom",
+      "map": "vi_b93d2acdf620",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_1690aaeea3a8",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_e5a6b2f23666",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_4b6ecae9403b",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_574f79e41b58",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_7b784817c012",
+          "chance": 0.0025
+        },
+        {
+          "id": "eq_a85f038f4858",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "sc_897698ebf8bb",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_c7710642f49e",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dfe1033a8485",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a094cc90104f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a819a1936194",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_115c5cf750a0",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_ab49a6d3a0bf",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_8c4cdf9534ae",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_66004faceffb",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_99400d071f50",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_510c24c3f19b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_50da3cd08426",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0585fb42cc1a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_7bbfd9e78d2a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b4c26743dd11",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5b0fc46453f5",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_f72e4f98aa96",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_03cd22d77141",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_85a4b1273dcf",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_1c4ac3e74143",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_874542d20ad3",
+          "chance": 0.01
+        }
+      ],
+      "mesoBag": [
+        88000,
+        132000
+      ],
+      "mesoBags": [
+        "gold",
+        "silver"
+      ]
+    },
+    "scholar_ghost": {
+      "gmsId": 6090003,
+      "name": "書生幽靈",
+      "level": 62,
+      "hp": 680000,
+      "exp": 240,
+      "def": 15,
+      "mdef": 50,
+      "avoid": 35,
+      "attack": 185,
+      "accuracy": 80,
+      "respawnMinMs": 9000000,
+      "respawnMaxMs": 18000000,
+      "undead": true,
+      "englishName": "Scholar Ghost",
+      "map": "lu_64ff77e63b3b",
+      "drops": [
+        {
+          "id": "eq_299d8a4f77cd",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_59f8bbe5ebd6",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_b6180f63d1d5",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_f22536e84303",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_1dfde695a74e",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_785882512ba1",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_6039381e1436",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_eaed48164676",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_b0699d919269",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_6c24763f315f",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_04d332dbf04d",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_dec46013930d",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_39e690bcf416",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_088bbcf8d313",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_12b54ca130b1",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "sc_897698ebf8bb",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_3bbe5ed2ca39",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_01bf8c67c6cc",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_47e099150e42",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5675c6a472f4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_c337c8da6ac8",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_59fdaa96af3a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_ee090728c76a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2094909f55b7",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0df3524a1183",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_70c4e8e9a828",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        24000,
+        36000
+      ],
+      "mesoBags": [
+        "silver"
+      ]
+    },
+    "snow_witch": {
+      "gmsId": 6090001,
+      "name": "雪山魔女",
+      "level": 64,
+      "hp": 598100,
+      "exp": 250,
+      "def": 120,
+      "mdef": 800,
+      "avoid": 12,
+      "attack": 177,
+      "accuracy": 140,
+      "respawnMinMs": 9480000,
+      "respawnMaxMs": 10800000,
+      "elements": "F3I2",
+      "englishName": "Snow Witch",
+      "map": "or_47d06698c66d",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_01a63346f87b",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_35576d6d4a2f",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_7a714ce17e2b",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_41b2783c765a",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_e259823d66be",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_193a61877120",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_040c8b60b338",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "sc_ea614a49581b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2a59e8e31d3f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b5ca5489ae15",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_8c4cdf9534ae",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_66004faceffb",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_99400d071f50",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_510c24c3f19b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0585fb42cc1a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a8b6f557228f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5b0fc46453f5",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_f72e4f98aa96",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_14ab34641af4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_f93edb6ed85e",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        88000,
+        132000
+      ],
+      "mesoBags": [
+        "gold",
+        "silver"
+      ]
+    },
+    "riche": {
+      "gmsId": 6090000,
+      "name": "厄運死神",
+      "level": 65,
+      "hp": 438000,
+      "exp": 500,
+      "def": 200,
+      "mdef": 700,
+      "avoid": 12,
+      "attack": 180,
+      "accuracy": 150,
+      "respawnMinMs": 2700000,
+      "respawnMaxMs": 6300000,
+      "undead": true,
+      "englishName": "Riche",
+      "map": "elnath_dead_trees_4",
+      "drops": [
+        {
+          "id": "eq_1aa9e1610d81",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_b489fd73fc1a",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_c93e17591d03",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_d9893e4fd6e2",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_41898cec3d00",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_49b5db995faf",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_a18be5d60aa5",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_429f91b1d5e8",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_2bf81a3e6b2f",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_6319b758800e",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_3ef5b010b48a",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_e5c8ff303b02",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_7a714ce17e2b",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_41b2783c765a",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_632ca0c72ec4",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_67c0ce4fdc9a",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_e259823d66be",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_193a61877120",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_040c8b60b338",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "sc_2389282b7b19",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a094cc90104f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a819a1936194",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_4b7cbbde1a74",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_d1c012576ef5",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_3251c260bc96",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_134a0617d218",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_098284f5c975",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        32000,
+        48000
+      ],
+      "mesoBags": [
+        "silver",
+        "copper"
+      ]
+    },
+    "dyle": {
+      "gmsId": 6220000,
+      "name": "沼澤巨鱷",
+      "level": 65,
+      "hp": 684000,
+      "exp": 810,
+      "def": 500,
+      "mdef": 400,
+      "avoid": 30,
+      "attack": 190,
+      "accuracy": 150,
+      "respawnMinMs": 5400000,
+      "respawnMaxMs": 6300000,
+      "englishName": "Dyle",
+      "map": "vi_5bffbb0c3452",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_6dc9f806a46b",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_99999ada123f",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_c542cf5c2585",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_4f2a42c79dd9",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_d36403ef0ff1",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_bebffd5c5b0e",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_dff3b4e96652",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_e1cb6938c2c9",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_3c6ad8df3909",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_c72c21f7f3b9",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_d4ae1300feae",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_563d3681dd71",
+          "chance": 0.04
+        },
+        {
+          "id": "sc_0e43be437bda",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_7552a4f2fc1d",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b7ad44550a4e",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_9a0f0ab59678",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2389282b7b19",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dde2594477cd",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dfe1033a8485",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_241d4c7c77ae",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_50da3cd08426",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b4c26743dd11",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0a07078e76d9",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_1d05ba73af8d",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_3251c260bc96",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_397b17863851",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_134a0617d218",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_bbf38a7c57c4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dbd564c283d6",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_098284f5c975",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dce044ee2e6f",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        32000,
+        48000
+      ],
+      "mesoBags": [
+        "silver",
+        "copper"
+      ]
+    },
+    "zeno": {
+      "gmsId": 6220001,
+      "name": "葛雷金剛",
+      "level": 65,
+      "hp": 734000,
+      "exp": 940,
+      "def": 540,
+      "mdef": 600,
+      "avoid": 5,
+      "attack": 205,
+      "accuracy": 150,
+      "respawnMinMs": 16200000,
+      "respawnMaxMs": 21000000,
+      "englishName": "Zeno",
+      "map": "lu_00bf0967d0e5",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_313868c84a71",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_299d8a4f77cd",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_59f8bbe5ebd6",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_b6180f63d1d5",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_f22536e84303",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_ea92e1ab8249",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_dfcc99c904e7",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_51a9c0104cb0",
+          "chance": 0.0025
+        },
+        {
+          "id": "eq_2fa08ede350b",
+          "chance": 0.0025
+        },
+        {
+          "id": "sc_4fb850ca34f7",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_c871f2db4de3",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_fc168499d05e",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_241d4c7c77ae",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_99400d071f50",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_50da3cd08426",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a8b6f557228f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_92fcaa387e9b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_fe3983c69274",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_134a0617d218",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dbd564c283d6",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_70c4e8e9a828",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_77b79bee1cd0",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2875c48fbfca",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        88000,
+        132000
+      ],
+      "mesoBags": [
+        "gold",
+        "silver"
+      ]
+    },
+    "zombie_mushmom": {
+      "gmsId": 6300005,
+      "name": "殭屍蘑菇王",
+      "level": 65,
+      "hp": 786000,
+      "exp": 1500,
+      "def": 300,
+      "mdef": 450,
+      "avoid": 30,
+      "attack": 250,
+      "accuracy": 155,
+      "respawnMinMs": 11700000,
+      "respawnMaxMs": 13500000,
+      "undead": true,
+      "englishName": "Zombie Mushmom",
+      "map": "sleepywood_mushmom_grave",
+      "drops": [
+        {
+          "id": "eq_a231f7547288",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_c3586d5976a6",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_fede1ee1c9cc",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_65d4d1eecc9d",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_ac9523bd811a",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_7b784817c012",
+          "chance": 0.0025
+        },
+        {
+          "id": "sc_6e9189bc1c38",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_4588e45315d3",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_81c14273e7ef",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_32f3c8064703",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_b27036495c05",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_3251c260bc96",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_92fcaa387e9b",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a17d4c9cc313",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_eaf36056d75c",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_6596f6f02b19",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_fe3983c69274",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_134a0617d218",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_bf786b627f0a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5e3df30d95bb",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_bbf38a7c57c4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dbd564c283d6",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_098284f5c975",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_59c91b85176f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_70c4e8e9a828",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        88000,
+        132000
+      ],
+      "mesoBags": [
+        "gold",
+        "silver"
+      ]
+    },
+    "nine_tailed_fox": {
+      "gmsId": 7220001,
+      "name": "九尾妖狐",
+      "level": 70,
+      "hp": 999999,
+      "exp": 1300,
+      "def": 570,
+      "mdef": 710,
+      "avoid": 27,
+      "attack": 260,
+      "accuracy": 130,
+      "respawnMinMs": 12600000,
+      "respawnMaxMs": 34200000,
+      "englishName": "Nine-Tailed Fox",
+      "map": "lu_66f27232158a",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_ea92e1ab8249",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4e0c2456a88",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_604e8d348904",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_dbf602c2ae51",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_957857c4c50d",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_963afd4664b8",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_99891384d00b",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "eq_3fd3e3d5cfd7",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_dd2ce25641d6",
+          "chance": 0.04
+        },
+        {
+          "id": "eq_8dd2f16b37d3",
+          "chance": 0.038256,
+          "estimated": true
+        },
+        {
+          "id": "sc_0c5ab35ea5f1",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2a59e8e31d3f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_800b792323c1",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a292a2fb5884",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dde2594477cd",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dad67449c9f1",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_66004faceffb",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_50da3cd08426",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a8b6f557228f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a934bea003dc",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_f72e4f98aa96",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_17ff19af5083",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_14ab34641af4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_f3408c849663",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_f93edb6ed85e",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_bf786b627f0a",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5e3df30d95bb",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dbd564c283d6",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        224000,
+        336000
+      ],
+      "mesoBags": [
+        "heavy",
+        "gold"
+      ]
     }
   },
   "skills": [
@@ -25759,7 +28466,7 @@
       "maxMp": 26
     }
   ],
-  "version": "0.8.8",
+  "version": "0.8.9",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
