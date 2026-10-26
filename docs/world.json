@@ -10702,6 +10702,7 @@
       "monsters": [
         "mob_4c6efa9d517a"
       ],
+      "fieldBoss": "eliza",
       "route": [
         "or_2badb1129c9d",
         "or_b51a942bf4fa",
@@ -50960,6 +50961,204 @@
         "copper"
       ]
     },
+    "eliza": {
+      "gmsId": 8220000,
+      "name": "艾利傑",
+      "level": 83,
+      "hp": 998200,
+      "exp": 2800,
+      "def": 600,
+      "mdef": 450,
+      "avoid": 30,
+      "attack": 420,
+      "accuracy": 150,
+      "respawnMinMs": 7080000,
+      "respawnMaxMs": 7680000,
+      "elements": "H3",
+      "englishName": "Eliza",
+      "map": "or_18548139a371",
+      "undead": false,
+      "drops": [
+        {
+          "id": "eq_708dff7d4968",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_82c1a066e6cd",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_f8df8f9a0753",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_46d6633e9fdf",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_758609970751",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_92816a9328a1",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_a5a5c31d211e",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_a17b94d9fac5",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_08bbe5f1b996",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_08c02ce34c9d",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_87ebbce28fe3",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_01694978f594",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_988be2c5e50f",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_7792c092accc",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "eq_4dbd4db0f13f",
+          "chance": 0.038623,
+          "estimated": true
+        },
+        {
+          "id": "sc_4f546b23b69f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_01bf8c67c6cc",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_47e099150e42",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_5675c6a472f4",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_c337c8da6ac8",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_475b0de1d667",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0ae2ed47bd8f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a094cc90104f",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_a819a1936194",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_99400d071f50",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_2955889401ae",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_220db11f9448",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_f72e4f98aa96",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_77f769564d6d",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_0df3524a1183",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_fe3983c69274",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_134a0617d218",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.01,
+          "estimated": true
+        },
+        {
+          "id": "sc_dbd564c283d6",
+          "chance": 0.01,
+          "estimated": true
+        }
+      ],
+      "mesoBag": [
+        72000,
+        108000
+      ],
+      "mesoBags": [
+        "gold",
+        "copper"
+      ]
+    },
     "chimera": {
       "gmsId": 8220002,
       "name": "奇美拉",
@@ -55154,7 +55353,7 @@
       "description": "單體（標記追加傷害 10% 文字版不算）"
     }
   ],
-  "version": "0.9.4",
+  "version": "0.9.5",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
