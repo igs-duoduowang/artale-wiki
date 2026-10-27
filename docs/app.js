@@ -4,6 +4,10 @@ document.querySelector(`[data-nav="${page}"]`)?.setAttribute('aria-current', 'pa
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const number = value => Number(value).toLocaleString('zh-TW');
+// 掉率：1% 以上到小數一位；更小的顯示兩位有效數字（0.0069%），不會被四捨五入成 0%。
+const percent = chance => { const value = chance * 100; return `${value >= 1 ? Math.round(value * 10) / 10 : Number(value.toPrecision(2))}%`; };
+// 打倒後分裂出這隻怪的母怪（例：搞怪CD ← 異型雙碟）。
+const splitParent = (world, monsterId) => Object.entries(world.monsters).find(([, monster]) => monster.split?.id === monsterId);
 const level = value => value ? `Lv.${value}` : '無等級限制';
 const typeNames = {
   HAT:'帽子',TOP:'上衣',BOTTOM:'褲裙',OVERALL:'套服',SHOES:'鞋子',GLOVES:'手套',CAPE:'披風',SHIELD:'盾牌',
@@ -40,12 +44,12 @@ let gameWorld=null;
 function dropSources(world,id){
   if(!world)return[];
   const mapsOf=monsterId=>Object.values(world.maps).filter(map=>map.monsters.includes(monsterId)).map(map=>map.name);
-  return Object.entries(world.monsters).map(([monsterId,monster])=>({monster,chance:(monster.drops||[]).filter(drop=>drop.id===id).reduce((sum,drop)=>sum+drop.chance,0),maps:mapsOf(monsterId)}))
+  return Object.entries(world.monsters).map(([monsterId,monster])=>({monster,chance:(monster.drops||[]).filter(drop=>drop.id===id).reduce((sum,drop)=>sum+drop.chance,0),maps:mapsOf(monsterId),from:(parent=>parent?{name:parent[1].name,maps:mapsOf(parent[0])}:null)(splitParent(world,monsterId))}))
     .filter(entry=>entry.chance>0).sort((a,b)=>b.chance-a.chance||a.monster.level-b.monster.level);
 }
 function dropTable(world,id){
   const rows=dropSources(world,id);
-  return rows.length?`<div class="data-wrap"><table><thead><tr><th>怪物</th><th>等級</th><th>掉率</th><th>出現地圖</th></tr></thead><tbody>${rows.map(row=>`<tr><td><strong>${esc(row.monster.name)}</strong></td><td>${row.monster.level}</td><td>${Math.round(row.chance*1000)/10}%</td><td>${row.maps.length?row.maps.map(esc).join('、'):'尚無地圖'}</td></tr>`).join('')}</tbody></table></div>`:'<p class="muted">目前文字版沒有怪物會掉這件物品。</p>';
+  return rows.length?`<div class="data-wrap"><table><thead><tr><th>怪物</th><th>等級</th><th>掉率</th><th>出現地圖</th></tr></thead><tbody>${rows.map(row=>`<tr><td><strong>${esc(row.monster.name)}</strong></td><td>${row.monster.level}</td><td>${percent(row.chance)}</td><td>${row.maps.length?row.maps.map(esc).join('、'):row.from?`由${esc(row.from.name)}打倒後分裂（${row.from.maps.map(esc).join('、')||'尚無地圖'}）`:'尚無地圖'}</td></tr>`).join('')}</tbody></table></div>`:'<p class="muted">目前文字版沒有怪物會掉這件物品。</p>';
 }
 const itemPage=(world,id)=>{const slot=world?.items[id]?.slot;return slot==='material'?`materials.html?id=${encodeURIComponent(id)}`:id.startsWith('sc_')?`scrolls.html?id=${encodeURIComponent(id)}`:id.startsWith('eq_')?`equipment.html?id=${encodeURIComponent(id)}`:null;};
 function showDetail(item){
@@ -113,7 +117,7 @@ function materialsPage(world){
     history.replaceState(null,'',`?id=${encodeURIComponent(item.id)}`);panel.scrollIntoView({behavior:'smooth',block:'start'});};
   const render=()=>{const q=query.value.trim();const rows=list.filter(item=>(!scope.value||item.sources.length)&&(!q||item.name.includes(q)||item.sources.some(source=>source.monster.name.includes(q))));
     root.querySelector('#count').textContent=`符合 ${number(rows.length)} 種`;
-    root.querySelector('#rows').innerHTML=rows.map(item=>`<tr><td><button class="item-link" data-id="${esc(item.id)}">${esc(item.name)}</button></td><td>${number(item.sellPrice)} 楓幣</td><td>${item.sources.length?item.sources.map(source=>`${esc(source.monster.name)} Lv.${source.monster.level} ${Math.round(source.chance*1000)/10}%`).join('<br>'):'<span class="muted">文字版尚未掉落</span>'}</td></tr>`).join('')||'<tr><td colspan="3" class="empty">找不到雜物。</td></tr>';
+    root.querySelector('#rows').innerHTML=rows.map(item=>`<tr><td><button class="item-link" data-id="${esc(item.id)}">${esc(item.name)}</button></td><td>${number(item.sellPrice)} 楓幣</td><td>${item.sources.length?item.sources.map(source=>`${esc(source.monster.name)} Lv.${source.monster.level} ${percent(source.chance)}`).join('<br>'):'<span class="muted">文字版尚未掉落</span>'}</td></tr>`).join('')||'<tr><td colspan="3" class="empty">找不到雜物。</td></tr>';
     root.querySelectorAll('[data-id]').forEach(button=>button.onclick=()=>show(list.find(item=>item.id===button.dataset.id)));};
   query.oninput=render;scope.onchange=render;render();
   const id=new URLSearchParams(location.search).get('id');const target=list.find(item=>item.id===id);if(target){if(!target.sources.length)scope.value='';render();show(target);}
@@ -158,9 +162,10 @@ function mapsPage(world){const entries=Object.entries(world.maps),regions=world.
   const render=()=>{const reg=root.querySelector('#region').value,district=root.querySelector('#district').value,q=root.querySelector('#map-query').value.trim();root.querySelector('#map-list').innerHTML=entries.filter(([,map])=>(!reg||map.region===reg)&&(!district||map.district===district)&&(!q||map.name.includes(q)||map.monsters.some(id=>world.monsters[id]?.name.includes(q)))).map(([,map])=>`<article class="list-card"><span class="pill">${esc(regionName(map.region))}</span><h3>${esc(map.name)}</h3><p>建議等級 ${esc(level(map.minLevel))} · ${map.monsters.length?map.monsters.map(id=>esc(world.monsters[id]?.name||id)).join('、'):'安全區'}${map.fieldBoss?' · 👑 '+esc(world.fieldBosses[map.fieldBoss]?.name):''}</p>${map.shops?`<p>🏪 ${map.shops.map(n=>`${esc(n.type)}：${esc(n.name)}${n.place?`（${esc(n.place)}）`:''}`).join('、')}</p>`:''}${map.route?`<p class="muted">🧭 原作路線：${routeText(map.route)}</p>`:''}</article>`).join('')||'<p class="muted">找不到符合的地圖。</p>';};root.querySelector('#region').onchange=()=>{root.querySelector('#district').value='';render();};root.querySelector('#district').onchange=()=>{const option=root.querySelector('#district').selectedOptions[0];if(option?.dataset.region)root.querySelector('#region').value=option.dataset.region;render();};root.querySelector('#map-query').oninput=render;render();}
 function monstersPage(world){const entries=Object.entries(world.monsters).sort((a,b)=>a[1].level-b[1].level);root.innerHTML=head('BESTIARY','怪物','目前文字版遊戲已放入的普通怪物。數值含試作設定，與阿泰爾正式版不一定一致。')+
   '<div class="notice">掉什麼對照玩家圖鑑；裝備、卷軸、藥水的機率照經典楓之谷 v83 參考資料（HeavenMS），阿泰爾未公開官方掉率；雜物掉率是文字版暫定值。</div><div class="tools"><label class="field">搜尋怪物<input id="monster-query" type="search" placeholder="輸入怪物或掉落名稱"></label></div><div class="data-wrap"><table><thead><tr><th>怪物</th><th>等級</th><th>HP</th><th>EXP</th><th>文字版掉落池</th></tr></thead><tbody id="monster-rows"></tbody></table></div>';
-  const drops=monster=>(monster.drops||[]).map(drop=>`${world.items[drop.id]?.name||drop.id} ${Math.round(drop.chance*1000)/10}%`);
-  const dropLinks=monster=>(monster.drops||[]).map(drop=>{const label=esc(`${world.items[drop.id]?.name||drop.id} ${Math.round(drop.chance*1000)/10}%`);const url=itemPage(world,drop.id);return url?`<a href="${url}">${label}</a>`:label;});
-  const render=()=>{const q=root.querySelector('#monster-query').value.trim();root.querySelector('#monster-rows').innerHTML=entries.filter(([,m])=>!q||m.name.includes(q)||drops(m).some(name=>name.includes(q))).map(([,m])=>`<tr><td><strong>${esc(m.name)}</strong></td><td>${m.level}</td><td>${number(m.hp)}</td><td>${number(m.exp)}</td><td>${dropLinks(m).join('<br>')||'未列出'}</td></tr>`).join('')||'<tr><td colspan="5" class="empty">找不到怪物。</td></tr>';};root.querySelector('#monster-query').oninput=render;render();}
+  const splitNote=(id,m)=>{const parent=splitParent(world,id);return m.split?`<br><span class="muted">打倒後分裂成 ${m.split.count} 隻${esc(world.monsters[m.split.id]?.name||'')}</span>`:parent?`<br><span class="muted">不會自己出現，由${esc(parent[1].name)}打倒後分裂（每隻 ${parent[1].split.count} 隻）</span>`:'';};
+  const drops=monster=>(monster.drops||[]).map(drop=>`${world.items[drop.id]?.name||drop.id} ${percent(drop.chance)}`);
+  const dropLinks=monster=>(monster.drops||[]).map(drop=>{const label=esc(`${world.items[drop.id]?.name||drop.id} ${percent(drop.chance)}`);const url=itemPage(world,drop.id);return url?`<a href="${url}">${label}</a>`:label;});
+  const render=()=>{const q=root.querySelector('#monster-query').value.trim();root.querySelector('#monster-rows').innerHTML=entries.filter(([,m])=>!q||m.name.includes(q)||drops(m).some(name=>name.includes(q))).map(([id,m])=>`<tr><td><strong>${esc(m.name)}</strong>${splitNote(id,m)}</td><td>${m.level}</td><td>${number(m.hp)}</td><td>${number(m.exp)}</td><td>${dropLinks(m).join('<br>')||'未列出'}</td></tr>`).join('')||'<tr><td colspan="5" class="empty">找不到怪物。</td></tr>';};root.querySelector('#monster-query').oninput=render;render();}
 function skillNotes(world,skill){const mp=skill.kind==='support'?`<br>MP：Lv.1 ${skill.firstMp}／Lv.${skill.maxLevel} ${skill.maxMp}`:'';const prerequisites=Object.entries(skill.prerequisite||{}).map(([id,level])=>`${esc(world.skills.find(entry=>entry.id===id)?.name||id)} Lv.${level}`).join('、');return mp+(prerequisites?`<br>前置：${prerequisites}`:'');}
 function jobsPage(world){const intros=world.jobIntros||{},jobs=world.jobs,icons={beginner:'🍁',warrior:'⚔️',magician:'✨',bowman:'🏹',thief:'🗡️',pirate:'⚓',fighter:'🪓',page:'🛡️',spearman:'🔱',fire_poison:'🔥',ice_lightning:'❄️',cleric:'✝️',hunter:'🏹',crossbowman:'🎯',assassin:'🥷',bandit:'🗡️',brawler:'👊',gunslinger:'🔫'},kinds={passive:'被動',support:'增益',debuff:'減益'};
   const order=['beginner',...Object.keys(jobs).filter(id=>id!=='beginner'&&!jobs[id].tier).flatMap(id=>[id,...Object.keys(jobs).filter(child=>jobs[child].parent===id)])];
