@@ -41,6 +41,10 @@ const skillCatalog = Object.entries(skills).map(([id, skill]) => {
     firstMp: first.mpCost, maxMp: max.mpCost,
     ...(first.hpCost ? { firstHp: first.hpCost, maxHp: max.hpCost } : {}),
     ...(skill.prerequisite ? { prerequisite: skill.prerequisite } : {}),
+    // 四轉：沒技能書時的上限、技能書在阿泰爾從哪來（資料站給玩家查）。
+    ...(skill.masterLevel !== undefined ? { masterLevel: skill.masterLevel } : {}),
+    ...(skill.books ? { books: skill.books } : {}),
+    ...(skill.inert ? { inert: true } : {}),
     // 說明一律用滿級的最新文字；遊戲沒有說明文字的才沿用資料站舊的。
     ...(skill.effect || previousSkills.get(id)?.description ? { description: skill.effect ? skill.effect(skill.maxLevel) : previousSkills.get(id).description } : {})
   };
