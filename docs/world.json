@@ -7085,6 +7085,18 @@
       "sellPrice": 35,
       "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
     },
+    "mat_c9d17a7a701f": {
+      "name": "CD盒",
+      "slot": "material",
+      "sellPrice": 436,
+      "priceSource": "文字版暫定售價（依掉落怪物楓幣估算）"
+    },
+    "mat_988e2aaaff8d": {
+      "name": "黑水晶母礦",
+      "slot": "material",
+      "sellPrice": 1500,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
     "rainbow_shell": {
       "name": "彩虹蝸牛殼",
       "slot": "material",
@@ -7203,12 +7215,6 @@
       "name": "刺菇菇傘",
       "slot": "material",
       "sellPrice": 12,
-      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
-    },
-    "mat_988e2aaaff8d": {
-      "name": "黑水晶母礦",
-      "slot": "material",
-      "sellPrice": 1500,
       "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
     },
     "mat_533fa7f170f0": {
@@ -47693,13 +47699,17 @@
       "drop": "red_potion",
       "dropRate": 0.25,
       "id": "mob_a2ba0ba29bc4",
-      "avoid": 27,
+      "avoid": 40,
       "accuracy": 140,
-      "def": 380,
-      "mdef": 400,
+      "def": 400,
+      "mdef": 450,
       "undead": true,
-      "mp": 0,
-      "combatSource": "依相近等級怪物估算",
+      "mp": 500,
+      "combatSource": "阿泰爾資料站（物防、魔防、迴避、MP）；命中依相近等級怪物估算",
+      "split": {
+        "id": "mob_f7ee3d5b7200",
+        "count": 3
+      },
       "drops": []
     },
     "mob_be6f10f17404": {
@@ -48171,6 +48181,123 @@
         {
           "id": "mat_bc79b8df1e8b",
           "chance": 0.45
+        }
+      ]
+    },
+    "mob_f7ee3d5b7200": {
+      "name": "搞怪CD",
+      "englishName": "Funny CD",
+      "level": 72,
+      "hp": 7900,
+      "exp": 700,
+      "mesos": [
+        480,
+        610
+      ],
+      "mesosSource": "舊版楓之谷巴哈百科（阿泰爾資料站未填，使用者決定）",
+      "attack": 96,
+      "drop": "mat_c9d17a7a701f",
+      "dropRate": 0.25,
+      "id": "mob_f7ee3d5b7200",
+      "avoid": 35,
+      "accuracy": 175,
+      "def": 300,
+      "mdef": 350,
+      "undead": false,
+      "mp": 470,
+      "combatSource": "阿泰爾資料站（物防、魔防、迴避、MP）；命中依相近等級怪物估算",
+      "drops": [
+        {
+          "id": "mat_c9d17a7a701f",
+          "chance": 0.45
+        },
+        {
+          "id": "mat_f4f4df34404b",
+          "chance": 0.003
+        },
+        {
+          "id": "mat_988e2aaaff8d",
+          "chance": 0.003
+        },
+        {
+          "id": "eq_37b1540fe722",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_32435e6a1d1b",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_53d8356633b5",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_ae14d3c8bb27",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_88342162cf9e",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_5deb0743ee87",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_9d2e46771b08",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_9f6a1494b70a",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_f0294bd89810",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_e1cb6938c2c9",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_ac9523bd811a",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_eebc9a8fd87b",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_800b792323c1",
+          "chance": 0.00075,
+          "estimated": true
+        },
+        {
+          "id": "sc_8379aaf8001b",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        },
+        {
+          "id": "power_elixir",
+          "chance": 0.04,
+          "estimated": true
+        },
+        {
+          "id": "mana_elixir",
+          "chance": 0.04,
+          "estimated": true
         }
       ]
     }
@@ -55353,7 +55480,7 @@
       "description": "單體（標記追加傷害 10% 文字版不算）"
     }
   ],
-  "version": "0.10.6",
+  "version": "0.10.7",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
