@@ -272,6 +272,118 @@
         "gun"
       ],
       "attack": 10
+    },
+    "hero": {
+      "name": "英雄",
+      "parent": "crusader",
+      "tier": 4,
+      "weapon": [
+        "sword"
+      ],
+      "attack": 10
+    },
+    "paladin": {
+      "name": "聖騎士",
+      "parent": "white_knight",
+      "tier": 4,
+      "weapon": [
+        "sword"
+      ],
+      "attack": 10
+    },
+    "dark_knight": {
+      "name": "黑騎士",
+      "parent": "dragon_knight",
+      "tier": 4,
+      "weapon": [
+        "sword"
+      ],
+      "attack": 10
+    },
+    "fp_archmage": {
+      "name": "大魔導士（火毒）",
+      "parent": "fp_mage",
+      "tier": 4,
+      "weapon": [
+        "wand"
+      ],
+      "attack": 12
+    },
+    "il_archmage": {
+      "name": "大魔導士（冰雷）",
+      "parent": "il_mage",
+      "tier": 4,
+      "weapon": [
+        "wand"
+      ],
+      "attack": 12
+    },
+    "bishop": {
+      "name": "主教",
+      "parent": "priest",
+      "tier": 4,
+      "weapon": [
+        "wand"
+      ],
+      "attack": 12
+    },
+    "bowmaster": {
+      "name": "箭神",
+      "parent": "ranger",
+      "tier": 4,
+      "weapon": [
+        "bow"
+      ],
+      "attack": 10
+    },
+    "marksman": {
+      "name": "神射手",
+      "parent": "sniper",
+      "tier": 4,
+      "weapon": [
+        "bow"
+      ],
+      "attack": 10
+    },
+    "night_lord": {
+      "name": "夜使者",
+      "parent": "hermit",
+      "tier": 4,
+      "weapon": [
+        "dagger",
+        "claw"
+      ],
+      "attack": 11
+    },
+    "shadower": {
+      "name": "暗影神偷",
+      "parent": "chief_bandit",
+      "tier": 4,
+      "weapon": [
+        "dagger",
+        "claw"
+      ],
+      "attack": 11
+    },
+    "buccaneer": {
+      "name": "拳霸",
+      "parent": "marauder",
+      "tier": 4,
+      "weapon": [
+        "knuckle",
+        "gun"
+      ],
+      "attack": 10
+    },
+    "corsair": {
+      "name": "槍神",
+      "parent": "outlaw",
+      "tier": 4,
+      "weapon": [
+        "knuckle",
+        "gun"
+      ],
+      "attack": 10
     }
   },
   "items": {
@@ -7097,6 +7209,78 @@
       "sellPrice": 1500,
       "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
     },
+    "mat_f3e49417254d": {
+      "name": "廢紙",
+      "slot": "material",
+      "sellPrice": 18,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_6cb1a71b2d36": {
+      "name": "停止標誌",
+      "slot": "material",
+      "sellPrice": 30,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_869ee3f8f6ea": {
+      "name": "斷翅",
+      "slot": "material",
+      "sellPrice": 20,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_f22550b533ab": {
+      "name": "速限標誌",
+      "slot": "material",
+      "sellPrice": 45,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_043721c0e40d": {
+      "name": "前照燈",
+      "slot": "material",
+      "sellPrice": 80,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_116d13a1042e": {
+      "name": "小陀糞便",
+      "slot": "material",
+      "sellPrice": 55,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_5bf85e75e2dd": {
+      "name": "大陀糞便",
+      "slot": "material",
+      "sellPrice": 70,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_d39ee46df8d0": {
+      "name": "粉紅精油",
+      "slot": "material",
+      "sellPrice": 73,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_111b445c3f7f": {
+      "name": "藍色精油",
+      "slot": "material",
+      "sellPrice": 115,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_f4cf1869e135": {
+      "name": "綠色精油",
+      "slot": "material",
+      "sellPrice": 80,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_966eb24ce574": {
+      "name": "召喚石",
+      "slot": "material",
+      "sellPrice": 1,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
+    "mat_4f97b274a4e1": {
+      "name": "紅色精油",
+      "slot": "material",
+      "sellPrice": 125,
+      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
+    },
     "rainbow_shell": {
       "name": "彩虹蝸牛殼",
       "slot": "material",
@@ -7365,12 +7549,6 @@
       "name": "遺失的斧頭",
       "slot": "material",
       "sellPrice": 12,
-      "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
-    },
-    "mat_966eb24ce574": {
-      "name": "召喚石",
-      "slot": "material",
-      "sellPrice": 1,
       "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
     },
     "mat_c1b98f5bebc0": {
@@ -9806,7 +9984,11 @@
       "region": "victoria",
       "minLevel": 1,
       "monsters": [],
-      "district": "kerning"
+      "district": "kerning",
+      "route": [
+        "kerning",
+        "vi_916031e5a4db"
+      ]
     },
     "vi_ffd8158cd159": {
       "name": "維多利亞島・歷恩森林Ⅰ",
@@ -20841,6 +21023,421 @@
         "sw_e72f111434a8",
         "sw_f0c4746b483b",
         "sleepywood_mushmom_grave"
+      ]
+    },
+    "sg_17cb8d00d2c8": {
+      "name": "新加坡・新加坡機場",
+      "sourceName": "Singapore: Changi Airport",
+      "region": "singapore",
+      "district": "cbd",
+      "minLevel": 1,
+      "monsters": [],
+      "route": [
+        "sg_2012d469e688",
+        "sg_17cb8d00d2c8"
+      ]
+    },
+    "sg_2012d469e688": {
+      "name": "新加坡・中心商務區",
+      "sourceName": "Singapore: CBD",
+      "region": "singapore",
+      "district": "cbd",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "sg_d28a72a419df": {
+      "name": "新加坡・中央路1",
+      "sourceName": "Singapore: Central Way 1",
+      "region": "singapore",
+      "district": "cbd",
+      "minLevel": 118,
+      "monsters": [
+        "mob_91a6298132b3",
+        "mob_39bc92646969"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df"
+      ]
+    },
+    "sg_467cb47bc91b": {
+      "name": "新加坡・中央路2",
+      "sourceName": "Singapore: Central Way 2",
+      "region": "singapore",
+      "district": "cbd",
+      "minLevel": 119,
+      "monsters": [
+        "mob_91a6298132b3",
+        "mob_a48fcb14675f",
+        "mob_39bc92646969",
+        "mob_97be80b21365"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b"
+      ]
+    },
+    "sg_06c963308709": {
+      "name": "新加坡・中央路3",
+      "sourceName": "Singapore: Central Way 3",
+      "region": "singapore",
+      "district": "cbd",
+      "minLevel": 119,
+      "monsters": [
+        "mob_a48fcb14675f",
+        "mob_97be80b21365"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709"
+      ]
+    },
+    "sg_e282f6f007ce": {
+      "name": "新加坡・郊區1",
+      "sourceName": "Singapore: Suburban Area 1",
+      "region": "singapore",
+      "district": "cbd",
+      "minLevel": 120,
+      "monsters": [
+        "mob_69e11a9d1551"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce"
+      ]
+    },
+    "sg_d8b5705c2dc4": {
+      "name": "新加坡・郊區2",
+      "sourceName": "Singapore: Suburban Area 2",
+      "region": "singapore",
+      "district": "cbd",
+      "minLevel": 123,
+      "monsters": [
+        "mob_edfba6b1ecdc"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce",
+        "sg_d8b5705c2dc4"
+      ]
+    },
+    "sg_1a2ce72706bb": {
+      "name": "新加坡・駁船碼頭城",
+      "sourceName": "Singapore: Boat Quay Town",
+      "region": "singapore",
+      "district": "boatquay",
+      "minLevel": 1,
+      "monsters": []
+    },
+    "sg_2e535da8aaa0": {
+      "name": "新加坡・神秘小徑1",
+      "sourceName": "Singapore: Mysterious Path 1",
+      "region": "singapore",
+      "district": "boatquay",
+      "minLevel": 126,
+      "monsters": [
+        "mob_e81f1c76823b",
+        "mob_54f132c4981c"
+      ],
+      "route": [
+        "sg_1a2ce72706bb",
+        "sg_2e535da8aaa0"
+      ]
+    },
+    "sg_d4113a5ab9c8": {
+      "name": "新加坡・神秘小徑2",
+      "sourceName": "Singapore: Mysterious Path 2",
+      "region": "singapore",
+      "district": "boatquay",
+      "minLevel": 127,
+      "monsters": [
+        "mob_409c04c5bbbd",
+        "mob_bc6f151bc50f"
+      ],
+      "route": [
+        "sg_1a2ce72706bb",
+        "sg_2e535da8aaa0",
+        "sg_d4113a5ab9c8"
+      ]
+    },
+    "sg_43d877381db9": {
+      "name": "新加坡・神秘小徑3",
+      "sourceName": "Singapore: Mysterious Path 3",
+      "region": "singapore",
+      "district": "boatquay",
+      "minLevel": 130,
+      "monsters": [
+        "mob_6134aa102b21",
+        "mob_a857b99d32d6"
+      ],
+      "route": [
+        "sg_1a2ce72706bb",
+        "sg_2e535da8aaa0",
+        "sg_d4113a5ab9c8",
+        "sg_43d877381db9"
+      ]
+    },
+    "sg_05516fb3923e": {
+      "name": "新加坡・烏魯城入口",
+      "sourceName": "Singapore: Entrance to Ulu City",
+      "region": "singapore",
+      "district": "ulu",
+      "minLevel": 137,
+      "monsters": [
+        "mob_c70352db306e"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce",
+        "sg_d8b5705c2dc4",
+        "sg_05516fb3923e"
+      ]
+    },
+    "sg_cb489cb3c3e5": {
+      "name": "新加坡・烏魯莊園Ⅰ",
+      "sourceName": "Singapore: Ulu Estate I",
+      "region": "singapore",
+      "district": "ulu",
+      "minLevel": 139,
+      "monsters": [
+        "mob_c70352db306e",
+        "mob_8b5b96cabd1b"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce",
+        "sg_d8b5705c2dc4",
+        "sg_05516fb3923e",
+        "sg_cb489cb3c3e5"
+      ]
+    },
+    "sg_8910e8a00eef": {
+      "name": "新加坡・烏魯莊園Ⅱ",
+      "sourceName": "Singapore: Ulu Estate II",
+      "region": "singapore",
+      "district": "ulu",
+      "minLevel": 141,
+      "monsters": [
+        "mob_8b5b96cabd1b",
+        "mob_28739135dbd0"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce",
+        "sg_d8b5705c2dc4",
+        "sg_05516fb3923e",
+        "sg_cb489cb3c3e5",
+        "sg_8910e8a00eef"
+      ]
+    },
+    "sg_a7dfeb53605b": {
+      "name": "新加坡・烏魯莊園Ⅲ",
+      "sourceName": "Singapore: Ulu Estate III",
+      "region": "singapore",
+      "district": "ulu",
+      "minLevel": 142,
+      "monsters": [
+        "mob_a02a12f56554"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce",
+        "sg_d8b5705c2dc4",
+        "sg_05516fb3923e",
+        "sg_cb489cb3c3e5",
+        "sg_8910e8a00eef",
+        "sg_a7dfeb53605b"
+      ]
+    },
+    "sg_559eb7b9bccf": {
+      "name": "新加坡・烏魯城周邊",
+      "sourceName": "Singapore: Along Ulu City",
+      "region": "singapore",
+      "district": "ulu",
+      "minLevel": 143,
+      "monsters": [
+        "mob_a02a12f56554",
+        "mob_ca2e50768c05"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce",
+        "sg_d8b5705c2dc4",
+        "sg_05516fb3923e",
+        "sg_cb489cb3c3e5",
+        "sg_8910e8a00eef",
+        "sg_a7dfeb53605b",
+        "sg_559eb7b9bccf"
+      ]
+    },
+    "sg_b59a634b130f": {
+      "name": "新加坡・烏魯城中心",
+      "sourceName": "Singapore: Centre of Ulu City",
+      "region": "singapore",
+      "district": "ulu",
+      "minLevel": 143,
+      "monsters": [
+        "mob_ca2e50768c05"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce",
+        "sg_d8b5705c2dc4",
+        "sg_05516fb3923e",
+        "sg_cb489cb3c3e5",
+        "sg_8910e8a00eef",
+        "sg_a7dfeb53605b",
+        "sg_559eb7b9bccf",
+        "sg_b59a634b130f"
+      ]
+    },
+    "sg_abe1a143d5d8": {
+      "name": "新加坡・毀滅公園Ⅰ",
+      "sourceName": "Singapore: The Destroyed Park I",
+      "region": "singapore",
+      "district": "ulu",
+      "minLevel": 145,
+      "monsters": [
+        "mob_28739135dbd0",
+        "mob_90b77e3c2b87"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce",
+        "sg_d8b5705c2dc4",
+        "sg_05516fb3923e",
+        "sg_cb489cb3c3e5",
+        "sg_8910e8a00eef",
+        "sg_a7dfeb53605b",
+        "sg_559eb7b9bccf",
+        "sg_b59a634b130f",
+        "sg_abe1a143d5d8"
+      ]
+    },
+    "sg_82b5f4676cfb": {
+      "name": "新加坡・毀滅公園Ⅱ",
+      "sourceName": "Singapore: The Destroyed Park II",
+      "region": "singapore",
+      "district": "ulu",
+      "minLevel": 145,
+      "monsters": [
+        "mob_90b77e3c2b87"
+      ],
+      "route": [
+        "sg_2012d469e688",
+        "sg_d28a72a419df",
+        "sg_467cb47bc91b",
+        "sg_06c963308709",
+        "sg_e282f6f007ce",
+        "sg_d8b5705c2dc4",
+        "sg_05516fb3923e",
+        "sg_cb489cb3c3e5",
+        "sg_8910e8a00eef",
+        "sg_a7dfeb53605b",
+        "sg_559eb7b9bccf",
+        "sg_b59a634b130f",
+        "sg_abe1a143d5d8",
+        "sg_82b5f4676cfb"
+      ]
+    },
+    "sg_7e9e3cadefdb": {
+      "name": "新加坡・幽靈船1",
+      "sourceName": "Singapore: Ghost Ship 1",
+      "region": "singapore",
+      "district": "ghostship",
+      "minLevel": 127,
+      "monsters": [
+        "mob_bc6f151bc50f"
+      ],
+      "route": [
+        "sg_1a2ce72706bb",
+        "sg_2e535da8aaa0",
+        "sg_d4113a5ab9c8",
+        "sg_43d877381db9",
+        "sg_7e9e3cadefdb"
+      ]
+    },
+    "sg_a8dc77976b2b": {
+      "name": "新加坡・幽靈船2",
+      "sourceName": "Singapore: Ghost Ship 2",
+      "region": "singapore",
+      "district": "ghostship",
+      "minLevel": 130,
+      "monsters": [
+        "mob_a857b99d32d6"
+      ],
+      "route": [
+        "sg_1a2ce72706bb",
+        "sg_2e535da8aaa0",
+        "sg_d4113a5ab9c8",
+        "sg_43d877381db9",
+        "sg_7e9e3cadefdb",
+        "sg_a8dc77976b2b"
+      ]
+    },
+    "sg_f4f4810afa4e": {
+      "name": "新加坡・幽靈船5",
+      "sourceName": "Singapore: Ghost Ship 5",
+      "region": "singapore",
+      "district": "ghostship",
+      "minLevel": 128,
+      "monsters": [
+        "mob_6134aa102b21"
+      ],
+      "route": [
+        "sg_1a2ce72706bb",
+        "sg_2e535da8aaa0",
+        "sg_d4113a5ab9c8",
+        "sg_43d877381db9",
+        "sg_f4f4810afa4e"
+      ]
+    },
+    "sg_510b760c31a0": {
+      "name": "新加坡・幽靈船6",
+      "sourceName": "Singapore: Ghost Ship 6",
+      "region": "singapore",
+      "district": "ghostship",
+      "minLevel": 131,
+      "monsters": [
+        "mob_c525b7f5721b"
+      ],
+      "route": [
+        "sg_1a2ce72706bb",
+        "sg_2e535da8aaa0",
+        "sg_d4113a5ab9c8",
+        "sg_43d877381db9",
+        "sg_f4f4810afa4e",
+        "sg_510b760c31a0"
       ]
     }
   },
@@ -48300,6 +48897,1433 @@
           "estimated": true
         }
       ]
+    },
+    "mob_91a6298132b3": {
+      "name": "變身垃圾桶",
+      "englishName": "Biner",
+      "level": 120,
+      "hp": 110800,
+      "exp": 5510,
+      "mesos": [
+        1030,
+        1030
+      ],
+      "attack": 158,
+      "drop": "mat_f3e49417254d",
+      "dropRate": 0.25,
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的祭司（Lv.121）",
+      "id": "mob_91a6298132b3",
+      "avoid": 38,
+      "accuracy": 215,
+      "def": 890,
+      "mdef": 710,
+      "undead": false,
+      "mp": 300,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_f3e49417254d",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_66b77719ac69",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_36cf7746c4fb",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_a70f63e2a1f4",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_fdb1a1941809",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_f0eed71331c8",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_4bbc9b6046d6",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_62ca752d8fb9",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_e4f381db93bd",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_3251c260bc96",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        },
+        {
+          "id": "sc_bbf38a7c57c4",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_39bc92646969": {
+      "name": "標示牌",
+      "englishName": "Stopnow",
+      "level": 123,
+      "hp": 118590,
+      "exp": 6010,
+      "mesos": [
+        1040,
+        1040
+      ],
+      "attack": 162,
+      "drop": "mat_6cb1a71b2d36",
+      "dropRate": 0.25,
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的神官（Lv.124）",
+      "id": "mob_39bc92646969",
+      "avoid": 40,
+      "accuracy": 220,
+      "def": 910,
+      "mdef": 730,
+      "undead": false,
+      "mp": 310,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_6cb1a71b2d36",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_5bbd647ce3fc",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_5077f4732a03",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_28fa378374a0",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_74dc29348d9a",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_b05cc36e143d",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_b82bf1a1ea61",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_a271d9b2e7e5",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_bf786b627f0a",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_a48fcb14675f": {
+      "name": "不明飛天物",
+      "englishName": "Batoo",
+      "level": 121,
+      "hp": 113390,
+      "exp": 5700,
+      "mesos": [
+        1060,
+        1060
+      ],
+      "attack": 159,
+      "drop": "mat_869ee3f8f6ea",
+      "dropRate": 0.25,
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的祭司（Lv.121）",
+      "id": "mob_a48fcb14675f",
+      "avoid": 38,
+      "accuracy": 220,
+      "def": 900,
+      "mdef": 720,
+      "undead": false,
+      "mp": 300,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_869ee3f8f6ea",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_66b77719ac69",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_36cf7746c4fb",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_a70f63e2a1f4",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_fdb1a1941809",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_f0eed71331c8",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_4bbc9b6046d6",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_62ca752d8fb9",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_e4f381db93bd",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_3251c260bc96",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        },
+        {
+          "id": "sc_bbf38a7c57c4",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_97be80b21365": {
+      "name": "限速牌",
+      "englishName": "Nospeed",
+      "level": 124,
+      "hp": 121190,
+      "exp": 6050,
+      "mesos": [
+        1030,
+        1110
+      ],
+      "attack": 163,
+      "drop": "mat_f22550b533ab",
+      "dropRate": 0.25,
+      "id": "mob_97be80b21365",
+      "avoid": 40,
+      "accuracy": 220,
+      "def": 910,
+      "mdef": 740,
+      "undead": false,
+      "mp": 310,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_f22550b533ab",
+          "chance": 0.45
+        },
+        {
+          "id": "sc_bff4d2591ab0",
+          "chance": 0.00075,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_69e11a9d1551": {
+      "name": "異型滅火器",
+      "englishName": "Freezer 2",
+      "level": 125,
+      "hp": 123790,
+      "exp": 6140,
+      "mesos": [
+        1078,
+        1106
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 165,
+      "drop": "mat_f22550b533ab",
+      "dropRate": 0.25,
+      "dropEstimated": "估算：資料站與經典都沒有雜物，借新加坡相近等級的 限速牌 的雜物",
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的神官（Lv.124）",
+      "id": "mob_69e11a9d1551",
+      "avoid": 41,
+      "accuracy": 220,
+      "def": 910,
+      "mdef": 750,
+      "undead": false,
+      "mp": 320,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_f22550b533ab",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_5bbd647ce3fc",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_5077f4732a03",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_28fa378374a0",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_74dc29348d9a",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_b05cc36e143d",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_b82bf1a1ea61",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_a271d9b2e7e5",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_bf786b627f0a",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_edfba6b1ecdc": {
+      "name": "藍色大貨車",
+      "englishName": "Trucker",
+      "level": 128,
+      "hp": 131580,
+      "exp": 6400,
+      "mesos": [
+        1115,
+        1152
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 168,
+      "drop": "mat_043721c0e40d",
+      "dropRate": 0.25,
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的守護兵（Lv.128）",
+      "id": "mob_edfba6b1ecdc",
+      "avoid": 41,
+      "accuracy": 220,
+      "def": 930,
+      "mdef": 770,
+      "undead": false,
+      "mp": 330,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_043721c0e40d",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_26f9bb372432",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_22a2ff69eaf7",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_368d6867d917",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_d57c06625881",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4a5a60f7e29",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_28e9523dc943",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_9a0f0ab59678",
+          "chance": 0.00075,
+          "estimated": true
+        },
+        {
+          "id": "sc_2975042ea11a",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        },
+        {
+          "id": "sc_6596f6f02b19",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_e81f1c76823b": {
+      "name": "紅色泳圈",
+      "englishName": "Tippo Red",
+      "level": 129,
+      "hp": 134200,
+      "exp": 6730,
+      "mesos": [
+        1127,
+        1167
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 170,
+      "drop": "mat_116d13a1042e",
+      "dropRate": 0.25,
+      "dropEstimated": "經典 v83 同名怪的雜物（資料站沒列）",
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的守護兵（Lv.128）",
+      "id": "mob_e81f1c76823b",
+      "avoid": 41,
+      "accuracy": 225,
+      "def": 930,
+      "mdef": 770,
+      "undead": false,
+      "mp": 340,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_116d13a1042e",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_26f9bb372432",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_22a2ff69eaf7",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_368d6867d917",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_d57c06625881",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4a5a60f7e29",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_28e9523dc943",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_9a0f0ab59678",
+          "chance": 0.00075,
+          "estimated": true
+        },
+        {
+          "id": "sc_2975042ea11a",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        },
+        {
+          "id": "sc_6596f6f02b19",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_54f132c4981c": {
+      "name": "藍色泳圈",
+      "englishName": "Tippo Blue",
+      "level": 131,
+      "hp": 139370,
+      "exp": 7030,
+      "mesos": [
+        1151,
+        1198
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 172,
+      "drop": "mat_5bf85e75e2dd",
+      "dropRate": 0.25,
+      "dropEstimated": "經典 v83 同名怪的雜物（資料站沒列）",
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的守護隊長（Lv.131）",
+      "id": "mob_54f132c4981c",
+      "avoid": 41,
+      "accuracy": 225,
+      "def": 940,
+      "mdef": 790,
+      "undead": false,
+      "mp": 350,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_5bf85e75e2dd",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_d0061248a1ce",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_85f9452ce4f7",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_b21b62f71d8d",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_54183c32a50e",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_e0276624c664",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4a5a60f7e29",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_f2387caf48ec",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_409c04c5bbbd": {
+      "name": "章魚怪",
+      "englishName": "Octobunny",
+      "level": 124,
+      "hp": 128980,
+      "exp": 6320,
+      "mesos": [
+        1066,
+        1091
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 163,
+      "drop": "mat_f22550b533ab",
+      "dropRate": 0.25,
+      "dropEstimated": "估算：資料站與經典都沒有雜物，借新加坡相近等級的 限速牌 的雜物",
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的神官（Lv.124）",
+      "id": "mob_409c04c5bbbd",
+      "avoid": 40,
+      "accuracy": 220,
+      "def": 910,
+      "mdef": 740,
+      "undead": false,
+      "mp": 310,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_f22550b533ab",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_5bbd647ce3fc",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_5077f4732a03",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_28fa378374a0",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_74dc29348d9a",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_b05cc36e143d",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_b82bf1a1ea61",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_a271d9b2e7e5",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_bf786b627f0a",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_bc6f151bc50f": {
+      "name": "幽靈漁夫",
+      "englishName": "Pac Pinky",
+      "level": 132,
+      "hp": 141970,
+      "exp": 7110,
+      "mesos": [
+        1163,
+        1213
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 174,
+      "drop": "mat_d39ee46df8d0",
+      "dropRate": 0.25,
+      "dropEstimated": "經典 v83 同名怪的雜物（資料站沒列）",
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的守護隊長（Lv.131）",
+      "id": "mob_bc6f151bc50f",
+      "avoid": 41,
+      "accuracy": 225,
+      "def": 940,
+      "mdef": 790,
+      "undead": false,
+      "mp": 350,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_d39ee46df8d0",
+          "chance": 0.45
+        },
+        {
+          "id": "mat_f4f4df34404b",
+          "chance": 0.003
+        },
+        {
+          "id": "mat_988e2aaaff8d",
+          "chance": 0.003
+        },
+        {
+          "id": "eq_d0061248a1ce",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_85f9452ce4f7",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_b21b62f71d8d",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_54183c32a50e",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_e0276624c664",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4a5a60f7e29",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_f2387caf48ec",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_6134aa102b21": {
+      "name": "幽靈船夫",
+      "englishName": "Selkie Jr.",
+      "level": 133,
+      "hp": 144570,
+      "exp": 7140,
+      "mesos": [
+        1175,
+        1228
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 175,
+      "drop": "mat_111b445c3f7f",
+      "dropRate": 0.25,
+      "id": "mob_6134aa102b21",
+      "avoid": 42,
+      "accuracy": 225,
+      "def": 950,
+      "mdef": 800,
+      "undead": false,
+      "mp": 350,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_111b445c3f7f",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_a5a5c31d211e",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_70c4e8e9a828",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        },
+        {
+          "id": "sc_397b17863851",
+          "chance": 0.00075,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_a857b99d32d6": {
+      "name": "幽靈清潔工",
+      "englishName": "Slimy",
+      "level": 135,
+      "hp": 149760,
+      "exp": 7510,
+      "mesos": [
+        1200,
+        1259
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 178,
+      "drop": "mat_f4cf1869e135",
+      "dropRate": 0.25,
+      "dropEstimated": "經典 v83 同名怪的雜物（資料站沒列）",
+      "id": "mob_a857b99d32d6",
+      "avoid": 44,
+      "accuracy": 225,
+      "def": 960,
+      "mdef": 810,
+      "undead": false,
+      "mp": 360,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_f4cf1869e135",
+          "chance": 0.45
+        },
+        {
+          "id": "mat_f4f4df34404b",
+          "chance": 0.003
+        },
+        {
+          "id": "mat_988e2aaaff8d",
+          "chance": 0.003
+        },
+        {
+          "id": "eq_01694978f594",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_f0294bd89810",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_1790c5c7a033",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_708dff7d4968",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_584d14372cfa",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_b34175d43c60",
+          "chance": 0.00075,
+          "estimated": true
+        },
+        {
+          "id": "mana_elixir",
+          "chance": 0.04,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_c70352db306e": {
+      "name": "狂暴者",
+      "englishName": "Berserkie",
+      "level": 142,
+      "hp": 167960,
+      "exp": 8620,
+      "mesos": [
+        1285,
+        1366
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 187,
+      "drop": "mat_966eb24ce574",
+      "dropRate": 0.25,
+      "dropEstimated": "估算：資料站與經典都沒有雜物，借新加坡相近等級的 蒙特雷瑟 的雜物",
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的守護隊長（Lv.131）",
+      "id": "mob_c70352db306e",
+      "avoid": 50,
+      "accuracy": 230,
+      "def": 990,
+      "mdef": 860,
+      "undead": false,
+      "mp": 390,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_966eb24ce574",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_d0061248a1ce",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_85f9452ce4f7",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_b21b62f71d8d",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_54183c32a50e",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_e0276624c664",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4a5a60f7e29",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_f2387caf48ec",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_8b5b96cabd1b": {
+      "name": "維壯",
+      "englishName": "Veetron",
+      "level": 144,
+      "hp": 173160,
+      "exp": 8660,
+      "mesos": [
+        1310,
+        1396
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 189,
+      "drop": "mat_966eb24ce574",
+      "dropRate": 0.25,
+      "dropEstimated": "估算：資料站與經典都沒有雜物，借新加坡相近等級的 蒙特雷瑟 的雜物",
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的守護隊長（Lv.131）",
+      "id": "mob_8b5b96cabd1b",
+      "avoid": 50,
+      "accuracy": 235,
+      "def": 1000,
+      "mdef": 870,
+      "undead": false,
+      "mp": 400,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_966eb24ce574",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_d0061248a1ce",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_85f9452ce4f7",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_b21b62f71d8d",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_54183c32a50e",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_e0276624c664",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4a5a60f7e29",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_f2387caf48ec",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_28739135dbd0": {
+      "name": "史萊奇",
+      "englishName": "Slygie",
+      "level": 146,
+      "hp": 178360,
+      "exp": 8770,
+      "mesos": [
+        1334,
+        1427
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 192,
+      "drop": "mat_966eb24ce574",
+      "dropRate": 0.25,
+      "dropEstimated": "估算：資料站與經典都沒有雜物，借新加坡相近等級的 蒙特雷瑟 的雜物",
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的守護隊長（Lv.131）",
+      "id": "mob_28739135dbd0",
+      "avoid": 50,
+      "accuracy": 235,
+      "def": 1000,
+      "mdef": 880,
+      "undead": false,
+      "mp": 410,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_966eb24ce574",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_d0061248a1ce",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_85f9452ce4f7",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_b21b62f71d8d",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_54183c32a50e",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_e0276624c664",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4a5a60f7e29",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_f2387caf48ec",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_a02a12f56554": {
+      "name": "蒙特雷瑟",
+      "englishName": "Montrecer",
+      "level": 147,
+      "hp": 180960,
+      "exp": 8970,
+      "mesos": [
+        1340,
+        1450
+      ],
+      "attack": 193,
+      "drop": "mat_966eb24ce574",
+      "dropRate": 0.25,
+      "id": "mob_a02a12f56554",
+      "avoid": 51,
+      "accuracy": 235,
+      "def": 1010,
+      "mdef": 890,
+      "undead": false,
+      "mp": 420,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_966eb24ce574",
+          "chance": 0.45
+        },
+        {
+          "id": "mat_f4f4df34404b",
+          "chance": 0.003
+        },
+        {
+          "id": "eq_b82bf1a1ea61",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_74dc29348d9a",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_5bbd647ce3fc",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "power_elixir",
+          "chance": 0.04,
+          "estimated": true
+        },
+        {
+          "id": "mana_elixir",
+          "chance": 0.04,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_ca2e50768c05": {
+      "name": "石化戰士",
+      "englishName": "Petrifighter",
+      "level": 148,
+      "hp": 183560,
+      "exp": 9250,
+      "mesos": [
+        1370,
+        1450
+      ],
+      "attack": 194,
+      "drop": "mat_966eb24ce574",
+      "dropRate": 0.25,
+      "id": "mob_ca2e50768c05",
+      "avoid": 52,
+      "accuracy": 235,
+      "def": 1010,
+      "mdef": 900,
+      "undead": false,
+      "mp": 420,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_966eb24ce574",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_28e9523dc943",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4a5a60f7e29",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_d57c06625881",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_26f9bb372432",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_368d6867d917",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_22a2ff69eaf7",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_2975042ea11a",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        },
+        {
+          "id": "sc_9a0f0ab59678",
+          "chance": 0.00075,
+          "estimated": true
+        },
+        {
+          "id": "sc_6596f6f02b19",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        },
+        {
+          "id": "power_elixir",
+          "chance": 0.04,
+          "estimated": true
+        },
+        {
+          "id": "mana_elixir",
+          "chance": 0.04,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_90b77e3c2b87": {
+      "name": "杜庫",
+      "englishName": "Duku",
+      "level": 150,
+      "hp": 188760,
+      "exp": 9550,
+      "mesos": [
+        1383,
+        1488
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 197,
+      "drop": "mat_966eb24ce574",
+      "dropRate": 0.25,
+      "dropEstimated": "估算：資料站與經典都沒有雜物，借新加坡相近等級的 石化戰士 的雜物",
+      "dropTemplate": "估算：資料站沒有裝備、卷軸、藥水清單，比照等級最接近的 忘卻的守護隊長（Lv.131）",
+      "id": "mob_90b77e3c2b87",
+      "avoid": 52,
+      "accuracy": 240,
+      "def": 1020,
+      "mdef": 910,
+      "undead": false,
+      "mp": 430,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_966eb24ce574",
+          "chance": 0.45
+        },
+        {
+          "id": "eq_d0061248a1ce",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_85f9452ce4f7",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_b21b62f71d8d",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_54183c32a50e",
+          "chance": 0.0007,
+          "estimated": true
+        },
+        {
+          "id": "eq_e0276624c664",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_e4a5a60f7e29",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_f2387caf48ec",
+          "chance": 0.00007000000000000001,
+          "estimated": true
+        },
+        {
+          "id": "eq_5dc9ebd249e8",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_39d48fba6830",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "sc_74ee9507937d",
+          "chance": 0.00007500000000000001,
+          "estimated": true
+        }
+      ]
+    },
+    "mob_c525b7f5721b": {
+      "name": "幽靈船員",
+      "englishName": "Mr. Anchor",
+      "level": 136,
+      "hp": 152360,
+      "exp": 7710,
+      "mesos": [
+        1212,
+        1274
+      ],
+      "mesosSource": "文字版暫定（資料站未填楓幣，依新加坡已填楓幣的 6 種怪對等級直線迴歸）",
+      "attack": 179,
+      "drop": "mat_4f97b274a4e1",
+      "dropRate": 0.25,
+      "id": "mob_c525b7f5721b",
+      "avoid": 45,
+      "accuracy": 230,
+      "def": 960,
+      "mdef": 820,
+      "undead": false,
+      "mp": 370,
+      "combatSource": "阿泰爾資料站（迴避）；物防、魔防、命中、MP 為文字版暫定（Lv.100～131 怪物經典 v83 數值迴歸外推）",
+      "drops": [
+        {
+          "id": "mat_4f97b274a4e1",
+          "chance": 0.45
+        },
+        {
+          "id": "mat_f4f4df34404b",
+          "chance": 0.003
+        },
+        {
+          "id": "eq_137e8aca866b",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_fc6fa4a87a71",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_e20b44e233f9",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_26eaacf58f93",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_be29b6d8c709",
+          "chance": 0.0000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_4a3d6c280a46",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_5cee409735a7",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "eq_22a2ff69eaf7",
+          "chance": 0.000692,
+          "estimated": true
+        },
+        {
+          "id": "sc_5754c5e51b0c",
+          "chance": 0.00075,
+          "estimated": true
+        },
+        {
+          "id": "sc_deb8d16727e3",
+          "chance": 0.00030000000000000003,
+          "estimated": true
+        },
+        {
+          "id": "mana_elixir",
+          "chance": 0.04,
+          "estimated": true
+        }
+      ]
     }
   },
   "fieldBosses": {
@@ -54393,6 +56417,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
+      "inert": true,
       "description": "原作：屬性抗性 +40%；文字版怪物攻擊不分屬性（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -54527,6 +56552,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
+      "inert": true,
       "description": "原作：屬性抗性 +60%；文字版怪物攻擊不分屬性（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -54542,6 +56568,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
+      "inert": true,
       "description": "原作：屬性抗性 +60%；文字版怪物攻擊不分屬性（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -54732,6 +56759,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
+      "inert": true,
       "description": "原作：屬性抗性 +50%；文字版怪物攻擊不分屬性（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -54747,6 +56775,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
+      "inert": true,
       "description": "原作：解除怪物增益與隊友異常狀態（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -54765,6 +56794,7 @@
       "prerequisite": {
         "dispel": 3
       },
+      "inert": true,
       "description": "原作：開傳送門回城（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -54819,6 +56849,7 @@
       "maxLevel": 30,
       "firstMp": 0,
       "maxMp": 0,
+      "inert": true,
       "description": "原作：降低怪物移速與魔攻（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -55090,6 +57121,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
+      "inert": true,
       "description": "原作：讓怪物定身（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -55108,6 +57140,7 @@
       "prerequisite": {
         "meso_up": 5
       },
+      "inert": true,
       "description": "原作：丟楓幣攻擊，傷害公式查不到（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -55237,6 +57270,7 @@
       "prerequisite": {
         "meso_explosion": 3
       },
+      "inert": true,
       "description": "原作：在怪物身上累積楓幣、配合楓幣炸彈引爆，傷害公式查不到（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -55252,6 +57286,7 @@
       "maxLevel": 30,
       "firstMp": 0,
       "maxMp": 0,
+      "inert": true,
       "description": "原作：引爆勇者掠奪術累積的楓幣，傷害公式查不到（文字版沒有對應效果，學了不會變強）"
     },
     {
@@ -55478,9 +57513,1898 @@
       "firstMp": 20,
       "maxMp": 30,
       "description": "單體（標記追加傷害 10% 文字版不算）"
+    },
+    {
+      "id": "maple_warrior",
+      "name": "楓葉祝福",
+      "job": "hero",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "hero",
+        "paladin",
+        "dark_knight",
+        "fp_archmage",
+        "il_archmage",
+        "bishop",
+        "bowmaster",
+        "marksman",
+        "night_lord",
+        "shadower",
+        "buccaneer",
+        "corsair"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 900,
+      "firstMp": 10,
+      "maxMp": 40,
+      "masterLevel": 10,
+      "books": {
+        "20": "闇黑龍王",
+        "30": "未找到"
+      },
+      "description": "STR、DEX、INT、LUK 各 +30%（只算自己配的能力值，不含裝備），持續 900 秒"
+    },
+    {
+      "id": "heros_will",
+      "name": "楓葉淨化",
+      "job": "hero",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "hero",
+        "paladin",
+        "dark_knight",
+        "fp_archmage",
+        "il_archmage",
+        "bishop",
+        "bowmaster",
+        "marksman",
+        "night_lord",
+        "shadower"
+      ],
+      "weapons": [],
+      "maxLevel": 1,
+      "firstMp": 0,
+      "maxMp": 0,
+      "books": {
+        "20": "無",
+        "30": "無"
+      },
+      "inert": true,
+      "description": "原作：解除誘惑狀態，冷卻 10 分鐘（文字版沒有對應效果，學了不會變強）"
+    },
+    {
+      "id": "achilles",
+      "name": "武神防禦",
+      "job": "hero",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "hero",
+        "paladin",
+        "dark_knight"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "化石龍長老",
+        "30": "噴火龍、利里諾斯"
+      },
+      "description": "受到的傷害 -15%"
+    },
+    {
+      "id": "guardian",
+      "name": "究極神盾",
+      "job": "hero",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "hero",
+        "paladin"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "化石龍",
+        "30": "噴火龍"
+      },
+      "description": "裝備盾牌時 15% 機率擋下攻擊（文字版換算成平均減傷，擋到的昏迷不算）"
+    },
+    {
+      "id": "monster_magnet",
+      "name": "絕對引力",
+      "job": "hero",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "hero",
+        "paladin",
+        "dark_knight"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、幼龍保護者",
+        "30": "海怒斯"
+      },
+      "inert": true,
+      "description": "原作：把遠處的怪拉到身邊；文字版一次就遇到整群（文字版沒有對應效果，學了不會變強）"
+    },
+    {
+      "id": "power_stance",
+      "name": "格擋",
+      "job": "hero",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "hero",
+        "paladin",
+        "dark_knight"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "拉圖斯、寒霜冰龍、雙刀龍戰士、悔恨的守護兵",
+        "30": "殘暴炎魔、悔恨的守護兵"
+      },
+      "inert": true,
+      "description": "原作：被打不會後退（文字版沒有對應效果，學了不會變強）"
+    },
+    {
+      "id": "rush",
+      "name": "究極突刺",
+      "job": "hero",
+      "tier": 4,
+      "jobs": [
+        "hero",
+        "paladin",
+        "dark_knight"
+      ],
+      "weapons": [
+        "sword"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 72,
+      "maxPercent": 130,
+      "targets": 6,
+      "firstMp": 22,
+      "maxMp": 50,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、雙刀龍戰士",
+        "30": "海怒斯"
+      },
+      "description": "一次打 6 隻（原作最多 10 隻）"
+    },
+    {
+      "id": "advanced_combo",
+      "name": "進階鬥氣",
+      "job": "hero",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "hero"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "combo_attack": 30
+      },
+      "masterLevel": 0,
+      "books": {
+        "20": "幼龍守護者",
+        "30": "困難拉圖斯、化石龍長老",
+        "unlock": "殘暴炎魔"
+      },
+      "description": "攻擊力 +30%（鬥氣數與一次兩顆的效果文字版不算；要解鎖書）"
+    },
+    {
+      "id": "brandish",
+      "name": "無雙劍舞",
+      "job": "hero",
+      "tier": 4,
+      "jobs": [
+        "hero"
+      ],
+      "weapons": [
+        "sword"
+      ],
+      "maxLevel": 30,
+      "hits": 2,
+      "firstPercent": 135,
+      "maxPercent": 260,
+      "targets": 3,
+      "firstMp": 16,
+      "maxMp": 25,
+      "masterLevel": 10,
+      "books": {
+        "20": "黑翼龍",
+        "30": "拉圖斯"
+      },
+      "description": "一次打 3 隻，每隻 2 下（劍、斧）"
+    },
+    {
+      "id": "enrage",
+      "name": "鬥氣爆發",
+      "job": "hero",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "hero"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 240,
+      "firstMp": 11,
+      "maxMp": 40,
+      "prerequisite": {
+        "advanced_combo": 25
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "物攻 +26，持續 240 秒，冷卻 6 分鐘（要進階鬥氣 25 級；耗鬥氣文字版不算）"
+    },
+    {
+      "id": "advanced_charge",
+      "name": "屬性強化",
+      "job": "paladin",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "paladin"
+      ],
+      "weapons": [],
+      "maxLevel": 10,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "charged_blow": 30
+      },
+      "masterLevel": 0,
+      "books": {
+        "20": "無（最高 10）",
+        "30": "無",
+        "unlock": "殘暴炎魔"
+      },
+      "description": "屬性攻擊的傷害變成 350%（昏迷文字版不算；要解鎖書）"
+    },
+    {
+      "id": "holy_charge",
+      "name": "聖靈之劍",
+      "job": "paladin",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "paladin"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 20,
+      "maxMp": 30,
+      "masterLevel": 10,
+      "books": {
+        "20": "幼龍保護者",
+        "30": "無（最高 20）"
+      },
+      "description": "劍附加聖屬性，攻擊 140%，持續 300 秒（同時只用一種充能）"
+    },
+    {
+      "id": "divine_charge",
+      "name": "聖靈之棍",
+      "job": "paladin",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "paladin"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 20,
+      "maxMp": 30,
+      "masterLevel": 10,
+      "books": {
+        "20": "黑翼龍",
+        "30": "無（最高 20）"
+      },
+      "description": "棍附加聖屬性，攻擊 140%，持續 300 秒（同時只用一種充能）"
+    },
+    {
+      "id": "blast",
+      "name": "騎士衝擊波",
+      "job": "paladin",
+      "tier": 4,
+      "jobs": [
+        "paladin"
+      ],
+      "weapons": [
+        "sword"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 370,
+      "maxPercent": 750,
+      "firstMp": 17,
+      "maxMp": 24,
+      "masterLevel": 10,
+      "books": {
+        "20": "化石龍",
+        "30": "拉圖斯、萊伊卡"
+      },
+      "description": "單體重擊（阿泰爾 550%→750%）"
+    },
+    {
+      "id": "heavens_hammer",
+      "name": "鬼神之擊",
+      "job": "paladin",
+      "tier": 4,
+      "jobs": [
+        "paladin"
+      ],
+      "weapons": [
+        "sword"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 420,
+      "maxPercent": 900,
+      "targets": 6,
+      "firstMp": 31,
+      "maxMp": 60,
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "一次打 6 隻（原作 15 隻），冷卻 30 秒"
+    },
+    {
+      "id": "berserk",
+      "name": "黑暗力量",
+      "job": "dark_knight",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "dark_knight"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "HP 高於 55% 時傷害 210%（阿泰爾改成 HP 高於門檻）"
+    },
+    {
+      "id": "beholder",
+      "name": "暗之靈魂",
+      "job": "dark_knight",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "dark_knight"
+      ],
+      "weapons": [],
+      "maxLevel": 10,
+      "duration": 900,
+      "firstMp": 114,
+      "maxMp": 60,
+      "books": {
+        "20": "無（最高 10）",
+        "30": "無"
+      },
+      "description": "召喚暗之靈魂：武器熟練度 +20%，持續 15 分鐘（依 HP 的減傷文字版不算）"
+    },
+    {
+      "id": "aura_of_beholder",
+      "name": "闇靈治癒",
+      "job": "dark_knight",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "dark_knight"
+      ],
+      "weapons": [],
+      "maxLevel": 25,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "beholder": 1
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "任務",
+        "30": "任務"
+      },
+      "description": "暗之靈魂每 4 秒回 HP 500（戰鬥中也有效）"
+    },
+    {
+      "id": "hex_of_beholder",
+      "name": "黑暗守護",
+      "job": "dark_knight",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "dark_knight"
+      ],
+      "weapons": [],
+      "maxLevel": 25,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "beholder": 1
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "任務",
+        "30": "任務"
+      },
+      "description": "物防 +100、魔防 +100、物攻 +5、無視物防 30%、攻速 +1 段（中間等級文字版內插）"
+    },
+    {
+      "id": "big_bang",
+      "name": "核爆術",
+      "job": "fp_archmage",
+      "tier": 4,
+      "jobs": [
+        "fp_archmage",
+        "il_archmage",
+        "bishop"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 800,
+      "maxPercent": 2250,
+      "targets": 6,
+      "firstMp": 25,
+      "maxMp": 55,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、黑翼龍",
+        "30": "海怒斯"
+      },
+      "description": "一次打 6 隻（原作要蓄力，文字版直接放出）"
+    },
+    {
+      "id": "mana_reflection",
+      "name": "魔法反射",
+      "job": "fp_archmage",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "fp_archmage",
+        "il_archmage",
+        "bishop"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、雙刀龍戰士",
+        "30": "海怒斯、多多"
+      },
+      "inert": true,
+      "description": "原作：機率把怪物的魔法攻擊反彈回去；文字版怪物攻擊不分物理魔法（文字版沒有對應效果，學了不會變強）"
+    },
+    {
+      "id": "infinity",
+      "name": "魔力無限",
+      "job": "fp_archmage",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "fp_archmage",
+        "il_archmage",
+        "bishop"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 40,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 0,
+      "books": {
+        "20": "拉圖斯",
+        "30": "海怒斯、殘暴炎魔",
+        "unlock": "未找到"
+      },
+      "description": "40 秒內技能不耗 MP，冷卻 7 分鐘（要解鎖書）"
+    },
+    {
+      "id": "fire_demon",
+      "name": "炎靈地獄",
+      "job": "fp_archmage",
+      "tier": 4,
+      "jobs": [
+        "fp_archmage"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 315,
+      "maxPercent": 825,
+      "targets": 6,
+      "firstMp": 15,
+      "maxMp": 34,
+      "masterLevel": 10,
+      "books": {
+        "20": "噴火龍、雙刀龍戰士",
+        "30": "拉圖斯、萊伊卡"
+      },
+      "description": "火屬性，一次打 6 隻，之後每回合持續傷害（不會打死）"
+    },
+    {
+      "id": "elquines",
+      "name": "召喚冰魔",
+      "job": "fp_archmage",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "fp_archmage"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 13,
+      "maxMp": 100,
+      "prerequisite": {
+        "fire_demon": 5
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "幼龍守護者",
+        "30": "困難拉圖斯、忘卻的祭司"
+      },
+      "description": "召喚冰魔，魔法攻擊力 270，持續 300 秒（文字版：每回合追加一次魔法攻擊）"
+    },
+    {
+      "id": "paralyze",
+      "name": "劇毒麻痺",
+      "job": "fp_archmage",
+      "tier": 4,
+      "jobs": [
+        "fp_archmage"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 675,
+      "maxPercent": 1400,
+      "firstMp": 16,
+      "maxMp": 25,
+      "masterLevel": 10,
+      "books": {
+        "20": "噴火龍、幼年龍",
+        "30": "困難拉圖斯、寒霜冰龍"
+      },
+      "description": "毒屬性，單體，麻痺 15 秒，對野王 +10%"
+    },
+    {
+      "id": "meteor_shower",
+      "name": "火流星",
+      "job": "fp_archmage",
+      "tier": 4,
+      "jobs": [
+        "fp_archmage"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 1650,
+      "maxPercent": 2850,
+      "targets": 6,
+      "firstMp": 2100,
+      "maxMp": 3500,
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "火屬性，一次打 6 隻（原作 15 隻、施放 3 秒，文字版不算施放時間）"
+    },
+    {
+      "id": "ice_demon",
+      "name": "寒冰地獄",
+      "job": "il_archmage",
+      "tier": 4,
+      "jobs": [
+        "il_archmage"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 210,
+      "maxPercent": 725,
+      "targets": 6,
+      "firstMp": 15,
+      "maxMp": 34,
+      "masterLevel": 10,
+      "books": {
+        "20": "格瑞芬多、尖鼻鯊魚",
+        "30": "拉圖斯、萊伊卡"
+      },
+      "description": "冰屬性，一次打 6 隻，之後每回合持續傷害（不會打死；Lv.1 經典）"
+    },
+    {
+      "id": "ifrit",
+      "name": "召喚火炎神",
+      "job": "il_archmage",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "il_archmage"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 13,
+      "maxMp": 100,
+      "prerequisite": {
+        "ice_demon": 5
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "幼年龍",
+        "30": "困難拉圖斯"
+      },
+      "description": "召喚火炎神，魔法攻擊力 300，持續 300 秒（文字版：每回合追加一次魔法攻擊；Lv.1 經典）"
+    },
+    {
+      "id": "chain_lightning",
+      "name": "閃電連擊",
+      "job": "il_archmage",
+      "tier": 4,
+      "jobs": [
+        "il_archmage"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 515,
+      "maxPercent": 950,
+      "targets": 6,
+      "firstMp": 16,
+      "maxMp": 25,
+      "masterLevel": 10,
+      "books": {
+        "20": "格瑞芬多、致命烏賊怪",
+        "30": "困難拉圖斯、寒霜冰龍"
+      },
+      "description": "雷屬性，連鎖打 6 隻（連鎖遞減文字版不算；Lv.1 經典）"
+    },
+    {
+      "id": "blizzard_4th",
+      "name": "暴風雪",
+      "job": "il_archmage",
+      "tier": 4,
+      "jobs": [
+        "il_archmage"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 1650,
+      "maxPercent": 2850,
+      "targets": 6,
+      "firstMp": 2100,
+      "maxMp": 3500,
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "冰屬性，一次打 6 隻，冰凍 3 秒（原作 15 隻、施放 3 秒，文字版不算施放時間；Lv.1 經典）"
+    },
+    {
+      "id": "bahamut",
+      "name": "召喚神龍",
+      "job": "bishop",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "bishop"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 13,
+      "maxMp": 100,
+      "prerequisite": {
+        "summon_dragon": 15
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "任務",
+        "30": "任務"
+      },
+      "description": "召喚神龍，魔法攻擊力 230，持續 300 秒（文字版：每回合追加一次魔法攻擊；Lv.1 經典）"
+    },
+    {
+      "id": "holy_shield",
+      "name": "聖盾護鎧",
+      "job": "bishop",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "bishop"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "化石龍長老",
+        "30": "噴火龍"
+      },
+      "inert": true,
+      "description": "原作：隊伍不會中異常狀態（文字版沒有對應效果，學了不會變強）"
+    },
+    {
+      "id": "resurrection",
+      "name": "復甦之光",
+      "job": "bishop",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "bishop"
+      ],
+      "weapons": [],
+      "maxLevel": 10,
+      "firstMp": 0,
+      "maxMp": 0,
+      "books": {
+        "20": "無（最高 10）",
+        "30": "無"
+      },
+      "inert": true,
+      "description": "原作：復活隊友（文字版沒有對應效果，學了不會變強）"
+    },
+    {
+      "id": "angel_ray",
+      "name": "天使之箭",
+      "job": "bishop",
+      "tier": 4,
+      "jobs": [
+        "bishop"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 615,
+      "maxPercent": 1200,
+      "firstMp": 16,
+      "maxMp": 25,
+      "masterLevel": 0,
+      "books": {
+        "20": "化石龍、回憶的祭司",
+        "30": "拉圖斯",
+        "unlock": "殘暴炎魔"
+      },
+      "description": "聖屬性，單體（Lv.1 經典；要解鎖書）"
+    },
+    {
+      "id": "genesis",
+      "name": "天怒",
+      "job": "bishop",
+      "tier": 4,
+      "jobs": [
+        "bishop"
+      ],
+      "weapons": [
+        "wand"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 2150,
+      "maxPercent": 3350,
+      "targets": 6,
+      "firstMp": 3200,
+      "maxMp": 6500,
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "聖屬性，一次打 6 隻（阿泰爾 MP 3,200～6,500；原作 15 隻、施放 3 秒，文字版不算施放時間）"
+    },
+    {
+      "id": "sharp_eyes",
+      "name": "會心之眼",
+      "job": "bowmaster",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "bowmaster",
+        "marksman"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 29,
+      "maxMp": 40,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、尖鼻鯊魚",
+        "30": "海怒斯、化石龍長老"
+      },
+      "description": "爆擊率 +15%、爆擊傷害 +40%，持續 300 秒（Lv.1 經典）"
+    },
+    {
+      "id": "dragons_breath",
+      "name": "龍魂之箭",
+      "job": "bowmaster",
+      "tier": 4,
+      "jobs": [
+        "bowmaster",
+        "marksman"
+      ],
+      "weapons": [
+        "bow"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 42,
+      "maxPercent": 100,
+      "targets": 6,
+      "firstMp": 24,
+      "maxMp": 36,
+      "masterLevel": 0,
+      "books": {
+        "20": "海怒斯、幼年龍",
+        "30": "海怒斯、萊伊卡",
+        "unlock": "未找到"
+      },
+      "description": "一次打 6 隻（Lv.1 經典；要解鎖書）"
+    },
+    {
+      "id": "bow_expert",
+      "name": "弓術精通",
+      "job": "bowmaster",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "bowmaster"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "bow_mastery": 20
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "拉圖斯、雙刀龍戰士、回憶的守護兵",
+        "30": "殘暴炎魔"
+      },
+      "description": "熟練度 90%、物攻 +10、爆擊率再 +5%"
+    },
+    {
+      "id": "marksman_boost",
+      "name": "弩術精通",
+      "job": "marksman",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "marksman"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "crossbow_mastery": 20
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "拉圖斯、幼年龍、回憶的神官",
+        "30": "殘暴炎魔"
+      },
+      "description": "熟練度 90%、物攻 +10、爆擊率再 +5%"
+    },
+    {
+      "id": "hurricane",
+      "name": "暴風神射",
+      "job": "bowmaster",
+      "tier": 4,
+      "jobs": [
+        "bowmaster"
+      ],
+      "weapons": [
+        "bow"
+      ],
+      "maxLevel": 30,
+      "hits": 8,
+      "firstPercent": 51,
+      "maxPercent": 110,
+      "firstMp": 48,
+      "maxMp": 72,
+      "masterLevel": 10,
+      "books": {
+        "20": "幼龍保護者",
+        "30": "困難拉圖斯、拉圖斯"
+      },
+      "description": "單體連射，文字版每回合 8 箭（追加箭不算；Lv.1 經典）"
+    },
+    {
+      "id": "phoenix",
+      "name": "召喚鳳凰",
+      "job": "bowmaster",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "bowmaster"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 42,
+      "maxMp": 100,
+      "prerequisite": {
+        "silver_hawk": 15
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "化石龍長老",
+        "30": "噴火龍"
+      },
+      "description": "召喚鳳凰，攻擊力 550，持續 300 秒（文字版：每回合追加 275% 傷害；Lv.1 經典）"
+    },
+    {
+      "id": "hamstring",
+      "name": "牽制射擊",
+      "job": "bowmaster",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "bowmaster"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "化石龍長老",
+        "30": "格瑞芬多、多多"
+      },
+      "inert": true,
+      "description": "原作：讓怪物變慢（文字版沒有對應效果，學了不會變強）"
+    },
+    {
+      "id": "concentrate",
+      "name": "念力集中",
+      "job": "bowmaster",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "bowmaster"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 11,
+      "maxMp": 40,
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "物攻 +26、技能 MP -50%，持續 300 秒，冷卻 6 分鐘（冷卻經典；Lv.1 經典）"
+    },
+    {
+      "id": "piercing_arrow",
+      "name": "光速神弩",
+      "job": "marksman",
+      "tier": 4,
+      "jobs": [
+        "marksman"
+      ],
+      "weapons": [
+        "bow"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 320,
+      "maxPercent": 700,
+      "targets": 6,
+      "firstMp": 18,
+      "maxMp": 38,
+      "masterLevel": 10,
+      "books": {
+        "20": "化石龍",
+        "30": "拉圖斯"
+      },
+      "description": "貫穿，一次打 6 隻（阿泰爾：拿掉蓄力，850%→700%；Lv.1 經典）"
+    },
+    {
+      "id": "frostprey",
+      "name": "召喚銀隼",
+      "job": "marksman",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "marksman"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 42,
+      "maxMp": 100,
+      "prerequisite": {
+        "golden_eagle": 15
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "格瑞芬多、雙刀龍戰士",
+        "30": "回憶的守護隊長、困難拉圖斯"
+      },
+      "description": "召喚銀隼，攻擊力 500，持續 300 秒（文字版：每回合追加 250% 傷害；Lv.1 經典）"
+    },
+    {
+      "id": "blind",
+      "name": "黑暗狙擊",
+      "job": "marksman",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "marksman"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "化石龍長老",
+        "30": "格瑞芬多"
+      },
+      "inert": true,
+      "description": "原作：機率降低怪物命中（文字版沒有對應效果，學了不會變強）"
+    },
+    {
+      "id": "snipe",
+      "name": "必殺狙擊",
+      "job": "marksman",
+      "tier": 4,
+      "jobs": [
+        "marksman"
+      ],
+      "weapons": [
+        "bow"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 385,
+      "maxPercent": 770,
+      "firstMp": 40,
+      "maxMp": 11,
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "單體重擊（疊集中力文字版不算；Lv.1 傷害查不到，文字版暫取滿級一半）"
+    },
+    {
+      "id": "shadow_shifter",
+      "name": "瞬身迴避",
+      "job": "night_lord",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "night_lord"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、黑翼龍",
+        "30": "海怒斯、寒霜冰龍、多多"
+      },
+      "description": "30% 機率完全閃過怪物的攻擊（Lv.1 經典）"
+    },
+    {
+      "id": "venomous_star",
+      "name": "飛毒殺",
+      "job": "night_lord",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "night_lord"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "拉圖斯、雙刀龍戰士",
+        "30": "殘暴炎魔、悔恨的守護兵"
+      },
+      "description": "打中時 40% 機率中毒，每回合扣約一下傷害的 30%（Lv.1 經典）"
+    },
+    {
+      "id": "taunt_nl",
+      "name": "挑釁",
+      "job": "night_lord",
+      "tier": 4,
+      "kind": "debuff",
+      "jobs": [
+        "night_lord"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 21,
+      "maxMp": 40,
+      "prerequisite": {
+        "shadow_shifter": 10
+      },
+      "masterLevel": 0,
+      "books": {
+        "20": "噴火龍、萊伊卡、幼龍守護者",
+        "30": "困難拉圖斯",
+        "unlock": "未找到"
+      },
+      "description": "這批怪物防禦、經驗、掉落率各 +40%（要解鎖書）"
+    },
+    {
+      "id": "ninja_ambush_nl",
+      "name": "忍影瞬殺",
+      "job": "night_lord",
+      "tier": 4,
+      "jobs": [
+        "night_lord"
+      ],
+      "weapons": [
+        "claw",
+        "dagger"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 62,
+      "maxPercent": 100,
+      "targets": 6,
+      "firstMp": 16,
+      "maxMp": 43,
+      "prerequisite": {
+        "shadow_shifter": 5
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、維京、致命烏賊怪",
+        "30": "海怒斯"
+      },
+      "description": "一次打 6 隻，之後 12 秒每回合追加持續傷害（不會打死）"
+    },
+    {
+      "id": "shadow_stars",
+      "name": "無形鏢",
+      "job": "night_lord",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "night_lord"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 300,
+      "firstMp": 15,
+      "maxMp": 25,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、進化迅猛龍",
+        "30": "拉圖斯、海怒斯、忘卻的神官"
+      },
+      "description": "對野王傷害 +10%，持續 300 秒（阿泰爾改動；Lv.1 經典）"
+    },
+    {
+      "id": "triple_throw",
+      "name": "三飛閃",
+      "job": "night_lord",
+      "tier": 4,
+      "jobs": [
+        "night_lord"
+      ],
+      "weapons": [
+        "claw"
+      ],
+      "maxLevel": 30,
+      "hits": 3,
+      "firstPercent": 102,
+      "maxPercent": 150,
+      "firstMp": 11,
+      "maxMp": 20,
+      "masterLevel": 0,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王",
+        "unlock": "殘暴炎魔"
+      },
+      "description": "單體 3 枚（幸運加熟練度文字版不算；要解鎖書）"
+    },
+    {
+      "id": "ninja_storm",
+      "name": "忍術風影",
+      "job": "night_lord",
+      "tier": 4,
+      "jobs": [
+        "night_lord"
+      ],
+      "weapons": [
+        "claw"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 42,
+      "maxPercent": 80,
+      "targets": 6,
+      "firstMp": 18,
+      "maxMp": 30,
+      "masterLevel": 10,
+      "books": {
+        "20": "化石龍",
+        "30": "困難拉圖斯"
+      },
+      "description": "一次打 6 隻（擊退文字版不算）"
+    },
+    {
+      "id": "shadow_shifter_plus",
+      "name": "瞬身迴避+",
+      "job": "shadower",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "shadower"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、黑翼龍",
+        "30": "海怒斯、寒霜冰龍、多多"
+      },
+      "description": "40% 機率完全閃過怪物的攻擊（Lv.1 經典）"
+    },
+    {
+      "id": "venomous_stab",
+      "name": "飛毒殺",
+      "job": "shadower",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "shadower"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "拉圖斯、雙刀龍戰士",
+        "30": "殘暴炎魔、悔恨的守護兵"
+      },
+      "description": "打中時 40% 機率中毒，每回合扣約一下傷害的 30%（Lv.1 經典）"
+    },
+    {
+      "id": "taunt_sh",
+      "name": "挑釁",
+      "job": "shadower",
+      "tier": 4,
+      "kind": "debuff",
+      "jobs": [
+        "shadower"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 21,
+      "maxMp": 40,
+      "prerequisite": {
+        "shadow_shifter_plus": 10
+      },
+      "masterLevel": 0,
+      "books": {
+        "20": "噴火龍、萊伊卡、幼龍守護者",
+        "30": "困難拉圖斯",
+        "unlock": "未找到"
+      },
+      "description": "這批怪物防禦、經驗、掉落率各 +40%（要解鎖書）"
+    },
+    {
+      "id": "ninja_ambush_sh",
+      "name": "忍影瞬殺",
+      "job": "shadower",
+      "tier": 4,
+      "jobs": [
+        "shadower"
+      ],
+      "weapons": [
+        "claw",
+        "dagger"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 62,
+      "maxPercent": 100,
+      "targets": 6,
+      "firstMp": 16,
+      "maxMp": 43,
+      "prerequisite": {
+        "shadow_shifter_plus": 5
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、維京、致命烏賊怪",
+        "30": "海怒斯"
+      },
+      "description": "一次打 6 隻，之後 12 秒每回合追加持續傷害（不會打死）"
+    },
+    {
+      "id": "assassinate",
+      "name": "致命暗殺",
+      "job": "shadower",
+      "tier": 4,
+      "jobs": [
+        "shadower"
+      ],
+      "weapons": [
+        "dagger"
+      ],
+      "maxLevel": 30,
+      "hits": 3,
+      "firstPercent": 170,
+      "maxPercent": 560,
+      "firstMp": 21,
+      "maxMp": 40,
+      "masterLevel": 10,
+      "books": {
+        "20": "格瑞芬多、幼年龍",
+        "30": "困難拉圖斯、忘卻的守護隊長"
+      },
+      "description": "單體 3 下（阿泰爾最後還有一下 1400%，客戶端未寫，文字版不算；Lv.1 經典）"
+    },
+    {
+      "id": "smokescreen",
+      "name": "煙霧彈",
+      "job": "shadower",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "shadower"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "duration": 60,
+      "firstMp": 16,
+      "maxMp": 45,
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "60 秒內不受傷害，冷卻 10 分鐘（冷卻經典；Lv.1 經典）"
+    },
+    {
+      "id": "boomerang_step",
+      "name": "瞬步連擊",
+      "job": "shadower",
+      "tier": 4,
+      "jobs": [
+        "shadower"
+      ],
+      "weapons": [
+        "dagger"
+      ],
+      "maxLevel": 30,
+      "hits": 2,
+      "firstPercent": 260,
+      "maxPercent": 400,
+      "targets": 4,
+      "firstMp": 16,
+      "maxMp": 26,
+      "masterLevel": 10,
+      "books": {
+        "20": "萊伊卡、化石龍長老",
+        "30": "拉圖斯"
+      },
+      "description": "一次打 4 隻，每隻 2 下，60% 昏迷（阿泰爾 500%→400%；Lv.1 經典）"
+    },
+    {
+      "id": "dragon_strike",
+      "name": "魔龍降臨",
+      "job": "buccaneer",
+      "tier": 4,
+      "jobs": [
+        "buccaneer"
+      ],
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 275,
+      "maxPercent": 810,
+      "targets": 6,
+      "firstMp": 21,
+      "maxMp": 35,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、維京",
+        "30": "噴火龍、烏賊怪"
+      },
+      "description": "一次打 6 隻（Lv.1 經典）"
+    },
+    {
+      "id": "energy_orb",
+      "name": "元氣彈",
+      "job": "buccaneer",
+      "tier": 4,
+      "jobs": [
+        "buccaneer"
+      ],
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 300,
+      "maxPercent": 900,
+      "targets": 3,
+      "firstMp": 21,
+      "maxMp": 35,
+      "prerequisite": {
+        "energy_charge": 1
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、利里諾斯、進化迅猛龍",
+        "30": "格瑞芬多"
+      },
+      "description": "一次打 3 隻（阿泰爾：不用能量；MP 查不到，文字版暫定）"
+    },
+    {
+      "id": "super_transformation",
+      "name": "鬥神降世",
+      "job": "buccaneer",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "buccaneer"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 120,
+      "firstMp": 22,
+      "maxMp": 60,
+      "prerequisite": {
+        "transformation": 20
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "噴火龍、藍翼龍",
+        "30": "無（最高 20）"
+      },
+      "description": "物防、魔防 +60、移動速度 +40，持續 120 秒，冷卻 240 秒（變身後才能用閃‧爆破、閃‧索命）"
+    },
+    {
+      "id": "demolition",
+      "name": "閃‧爆破",
+      "job": "buccaneer",
+      "tier": 4,
+      "jobs": [
+        "buccaneer"
+      ],
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 30,
+      "hits": 8,
+      "firstPercent": 90,
+      "maxPercent": 400,
+      "firstMp": 20,
+      "maxMp": 50,
+      "prerequisite": {
+        "super_transformation": 1
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "格瑞芬多、尖鼻鯊魚",
+        "30": "困難拉圖斯"
+      },
+      "description": "單體 8 下；要學會鬥神降世（Lv.1 經典）"
+    },
+    {
+      "id": "snatch",
+      "name": "閃‧索命",
+      "job": "buccaneer",
+      "tier": 4,
+      "jobs": [
+        "buccaneer"
+      ],
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 210,
+      "maxPercent": 600,
+      "targets": 6,
+      "firstMp": 11,
+      "maxMp": 40,
+      "prerequisite": {
+        "super_transformation": 1
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "拉圖斯",
+        "30": "困難拉圖斯"
+      },
+      "description": "一次打 6 隻；要學會鬥神降世（Lv.1 經典）"
+    },
+    {
+      "id": "barrage",
+      "name": "閃‧連殺",
+      "job": "buccaneer",
+      "tier": 4,
+      "jobs": [
+        "buccaneer"
+      ],
+      "weapons": [
+        "knuckle"
+      ],
+      "maxLevel": 30,
+      "hits": 6,
+      "firstPercent": 94,
+      "maxPercent": 230,
+      "firstMp": 21,
+      "maxMp": 35,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、多多、藍色雙角龍",
+        "30": "拉圖斯"
+      },
+      "description": "單體 6 下（Lv.1 經典）"
+    },
+    {
+      "id": "speed_infusion_buc",
+      "name": "最終極速",
+      "job": "buccaneer",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "buccaneer"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 78,
+      "maxMp": 40,
+      "firstHp": 78,
+      "maxHp": 40,
+      "prerequisite": {
+        "knuckle_booster": 20
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、化石龍",
+        "30": "無（最高 20）"
+      },
+      "description": "攻擊速度 +2 段，持續 300 秒（Lv.1 經典）"
+    },
+    {
+      "id": "time_leap",
+      "name": "時間置換",
+      "job": "buccaneer",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "buccaneer"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "inert": true,
+      "description": "原作：重置隊伍技能冷卻（文字版沒有對應效果，學了不會變強）"
+    },
+    {
+      "id": "elemental_boost",
+      "name": "瞬‧冰火連擊",
+      "job": "corsair",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [],
+      "maxLevel": 30,
+      "firstMp": 0,
+      "maxMp": 0,
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、獨角迅猛龍",
+        "30": "困難拉圖斯"
+      },
+      "description": "火焰噴射、寒霜噴射傷害 +100%（阿泰爾滿級寫 200%，文字版當作兩倍；持續傷害、冰凍加長不算）"
+    },
+    {
+      "id": "wrath_of_octopi",
+      "name": "砲台章魚王",
+      "job": "corsair",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 40,
+      "firstMp": 26,
+      "maxMp": 35,
+      "prerequisite": {
+        "octopus": 30
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、致命烏賊怪",
+        "30": "無（最高 20）"
+      },
+      "description": "召喚砲台章魚王，攻擊力 500，持續 40 秒（文字版：每回合追加 250% 傷害；Lv.1 經典）"
+    },
+    {
+      "id": "bullseye",
+      "name": "精準砲擊",
+      "job": "corsair",
+      "tier": 4,
+      "kind": "passive",
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 0,
+      "maxMp": 0,
+      "prerequisite": {
+        "homing_beacon": 30
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、幼龍保護者",
+        "30": "無（最高 20）"
+      },
+      "description": "指定攻擊傷害 +20%（阿泰爾改動）"
+    },
+    {
+      "id": "aerial_strike",
+      "name": "海鷗特戰隊",
+      "job": "corsair",
+      "tier": 4,
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [
+        "gun"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 520,
+      "maxPercent": 1200,
+      "targets": 6,
+      "firstMp": 31,
+      "maxMp": 60,
+      "prerequisite": {
+        "gaviota": 15
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "殘暴炎魔",
+        "30": "闇黑龍王"
+      },
+      "description": "一次打 6 隻，冷卻 5 秒"
+    },
+    {
+      "id": "rapid_fire",
+      "name": "瞬‧迅雷",
+      "job": "corsair",
+      "tier": 4,
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [
+        "gun"
+      ],
+      "maxLevel": 30,
+      "hits": 8,
+      "firstPercent": 102,
+      "maxPercent": 200,
+      "firstMp": 48,
+      "maxMp": 72,
+      "prerequisite": {
+        "burst_fire": 20
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "噴火龍、雙刀龍戰士",
+        "30": "困難拉圖斯"
+      },
+      "description": "單體連射，文字版每回合 8 發（阿泰爾 160%→200%）"
+    },
+    {
+      "id": "battleship",
+      "name": "海盜船",
+      "job": "corsair",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [],
+      "maxLevel": 10,
+      "duration": 600,
+      "firstMp": 22,
+      "maxMp": 40,
+      "books": {
+        "20": "無（最高 10）",
+        "30": "無"
+      },
+      "description": "搭上海盜船：物防、魔防 +100（文字版每 10 分鐘重搭一次，船的耐久不算）"
+    },
+    {
+      "id": "battleship_cannon",
+      "name": "海盜加農炮",
+      "job": "corsair",
+      "tier": 4,
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [
+        "gun"
+      ],
+      "maxLevel": 30,
+      "hits": 3,
+      "firstPercent": 205,
+      "maxPercent": 380,
+      "firstMp": 22,
+      "maxMp": 40,
+      "prerequisite": {
+        "battleship": 1
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "格瑞芬多、黑翼龍",
+        "30": "困難拉圖斯、寒霜冰龍"
+      },
+      "description": "單體 4 發；要學會海盜船"
+    },
+    {
+      "id": "battleship_torpedo",
+      "name": "海盜魚雷",
+      "job": "corsair",
+      "tier": 4,
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [
+        "gun"
+      ],
+      "maxLevel": 30,
+      "hits": 1,
+      "firstPercent": 390,
+      "maxPercent": 780,
+      "targets": 6,
+      "firstMp": 22,
+      "maxMp": 40,
+      "prerequisite": {
+        "battleship": 1
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "拉圖斯、化石龍長老",
+        "30": "萊伊卡、赤翼龍"
+      },
+      "description": "貫穿 6 隻；要學會海盜船"
+    },
+    {
+      "id": "hypnotize",
+      "name": "心靈控制",
+      "job": "corsair",
+      "tier": 4,
+      "kind": "debuff",
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "firstMp": 31,
+      "maxMp": 50,
+      "masterLevel": 10,
+      "books": {
+        "20": "拉圖斯",
+        "30": "無（最高 20）"
+      },
+      "description": "這批怪物的道具掉落率 +20%（阿泰爾改動，野王不適用）"
+    },
+    {
+      "id": "speed_infusion_cor",
+      "name": "最終極速",
+      "job": "corsair",
+      "tier": 4,
+      "kind": "support",
+      "jobs": [
+        "corsair"
+      ],
+      "weapons": [],
+      "maxLevel": 20,
+      "duration": 300,
+      "firstMp": 78,
+      "maxMp": 40,
+      "firstHp": 78,
+      "maxHp": 40,
+      "prerequisite": {
+        "gun_booster": 20
+      },
+      "masterLevel": 10,
+      "books": {
+        "20": "海怒斯、化石龍",
+        "30": "無（最高 20）"
+      },
+      "description": "攻擊速度 +2 段，持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.10.9",
+  "version": "0.11.0",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
@@ -57511,6 +61435,37 @@
           "town": "台北101・101大道"
         }
       ]
+    },
+    {
+      "id": "singapore",
+      "name": "新加坡",
+      "icon": "🦁",
+      "districts": [
+        {
+          "id": "cbd",
+          "name": "中心商務區",
+          "icon": "🏙️",
+          "town": "新加坡・中心商務區"
+        },
+        {
+          "id": "boatquay",
+          "name": "駁船碼頭城",
+          "icon": "⚓",
+          "town": "新加坡・駁船碼頭城"
+        },
+        {
+          "id": "ulu",
+          "name": "烏魯城",
+          "icon": "🏚️",
+          "town": "新加坡・中心商務區"
+        },
+        {
+          "id": "ghostship",
+          "name": "幽靈船",
+          "icon": "👻",
+          "town": "新加坡・駁船碼頭城"
+        }
+      ]
     }
   ],
   "ships": [
@@ -57609,6 +61564,21 @@
       "docks": [
         "維多利亞島・維多利亞港",
         "台北101・101大道"
+      ],
+      "icon": "✈️",
+      "interval": null
+    },
+    {
+      "regions": [
+        "victoria",
+        "singapore"
+      ],
+      "name": "墮落城市機場 ⇄ 新加坡機場（飛機）",
+      "price": 20000,
+      "tentative": true,
+      "docks": [
+        "維多利亞島・維多利亞島 墮落城市機場",
+        "新加坡・新加坡機場"
       ],
       "icon": "✈️",
       "interval": null
@@ -57752,6 +61722,54 @@
     "outlaw": {
       "role": "槍手三轉・火槍",
       "summary": "「火焰噴射」6 隻＋灼燒，「寒霜噴射」6 隻冰凍；「章魚砲台」跟著打。"
+    },
+    "hero": {
+      "role": "十字軍四轉・劍／斧",
+      "summary": "「無雙劍舞」每隻 2 下、最多 3 隻；「究極突刺」一次打 6 隻；「武神防禦」減傷。"
+    },
+    "paladin": {
+      "role": "騎士四轉・劍／棍",
+      "summary": "「騎士衝擊波」單體 750%（阿泰爾從 550% 提高）；「鬼神之擊」6 隻 900%；聖屬性充能。"
+    },
+    "dark_knight": {
+      "role": "龍騎士四轉・槍／矛",
+      "summary": "「暗之靈魂」提升熟練度、「闇靈治癒」回血、「黑暗守護」加防加攻；「黑暗力量」HP 高時傷害翻倍。"
+    },
+    "fp_archmage": {
+      "role": "火毒四轉・法杖",
+      "summary": "「核爆術」6 隻；「火流星」6 隻超高傷害但 MP 很貴；「召喚冰魔」跟著打。"
+    },
+    "il_archmage": {
+      "role": "冰雷四轉・法杖",
+      "summary": "「核爆術」6 隻；「閃電連擊」連鎖 6 隻；「暴風雪」6 隻還會冰凍；「召喚火炎神」跟著打。"
+    },
+    "bishop": {
+      "role": "祭司四轉・法杖",
+      "summary": "「核爆術」6 隻；「天怒」聖屬性 6 隻超高傷害；「召喚神龍」跟著打。"
+    },
+    "bowmaster": {
+      "role": "遊俠四轉・弓",
+      "summary": "「暴風神射」單體連射；「會心之眼」加爆擊；「弓術精通」熟練度 90%；「召喚鳳凰」跟著打。"
+    },
+    "marksman": {
+      "role": "狙擊手四轉・弩",
+      "summary": "「光速神弩」貫穿 6 隻；「必殺狙擊」單體 770%；「會心之眼」加爆擊；「召喚銀隼」跟著打。"
+    },
+    "night_lord": {
+      "role": "暗殺者四轉・拳套",
+      "summary": "「忍術風影」一次打 6 隻；「瞬身迴避」30% 完全閃過；「飛毒殺」打中會中毒。"
+    },
+    "shadower": {
+      "role": "神偷四轉・短刀",
+      "summary": "「瞬步連擊」4 隻 × 2 下還會昏迷；「致命暗殺」單體重擊；「瞬身迴避+」40% 完全閃過。"
+    },
+    "buccaneer": {
+      "role": "格鬥家四轉・指虎",
+      "summary": "「魔龍降臨」6 隻 810%；「閃‧連殺」單體 6 下；「鬥神降世」變身後能用「閃‧爆破」「閃‧索命」。"
+    },
+    "corsair": {
+      "role": "神槍手四轉・火槍",
+      "summary": "「海鷗特戰隊」6 隻 1200%（冷卻 5 秒）；「瞬‧迅雷」單體連射；「海盜船」加防禦還能用魚雷、加農炮。"
     }
   }
 }
