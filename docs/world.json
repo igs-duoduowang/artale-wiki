@@ -50668,7 +50668,8 @@
       "mesoBag": [
         8000,
         12000
-      ]
+      ],
+      "boss": true
     },
     "stumpy": {
       "gmsId": 3220000,
@@ -50913,7 +50914,8 @@
       ],
       "mesoBags": [
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "shade": {
       "gmsId": 5090000,
@@ -51014,7 +51016,8 @@
       ],
       "mesoBags": [
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "king_clang": {
       "gmsId": 5220000,
@@ -51232,7 +51235,8 @@
       ],
       "mesoBags": [
         "silver"
-      ]
+      ],
+      "boss": true
     },
     "faust": {
       "gmsId": 5220002,
@@ -51440,7 +51444,8 @@
       ],
       "mesoBags": [
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "timer": {
       "gmsId": 5220003,
@@ -51673,7 +51678,8 @@
       "mesoBags": [
         "silver",
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "mushmom": {
       "gmsId": 6130101,
@@ -51837,7 +51843,8 @@
       "mesoBags": [
         "gold",
         "silver"
-      ]
+      ],
+      "boss": true
     },
     "scholar_ghost": {
       "gmsId": 6090003,
@@ -51993,7 +52000,8 @@
       ],
       "mesoBags": [
         "silver"
-      ]
+      ],
+      "boss": true
     },
     "snow_witch": {
       "gmsId": 6090001,
@@ -52121,7 +52129,8 @@
       "mesoBags": [
         "gold",
         "silver"
-      ]
+      ],
+      "boss": true
     },
     "riche": {
       "gmsId": 6090000,
@@ -52283,7 +52292,8 @@
       "mesoBags": [
         "silver",
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "dyle": {
       "gmsId": 6220000,
@@ -52458,7 +52468,8 @@
       "mesoBags": [
         "silver",
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "zeno": {
       "gmsId": 6220001,
@@ -52592,7 +52603,8 @@
       "mesoBags": [
         "gold",
         "silver"
-      ]
+      ],
+      "boss": true
     },
     "zombie_mushmom": {
       "gmsId": 6300005,
@@ -52745,7 +52757,8 @@
       "mesoBags": [
         "gold",
         "silver"
-      ]
+      ],
+      "boss": true
     },
     "nine_tailed_fox": {
       "gmsId": 7220001,
@@ -52913,7 +52926,8 @@
       "mesoBags": [
         "heavy",
         "gold"
-      ]
+      ],
+      "boss": true
     },
     "security_camera": {
       "gmsId": 7090000,
@@ -53081,7 +53095,8 @@
         "gold",
         "silver",
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "deet_and_roi": {
       "gmsId": 8090000,
@@ -53228,7 +53243,8 @@
         "gold",
         "silver",
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "jr_balrog": {
       "gmsId": 8130100,
@@ -53433,7 +53449,8 @@
         "heavy",
         "gold",
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "eliza": {
       "gmsId": 8220000,
@@ -53631,7 +53648,8 @@
       "mesoBags": [
         "gold",
         "copper"
-      ]
+      ],
+      "boss": true
     },
     "chimera": {
       "gmsId": 8220002,
@@ -53838,7 +53856,8 @@
       "mesoBags": [
         "gold",
         "silver"
-      ]
+      ],
+      "boss": true
     },
     "crazy_meowz": {
       "gmsId": 9410035,
@@ -54116,7 +54135,8 @@
       "mesoBags": [
         "gold",
         "silver"
-      ]
+      ],
+      "boss": true
     },
     "manon": {
       "gmsId": 8180000,
@@ -54318,7 +54338,8 @@
       ],
       "mesoBags": [
         "gold"
-      ]
+      ],
+      "boss": true
     },
     "griffey": {
       "gmsId": 8180001,
@@ -54522,7 +54543,8 @@
       ],
       "mesoBags": [
         "gold"
-      ]
+      ],
+      "boss": true
     },
     "leviathan": {
       "gmsId": 8220003,
@@ -54648,7 +54670,8 @@
       "mesoBags": [
         "heavy",
         "silver"
-      ]
+      ],
+      "boss": true
     },
     "dodo": {
       "gmsId": 8220004,
@@ -54738,7 +54761,8 @@
       ],
       "mesoBags": [
         "heavy"
-      ]
+      ],
+      "boss": true
     },
     "lilynouch": {
       "gmsId": 8220005,
@@ -54817,7 +54841,8 @@
       ],
       "mesoBags": [
         "heavy"
-      ]
+      ],
+      "boss": true
     },
     "lyka": {
       "gmsId": 8220006,
@@ -54911,7 +54936,8 @@
       ],
       "mesoBags": [
         "heavy"
-      ]
+      ],
+      "boss": true
     },
     "zakum": {
       "name": "殘暴炎魔",
@@ -54977,7 +55003,8 @@
           "id": "sc_cb8de32596a6",
           "chance": 0.05
         }
-      ]
+      ],
+      "boss": true
     }
   },
   "skills": [
@@ -55269,7 +55296,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "迴避率 +20%"
+      "description": "命中、迴避各 +20"
     },
     {
       "id": "keen_eyes",
@@ -55294,9 +55321,9 @@
       "kind": "debuff",
       "weapons": [],
       "maxLevel": 20,
-      "firstMp": 7,
-      "maxMp": 15,
-      "description": "這批怪物的物理防禦 -10%（阿泰爾改動：改為降物防，對野王也有效）"
+      "firstMp": 5,
+      "maxMp": 5,
+      "description": "這批怪物的物理防禦 -10%、攻擊力 -20（阿泰爾改動：改為降物防，對野王也有效）"
     },
     {
       "id": "dark_sight",
@@ -56201,7 +56228,7 @@
       ],
       "weapons": [],
       "maxLevel": 20,
-      "duration": 200,
+      "duration": 300,
       "firstMp": 10,
       "maxMp": 10,
       "firstHp": 10,
@@ -56209,7 +56236,7 @@
       "prerequisite": {
         "claw_mastery": 5
       },
-      "description": "攻擊速度 +2 段（每下更快），持續 200 秒"
+      "description": "攻擊速度 +2 段（每下更快），持續 300 秒"
     },
     {
       "id": "drain",
@@ -56224,14 +56251,14 @@
       ],
       "maxLevel": 30,
       "hits": 1,
-      "firstPercent": 73,
+      "firstPercent": 102,
       "maxPercent": 160,
-      "firstMp": 10,
+      "firstMp": 12,
       "maxMp": 24,
       "prerequisite": {
         "claw_mastery": 3
       },
-      "description": "命中時把傷害的 45% 回成 HP"
+      "description": "命中時把傷害的 45% 回成 HP（一次最多回最大 HP 的一半）"
     },
     {
       "id": "dagger_mastery",
@@ -59081,7 +59108,7 @@
         "30": "困難拉圖斯",
         "unlock": "殘暴炎魔（文字版自訂）"
       },
-      "description": "這批怪物防禦、經驗、掉落率各 +40%（要解鎖書）"
+      "description": "這批怪物防禦、經驗、掉落率各 +40%（打野王時不施放；要解鎖書）"
     },
     {
       "id": "ninja_ambush_nl",
@@ -59156,7 +59183,7 @@
         "30": "闇黑龍王",
         "unlock": "殘暴炎魔"
       },
-      "description": "單體 3 枚（幸運加熟練度文字版不算；要解鎖書）"
+      "description": "單體 3 枚；每 77 點 LUK 熟練度再 +1%（要解鎖書）"
     },
     {
       "id": "ninja_storm",
@@ -59245,7 +59272,7 @@
         "30": "困難拉圖斯",
         "unlock": "殘暴炎魔（文字版自訂）"
       },
-      "description": "這批怪物防禦、經驗、掉落率各 +40%（要解鎖書）"
+      "description": "這批怪物防禦、經驗、掉落率各 +40%（打野王時不施放；要解鎖書）"
     },
     {
       "id": "ninja_ambush_sh",
@@ -59793,7 +59820,7 @@
       "description": "攻擊速度 +2 段，持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.12.7",
+  "version": "0.12.8",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
