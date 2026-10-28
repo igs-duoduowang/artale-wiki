@@ -16,6 +16,9 @@ const existing = JSON.parse(readFileSync(output, 'utf8'));
 const monsters = Object.fromEntries(Object.entries(source.monsters).map(([id, monster]) =>
   [id, { ...monster, drops: dropPools[id] || [] }]));
 const usedItemIds = new Set(Object.values(monsters).flatMap(monster => [monster.drop, ...monster.drops.map(drop => drop.id)]));
+// 野王（含殘暴炎魔）掉的裝備、卷軸也要有名稱。
+for (const boss of Object.values(source.fieldBosses)) for (const id of [...(boss.drops || []).map(drop => drop.id), ...(boss.weaponPool || [])]) usedItemIds.add(id);
+const skillBooks = await load('src/skillbooks.js').catch(() => null);
 const aliases = source.materialAliases || {};
 const itemIds = new Set([...usedItemIds, ...Object.keys(source.items).filter(id => source.items[id].slot === 'material' && !aliases[id])]);
 const items = Object.fromEntries([...itemIds].filter(id => source.items[id]).map(id => {
@@ -67,6 +70,7 @@ const world = {
   jobs: source.jobs, items, gearPrices, skills: skillCatalog,
   maps, monsters,
   fieldBosses: source.fieldBosses,
+  ...(skillBooks ? { skillBooks: { zakum: skillBooks.ZAKUM_BOOKS, custom: skillBooks.CUSTOM_UNLOCKS, success: skillBooks.BOOK_SUCCESS, needLevel: skillBooks.BOOK_NEED_LEVEL } } : {}),
   ...(regions ? { regions: regions.worldRegions, ships: regions.shipRoutes } : {}),
   ...(jobInfo ? { jobIntros: Object.fromEntries(Object.entries(jobInfo.jobIntros).map(([id, intro]) => [id, { role: intro.role, summary: intro.summary }])) } : {}),
   ...(routes ? { featuredRoute: routes.originalRoute(mapIdByName.get('楓之島・楓之港'), mapIdByName.get('天空之城')) } : {})
