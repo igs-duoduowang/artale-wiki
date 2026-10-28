@@ -5527,6 +5527,14 @@
       "name": "封魂之錘",
       "slot": "weapon"
     },
+    "book_ninja_ambush_nl_20": {
+      "name": "[技能書] 忍影瞬殺 20",
+      "slot": "skillbook"
+    },
+    "book_dragon_strike_20": {
+      "name": "[技能書] 魔龍降臨 20",
+      "slot": "skillbook"
+    },
     "eq_337847058548": {
       "name": "紅色海盜帽",
       "slot": "hat"
@@ -6171,6 +6179,10 @@
       "name": "卡帝斯拳套",
       "slot": "weapon"
     },
+    "book_barrage_20": {
+      "name": "[技能書] 閃‧連殺 20",
+      "slot": "skillbook"
+    },
     "mat_17f9b8dcf2b6": {
       "name": "龍魂石",
       "slot": "material",
@@ -6275,6 +6287,38 @@
       "name": "死亡協奏曲",
       "slot": "weapon"
     },
+    "book_power_stance_20": {
+      "name": "[技能書] 格擋 20",
+      "slot": "skillbook"
+    },
+    "book_rush_20": {
+      "name": "[技能書] 究極突刺 20",
+      "slot": "skillbook"
+    },
+    "book_mana_reflection_20": {
+      "name": "[技能書] 魔法反射 20",
+      "slot": "skillbook"
+    },
+    "book_fire_demon_20": {
+      "name": "[技能書] 炎靈地獄 20",
+      "slot": "skillbook"
+    },
+    "book_bow_expert_20": {
+      "name": "[技能書] 弓術精通 20",
+      "slot": "skillbook"
+    },
+    "book_frostprey_20": {
+      "name": "[技能書] 召喚銀隼 20",
+      "slot": "skillbook"
+    },
+    "book_venomous_star_20": {
+      "name": "[技能書] 飛毒殺 20",
+      "slot": "skillbook"
+    },
+    "book_rapid_fire_20": {
+      "name": "[技能書] 瞬‧迅雷 20",
+      "slot": "skillbook"
+    },
     "eq_e178b8835471": {
       "name": "綠色卡那裝",
       "slot": "overall"
@@ -6290,6 +6334,10 @@
     "eq_da56bd048cf9": {
       "name": "梅杜斯",
       "slot": "weapon"
+    },
+    "book_elemental_boost_20": {
+      "name": "[技能書] 瞬‧冰火連擊 20",
+      "slot": "skillbook"
     },
     "eq_452cc86bdef0": {
       "name": "紫扣帶帽",
@@ -6323,6 +6371,14 @@
       "name": "飛翔斧",
       "slot": "weapon"
     },
+    "book_shadow_stars_20": {
+      "name": "[技能書] 無形鏢 20",
+      "slot": "skillbook"
+    },
+    "book_energy_orb_20": {
+      "name": "[技能書] 元氣彈 20",
+      "slot": "skillbook"
+    },
     "eq_2863a1e22ff6": {
       "name": "紅色霧面套裝",
       "slot": "top"
@@ -6334,6 +6390,10 @@
     "eq_7f48e7b69364": {
       "name": "綠色巴爾鞋",
       "slot": "shoes"
+    },
+    "book_battleship_torpedo_30": {
+      "name": "[技能書] 海盜魚雷 30",
+      "slot": "skillbook"
     },
     "eq_5b5b2445078c": {
       "name": "黑色格萊西頭盔",
@@ -6350,6 +6410,10 @@
     "eq_d4576a7297f0": {
       "name": "鐳奧釘錘",
       "slot": "weapon"
+    },
+    "book_super_transformation_20": {
+      "name": "[技能書] 鬥神降世 20",
+      "slot": "skillbook"
     },
     "eq_56416627c4f0": {
       "name": "銀色格萊西頭盔",
@@ -6370,6 +6434,30 @@
     "sc_27cabc27c4d5": {
       "name": "矛攻擊力卷軸10%",
       "slot": "scroll"
+    },
+    "book_brandish_20": {
+      "name": "[技能書] 無雙劍舞 20",
+      "slot": "skillbook"
+    },
+    "book_divine_charge_20": {
+      "name": "[技能書] 聖靈之棍 20",
+      "slot": "skillbook"
+    },
+    "book_big_bang_20": {
+      "name": "[技能書] 核爆術 20",
+      "slot": "skillbook"
+    },
+    "book_shadow_shifter_20": {
+      "name": "[技能書] 瞬身迴避 20",
+      "slot": "skillbook"
+    },
+    "book_shadow_shifter_plus_20": {
+      "name": "[技能書] 瞬身迴避+ 20",
+      "slot": "skillbook"
+    },
+    "book_battleship_cannon_20": {
+      "name": "[技能書] 海盜加農炮 20",
+      "slot": "skillbook"
     },
     "eq_0013c2b4365c": {
       "name": "綠色尼爾哲頭盔",
@@ -6407,6 +6495,30 @@
       "name": "下衣敏捷性卷軸10%",
       "slot": "scroll"
     },
+    "book_guardian_20": {
+      "name": "[技能書] 究極神盾 20",
+      "slot": "skillbook"
+    },
+    "book_blast_20": {
+      "name": "[技能書] 騎士衝擊波 20",
+      "slot": "skillbook"
+    },
+    "book_angel_ray_20": {
+      "name": "[技能書] 天使之箭 20",
+      "slot": "skillbook"
+    },
+    "book_piercing_arrow_20": {
+      "name": "[技能書] 光速神弩 20",
+      "slot": "skillbook"
+    },
+    "book_ninja_storm_20": {
+      "name": "[技能書] 忍術風影 20",
+      "slot": "skillbook"
+    },
+    "book_speed_infusion_buc_20": {
+      "name": "[技能書] 最終極速 20",
+      "slot": "skillbook"
+    },
     "eq_9bba9f8d1a42": {
       "name": "綠色卡奈頭巾",
       "slot": "hat"
@@ -6427,6 +6539,42 @@
       "name": "披風物理防禦力卷軸60%",
       "slot": "scroll"
     },
+    "book_achilles_20": {
+      "name": "[技能書] 武神防禦 20",
+      "slot": "skillbook"
+    },
+    "book_advanced_combo_30": {
+      "name": "[技能書] 進階鬥氣 30",
+      "slot": "skillbook"
+    },
+    "book_holy_shield_20": {
+      "name": "[技能書] 聖盾護鎧 20",
+      "slot": "skillbook"
+    },
+    "book_sharp_eyes_30": {
+      "name": "[技能書] 會心之眼 30",
+      "slot": "skillbook"
+    },
+    "book_phoenix_20": {
+      "name": "[技能書] 召喚鳳凰 20",
+      "slot": "skillbook"
+    },
+    "book_hamstring_20": {
+      "name": "[技能書] 牽制射擊 20",
+      "slot": "skillbook"
+    },
+    "book_blind_20": {
+      "name": "[技能書] 黑暗狙擊 20",
+      "slot": "skillbook"
+    },
+    "book_boomerang_step_20": {
+      "name": "[技能書] 瞬步連擊 20",
+      "slot": "skillbook"
+    },
+    "book_battleship_torpedo_20": {
+      "name": "[技能書] 海盜魚雷 20",
+      "slot": "skillbook"
+    },
     "eq_24cb8f952359": {
       "name": "綠色巴爾帽",
       "slot": "hat"
@@ -6434,6 +6582,26 @@
     "eq_31425ef2df03": {
       "name": "藍色阿爾納鞋",
       "slot": "shoes"
+    },
+    "book_paralyze_20": {
+      "name": "[技能書] 劇毒麻痺 20",
+      "slot": "skillbook"
+    },
+    "book_ifrit_20": {
+      "name": "[技能書] 召喚火炎神 20",
+      "slot": "skillbook"
+    },
+    "book_dragons_breath_20": {
+      "name": "[技能書] 龍魂之箭 20",
+      "slot": "skillbook"
+    },
+    "book_marksman_boost_20": {
+      "name": "[技能書] 弩術精通 20",
+      "slot": "skillbook"
+    },
+    "book_assassinate_20": {
+      "name": "[技能書] 致命暗殺 20",
+      "slot": "skillbook"
     },
     "eq_e9b4cbbca133": {
       "name": "紅色阿爾納帽",
@@ -6450,6 +6618,22 @@
     "eq_c0b9ba86881a": {
       "name": "藍色希亞手套",
       "slot": "gloves"
+    },
+    "book_monster_magnet_20": {
+      "name": "[技能書] 絕對引力 20",
+      "slot": "skillbook"
+    },
+    "book_holy_charge_20": {
+      "name": "[技能書] 聖靈之劍 20",
+      "slot": "skillbook"
+    },
+    "book_hurricane_20": {
+      "name": "[技能書] 暴風神射 20",
+      "slot": "skillbook"
+    },
+    "book_bullseye_20": {
+      "name": "[技能書] 精準砲擊 20",
+      "slot": "skillbook"
     },
     "mat_520a78662a83": {
       "name": "時間碎片",
@@ -6533,6 +6717,14 @@
       "name": "藍色貓裝",
       "slot": "overall"
     },
+    "book_power_stance_30": {
+      "name": "[技能書] 格擋 30",
+      "slot": "skillbook"
+    },
+    "book_venomous_star_30": {
+      "name": "[技能書] 飛毒殺 30",
+      "slot": "skillbook"
+    },
     "eq_19a569f8046b": {
       "name": "藍色阿爾納帽",
       "slot": "hat"
@@ -6561,9 +6753,17 @@
       "name": "紅色希亞手套",
       "slot": "gloves"
     },
+    "book_elquines_30": {
+      "name": "[技能書] 召喚冰魔 30",
+      "slot": "skillbook"
+    },
     "eq_5077f4732a03": {
       "name": "黑色貓裝",
       "slot": "overall"
+    },
+    "book_shadow_stars_30": {
+      "name": "[技能書] 無形鏢 30",
+      "slot": "skillbook"
     },
     "eq_26f9bb372432": {
       "name": "暗黑尼爾哲頭盔",
@@ -6592,6 +6792,10 @@
     "eq_f2387caf48ec": {
       "name": "黑色雷鳥弓",
       "slot": "weapon"
+    },
+    "book_assassinate_30": {
+      "name": "[技能書] 致命暗殺 30",
+      "slot": "skillbook"
     },
     "mat_3d5916acba27": {
       "name": "短牙海豹的細胞樣本",
@@ -6833,6 +7037,10 @@
       "name": "綠妖精披風",
       "slot": "cape"
     },
+    "book_dragon_strike_30": {
+      "name": "[技能書] 魔龍降臨 30",
+      "slot": "skillbook"
+    },
     "mat_3085a1f31a99": {
       "name": "奶油烤章魚",
       "slot": "material",
@@ -6847,6 +7055,14 @@
       "name": "黃金聖十字盾",
       "slot": "shield"
     },
+    "book_chain_lightning_20": {
+      "name": "[技能書] 閃電連擊 20",
+      "slot": "skillbook"
+    },
+    "book_wrath_of_octopi_20": {
+      "name": "[技能書] 砲台章魚王 20",
+      "slot": "skillbook"
+    },
     "mat_7b3454d18303": {
       "name": "撕裂的筆記",
       "slot": "material",
@@ -6858,6 +7074,18 @@
       "slot": "material",
       "sellPrice": 1,
       "priceSource": "經典楓之谷 v83 NPC 收購價（任務道具）（阿泰爾未公開，待核對）"
+    },
+    "book_ice_demon_20": {
+      "name": "[技能書] 寒冰地獄 20",
+      "slot": "skillbook"
+    },
+    "book_sharp_eyes_20": {
+      "name": "[技能書] 會心之眼 20",
+      "slot": "skillbook"
+    },
+    "book_demolition_20": {
+      "name": "[技能書] 閃‧爆破 20",
+      "slot": "skillbook"
     },
     "eq_05c0827f2cb9": {
       "name": "白色多羅尼斯長袍",
@@ -7533,9 +7761,41 @@
       "name": "101模型",
       "slot": "weapon"
     },
+    "book_achilles_30": {
+      "name": "[技能書] 武神防禦 30",
+      "slot": "skillbook"
+    },
+    "book_guardian_30": {
+      "name": "[技能書] 究極神盾 30",
+      "slot": "skillbook"
+    },
+    "book_holy_shield_30": {
+      "name": "[技能書] 聖盾護鎧 30",
+      "slot": "skillbook"
+    },
+    "book_phoenix_30": {
+      "name": "[技能書] 召喚鳳凰 30",
+      "slot": "skillbook"
+    },
+    "book_taunt_nl_20": {
+      "name": "[技能書] 挑釁 20",
+      "slot": "skillbook"
+    },
     "sc_33ec670afb9b": {
       "name": "頭盔體力卷軸10%",
       "slot": "scroll"
+    },
+    "book_hamstring_30": {
+      "name": "[技能書] 牽制射擊 30",
+      "slot": "skillbook"
+    },
+    "book_blind_30": {
+      "name": "[技能書] 黑暗狙擊 30",
+      "slot": "skillbook"
+    },
+    "book_energy_orb_30": {
+      "name": "[技能書] 元氣彈 30",
+      "slot": "skillbook"
     },
     "sc_1ab0486a4eaf": {
       "name": "腰帶力量卷軸30%",
@@ -7553,6 +7813,26 @@
       "name": "腰帶幸運卷軸30%",
       "slot": "scroll"
     },
+    "book_paralyze_30": {
+      "name": "[技能書] 劇毒麻痺 30",
+      "slot": "skillbook"
+    },
+    "book_chain_lightning_30": {
+      "name": "[技能書] 閃電連擊 30",
+      "slot": "skillbook"
+    },
+    "book_shadow_shifter_30": {
+      "name": "[技能書] 瞬身迴避 30",
+      "slot": "skillbook"
+    },
+    "book_shadow_shifter_plus_30": {
+      "name": "[技能書] 瞬身迴避+ 30",
+      "slot": "skillbook"
+    },
+    "book_battleship_cannon_30": {
+      "name": "[技能書] 海盜加農炮 30",
+      "slot": "skillbook"
+    },
     "eq_63df797f7684": {
       "name": "黑色羅赤裝",
       "slot": "overall"
@@ -7564,6 +7844,10 @@
     "eq_c301e4f3dda7": {
       "name": "黑色鐵腕",
       "slot": "gloves"
+    },
+    "book_mana_reflection_30": {
+      "name": "[技能書] 魔法反射 30",
+      "slot": "skillbook"
     },
     "eq_3754d5c33c9c": {
       "name": "紅色卡奈頭巾",
@@ -7588,6 +7872,22 @@
     "eq_ba1d42a3c6e3": {
       "name": "綠色阿爾納手套",
       "slot": "gloves"
+    },
+    "book_blast_30": {
+      "name": "[技能書] 騎士衝擊波 30",
+      "slot": "skillbook"
+    },
+    "book_fire_demon_30": {
+      "name": "[技能書] 炎靈地獄 30",
+      "slot": "skillbook"
+    },
+    "book_ice_demon_30": {
+      "name": "[技能書] 寒冰地獄 30",
+      "slot": "skillbook"
+    },
+    "book_dragons_breath_30": {
+      "name": "[技能書] 龍魂之箭 30",
+      "slot": "skillbook"
     },
     "eq_28763c4f02c4": {
       "name": "殘暴炎魔頭盔",
@@ -36507,6 +36807,14 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_ninja_ambush_nl_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_dragon_strike_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -39623,6 +39931,10 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_barrage_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -39945,6 +40257,38 @@
         {
           "id": "mat_f4f4df34404b",
           "chance": 0.003
+        },
+        {
+          "id": "book_power_stance_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_rush_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_mana_reflection_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_fire_demon_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_bow_expert_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_frostprey_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_venomous_star_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_rapid_fire_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -40049,6 +40393,10 @@
           "id": "mana_elixir",
           "chance": 0.04,
           "estimated": true
+        },
+        {
+          "id": "book_elemental_boost_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -40145,6 +40493,14 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_shadow_stars_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_energy_orb_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -40240,6 +40596,10 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_battleship_torpedo_30",
+          "chance": 0.0003
         }
       ]
     },
@@ -40329,6 +40689,10 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_super_transformation_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -40419,6 +40783,30 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_brandish_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_divine_charge_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_big_bang_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_shadow_shifter_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_shadow_shifter_plus_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_battleship_cannon_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -40536,6 +40924,30 @@
           "id": "mana_elixir",
           "chance": 0.04,
           "estimated": true
+        },
+        {
+          "id": "book_guardian_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_blast_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_angel_ray_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_piercing_arrow_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_ninja_storm_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_speed_infusion_buc_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -40660,6 +41072,42 @@
         {
           "id": "mat_f4f4df34404b",
           "chance": 0.003
+        },
+        {
+          "id": "book_achilles_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_advanced_combo_30",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_holy_shield_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_sharp_eyes_30",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_phoenix_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_hamstring_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_blind_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_boomerang_step_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_battleship_torpedo_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -40753,6 +41201,26 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_paralyze_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_ifrit_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_dragons_breath_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_marksman_boost_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_assassinate_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -40858,6 +41326,22 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_monster_magnet_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_holy_charge_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_hurricane_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_bullseye_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -41018,6 +41502,10 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_angel_ray_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -41110,6 +41598,10 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_marksman_boost_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -41535,6 +42027,18 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_power_stance_30",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_venomous_star_30",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_power_stance_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -41700,6 +42204,10 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_elquines_30",
+          "chance": 0.0003
         }
       ]
     },
@@ -41776,6 +42284,10 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_shadow_stars_30",
+          "chance": 0.0003
         }
       ]
     },
@@ -41935,6 +42447,10 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_assassinate_30",
+          "chance": 0.0003
         }
       ]
     },
@@ -43637,6 +44153,10 @@
         {
           "id": "mat_f4f4df34404b",
           "chance": 0.003
+        },
+        {
+          "id": "book_dragon_strike_30",
+          "chance": 0.0003
         }
       ]
     },
@@ -43767,6 +44287,18 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_chain_lightning_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_ninja_ambush_nl_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_wrath_of_octopi_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -43984,6 +44516,18 @@
         {
           "id": "mana_elixir",
           "chance": 0.04
+        },
+        {
+          "id": "book_ice_demon_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_sharp_eyes_20",
+          "chance": 0.0003
+        },
+        {
+          "id": "book_demolition_20",
+          "chance": 0.0003
         }
       ]
     },
@@ -54330,6 +54874,46 @@
           "id": "sc_70c4e8e9a828",
           "chance": 0.01,
           "estimated": true
+        },
+        {
+          "id": "book_achilles_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_guardian_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_fire_demon_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_paralyze_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_holy_shield_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_phoenix_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_taunt_nl_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_dragon_strike_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_super_transformation_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_rapid_fire_20",
+          "chance": 0.04
         }
       ],
       "mesoBag": [
@@ -54535,6 +55119,42 @@
           "id": "sc_0cda383313af",
           "chance": 0.01,
           "estimated": true
+        },
+        {
+          "id": "book_ice_demon_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_chain_lightning_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_hamstring_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_frostprey_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_blind_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_assassinate_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_energy_orb_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_demolition_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_battleship_cannon_20",
+          "chance": 0.04
         }
       ],
       "mesoBag": [
@@ -54661,6 +55281,30 @@
           "id": "sc_706931182477",
           "chance": 0.01,
           "estimated": true
+        },
+        {
+          "id": "book_power_stance_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_paralyze_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_chain_lightning_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_shadow_shifter_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_shadow_shifter_plus_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_battleship_cannon_30",
+          "chance": 0.04
         }
       ],
       "mesoBag": [
@@ -54753,6 +55397,26 @@
           "id": "sc_28659c2c57bf",
           "chance": 0.01,
           "estimated": true
+        },
+        {
+          "id": "book_mana_reflection_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_hamstring_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_shadow_shifter_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_shadow_shifter_plus_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_barrage_20",
+          "chance": 0.04
         }
       ],
       "mesoBag": [
@@ -54833,6 +55497,14 @@
           "id": "sc_77f769564d6d",
           "chance": 0.01,
           "estimated": true
+        },
+        {
+          "id": "book_achilles_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_energy_orb_20",
+          "chance": 0.04
         }
       ],
       "mesoBag": [
@@ -54928,6 +55600,34 @@
           "id": "sc_59c91b85176f",
           "chance": 0.01,
           "estimated": true
+        },
+        {
+          "id": "book_blast_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_fire_demon_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_ice_demon_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_dragons_breath_30",
+          "chance": 0.04
+        },
+        {
+          "id": "book_taunt_nl_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_boomerang_step_20",
+          "chance": 0.04
+        },
+        {
+          "id": "book_battleship_torpedo_30",
+          "chance": 0.04
         }
       ],
       "mesoBag": [
@@ -59836,7 +60536,7 @@
       "description": "攻擊速度再 +2 段（和快速系列疊加），持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.12.10",
+  "version": "0.12.11",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
@@ -62250,6 +62950,880 @@
     "needLevel": {
       "20": 5,
       "30": 15
-    }
+    },
+    "sources": {
+      "book_enrage_20": {
+        "name": "鬥氣爆發",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_heavens_hammer_20": {
+        "name": "鬼神之擊",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_berserk_20": {
+        "name": "黑暗力量",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_concentrate_20": {
+        "name": "念力集中",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_snipe_20": {
+        "name": "必殺狙擊",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_meteor_shower_20": {
+        "name": "火流星",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_blizzard_4th_20": {
+        "name": "暴風雪",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_genesis_20": {
+        "name": "天怒",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_smokescreen_20": {
+        "name": "煙霧彈",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_triple_throw_20": {
+        "name": "三飛閃",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_time_leap_20": {
+        "name": "時間置換",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_aerial_strike_20": {
+        "name": "海鷗特戰隊",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_power_stance_30": {
+        "name": "格擋",
+        "kind": "30",
+        "monsters": [
+          "mob_c7113d8a857a"
+        ],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_bow_expert_30": {
+        "name": "弓術精通",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_marksman_boost_30": {
+        "name": "弩術精通",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_venomous_star_30": {
+        "name": "飛毒殺",
+        "kind": "30",
+        "monsters": [
+          "mob_c7113d8a857a"
+        ],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_infinity_30": {
+        "name": "魔力無限",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_advanced_combo_unlock": {
+        "name": "進階鬥氣",
+        "kind": "unlock",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_advanced_charge_unlock": {
+        "name": "屬性強化",
+        "kind": "unlock",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_angel_ray_unlock": {
+        "name": "天使之箭",
+        "kind": "unlock",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_triple_throw_unlock": {
+        "name": "三飛閃",
+        "kind": "unlock",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_infinity_unlock": {
+        "name": "魔力無限",
+        "kind": "unlock",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_dragons_breath_unlock": {
+        "name": "龍魂之箭",
+        "kind": "unlock",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_taunt_nl_unlock": {
+        "name": "挑釁",
+        "kind": "unlock",
+        "monsters": [],
+        "bosses": [],
+        "zakum": true
+      },
+      "book_achilles_20": {
+        "name": "武神防禦",
+        "kind": "20",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_achilles_30": {
+        "name": "武神防禦",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "manon",
+          "lilynouch"
+        ],
+        "zakum": false
+      },
+      "book_guardian_20": {
+        "name": "究極神盾",
+        "kind": "20",
+        "monsters": [
+          "mob_b54c692ec552"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_guardian_30": {
+        "name": "究極神盾",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "manon"
+        ],
+        "zakum": false
+      },
+      "book_monster_magnet_20": {
+        "name": "絕對引力",
+        "kind": "20",
+        "monsters": [
+          "mob_5922b7ec3f91"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_power_stance_20": {
+        "name": "格擋",
+        "kind": "20",
+        "monsters": [
+          "mob_a212b205ae3e",
+          "mob_c7113d8a857a"
+        ],
+        "bosses": [
+          "leviathan"
+        ],
+        "zakum": false
+      },
+      "book_rush_20": {
+        "name": "究極突刺",
+        "kind": "20",
+        "monsters": [
+          "mob_a212b205ae3e"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_advanced_combo_30": {
+        "name": "進階鬥氣",
+        "kind": "30",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_brandish_20": {
+        "name": "無雙劍舞",
+        "kind": "20",
+        "monsters": [
+          "mob_dc927578ff6a"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_holy_charge_20": {
+        "name": "聖靈之劍",
+        "kind": "20",
+        "monsters": [
+          "mob_5922b7ec3f91"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_divine_charge_20": {
+        "name": "聖靈之棍",
+        "kind": "20",
+        "monsters": [
+          "mob_dc927578ff6a"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_blast_20": {
+        "name": "騎士衝擊波",
+        "kind": "20",
+        "monsters": [
+          "mob_b54c692ec552"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_blast_30": {
+        "name": "騎士衝擊波",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "lyka"
+        ],
+        "zakum": false
+      },
+      "book_big_bang_20": {
+        "name": "核爆術",
+        "kind": "20",
+        "monsters": [
+          "mob_dc927578ff6a"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_mana_reflection_20": {
+        "name": "魔法反射",
+        "kind": "20",
+        "monsters": [
+          "mob_a212b205ae3e"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_mana_reflection_30": {
+        "name": "魔法反射",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "dodo"
+        ],
+        "zakum": false
+      },
+      "book_fire_demon_20": {
+        "name": "炎靈地獄",
+        "kind": "20",
+        "monsters": [
+          "mob_a212b205ae3e"
+        ],
+        "bosses": [
+          "manon"
+        ],
+        "zakum": false
+      },
+      "book_fire_demon_30": {
+        "name": "炎靈地獄",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "lyka"
+        ],
+        "zakum": false
+      },
+      "book_elquines_30": {
+        "name": "召喚冰魔",
+        "kind": "30",
+        "monsters": [
+          "mob_66441f95eecd"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_paralyze_20": {
+        "name": "劇毒麻痺",
+        "kind": "20",
+        "monsters": [
+          "mob_5b41c8b79229"
+        ],
+        "bosses": [
+          "manon"
+        ],
+        "zakum": false
+      },
+      "book_paralyze_30": {
+        "name": "劇毒麻痺",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "leviathan"
+        ],
+        "zakum": false
+      },
+      "book_ice_demon_20": {
+        "name": "寒冰地獄",
+        "kind": "20",
+        "monsters": [
+          "mob_797f3138a8bd"
+        ],
+        "bosses": [
+          "griffey"
+        ],
+        "zakum": false
+      },
+      "book_ice_demon_30": {
+        "name": "寒冰地獄",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "lyka"
+        ],
+        "zakum": false
+      },
+      "book_ifrit_20": {
+        "name": "召喚火炎神",
+        "kind": "20",
+        "monsters": [
+          "mob_5b41c8b79229"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_chain_lightning_20": {
+        "name": "閃電連擊",
+        "kind": "20",
+        "monsters": [
+          "mob_37e0c5595a5e"
+        ],
+        "bosses": [
+          "griffey"
+        ],
+        "zakum": false
+      },
+      "book_chain_lightning_30": {
+        "name": "閃電連擊",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "leviathan"
+        ],
+        "zakum": false
+      },
+      "book_holy_shield_20": {
+        "name": "聖盾護鎧",
+        "kind": "20",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_holy_shield_30": {
+        "name": "聖盾護鎧",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "manon"
+        ],
+        "zakum": false
+      },
+      "book_angel_ray_20": {
+        "name": "天使之箭",
+        "kind": "20",
+        "monsters": [
+          "mob_b54c692ec552",
+          "mob_fe72a44715b7"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_sharp_eyes_20": {
+        "name": "會心之眼",
+        "kind": "20",
+        "monsters": [
+          "mob_797f3138a8bd"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_sharp_eyes_30": {
+        "name": "會心之眼",
+        "kind": "30",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_dragons_breath_20": {
+        "name": "龍魂之箭",
+        "kind": "20",
+        "monsters": [
+          "mob_5b41c8b79229"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_dragons_breath_30": {
+        "name": "龍魂之箭",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "lyka"
+        ],
+        "zakum": false
+      },
+      "book_bow_expert_20": {
+        "name": "弓術精通",
+        "kind": "20",
+        "monsters": [
+          "mob_a212b205ae3e"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_marksman_boost_20": {
+        "name": "弩術精通",
+        "kind": "20",
+        "monsters": [
+          "mob_5b41c8b79229",
+          "mob_769160b55ad1"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_hurricane_20": {
+        "name": "暴風神射",
+        "kind": "20",
+        "monsters": [
+          "mob_5922b7ec3f91"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_phoenix_20": {
+        "name": "召喚鳳凰",
+        "kind": "20",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_phoenix_30": {
+        "name": "召喚鳳凰",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "manon"
+        ],
+        "zakum": false
+      },
+      "book_hamstring_20": {
+        "name": "牽制射擊",
+        "kind": "20",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_hamstring_30": {
+        "name": "牽制射擊",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "griffey",
+          "dodo"
+        ],
+        "zakum": false
+      },
+      "book_piercing_arrow_20": {
+        "name": "光速神弩",
+        "kind": "20",
+        "monsters": [
+          "mob_b54c692ec552"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_frostprey_20": {
+        "name": "召喚銀隼",
+        "kind": "20",
+        "monsters": [
+          "mob_a212b205ae3e"
+        ],
+        "bosses": [
+          "griffey"
+        ],
+        "zakum": false
+      },
+      "book_blind_20": {
+        "name": "黑暗狙擊",
+        "kind": "20",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_blind_30": {
+        "name": "黑暗狙擊",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "griffey"
+        ],
+        "zakum": false
+      },
+      "book_shadow_shifter_20": {
+        "name": "瞬身迴避",
+        "kind": "20",
+        "monsters": [
+          "mob_dc927578ff6a"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_shadow_shifter_30": {
+        "name": "瞬身迴避",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "leviathan",
+          "dodo"
+        ],
+        "zakum": false
+      },
+      "book_venomous_star_20": {
+        "name": "飛毒殺",
+        "kind": "20",
+        "monsters": [
+          "mob_a212b205ae3e"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_taunt_nl_20": {
+        "name": "挑釁",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [
+          "manon",
+          "lyka"
+        ],
+        "zakum": false
+      },
+      "book_ninja_ambush_nl_20": {
+        "name": "忍影瞬殺",
+        "kind": "20",
+        "monsters": [
+          "mob_63d7d1008251",
+          "mob_37e0c5595a5e"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_shadow_stars_20": {
+        "name": "無形鏢",
+        "kind": "20",
+        "monsters": [
+          "mob_3affc332b336"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_shadow_stars_30": {
+        "name": "無形鏢",
+        "kind": "30",
+        "monsters": [
+          "mob_1f5b92e9aebb"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_ninja_storm_20": {
+        "name": "忍術風影",
+        "kind": "20",
+        "monsters": [
+          "mob_b54c692ec552"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_shadow_shifter_plus_20": {
+        "name": "瞬身迴避+",
+        "kind": "20",
+        "monsters": [
+          "mob_dc927578ff6a"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_shadow_shifter_plus_30": {
+        "name": "瞬身迴避+",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "leviathan",
+          "dodo"
+        ],
+        "zakum": false
+      },
+      "book_assassinate_20": {
+        "name": "致命暗殺",
+        "kind": "20",
+        "monsters": [
+          "mob_5b41c8b79229"
+        ],
+        "bosses": [
+          "griffey"
+        ],
+        "zakum": false
+      },
+      "book_assassinate_30": {
+        "name": "致命暗殺",
+        "kind": "30",
+        "monsters": [
+          "mob_6c5402309705"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_boomerang_step_20": {
+        "name": "瞬步連擊",
+        "kind": "20",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
+        "bosses": [
+          "lyka"
+        ],
+        "zakum": false
+      },
+      "book_dragon_strike_20": {
+        "name": "魔龍降臨",
+        "kind": "20",
+        "monsters": [
+          "mob_63d7d1008251"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_dragon_strike_30": {
+        "name": "魔龍降臨",
+        "kind": "30",
+        "monsters": [
+          "mob_44eb68d7f8fb"
+        ],
+        "bosses": [
+          "manon"
+        ],
+        "zakum": false
+      },
+      "book_energy_orb_20": {
+        "name": "元氣彈",
+        "kind": "20",
+        "monsters": [
+          "mob_3affc332b336"
+        ],
+        "bosses": [
+          "lilynouch"
+        ],
+        "zakum": false
+      },
+      "book_energy_orb_30": {
+        "name": "元氣彈",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "griffey"
+        ],
+        "zakum": false
+      },
+      "book_super_transformation_20": {
+        "name": "鬥神降世",
+        "kind": "20",
+        "monsters": [
+          "mob_f7b9b4292947"
+        ],
+        "bosses": [
+          "manon"
+        ],
+        "zakum": false
+      },
+      "book_demolition_20": {
+        "name": "閃‧爆破",
+        "kind": "20",
+        "monsters": [
+          "mob_797f3138a8bd"
+        ],
+        "bosses": [
+          "griffey"
+        ],
+        "zakum": false
+      },
+      "book_barrage_20": {
+        "name": "閃‧連殺",
+        "kind": "20",
+        "monsters": [
+          "mob_1dc5170a2c6a"
+        ],
+        "bosses": [
+          "dodo"
+        ],
+        "zakum": false
+      },
+      "book_speed_infusion_buc_20": {
+        "name": "最終極速",
+        "kind": "20",
+        "monsters": [
+          "mob_b54c692ec552"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_elemental_boost_20": {
+        "name": "瞬‧冰火連擊",
+        "kind": "20",
+        "monsters": [
+          "mob_6b56108630a9"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_wrath_of_octopi_20": {
+        "name": "砲台章魚王",
+        "kind": "20",
+        "monsters": [
+          "mob_37e0c5595a5e"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_bullseye_20": {
+        "name": "精準砲擊",
+        "kind": "20",
+        "monsters": [
+          "mob_5922b7ec3f91"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_rapid_fire_20": {
+        "name": "瞬‧迅雷",
+        "kind": "20",
+        "monsters": [
+          "mob_a212b205ae3e"
+        ],
+        "bosses": [
+          "manon"
+        ],
+        "zakum": false
+      },
+      "book_battleship_cannon_20": {
+        "name": "海盜加農炮",
+        "kind": "20",
+        "monsters": [
+          "mob_dc927578ff6a"
+        ],
+        "bosses": [
+          "griffey"
+        ],
+        "zakum": false
+      },
+      "book_battleship_cannon_30": {
+        "name": "海盜加農炮",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [
+          "leviathan"
+        ],
+        "zakum": false
+      },
+      "book_battleship_torpedo_20": {
+        "name": "海盜魚雷",
+        "kind": "20",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
+        "bosses": [],
+        "zakum": false
+      },
+      "book_battleship_torpedo_30": {
+        "name": "海盜魚雷",
+        "kind": "30",
+        "monsters": [
+          "mob_b6d9ae8cf30f"
+        ],
+        "bosses": [
+          "lyka"
+        ],
+        "zakum": false
+      }
+    },
+    "mobRate": 0.0003,
+    "bossRate": 0.04
   }
 }

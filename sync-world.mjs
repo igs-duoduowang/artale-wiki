@@ -70,7 +70,8 @@ const world = {
   jobs: source.jobs, items, gearPrices, skills: skillCatalog,
   maps, monsters,
   fieldBosses: source.fieldBosses,
-  ...(skillBooks ? { skillBooks: { zakum: skillBooks.ZAKUM_BOOKS, custom: skillBooks.CUSTOM_UNLOCKS, success: skillBooks.BOOK_SUCCESS, needLevel: skillBooks.BOOK_NEED_LEVEL } } : {}),
+  ...(skillBooks ? { skillBooks: { zakum: skillBooks.ZAKUM_BOOKS, custom: skillBooks.CUSTOM_UNLOCKS, success: skillBooks.BOOK_SUCCESS, needLevel: skillBooks.BOOK_NEED_LEVEL,
+    ...(skillBooks.BOOK_SOURCES ? { sources: skillBooks.BOOK_SOURCES, mobRate: skillBooks.BOOK_MOB_RATE, bossRate: skillBooks.BOOK_BOSS_RATE } : {}) } } : {}),
   ...(regions ? { regions: regions.worldRegions, ships: regions.shipRoutes } : {}),
   ...(jobInfo ? { jobIntros: Object.fromEntries(Object.entries(jobInfo.jobIntros).map(([id, intro]) => [id, { role: intro.role, summary: intro.summary }])) } : {}),
   ...(routes ? { featuredRoute: routes.originalRoute(mapIdByName.get('楓之島・楓之港'), mapIdByName.get('天空之城')) } : {})
