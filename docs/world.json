@@ -55056,9 +55056,12 @@
       "weapons": [],
       "maxLevel": 20,
       "duration": 300,
-      "firstMp": 9,
-      "maxMp": 13,
-      "description": "受到的反擊傷害 -40%，持續 300 秒"
+      "firstMp": 8,
+      "maxMp": 15,
+      "prerequisite": {
+        "warrior_endure": 3
+      },
+      "description": "物理防禦 +40、移動速度 +10，持續 300 秒"
     },
     {
       "id": "power_strike",
@@ -55085,13 +55088,16 @@
       ],
       "maxLevel": 20,
       "hits": 1,
-      "firstPercent": 130,
-      "maxPercent": 225,
+      "firstPercent": 57,
+      "maxPercent": 130,
       "targets": 6,
-      "firstMp": 13,
-      "maxMp": 22,
-      "firstHp": 3,
-      "maxHp": 12,
+      "firstMp": 6,
+      "maxMp": 14,
+      "firstHp": 8,
+      "maxHp": 16,
+      "prerequisite": {
+        "power_strike": 1
+      },
       "description": "一次打 6 隻"
     },
     {
@@ -55175,10 +55181,10 @@
       ],
       "maxLevel": 20,
       "hits": 2,
-      "firstPercent": 58,
-      "maxPercent": 105,
-      "firstMp": 9,
-      "maxMp": 18,
+      "firstPercent": 55,
+      "maxPercent": 200,
+      "firstMp": 10,
+      "maxMp": 20,
       "prerequisite": {
         "energy_bolt": 1
       }
@@ -56309,11 +56315,15 @@
       ],
       "maxLevel": 30,
       "hits": 1,
-      "firstPercent": 82,
+      "firstPercent": 43,
       "maxPercent": 140,
-      "firstMp": 9,
-      "maxMp": 20,
-      "description": "擊倒時額外 70% 楓幣、18% 機率多掉一件；40% 機率回復傷害 10% 的 HP"
+      "targets": 4,
+      "firstMp": 12,
+      "maxMp": 24,
+      "prerequisite": {
+        "haste": 5
+      },
+      "description": "一次打 4 隻；擊倒時額外 70% 楓幣、18% 機率多掉一件；40% 機率回復傷害 10% 的 HP"
     },
     {
       "id": "savage_blow",
@@ -56328,10 +56338,10 @@
       ],
       "maxLevel": 30,
       "hits": 6,
-      "firstPercent": 52,
+      "firstPercent": 23,
       "maxPercent": 110,
-      "firstMp": 13,
-      "maxMp": 33
+      "firstMp": 15,
+      "maxMp": 27
     },
     {
       "id": "endure",
@@ -56414,7 +56424,7 @@
       "targets": 3,
       "firstMp": 11,
       "maxMp": 30,
-      "description": "一次打 3 隻"
+      "description": "一次打 3 隻，昏迷 1 秒"
     },
     {
       "id": "double_uppercut",
@@ -56432,7 +56442,8 @@
       "firstPercent": 195,
       "maxPercent": 290,
       "firstMp": 11,
-      "maxMp": 30
+      "maxMp": 30,
+      "description": "昏迷 1 秒"
     },
     {
       "id": "screw_punch",
@@ -57733,7 +57744,7 @@
       "maxLevel": 40,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "物理攻擊 +20、命中與迴避 +20（文字版視為能量一直充滿）"
+      "description": "指虎每打中一隻怪累積能量 192，滿 10,000 後 50 秒內物理攻擊 +20、命中與迴避 +20，並可用能量暴擊、損人利己"
     },
     {
       "id": "energy_blast",
@@ -57753,7 +57764,7 @@
       "targets": 4,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "一次打 4 隻，用能量不耗 MP；要學會蓄能激發"
+      "description": "一次打 4 隻，不耗 MP；能量充滿時才能用"
     },
     {
       "id": "energy_drain",
@@ -57772,7 +57783,7 @@
       "maxPercent": 360,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "單體，把傷害的 20% 回成 HP；要學會蓄能激發"
+      "description": "單體，把傷害的 20% 回成 HP；能量充滿時才能用"
     },
     {
       "id": "transformation",
@@ -57788,7 +57799,7 @@
       "duration": 240,
       "firstMp": 22,
       "maxMp": 60,
-      "description": "物防、魔防 +40，持續 240 秒（變身中才能用衝擊波）"
+      "description": "物防、魔防 +40，持續 240 秒，冷卻 360 秒（變身中才能用衝擊波）"
     },
     {
       "id": "shockwave",
@@ -57869,7 +57880,7 @@
       "targets": 3,
       "firstMp": 11,
       "maxMp": 20,
-      "description": "海鷗丟炸彈，一次打 3 隻（文字版換算成主動攻擊）"
+      "description": "海鷗丟炸彈，一次打 3 隻，冷卻 5 秒（文字版換算成主動攻擊）"
     },
     {
       "id": "flamethrower",
@@ -57960,7 +57971,7 @@
         "20": "闇黑龍王",
         "30": "未找到"
       },
-      "description": "STR、DEX、INT、LUK 各 +30%（只算自己配的能力值，不含裝備），持續 900 秒"
+      "description": "STR、DEX、INT、LUK 各 +15%（只算自己配的能力值，不含裝備），持續 900 秒"
     },
     {
       "id": "heros_will",
@@ -59315,8 +59326,8 @@
         "dagger"
       ],
       "maxLevel": 30,
-      "hits": 3,
-      "firstPercent": 170,
+      "hits": 4,
+      "firstPercent": 212,
       "maxPercent": 560,
       "firstMp": 21,
       "maxMp": 40,
@@ -59325,7 +59336,7 @@
         "20": "格瑞芬多、幼年龍",
         "30": "困難拉圖斯、忘卻的守護隊長"
       },
-      "description": "單體 3 下（阿泰爾最後還有一下 1400%，客戶端未寫，文字版不算；Lv.1 經典）"
+      "description": "單體 4 下（最後一擊的機率暴擊文字版不算）"
     },
     {
       "id": "smokescreen",
@@ -59553,7 +59564,7 @@
         "20": "海怒斯、化石龍",
         "30": "無（最高 20）"
       },
-      "description": "攻擊速度 +2 段，持續 300 秒（Lv.1 經典）"
+      "description": "攻擊速度再 +2 段（和快速系列疊加），持續 300 秒（Lv.1 經典）"
     },
     {
       "id": "time_leap",
@@ -59817,10 +59828,10 @@
         "20": "海怒斯、化石龍",
         "30": "無（最高 20）"
       },
-      "description": "攻擊速度 +2 段，持續 300 秒（Lv.1 經典）"
+      "description": "攻擊速度再 +2 段（和快速系列疊加），持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.12.8",
+  "version": "0.12.9",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
