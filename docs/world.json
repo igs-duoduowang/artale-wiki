@@ -7281,6 +7281,326 @@
       "sellPrice": 125,
       "priceSource": "經典楓之谷 v83 NPC 收購價（阿泰爾未公開，待核對）"
     },
+    "eq_c133521deba6": {
+      "name": "葉痕耳環（枯葉耳環）",
+      "slot": "earrings"
+    },
+    "eq_f93f920cee15": {
+      "name": "平底鍋",
+      "slot": "weapon"
+    },
+    "sc_55e9553e4454": {
+      "name": "腰帶力量卷軸100%",
+      "slot": "scroll"
+    },
+    "sc_b6b868f63233": {
+      "name": "腰帶智力卷軸100%",
+      "slot": "scroll"
+    },
+    "sc_77b79bee1cd0": {
+      "name": "腰帶敏捷卷軸100%",
+      "slot": "scroll"
+    },
+    "sc_2875c48fbfca": {
+      "name": "腰帶幸運卷軸100%",
+      "slot": "scroll"
+    },
+    "eq_09d645dabf73": {
+      "name": "黑色游泳圈",
+      "slot": "weapon"
+    },
+    "eq_12cdcebafd4f": {
+      "name": "救生圈",
+      "slot": "weapon"
+    },
+    "eq_5d06b85094b5": {
+      "name": "彩色游泳圈",
+      "slot": "weapon"
+    },
+    "sc_5f97e99d6c36": {
+      "name": "眼部裝飾力量卷軸100%",
+      "slot": "scroll"
+    },
+    "sc_2f97e65996ce": {
+      "name": "眼部裝飾智力卷軸100%",
+      "slot": "scroll"
+    },
+    "eq_5f9967ee8366": {
+      "name": "釣魚竿",
+      "slot": "weapon"
+    },
+    "eq_ab30cd5a3fc1": {
+      "name": "黃金環魔杖",
+      "slot": "weapon"
+    },
+    "sc_5b3b6745d399": {
+      "name": "套服智力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_3b48ad180971": {
+      "name": "墜飾敏捷卷軸100%",
+      "slot": "scroll"
+    },
+    "sc_ab20a0951b89": {
+      "name": "墜飾幸運卷軸100%",
+      "slot": "scroll"
+    },
+    "eq_d0329b54dab5": {
+      "name": "紙製頭盔",
+      "slot": "hat"
+    },
+    "eq_e7357e46e835": {
+      "name": "玩具槌子",
+      "slot": "weapon"
+    },
+    "eq_86f17139b5a7": {
+      "name": "愛心手杖",
+      "slot": "weapon"
+    },
+    "sc_c13a29793d76": {
+      "name": "眼部裝飾敏捷卷軸100%",
+      "slot": "scroll"
+    },
+    "sc_5f2dd9e30916": {
+      "name": "眼部裝飾幸運卷軸100%",
+      "slot": "scroll"
+    },
+    "eq_4b6ecae9403b": {
+      "name": "毒菇",
+      "slot": "weapon"
+    },
+    "sc_03cd22d77141": {
+      "name": "腰帶力量卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_85a4b1273dcf": {
+      "name": "腰帶幸運卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_01bf8c67c6cc": {
+      "name": "墜飾力量卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_47e099150e42": {
+      "name": "墜飾敏捷卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_5675c6a472f4": {
+      "name": "墜飾智力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_c337c8da6ac8": {
+      "name": "墜飾幸運卷軸10%",
+      "slot": "scroll"
+    },
+    "eq_01a63346f87b": {
+      "name": "獵人毛帽",
+      "slot": "hat"
+    },
+    "eq_35576d6d4a2f": {
+      "name": "20年冷凍鮪魚",
+      "slot": "weapon"
+    },
+    "sc_14ab34641af4": {
+      "name": "墜飾敏捷卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_f93edb6ed85e": {
+      "name": "墜飾幸運卷軸60%",
+      "slot": "scroll"
+    },
+    "eq_c93e17591d03": {
+      "name": "諾瓦刀",
+      "slot": "weapon"
+    },
+    "eq_49b5db995faf": {
+      "name": "錘子",
+      "slot": "weapon"
+    },
+    "sc_4b7cbbde1a74": {
+      "name": "眼部裝飾敏捷卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_d1c012576ef5": {
+      "name": "眼部裝飾智力卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_0a07078e76d9": {
+      "name": "眼部裝飾力量卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_1d05ba73af8d": {
+      "name": "眼部裝飾幸運卷軸60%",
+      "slot": "scroll"
+    },
+    "eq_dfcc99c904e7": {
+      "name": "光線鞭",
+      "slot": "weapon"
+    },
+    "sc_81c14273e7ef": {
+      "name": "腰帶敏捷卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_32f3c8064703": {
+      "name": "腰帶智力卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_17ff19af5083": {
+      "name": "墜飾力量卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_f3408c849663": {
+      "name": "墜飾智力卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_451e57a5d746": {
+      "name": "臉部裝飾敏捷卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_20d3993fdc80": {
+      "name": "臉部裝飾幸運卷軸60%",
+      "slot": "scroll"
+    },
+    "sc_5a528e9ae399": {
+      "name": "腰帶力量卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_9bd475391a78": {
+      "name": "腰帶敏捷卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_6fa5d00b5479": {
+      "name": "腰帶智力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_2db72febeed8": {
+      "name": "腰帶幸運卷軸10%",
+      "slot": "scroll"
+    },
+    "eq_7fefb572bbfc": {
+      "name": "調色板",
+      "slot": "shield"
+    },
+    "eq_44ec69d3155b": {
+      "name": "紅磚頭",
+      "slot": "weapon"
+    },
+    "eq_86b669df9f01": {
+      "name": "黃色拖把",
+      "slot": "weapon"
+    },
+    "eq_b2b478c9b34d": {
+      "name": "火飛鏢（月牙鏢）",
+      "slot": "ammo"
+    },
+    "sc_8ff88181269d": {
+      "name": "臉部裝飾力量卷軸30%",
+      "slot": "scroll"
+    },
+    "sc_5b252c2c9ee7": {
+      "name": "臉部裝飾敏捷卷軸30%",
+      "slot": "scroll"
+    },
+    "sc_ca3bfdbb7a21": {
+      "name": "臉部裝飾智力卷軸30%",
+      "slot": "scroll"
+    },
+    "sc_970e899e0ec2": {
+      "name": "臉部裝飾幸運卷軸30%",
+      "slot": "scroll"
+    },
+    "eq_7792c092accc": {
+      "name": "黑色衝浪板",
+      "slot": "weapon"
+    },
+    "eq_4dbd4db0f13f": {
+      "name": "黑色梅杜斯",
+      "slot": "weapon"
+    },
+    "eq_ac404cd43e12": {
+      "name": "海盜短刀",
+      "slot": "weapon"
+    },
+    "sc_ec6bfeba6c5b": {
+      "name": "眼部裝飾力量卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_797ec7d81c1c": {
+      "name": "眼部裝飾智力卷軸10%",
+      "slot": "scroll"
+    },
+    "eq_028c38d886bb": {
+      "name": "101模型",
+      "slot": "weapon"
+    },
+    "sc_33ec670afb9b": {
+      "name": "頭盔體力卷軸10%",
+      "slot": "scroll"
+    },
+    "sc_1ab0486a4eaf": {
+      "name": "腰帶力量卷軸30%",
+      "slot": "scroll"
+    },
+    "sc_a1fbe8a8e749": {
+      "name": "腰帶敏捷卷軸30%",
+      "slot": "scroll"
+    },
+    "sc_772c6a70d17c": {
+      "name": "腰帶智力卷軸30%",
+      "slot": "scroll"
+    },
+    "sc_a3cec373163d": {
+      "name": "腰帶幸運卷軸30%",
+      "slot": "scroll"
+    },
+    "eq_63df797f7684": {
+      "name": "黑色羅赤裝",
+      "slot": "overall"
+    },
+    "eq_e0e59ad5732a": {
+      "name": "黑色貓裝",
+      "slot": "overall"
+    },
+    "eq_c301e4f3dda7": {
+      "name": "黑色鐵腕",
+      "slot": "gloves"
+    },
+    "eq_3754d5c33c9c": {
+      "name": "紅色卡奈頭巾",
+      "slot": "hat"
+    },
+    "eq_2a135ea35529": {
+      "name": "黑色拜爾裝",
+      "slot": "overall"
+    },
+    "eq_5d7771abdef3": {
+      "name": "黑色新月型長靴",
+      "slot": "shoes"
+    },
+    "eq_4c3e357a73f9": {
+      "name": "紫色希亞手套",
+      "slot": "gloves"
+    },
+    "eq_172fb9179d08": {
+      "name": "黑色巴爾鞋",
+      "slot": "shoes"
+    },
+    "eq_ba1d42a3c6e3": {
+      "name": "綠色阿爾納手套",
+      "slot": "gloves"
+    },
+    "eq_28763c4f02c4": {
+      "name": "殘暴炎魔頭盔",
+      "slot": "hat"
+    },
+    "eq_39078bcd4f82": {
+      "name": "金色雷鳥弓",
+      "slot": "weapon"
+    },
+    "eq_e289af9553b9": {
+      "name": "金色聖隼弩",
+      "slot": "weapon"
+    },
     "rainbow_shell": {
       "name": "彩虹蝸牛殼",
       "slot": "material",
@@ -15925,8 +16245,11 @@
       "sourceName": "Last Mission: Zakum's Altar",
       "region": "ossyria",
       "district": "deadmine",
-      "minLevel": 1,
-      "monsters": []
+      "minLevel": 100,
+      "monsters": [],
+      "levelRequired": 100,
+      "raid": true,
+      "fieldBoss": "zakum"
     },
     "ct_95336ab6e79a": {
       "name": "玩具城・扭曲的時間之路<1>",
@@ -54589,6 +54912,72 @@
       "mesoBags": [
         "heavy"
       ]
+    },
+    "zakum": {
+      "name": "殘暴炎魔",
+      "englishName": "Zakum",
+      "level": 140,
+      "hp": 70000000,
+      "exp": 7000000,
+      "def": 1000,
+      "mdef": 1100,
+      "avoid": 12,
+      "accuracy": 250,
+      "attack": 1080,
+      "map": "dm_182b0101e361",
+      "dailyHour": 13,
+      "lootShare": 0.1,
+      "bookDrop": true,
+      "weaponPool": [
+        "eq_739a04647f01",
+        "eq_cdd23388c162",
+        "eq_b82bf1a1ea61",
+        "eq_defb142452aa",
+        "eq_36330cfcd2d8",
+        "eq_b05cc36e143d",
+        "eq_e4a5a60f7e29",
+        "eq_5b220368c73b",
+        "eq_1e6afbc1d2d6",
+        "eq_28e9523dc943",
+        "eq_988af2c6394a",
+        "eq_fc6fa4a87a71",
+        "eq_f0eed71331c8",
+        "eq_00ba5759a86e",
+        "eq_ca93ef3bf929",
+        "eq_39078bcd4f82",
+        "eq_e289af9553b9"
+      ],
+      "weaponChance": 0.1,
+      "mesoBag": [
+        400000,
+        600000
+      ],
+      "drops": [
+        {
+          "id": "eq_28763c4f02c4",
+          "chance": 0.33
+        },
+        {
+          "id": "sc_e8602af81adc",
+          "chance": 0.05
+        },
+        {
+          "id": "sc_0e43be437bda",
+          "chance": 0.05
+        },
+        {
+          "id": "sc_77f769564d6d",
+          "chance": 0.05
+        },
+        {
+          "id": "sc_b13231715009",
+          "chance": 0.05
+        },
+        {
+          "id": "sc_cb8de32596a6",
+          "chance": 0.05
+        }
+      ]
     }
   },
   "skills": [
@@ -58035,7 +58424,7 @@
       "books": {
         "20": "拉圖斯",
         "30": "海怒斯、殘暴炎魔",
-        "unlock": "未找到"
+        "unlock": "殘暴炎魔（文字版自訂）"
       },
       "description": "40 秒內技能不耗 MP，冷卻 7 分鐘（要解鎖書）"
     },
@@ -58396,7 +58785,7 @@
       "books": {
         "20": "海怒斯、幼年龍",
         "30": "海怒斯、萊伊卡",
-        "unlock": "未找到"
+        "unlock": "殘暴炎魔（文字版自訂）"
       },
       "description": "一次打 6 隻（Lv.1 經典；要解鎖書）"
     },
@@ -58690,7 +59079,7 @@
       "books": {
         "20": "噴火龍、萊伊卡、幼龍守護者",
         "30": "困難拉圖斯",
-        "unlock": "未找到"
+        "unlock": "殘暴炎魔（文字版自訂）"
       },
       "description": "這批怪物防禦、經驗、掉落率各 +40%（要解鎖書）"
     },
@@ -58854,7 +59243,7 @@
       "books": {
         "20": "噴火龍、萊伊卡、幼龍守護者",
         "30": "困難拉圖斯",
-        "unlock": "未找到"
+        "unlock": "殘暴炎魔（文字版自訂）"
       },
       "description": "這批怪物防禦、經驗、掉落率各 +40%（要解鎖書）"
     },
@@ -59404,7 +59793,7 @@
       "description": "攻擊速度 +2 段，持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.11.0",
+  "version": "0.12.0",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
@@ -61770,6 +62159,54 @@
     "corsair": {
       "role": "神槍手四轉・火槍",
       "summary": "「海鷗特戰隊」6 隻 1200%（冷卻 5 秒）；「瞬‧迅雷」單體連射；「海盜船」加防禦還能用魚雷、加農炮。"
+    }
+  },
+  "skillBooks": {
+    "zakum": {
+      "20": [
+        "鬥氣爆發",
+        "鬼神之擊",
+        "黑暗力量",
+        "念力集中",
+        "必殺狙擊",
+        "火流星",
+        "暴風雪",
+        "天怒",
+        "煙霧彈",
+        "三飛閃",
+        "時間置換",
+        "海鷗特戰隊"
+      ],
+      "30": [
+        "格擋",
+        "弓術精通",
+        "弩術精通",
+        "飛毒殺",
+        "魔力無限"
+      ],
+      "unlock": [
+        "進階鬥氣",
+        "屬性強化",
+        "天使之箭",
+        "三飛閃",
+        "魔力無限",
+        "龍魂之箭",
+        "挑釁"
+      ]
+    },
+    "custom": [
+      "魔力無限",
+      "龍魂之箭",
+      "挑釁"
+    ],
+    "success": {
+      "20": 0.7,
+      "30": 0.5,
+      "unlock": 1
+    },
+    "needLevel": {
+      "20": 5,
+      "30": 15
     }
   }
 }
