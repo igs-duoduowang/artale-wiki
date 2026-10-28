@@ -55269,10 +55269,10 @@
       ],
       "maxLevel": 20,
       "hits": 2,
-      "firstPercent": 94,
-      "maxPercent": 160,
+      "firstPercent": 92,
+      "maxPercent": 130,
       "firstMp": 10,
-      "maxMp": 16,
+      "maxMp": 15,
       "prerequisite": {
         "arrow_blow": 1
       }
@@ -56022,7 +56022,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "弓熟練度 60%、命中 +20、爆擊率 +5%"
+      "description": "弓熟練度 60%、命中 +20"
     },
     {
       "id": "crossbow_mastery",
@@ -56037,7 +56037,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "弩熟練度 60%、命中 +20、爆擊率 +5%"
+      "description": "弩熟練度 60%、命中 +20"
     },
     {
       "id": "bow_final",
@@ -56404,7 +56404,7 @@
       "maxLevel": 20,
       "firstMp": 0,
       "maxMp": 0,
-      "description": "指虎熟練度 60%、命中 +20、對野王傷害 +10%"
+      "description": "指虎熟練度 60%、命中 +20"
     },
     {
       "id": "backspin_blow",
@@ -56544,15 +56544,20 @@
       "name": "炸彈投擲",
       "job": "gunslinger",
       "tier": 2,
-      "kind": "debuff",
       "jobs": [
         "gunslinger"
       ],
-      "weapons": [],
+      "weapons": [
+        "gun"
+      ],
       "maxLevel": 20,
-      "firstMp": 8,
+      "hits": 1,
+      "firstPercent": 100,
+      "maxPercent": 195,
+      "targets": 6,
+      "firstMp": 15,
       "maxMp": 27,
-      "description": "這批怪物物理防禦 -10%（阿泰爾改動：沒有傷害）"
+      "description": "一次打 6 隻；打中 100% 機率讓怪攻擊 -10、物防 -10%"
     },
     {
       "id": "gun_booster",
@@ -58848,7 +58853,7 @@
         "20": "拉圖斯、雙刀龍戰士、回憶的守護兵",
         "30": "殘暴炎魔"
       },
-      "description": "熟練度 90%、物攻 +10、爆擊率再 +5%"
+      "description": "熟練度 90%、物攻 +10、爆擊率 +5%"
     },
     {
       "id": "marksman_boost",
@@ -58871,7 +58876,7 @@
         "20": "拉圖斯、幼年龍、回憶的神官",
         "30": "殘暴炎魔"
       },
-      "description": "熟練度 90%、物攻 +10、爆擊率再 +5%"
+      "description": "熟練度 90%、物攻 +10、爆擊率 +5%"
     },
     {
       "id": "hurricane",
@@ -59831,7 +59836,7 @@
       "description": "攻擊速度再 +2 段（和快速系列疊加），持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.12.9",
+  "version": "0.12.10",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
