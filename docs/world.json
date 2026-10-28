@@ -55324,10 +55324,10 @@
       ],
       "maxLevel": 20,
       "hits": 2,
-      "firstPercent": 72,
-      "maxPercent": 110,
+      "firstPercent": 58,
+      "maxPercent": 150,
       "firstMp": 8,
-      "maxMp": 15
+      "maxMp": 16
     },
     {
       "id": "quick_motion",
@@ -56188,7 +56188,7 @@
       "prerequisite": {
         "claw_mastery": 3
       },
-      "description": "拳套攻擊 50% 機率爆擊，額外 100% 傷害"
+      "description": "拳套攻擊 50% 機率爆擊，爆擊時傷害 200%"
     },
     {
       "id": "claw_booster",
@@ -59793,7 +59793,7 @@
       "description": "攻擊速度 +2 段，持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.12.6",
+  "version": "0.12.7",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
