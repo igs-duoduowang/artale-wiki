@@ -7901,6 +7901,170 @@
       "name": "金色聖隼弩",
       "slot": "weapon"
     },
+    "horntail_necklace": {
+      "name": "闇黑龍王項鍊",
+      "slot": "pendant"
+    },
+    "horntail_wings": {
+      "name": "闇黑龍王的翅膀",
+      "slot": "cape"
+    },
+    "eq_7db654f37601": {
+      "name": "藍色龍頭盔",
+      "slot": "hat"
+    },
+    "eq_7a1d119d0556": {
+      "name": "藍色龍盔甲",
+      "slot": "overall"
+    },
+    "eq_6c22e25c0fb4": {
+      "name": "藍色龍護腕",
+      "slot": "gloves"
+    },
+    "eq_74c21066964e": {
+      "name": "藍色龍靴",
+      "slot": "shoes"
+    },
+    "eq_07aea8d7dca4": {
+      "name": "藍色羅達服",
+      "slot": "overall"
+    },
+    "eq_fa9024eac2b5": {
+      "name": "黑色格麗納帽",
+      "slot": "hat"
+    },
+    "eq_ef379cb3cac8": {
+      "name": "黑色格麗納服",
+      "slot": "overall"
+    },
+    "eq_4a367e05bb52": {
+      "name": "黑色格麗納手套",
+      "slot": "gloves"
+    },
+    "eq_f29088525daf": {
+      "name": "海盜船長帽",
+      "slot": "hat"
+    },
+    "eq_bd23e52f2680": {
+      "name": "海盜船長套裝",
+      "slot": "overall"
+    },
+    "eq_9486d9c0d9d6": {
+      "name": "海盜船長手套",
+      "slot": "gloves"
+    },
+    "eq_d806729ec3d8": {
+      "name": "海盜船長之靴",
+      "slot": "shoes"
+    },
+    "eq_275fcc3afa6c": {
+      "name": "紅色獵人服",
+      "slot": "overall"
+    },
+    "eq_5d3f0ee8b5ab": {
+      "name": "龍泉劍",
+      "slot": "weapon"
+    },
+    "eq_36fef44a441f": {
+      "name": "戰龍斧",
+      "slot": "weapon"
+    },
+    "eq_235e95a75510": {
+      "name": "狂龍劍",
+      "slot": "weapon"
+    },
+    "eq_daa50b07051c": {
+      "name": "龍王之斧",
+      "slot": "weapon"
+    },
+    "eq_8e0c7960dd01": {
+      "name": "龍之焰",
+      "slot": "weapon"
+    },
+    "eq_bd2566b75ead": {
+      "name": "幻龍長槍",
+      "slot": "weapon"
+    },
+    "eq_11caee2a210e": {
+      "name": "赤龍長矛",
+      "slot": "weapon"
+    },
+    "eq_93069d4b3a80": {
+      "name": "聖龍短杖",
+      "slot": "weapon"
+    },
+    "eq_c43ab75ae9d1": {
+      "name": "龍骨長杖",
+      "slot": "weapon"
+    },
+    "eq_ab6799f2f04f": {
+      "name": "龍形之弓",
+      "slot": "weapon"
+    },
+    "eq_5a7b839b8c53": {
+      "name": "飛龍弩",
+      "slot": "weapon"
+    },
+    "eq_79e1b273a90d": {
+      "name": "阿拉伯彎刀",
+      "slot": "weapon"
+    },
+    "eq_5fcaf55fb9ad": {
+      "name": "綠色龍牙拳刃",
+      "slot": "weapon"
+    },
+    "eq_4b0d4f574883": {
+      "name": "紫色龍牙拳刃",
+      "slot": "weapon"
+    },
+    "eq_1f73927c58b6": {
+      "name": "龍王之爪",
+      "slot": "weapon"
+    },
+    "eq_9a7b5a2b66bd": {
+      "name": "聖龍金槍",
+      "slot": "weapon"
+    },
+    "ht_blue_dragon_shield": {
+      "name": "青龍盾牌",
+      "slot": "shield"
+    },
+    "ht_gold_dragon_crown": {
+      "name": "黃金龍頭冠",
+      "slot": "hat"
+    },
+    "ht_blue_elemental_gloves": {
+      "name": "藍色羅達手套",
+      "slot": "gloves"
+    },
+    "ht_blue_elemental_shoes": {
+      "name": "藍色羅達鞋",
+      "slot": "shoes"
+    },
+    "ht_red_hunter_hat": {
+      "name": "紅色獵人帽",
+      "slot": "hat"
+    },
+    "ht_red_hunter_gloves": {
+      "name": "紅心手套",
+      "slot": "gloves"
+    },
+    "ht_red_hunter_shoes": {
+      "name": "紅色獵人鞋",
+      "slot": "shoes"
+    },
+    "ht_black_garina_shoes": {
+      "name": "黑色格麗納靴",
+      "slot": "shoes"
+    },
+    "ht_dragon_mace": {
+      "name": "龍頭錘",
+      "slot": "weapon"
+    },
+    "ht_dragon_kreda": {
+      "name": "烈風短刃",
+      "slot": "weapon"
+    },
     "rainbow_shell": {
       "name": "彩虹蝸牛殼",
       "slot": "material",
@@ -22062,6 +22226,17 @@
         "sg_f4f4810afa4e",
         "sg_510b760c31a0"
       ]
+    },
+    "lf_horntail_cave": {
+      "name": "神木村・闇黑龍王洞穴",
+      "sourceName": "Cave of Life: Horntail's Cave",
+      "region": "leafre",
+      "district": "leafre",
+      "minLevel": 140,
+      "monsters": [],
+      "levelRequired": 140,
+      "raid": true,
+      "fieldBoss": "horntail"
     }
   },
   "monsters": {
@@ -55653,6 +55828,7 @@
       "map": "dm_182b0101e361",
       "dailyHour": 13,
       "lootShare": 0.1,
+      "lootHint": "殘暴炎魔頭盔、武器與卷軸",
       "bookDrop": true,
       "weaponPool": [
         "eq_739a04647f01",
@@ -55713,6 +55889,117 @@
         },
         {
           "id": "sc_cb8de32596a6",
+          "chance": 0.2
+        }
+      ],
+      "boss": true
+    },
+    "horntail": {
+      "name": "闇黑龍王",
+      "englishName": "Horntail",
+      "level": 165,
+      "hp": 1000000000,
+      "exp": 100000000,
+      "def": 2950,
+      "mdef": 3840,
+      "avoid": 18,
+      "accuracy": 250,
+      "attack": 1080,
+      "map": "lf_horntail_cave",
+      "dailyHour": 20,
+      "weekday": 6,
+      "lootShare": 0.1,
+      "lootHint": "闇黑龍王項鍊、闇黑龍王的翅膀、龍系列裝備與卷軸",
+      "bookDrop": true,
+      "weaponPool": [
+        "eq_7db654f37601",
+        "eq_7a1d119d0556",
+        "eq_6c22e25c0fb4",
+        "eq_74c21066964e",
+        "eq_07aea8d7dca4",
+        "eq_fa9024eac2b5",
+        "eq_ef379cb3cac8",
+        "eq_4a367e05bb52",
+        "eq_f29088525daf",
+        "eq_bd23e52f2680",
+        "eq_9486d9c0d9d6",
+        "eq_d806729ec3d8",
+        "eq_275fcc3afa6c",
+        "eq_5d3f0ee8b5ab",
+        "eq_36fef44a441f",
+        "eq_235e95a75510",
+        "eq_daa50b07051c",
+        "eq_8e0c7960dd01",
+        "eq_bd2566b75ead",
+        "eq_11caee2a210e",
+        "eq_93069d4b3a80",
+        "eq_c43ab75ae9d1",
+        "eq_ab6799f2f04f",
+        "eq_5a7b839b8c53",
+        "eq_79e1b273a90d",
+        "eq_5fcaf55fb9ad",
+        "eq_4b0d4f574883",
+        "eq_1f73927c58b6",
+        "eq_9a7b5a2b66bd",
+        "ht_blue_dragon_shield",
+        "ht_gold_dragon_crown",
+        "ht_blue_elemental_gloves",
+        "ht_blue_elemental_shoes",
+        "ht_red_hunter_hat",
+        "ht_red_hunter_gloves",
+        "ht_red_hunter_shoes",
+        "ht_black_garina_shoes",
+        "ht_dragon_mace",
+        "ht_dragon_kreda"
+      ],
+      "weaponChance": 0.3,
+      "mesoBag": [
+        1000000,
+        1500000
+      ],
+      "supplies": [
+        {
+          "id": "power_elixir",
+          "min": 10,
+          "max": 20
+        },
+        {
+          "id": "elixir",
+          "min": 20,
+          "max": 40
+        }
+      ],
+      "drops": [
+        {
+          "id": "horntail_necklace",
+          "chance": 0.33
+        },
+        {
+          "id": "horntail_wings",
+          "chance": 0.1
+        },
+        {
+          "id": "sc_deb8d16727e3",
+          "chance": 0.2
+        },
+        {
+          "id": "sc_d93964c4f098",
+          "chance": 0.2
+        },
+        {
+          "id": "sc_d790095a32f5",
+          "chance": 0.2
+        },
+        {
+          "id": "sc_cb8de32596a6",
+          "chance": 0.2
+        },
+        {
+          "id": "sc_b03b8532f52e",
+          "chance": 0.2
+        },
+        {
+          "id": "sc_2094909f55b7",
           "chance": 0.2
         }
       ],
@@ -60548,7 +60835,7 @@
       "description": "攻擊速度再 +2 段（和快速系列疊加），持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.12.21",
+  "version": "0.12.22",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
@@ -62969,84 +63256,108 @@
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_heavens_hammer_20": {
         "name": "鬼神之擊",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_berserk_20": {
         "name": "黑暗力量",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_concentrate_20": {
         "name": "念力集中",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_snipe_20": {
         "name": "必殺狙擊",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_meteor_shower_20": {
         "name": "火流星",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_blizzard_4th_20": {
         "name": "暴風雪",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_genesis_20": {
         "name": "天怒",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_smokescreen_20": {
         "name": "煙霧彈",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_triple_throw_20": {
         "name": "三飛閃",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_time_leap_20": {
         "name": "時間置換",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_aerial_strike_20": {
         "name": "海鷗特戰隊",
         "kind": "20",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_power_stance_30": {
         "name": "格擋",
@@ -63055,21 +63366,27 @@
           "mob_c7113d8a857a"
         ],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_bow_expert_30": {
         "name": "弓術精通",
         "kind": "30",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_marksman_boost_30": {
         "name": "弩術精通",
         "kind": "30",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_venomous_star_30": {
         "name": "飛毒殺",
@@ -63078,63 +63395,90 @@
           "mob_c7113d8a857a"
         ],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_infinity_30": {
         "name": "魔力無限",
         "kind": "30",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_advanced_combo_unlock": {
         "name": "進階鬥氣",
         "kind": "unlock",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_advanced_charge_unlock": {
         "name": "屬性強化",
         "kind": "unlock",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_angel_ray_unlock": {
         "name": "天使之箭",
         "kind": "unlock",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_triple_throw_unlock": {
         "name": "三飛閃",
         "kind": "unlock",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_infinity_unlock": {
         "name": "魔力無限",
         "kind": "unlock",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_dragons_breath_unlock": {
         "name": "龍魂之箭",
         "kind": "unlock",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
       },
       "book_taunt_nl_unlock": {
         "name": "挑釁",
         "kind": "unlock",
         "monsters": [],
         "bosses": [],
-        "zakum": true
+        "raids": [
+          "zakum"
+        ]
+      },
+      "book_maple_warrior_20": {
+        "name": "楓葉祝福",
+        "kind": "20",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_achilles_20": {
         "name": "武神防禦",
@@ -63143,7 +63487,7 @@
           "mob_f735482139bb"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_achilles_30": {
         "name": "武神防禦",
@@ -63153,7 +63497,7 @@
           "manon",
           "lilynouch"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_guardian_20": {
         "name": "究極神盾",
@@ -63162,7 +63506,7 @@
           "mob_b54c692ec552"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_guardian_30": {
         "name": "究極神盾",
@@ -63171,7 +63515,7 @@
         "bosses": [
           "manon"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_monster_magnet_20": {
         "name": "絕對引力",
@@ -63180,7 +63524,7 @@
           "mob_5922b7ec3f91"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_power_stance_20": {
         "name": "格擋",
@@ -63192,7 +63536,7 @@
         "bosses": [
           "leviathan"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_rush_20": {
         "name": "究極突刺",
@@ -63201,7 +63545,7 @@
           "mob_a212b205ae3e"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_advanced_combo_30": {
         "name": "進階鬥氣",
@@ -63210,7 +63554,7 @@
           "mob_f735482139bb"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_brandish_20": {
         "name": "無雙劍舞",
@@ -63219,7 +63563,16 @@
           "mob_dc927578ff6a"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
+      },
+      "book_enrage_30": {
+        "name": "鬥氣爆發",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_holy_charge_20": {
         "name": "聖靈之劍",
@@ -63228,7 +63581,7 @@
           "mob_5922b7ec3f91"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_divine_charge_20": {
         "name": "聖靈之棍",
@@ -63237,7 +63590,7 @@
           "mob_dc927578ff6a"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_blast_20": {
         "name": "騎士衝擊波",
@@ -63246,7 +63599,7 @@
           "mob_b54c692ec552"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_blast_30": {
         "name": "騎士衝擊波",
@@ -63255,7 +63608,25 @@
         "bosses": [
           "lyka"
         ],
-        "zakum": false
+        "raids": []
+      },
+      "book_heavens_hammer_30": {
+        "name": "鬼神之擊",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
+      },
+      "book_berserk_30": {
+        "name": "黑暗力量",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_big_bang_20": {
         "name": "核爆術",
@@ -63264,7 +63635,7 @@
           "mob_dc927578ff6a"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_mana_reflection_20": {
         "name": "魔法反射",
@@ -63273,7 +63644,7 @@
           "mob_a212b205ae3e"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_mana_reflection_30": {
         "name": "魔法反射",
@@ -63282,7 +63653,7 @@
         "bosses": [
           "dodo"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_fire_demon_20": {
         "name": "炎靈地獄",
@@ -63293,7 +63664,7 @@
         "bosses": [
           "manon"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_fire_demon_30": {
         "name": "炎靈地獄",
@@ -63302,7 +63673,7 @@
         "bosses": [
           "lyka"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_elquines_30": {
         "name": "召喚冰魔",
@@ -63311,7 +63682,7 @@
           "mob_66441f95eecd"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_paralyze_20": {
         "name": "劇毒麻痺",
@@ -63322,7 +63693,7 @@
         "bosses": [
           "manon"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_paralyze_30": {
         "name": "劇毒麻痺",
@@ -63331,7 +63702,16 @@
         "bosses": [
           "leviathan"
         ],
-        "zakum": false
+        "raids": []
+      },
+      "book_meteor_shower_30": {
+        "name": "火流星",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_ice_demon_20": {
         "name": "寒冰地獄",
@@ -63342,7 +63722,7 @@
         "bosses": [
           "griffey"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_ice_demon_30": {
         "name": "寒冰地獄",
@@ -63351,7 +63731,7 @@
         "bosses": [
           "lyka"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_ifrit_20": {
         "name": "召喚火炎神",
@@ -63360,7 +63740,7 @@
           "mob_5b41c8b79229"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_chain_lightning_20": {
         "name": "閃電連擊",
@@ -63371,7 +63751,7 @@
         "bosses": [
           "griffey"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_chain_lightning_30": {
         "name": "閃電連擊",
@@ -63380,7 +63760,16 @@
         "bosses": [
           "leviathan"
         ],
-        "zakum": false
+        "raids": []
+      },
+      "book_blizzard_4th_30": {
+        "name": "暴風雪",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_holy_shield_20": {
         "name": "聖盾護鎧",
@@ -63389,7 +63778,7 @@
           "mob_f735482139bb"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_holy_shield_30": {
         "name": "聖盾護鎧",
@@ -63398,7 +63787,7 @@
         "bosses": [
           "manon"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_angel_ray_20": {
         "name": "天使之箭",
@@ -63408,7 +63797,16 @@
           "mob_fe72a44715b7"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
+      },
+      "book_genesis_30": {
+        "name": "天怒",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_sharp_eyes_20": {
         "name": "會心之眼",
@@ -63417,7 +63815,7 @@
           "mob_797f3138a8bd"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_sharp_eyes_30": {
         "name": "會心之眼",
@@ -63426,7 +63824,7 @@
           "mob_f735482139bb"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_dragons_breath_20": {
         "name": "龍魂之箭",
@@ -63435,7 +63833,7 @@
           "mob_5b41c8b79229"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_dragons_breath_30": {
         "name": "龍魂之箭",
@@ -63444,7 +63842,7 @@
         "bosses": [
           "lyka"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_bow_expert_20": {
         "name": "弓術精通",
@@ -63453,7 +63851,7 @@
           "mob_a212b205ae3e"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_marksman_boost_20": {
         "name": "弩術精通",
@@ -63463,7 +63861,7 @@
           "mob_769160b55ad1"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_hurricane_20": {
         "name": "暴風神射",
@@ -63472,7 +63870,7 @@
           "mob_5922b7ec3f91"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_phoenix_20": {
         "name": "召喚鳳凰",
@@ -63481,7 +63879,7 @@
           "mob_f735482139bb"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_phoenix_30": {
         "name": "召喚鳳凰",
@@ -63490,7 +63888,7 @@
         "bosses": [
           "manon"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_hamstring_20": {
         "name": "牽制射擊",
@@ -63499,7 +63897,7 @@
           "mob_f735482139bb"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_hamstring_30": {
         "name": "牽制射擊",
@@ -63509,7 +63907,16 @@
           "griffey",
           "dodo"
         ],
-        "zakum": false
+        "raids": []
+      },
+      "book_concentrate_30": {
+        "name": "念力集中",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_piercing_arrow_20": {
         "name": "光速神弩",
@@ -63518,7 +63925,7 @@
           "mob_b54c692ec552"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_frostprey_20": {
         "name": "召喚銀隼",
@@ -63529,7 +63936,7 @@
         "bosses": [
           "griffey"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_blind_20": {
         "name": "黑暗狙擊",
@@ -63538,7 +63945,7 @@
           "mob_f735482139bb"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_blind_30": {
         "name": "黑暗狙擊",
@@ -63547,7 +63954,16 @@
         "bosses": [
           "griffey"
         ],
-        "zakum": false
+        "raids": []
+      },
+      "book_snipe_30": {
+        "name": "必殺狙擊",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_shadow_shifter_20": {
         "name": "瞬身迴避",
@@ -63556,7 +63972,7 @@
           "mob_dc927578ff6a"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_shadow_shifter_30": {
         "name": "瞬身迴避",
@@ -63566,7 +63982,7 @@
           "leviathan",
           "dodo"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_venomous_star_20": {
         "name": "飛毒殺",
@@ -63575,7 +63991,7 @@
           "mob_a212b205ae3e"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_taunt_nl_20": {
         "name": "挑釁",
@@ -63585,7 +64001,7 @@
           "manon",
           "lyka"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_ninja_ambush_nl_20": {
         "name": "忍影瞬殺",
@@ -63595,7 +64011,7 @@
           "mob_37e0c5595a5e"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_shadow_stars_20": {
         "name": "無形鏢",
@@ -63604,7 +64020,7 @@
           "mob_3affc332b336"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_shadow_stars_30": {
         "name": "無形鏢",
@@ -63613,7 +64029,16 @@
           "mob_1f5b92e9aebb"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
+      },
+      "book_triple_throw_30": {
+        "name": "三飛閃",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_ninja_storm_20": {
         "name": "忍術風影",
@@ -63622,7 +64047,7 @@
           "mob_b54c692ec552"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_shadow_shifter_plus_20": {
         "name": "瞬身迴避+",
@@ -63631,7 +64056,7 @@
           "mob_dc927578ff6a"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_shadow_shifter_plus_30": {
         "name": "瞬身迴避+",
@@ -63641,7 +64066,7 @@
           "leviathan",
           "dodo"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_assassinate_20": {
         "name": "致命暗殺",
@@ -63652,7 +64077,7 @@
         "bosses": [
           "griffey"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_assassinate_30": {
         "name": "致命暗殺",
@@ -63661,7 +64086,16 @@
           "mob_6c5402309705"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
+      },
+      "book_smokescreen_30": {
+        "name": "煙霧彈",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_boomerang_step_20": {
         "name": "瞬步連擊",
@@ -63672,7 +64106,7 @@
         "bosses": [
           "lyka"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_dragon_strike_20": {
         "name": "魔龍降臨",
@@ -63681,7 +64115,7 @@
           "mob_63d7d1008251"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_dragon_strike_30": {
         "name": "魔龍降臨",
@@ -63692,7 +64126,7 @@
         "bosses": [
           "manon"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_energy_orb_20": {
         "name": "元氣彈",
@@ -63703,7 +64137,7 @@
         "bosses": [
           "lilynouch"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_energy_orb_30": {
         "name": "元氣彈",
@@ -63712,7 +64146,7 @@
         "bosses": [
           "griffey"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_super_transformation_20": {
         "name": "鬥神降世",
@@ -63723,7 +64157,7 @@
         "bosses": [
           "manon"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_demolition_20": {
         "name": "閃‧爆破",
@@ -63734,7 +64168,7 @@
         "bosses": [
           "griffey"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_barrage_20": {
         "name": "閃‧連殺",
@@ -63745,7 +64179,7 @@
         "bosses": [
           "dodo"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_speed_infusion_buc_20": {
         "name": "最終極速",
@@ -63754,7 +64188,16 @@
           "mob_b54c692ec552"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
+      },
+      "book_time_leap_30": {
+        "name": "時間置換",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_elemental_boost_20": {
         "name": "瞬‧冰火連擊",
@@ -63763,7 +64206,7 @@
           "mob_6b56108630a9"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_wrath_of_octopi_20": {
         "name": "砲台章魚王",
@@ -63772,7 +64215,7 @@
           "mob_37e0c5595a5e"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_bullseye_20": {
         "name": "精準砲擊",
@@ -63781,7 +64224,16 @@
           "mob_5922b7ec3f91"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
+      },
+      "book_aerial_strike_30": {
+        "name": "海鷗特戰隊",
+        "kind": "30",
+        "monsters": [],
+        "bosses": [],
+        "raids": [
+          "horntail"
+        ]
       },
       "book_rapid_fire_20": {
         "name": "瞬‧迅雷",
@@ -63792,7 +64244,7 @@
         "bosses": [
           "manon"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_battleship_cannon_20": {
         "name": "海盜加農炮",
@@ -63803,7 +64255,7 @@
         "bosses": [
           "griffey"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_battleship_cannon_30": {
         "name": "海盜加農炮",
@@ -63812,7 +64264,7 @@
         "bosses": [
           "leviathan"
         ],
-        "zakum": false
+        "raids": []
       },
       "book_battleship_torpedo_20": {
         "name": "海盜魚雷",
@@ -63821,7 +64273,7 @@
           "mob_f735482139bb"
         ],
         "bosses": [],
-        "zakum": false
+        "raids": []
       },
       "book_battleship_torpedo_30": {
         "name": "海盜魚雷",
@@ -63832,7 +64284,7 @@
         "bosses": [
           "lyka"
         ],
-        "zakum": false
+        "raids": []
       }
     },
     "mobRate": 0.0003,
