@@ -55673,10 +55673,22 @@
         "eq_39078bcd4f82",
         "eq_e289af9553b9"
       ],
-      "weaponChance": 0.1,
+      "weaponChance": 0.3,
       "mesoBag": [
         400000,
         600000
+      ],
+      "supplies": [
+        {
+          "id": "power_elixir",
+          "min": 5,
+          "max": 10
+        },
+        {
+          "id": "elixir",
+          "min": 10,
+          "max": 20
+        }
       ],
       "drops": [
         {
@@ -55685,23 +55697,23 @@
         },
         {
           "id": "sc_e8602af81adc",
-          "chance": 0.05
+          "chance": 0.2
         },
         {
           "id": "sc_0e43be437bda",
-          "chance": 0.05
+          "chance": 0.2
         },
         {
           "id": "sc_77f769564d6d",
-          "chance": 0.05
+          "chance": 0.2
         },
         {
           "id": "sc_b13231715009",
-          "chance": 0.05
+          "chance": 0.2
         },
         {
           "id": "sc_cb8de32596a6",
-          "chance": 0.05
+          "chance": 0.2
         }
       ],
       "boss": true
@@ -60536,7 +60548,7 @@
       "description": "攻擊速度再 +2 段（和快速系列疊加），持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.12.18",
+  "version": "0.12.19",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
