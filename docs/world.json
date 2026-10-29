@@ -5528,11 +5528,11 @@
       "slot": "weapon"
     },
     "book_ninja_ambush_nl_20": {
-      "name": "[技能書] 忍影瞬殺 20",
+      "name": "[技能書] 忍影瞬殺 20〔盜賊共用〕",
       "slot": "skillbook"
     },
     "book_dragon_strike_20": {
-      "name": "[技能書] 魔龍降臨 20",
+      "name": "[技能書] 魔龍降臨 20〔拳霸〕",
       "slot": "skillbook"
     },
     "eq_337847058548": {
@@ -6180,7 +6180,7 @@
       "slot": "weapon"
     },
     "book_barrage_20": {
-      "name": "[技能書] 閃‧連殺 20",
+      "name": "[技能書] 閃‧連殺 20〔拳霸〕",
       "slot": "skillbook"
     },
     "mat_17f9b8dcf2b6": {
@@ -6288,35 +6288,35 @@
       "slot": "weapon"
     },
     "book_power_stance_20": {
-      "name": "[技能書] 格擋 20",
+      "name": "[技能書] 格擋 20〔劍士共用〕",
       "slot": "skillbook"
     },
     "book_rush_20": {
-      "name": "[技能書] 究極突刺 20",
+      "name": "[技能書] 究極突刺 20〔劍士共用〕",
       "slot": "skillbook"
     },
     "book_mana_reflection_20": {
-      "name": "[技能書] 魔法反射 20",
+      "name": "[技能書] 魔法反射 20〔法師共用〕",
       "slot": "skillbook"
     },
     "book_fire_demon_20": {
-      "name": "[技能書] 炎靈地獄 20",
+      "name": "[技能書] 炎靈地獄 20〔大魔導士（火毒）〕",
       "slot": "skillbook"
     },
     "book_bow_expert_20": {
-      "name": "[技能書] 弓術精通 20",
+      "name": "[技能書] 弓術精通 20〔箭神〕",
       "slot": "skillbook"
     },
     "book_frostprey_20": {
-      "name": "[技能書] 召喚銀隼 20",
+      "name": "[技能書] 召喚銀隼 20〔神射手〕",
       "slot": "skillbook"
     },
     "book_venomous_star_20": {
-      "name": "[技能書] 飛毒殺 20",
+      "name": "[技能書] 飛毒殺 20〔盜賊共用〕",
       "slot": "skillbook"
     },
     "book_rapid_fire_20": {
-      "name": "[技能書] 瞬‧迅雷 20",
+      "name": "[技能書] 瞬‧迅雷 20〔槍神〕",
       "slot": "skillbook"
     },
     "eq_e178b8835471": {
@@ -6336,7 +6336,7 @@
       "slot": "weapon"
     },
     "book_elemental_boost_20": {
-      "name": "[技能書] 瞬‧冰火連擊 20",
+      "name": "[技能書] 瞬‧冰火連擊 20〔槍神〕",
       "slot": "skillbook"
     },
     "eq_452cc86bdef0": {
@@ -6372,11 +6372,11 @@
       "slot": "weapon"
     },
     "book_shadow_stars_20": {
-      "name": "[技能書] 無形鏢 20",
+      "name": "[技能書] 無形鏢 20〔夜使者〕",
       "slot": "skillbook"
     },
     "book_energy_orb_20": {
-      "name": "[技能書] 元氣彈 20",
+      "name": "[技能書] 元氣彈 20〔拳霸〕",
       "slot": "skillbook"
     },
     "eq_2863a1e22ff6": {
@@ -6392,7 +6392,7 @@
       "slot": "shoes"
     },
     "book_battleship_torpedo_30": {
-      "name": "[技能書] 海盜魚雷 30",
+      "name": "[技能書] 海盜魚雷 30〔槍神〕",
       "slot": "skillbook"
     },
     "eq_5b5b2445078c": {
@@ -6412,7 +6412,7 @@
       "slot": "weapon"
     },
     "book_super_transformation_20": {
-      "name": "[技能書] 鬥神降世 20",
+      "name": "[技能書] 鬥神降世 20〔拳霸〕",
       "slot": "skillbook"
     },
     "eq_56416627c4f0": {
@@ -6436,27 +6436,27 @@
       "slot": "scroll"
     },
     "book_brandish_20": {
-      "name": "[技能書] 無雙劍舞 20",
+      "name": "[技能書] 無雙劍舞 20〔英雄〕",
       "slot": "skillbook"
     },
     "book_divine_charge_20": {
-      "name": "[技能書] 聖靈之棍 20",
+      "name": "[技能書] 聖靈之棍 20〔聖騎士〕",
       "slot": "skillbook"
     },
     "book_big_bang_20": {
-      "name": "[技能書] 核爆術 20",
+      "name": "[技能書] 核爆術 20〔法師共用〕",
       "slot": "skillbook"
     },
     "book_shadow_shifter_20": {
-      "name": "[技能書] 瞬身迴避 20",
+      "name": "[技能書] 瞬身迴避 20〔夜使者〕",
       "slot": "skillbook"
     },
     "book_shadow_shifter_plus_20": {
-      "name": "[技能書] 瞬身迴避+ 20",
+      "name": "[技能書] 瞬身迴避+ 20〔暗影神偷〕",
       "slot": "skillbook"
     },
     "book_battleship_cannon_20": {
-      "name": "[技能書] 海盜加農炮 20",
+      "name": "[技能書] 海盜加農炮 20〔槍神〕",
       "slot": "skillbook"
     },
     "eq_0013c2b4365c": {
@@ -6496,27 +6496,27 @@
       "slot": "scroll"
     },
     "book_guardian_20": {
-      "name": "[技能書] 究極神盾 20",
+      "name": "[技能書] 究極神盾 20〔英雄／聖騎士〕",
       "slot": "skillbook"
     },
     "book_blast_20": {
-      "name": "[技能書] 騎士衝擊波 20",
+      "name": "[技能書] 騎士衝擊波 20〔聖騎士〕",
       "slot": "skillbook"
     },
     "book_angel_ray_20": {
-      "name": "[技能書] 天使之箭 20",
+      "name": "[技能書] 天使之箭 20〔主教〕",
       "slot": "skillbook"
     },
     "book_piercing_arrow_20": {
-      "name": "[技能書] 光速神弩 20",
+      "name": "[技能書] 光速神弩 20〔神射手〕",
       "slot": "skillbook"
     },
     "book_ninja_storm_20": {
-      "name": "[技能書] 忍術風影 20",
+      "name": "[技能書] 忍術風影 20〔夜使者〕",
       "slot": "skillbook"
     },
     "book_speed_infusion_buc_20": {
-      "name": "[技能書] 最終極速 20",
+      "name": "[技能書] 最終極速 20〔海盜共用〕",
       "slot": "skillbook"
     },
     "eq_9bba9f8d1a42": {
@@ -6540,39 +6540,39 @@
       "slot": "scroll"
     },
     "book_achilles_20": {
-      "name": "[技能書] 武神防禦 20",
+      "name": "[技能書] 武神防禦 20〔劍士共用〕",
       "slot": "skillbook"
     },
     "book_advanced_combo_30": {
-      "name": "[技能書] 進階鬥氣 30",
+      "name": "[技能書] 進階鬥氣 30〔英雄〕",
       "slot": "skillbook"
     },
     "book_holy_shield_20": {
-      "name": "[技能書] 聖盾護鎧 20",
+      "name": "[技能書] 聖盾護鎧 20〔主教〕",
       "slot": "skillbook"
     },
     "book_sharp_eyes_30": {
-      "name": "[技能書] 會心之眼 30",
+      "name": "[技能書] 會心之眼 30〔弓箭手共用〕",
       "slot": "skillbook"
     },
     "book_phoenix_20": {
-      "name": "[技能書] 召喚鳳凰 20",
+      "name": "[技能書] 召喚鳳凰 20〔箭神〕",
       "slot": "skillbook"
     },
     "book_hamstring_20": {
-      "name": "[技能書] 牽制射擊 20",
+      "name": "[技能書] 牽制射擊 20〔箭神〕",
       "slot": "skillbook"
     },
     "book_blind_20": {
-      "name": "[技能書] 黑暗狙擊 20",
+      "name": "[技能書] 黑暗狙擊 20〔神射手〕",
       "slot": "skillbook"
     },
     "book_boomerang_step_20": {
-      "name": "[技能書] 瞬步連擊 20",
+      "name": "[技能書] 瞬步連擊 20〔暗影神偷〕",
       "slot": "skillbook"
     },
     "book_battleship_torpedo_20": {
-      "name": "[技能書] 海盜魚雷 20",
+      "name": "[技能書] 海盜魚雷 20〔槍神〕",
       "slot": "skillbook"
     },
     "eq_24cb8f952359": {
@@ -6584,23 +6584,23 @@
       "slot": "shoes"
     },
     "book_paralyze_20": {
-      "name": "[技能書] 劇毒麻痺 20",
+      "name": "[技能書] 劇毒麻痺 20〔大魔導士（火毒）〕",
       "slot": "skillbook"
     },
     "book_ifrit_20": {
-      "name": "[技能書] 召喚火炎神 20",
+      "name": "[技能書] 召喚火炎神 20〔大魔導士（冰雷）〕",
       "slot": "skillbook"
     },
     "book_dragons_breath_20": {
-      "name": "[技能書] 龍魂之箭 20",
+      "name": "[技能書] 龍魂之箭 20〔弓箭手共用〕",
       "slot": "skillbook"
     },
     "book_marksman_boost_20": {
-      "name": "[技能書] 弩術精通 20",
+      "name": "[技能書] 弩術精通 20〔神射手〕",
       "slot": "skillbook"
     },
     "book_assassinate_20": {
-      "name": "[技能書] 致命暗殺 20",
+      "name": "[技能書] 致命暗殺 20〔暗影神偷〕",
       "slot": "skillbook"
     },
     "eq_e9b4cbbca133": {
@@ -6620,19 +6620,19 @@
       "slot": "gloves"
     },
     "book_monster_magnet_20": {
-      "name": "[技能書] 絕對引力 20",
+      "name": "[技能書] 絕對引力 20〔劍士共用〕",
       "slot": "skillbook"
     },
     "book_holy_charge_20": {
-      "name": "[技能書] 聖靈之劍 20",
+      "name": "[技能書] 聖靈之劍 20〔聖騎士〕",
       "slot": "skillbook"
     },
     "book_hurricane_20": {
-      "name": "[技能書] 暴風神射 20",
+      "name": "[技能書] 暴風神射 20〔箭神〕",
       "slot": "skillbook"
     },
     "book_bullseye_20": {
-      "name": "[技能書] 精準砲擊 20",
+      "name": "[技能書] 精準砲擊 20〔槍神〕",
       "slot": "skillbook"
     },
     "mat_520a78662a83": {
@@ -6718,11 +6718,11 @@
       "slot": "overall"
     },
     "book_power_stance_30": {
-      "name": "[技能書] 格擋 30",
+      "name": "[技能書] 格擋 30〔劍士共用〕",
       "slot": "skillbook"
     },
     "book_venomous_star_30": {
-      "name": "[技能書] 飛毒殺 30",
+      "name": "[技能書] 飛毒殺 30〔盜賊共用〕",
       "slot": "skillbook"
     },
     "eq_19a569f8046b": {
@@ -6754,7 +6754,7 @@
       "slot": "gloves"
     },
     "book_elquines_30": {
-      "name": "[技能書] 召喚冰魔 30",
+      "name": "[技能書] 召喚冰魔 30〔大魔導士（火毒）〕",
       "slot": "skillbook"
     },
     "eq_5077f4732a03": {
@@ -6762,7 +6762,7 @@
       "slot": "overall"
     },
     "book_shadow_stars_30": {
-      "name": "[技能書] 無形鏢 30",
+      "name": "[技能書] 無形鏢 30〔夜使者〕",
       "slot": "skillbook"
     },
     "eq_26f9bb372432": {
@@ -6794,7 +6794,7 @@
       "slot": "weapon"
     },
     "book_assassinate_30": {
-      "name": "[技能書] 致命暗殺 30",
+      "name": "[技能書] 致命暗殺 30〔暗影神偷〕",
       "slot": "skillbook"
     },
     "mat_3d5916acba27": {
@@ -7038,7 +7038,7 @@
       "slot": "cape"
     },
     "book_dragon_strike_30": {
-      "name": "[技能書] 魔龍降臨 30",
+      "name": "[技能書] 魔龍降臨 30〔拳霸〕",
       "slot": "skillbook"
     },
     "mat_3085a1f31a99": {
@@ -7056,11 +7056,11 @@
       "slot": "shield"
     },
     "book_chain_lightning_20": {
-      "name": "[技能書] 閃電連擊 20",
+      "name": "[技能書] 閃電連擊 20〔大魔導士（冰雷）〕",
       "slot": "skillbook"
     },
     "book_wrath_of_octopi_20": {
-      "name": "[技能書] 砲台章魚王 20",
+      "name": "[技能書] 砲台章魚王 20〔槍神〕",
       "slot": "skillbook"
     },
     "mat_7b3454d18303": {
@@ -7076,15 +7076,15 @@
       "priceSource": "經典楓之谷 v83 NPC 收購價（任務道具）（阿泰爾未公開，待核對）"
     },
     "book_ice_demon_20": {
-      "name": "[技能書] 寒冰地獄 20",
+      "name": "[技能書] 寒冰地獄 20〔大魔導士（冰雷）〕",
       "slot": "skillbook"
     },
     "book_sharp_eyes_20": {
-      "name": "[技能書] 會心之眼 20",
+      "name": "[技能書] 會心之眼 20〔弓箭手共用〕",
       "slot": "skillbook"
     },
     "book_demolition_20": {
-      "name": "[技能書] 閃‧爆破 20",
+      "name": "[技能書] 閃‧爆破 20〔拳霸〕",
       "slot": "skillbook"
     },
     "eq_05c0827f2cb9": {
@@ -7762,23 +7762,23 @@
       "slot": "weapon"
     },
     "book_achilles_30": {
-      "name": "[技能書] 武神防禦 30",
+      "name": "[技能書] 武神防禦 30〔劍士共用〕",
       "slot": "skillbook"
     },
     "book_guardian_30": {
-      "name": "[技能書] 究極神盾 30",
+      "name": "[技能書] 究極神盾 30〔英雄／聖騎士〕",
       "slot": "skillbook"
     },
     "book_holy_shield_30": {
-      "name": "[技能書] 聖盾護鎧 30",
+      "name": "[技能書] 聖盾護鎧 30〔主教〕",
       "slot": "skillbook"
     },
     "book_phoenix_30": {
-      "name": "[技能書] 召喚鳳凰 30",
+      "name": "[技能書] 召喚鳳凰 30〔箭神〕",
       "slot": "skillbook"
     },
     "book_taunt_nl_20": {
-      "name": "[技能書] 挑釁 20",
+      "name": "[技能書] 挑釁 20〔盜賊共用〕",
       "slot": "skillbook"
     },
     "sc_33ec670afb9b": {
@@ -7786,15 +7786,15 @@
       "slot": "scroll"
     },
     "book_hamstring_30": {
-      "name": "[技能書] 牽制射擊 30",
+      "name": "[技能書] 牽制射擊 30〔箭神〕",
       "slot": "skillbook"
     },
     "book_blind_30": {
-      "name": "[技能書] 黑暗狙擊 30",
+      "name": "[技能書] 黑暗狙擊 30〔神射手〕",
       "slot": "skillbook"
     },
     "book_energy_orb_30": {
-      "name": "[技能書] 元氣彈 30",
+      "name": "[技能書] 元氣彈 30〔拳霸〕",
       "slot": "skillbook"
     },
     "sc_1ab0486a4eaf": {
@@ -7814,23 +7814,23 @@
       "slot": "scroll"
     },
     "book_paralyze_30": {
-      "name": "[技能書] 劇毒麻痺 30",
+      "name": "[技能書] 劇毒麻痺 30〔大魔導士（火毒）〕",
       "slot": "skillbook"
     },
     "book_chain_lightning_30": {
-      "name": "[技能書] 閃電連擊 30",
+      "name": "[技能書] 閃電連擊 30〔大魔導士（冰雷）〕",
       "slot": "skillbook"
     },
     "book_shadow_shifter_30": {
-      "name": "[技能書] 瞬身迴避 30",
+      "name": "[技能書] 瞬身迴避 30〔夜使者〕",
       "slot": "skillbook"
     },
     "book_shadow_shifter_plus_30": {
-      "name": "[技能書] 瞬身迴避+ 30",
+      "name": "[技能書] 瞬身迴避+ 30〔暗影神偷〕",
       "slot": "skillbook"
     },
     "book_battleship_cannon_30": {
-      "name": "[技能書] 海盜加農炮 30",
+      "name": "[技能書] 海盜加農炮 30〔槍神〕",
       "slot": "skillbook"
     },
     "eq_63df797f7684": {
@@ -7846,7 +7846,7 @@
       "slot": "gloves"
     },
     "book_mana_reflection_30": {
-      "name": "[技能書] 魔法反射 30",
+      "name": "[技能書] 魔法反射 30〔法師共用〕",
       "slot": "skillbook"
     },
     "eq_3754d5c33c9c": {
@@ -7874,19 +7874,19 @@
       "slot": "gloves"
     },
     "book_blast_30": {
-      "name": "[技能書] 騎士衝擊波 30",
+      "name": "[技能書] 騎士衝擊波 30〔聖騎士〕",
       "slot": "skillbook"
     },
     "book_fire_demon_30": {
-      "name": "[技能書] 炎靈地獄 30",
+      "name": "[技能書] 炎靈地獄 30〔大魔導士（火毒）〕",
       "slot": "skillbook"
     },
     "book_ice_demon_30": {
-      "name": "[技能書] 寒冰地獄 30",
+      "name": "[技能書] 寒冰地獄 30〔大魔導士（冰雷）〕",
       "slot": "skillbook"
     },
     "book_dragons_breath_30": {
-      "name": "[技能書] 龍魂之箭 30",
+      "name": "[技能書] 龍魂之箭 30〔弓箭手共用〕",
       "slot": "skillbook"
     },
     "eq_28763c4f02c4": {
@@ -60548,7 +60548,7 @@
       "description": "攻擊速度再 +2 段（和快速系列疊加），持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.12.20",
+  "version": "0.12.21",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
