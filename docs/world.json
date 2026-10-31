@@ -6539,6 +6539,10 @@
       "name": "披風物理防禦力卷軸60%",
       "slot": "scroll"
     },
+    "book_sharp_eyes_30": {
+      "name": "[技能書] 會心之眼 30〔全職業〕",
+      "slot": "skillbook"
+    },
     "book_achilles_20": {
       "name": "[技能書] 武神防禦 20〔劍士共用〕",
       "slot": "skillbook"
@@ -6549,10 +6553,6 @@
     },
     "book_holy_shield_20": {
       "name": "[技能書] 聖盾護鎧 20〔主教〕",
-      "slot": "skillbook"
-    },
-    "book_sharp_eyes_30": {
-      "name": "[技能書] 會心之眼 30〔弓箭手共用〕",
       "slot": "skillbook"
     },
     "book_phoenix_20": {
@@ -7075,12 +7075,12 @@
       "sellPrice": 1,
       "priceSource": "經典楓之谷 v83 NPC 收購價（任務道具）（阿泰爾未公開，待核對）"
     },
-    "book_ice_demon_20": {
-      "name": "[技能書] 寒冰地獄 20〔大魔導士（冰雷）〕",
+    "book_sharp_eyes_20": {
+      "name": "[技能書] 會心之眼 20〔全職業〕",
       "slot": "skillbook"
     },
-    "book_sharp_eyes_20": {
-      "name": "[技能書] 會心之眼 20〔弓箭手共用〕",
+    "book_ice_demon_20": {
+      "name": "[技能書] 寒冰地獄 20〔大魔導士（冰雷）〕",
       "slot": "skillbook"
     },
     "book_demolition_20": {
@@ -41249,6 +41249,10 @@
           "chance": 0.003
         },
         {
+          "id": "book_sharp_eyes_30",
+          "chance": 0.0003
+        },
+        {
           "id": "book_achilles_20",
           "chance": 0.0003
         },
@@ -41258,10 +41262,6 @@
         },
         {
           "id": "book_holy_shield_20",
-          "chance": 0.0003
-        },
-        {
-          "id": "book_sharp_eyes_30",
           "chance": 0.0003
         },
         {
@@ -44693,11 +44693,11 @@
           "chance": 0.04
         },
         {
-          "id": "book_ice_demon_20",
+          "id": "book_sharp_eyes_20",
           "chance": 0.0003
         },
         {
-          "id": "book_sharp_eyes_20",
+          "id": "book_ice_demon_20",
           "chance": 0.0003
         },
         {
@@ -59785,12 +59785,22 @@
     {
       "id": "sharp_eyes",
       "name": "會心之眼",
-      "job": "bowmaster",
+      "job": "hero",
       "tier": 4,
       "kind": "support",
       "jobs": [
+        "hero",
+        "paladin",
+        "dark_knight",
+        "fp_archmage",
+        "il_archmage",
+        "bishop",
         "bowmaster",
-        "marksman"
+        "marksman",
+        "night_lord",
+        "shadower",
+        "buccaneer",
+        "corsair"
       ],
       "weapons": [],
       "maxLevel": 30,
@@ -59799,10 +59809,10 @@
       "maxMp": 40,
       "masterLevel": 10,
       "books": {
-        "20": "海怒斯、尖鼻鯊魚",
-        "30": "海怒斯、化石龍長老"
+        "20": "殘暴炎魔、海怒斯、尖鼻鯊魚",
+        "30": "殘暴炎魔、海怒斯、化石龍長老"
       },
-      "description": "爆擊率 +15%、爆擊傷害 +40%，持續 300 秒（Lv.1 經典）"
+      "description": "物理爆擊率 +15%、爆擊傷害 +40%，持續 300 秒（全職業四轉共通，法術不適用；Lv.1 經典）"
     },
     {
       "id": "dragons_breath",
@@ -60835,7 +60845,7 @@
       "description": "攻擊速度再 +2 段（和快速系列疊加），持續 300 秒（Lv.1 經典）"
     }
   ],
-  "version": "0.12.24",
+  "version": "0.12.27",
   "gearPrices": {
     "eq_6d28d4dbe008": [12500, 6250, 0],
     "eq_42d8531366be": [24500, 12250, 0],
@@ -63217,14 +63227,16 @@
         "煙霧彈",
         "三飛閃",
         "時間置換",
-        "海鷗特戰隊"
+        "海鷗特戰隊",
+        "會心之眼"
       ],
       "30": [
         "格擋",
         "弓術精通",
         "弩術精通",
         "飛毒殺",
-        "魔力無限"
+        "魔力無限",
+        "會心之眼"
       ],
       "unlock": [
         "進階鬥氣",
@@ -63359,6 +63371,17 @@
           "zakum"
         ]
       },
+      "book_sharp_eyes_20": {
+        "name": "會心之眼",
+        "kind": "20",
+        "monsters": [
+          "mob_797f3138a8bd"
+        ],
+        "bosses": [],
+        "raids": [
+          "zakum"
+        ]
+      },
       "book_power_stance_30": {
         "name": "格擋",
         "kind": "30",
@@ -63403,6 +63426,17 @@
         "name": "魔力無限",
         "kind": "30",
         "monsters": [],
+        "bosses": [],
+        "raids": [
+          "zakum"
+        ]
+      },
+      "book_sharp_eyes_30": {
+        "name": "會心之眼",
+        "kind": "30",
+        "monsters": [
+          "mob_f735482139bb"
+        ],
         "bosses": [],
         "raids": [
           "zakum"
@@ -63807,24 +63841,6 @@
         "raids": [
           "horntail"
         ]
-      },
-      "book_sharp_eyes_20": {
-        "name": "會心之眼",
-        "kind": "20",
-        "monsters": [
-          "mob_797f3138a8bd"
-        ],
-        "bosses": [],
-        "raids": []
-      },
-      "book_sharp_eyes_30": {
-        "name": "會心之眼",
-        "kind": "30",
-        "monsters": [
-          "mob_f735482139bb"
-        ],
-        "bosses": [],
-        "raids": []
       },
       "book_dragons_breath_20": {
         "name": "龍魂之箭",
